@@ -1,0 +1,1058 @@
+{
+  "id": "think-on-your-feet",
+  "track": "life",
+  "title": "Think on Your Feet",
+  "tagline": "Beat the blank stare. Answer fast and clear in real conversations.",
+  "description": "Learn why your mind goes blank when you're put on the spot, and how to come back in three seconds. Then practice buying time the right way, grabbing a ready-made answer shape, and staying clear in arguments and with bosses, teachers and customers.",
+  "icon": "flame",
+  "color": "#4FB3E8",
+  "order": 11,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Why You Freeze, and How to Unfreeze",
+      "description": "What the freeze is, why it happens, and a quick reset to get your words back.",
+      "levels": [
+        {
+          "id": "u1-l1",
+          "title": "Why Your Mind Goes Blank",
+          "summary": "What the freeze is, what sets it off, and how it looks from the outside.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Stress takes your thinking offline",
+              "body": "The front part of your brain (the **prefrontal cortex**) is what you use to plan, find words and hold a few ideas at once. That last skill is called **working memory**.\n\nA big research review by Yale neuroscientist Amy Arnsten pulled together studies of people and animals. It found that even mild stress you can't control can quickly weaken how well this part of the brain works.\n\n> So when you blank on an easy question, it's not because you're dumb. Stress is getting in the way of finding the words.",
+              "source": {"label": "Arnsten (2009), Stress signalling pathways that impair prefrontal cortex structure and function, Nature Reviews Neuroscience", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2907136/"},
+              "tip": "This week, notice one moment you freeze. Just name it in your head: \"That was a freeze.\" Noticing it is the first step to catching it faster next time."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your manager asks, \"Can you close tonight?\" and your mind goes totally blank, even though it's a yes-or-no question. What's most likely going on?",
+              "options": [
+                "You're not smart enough for the job",
+                "Being put on the spot is stressing you, and stress makes words harder to find",
+                "You need more sleep, and that's the whole story",
+                "Deep down you don't want to close"
+              ],
+              "answer": 1,
+              "feedback": [
+                "Freezing on an easy question has nothing to do with how smart you are.",
+                "Right. Feeling put on the spot is stress, and stress makes it harder to think of words.",
+                "Being tired can make it worse, but people freeze when they're rested too.",
+                "Maybe, but a blank mind usually means stress, not a secret feeling."
+              ],
+              "explain": "Stress weakens the part of your brain that finds words and juggles ideas. Easy questions aren't safe from that."
+            },
+            {
+              "type": "learn",
+              "title": "Freezing is a real body response",
+              "body": "You've probably heard of **fight or flight**. Scientists also study a third reaction: **freezing**. Your body goes still and your heart rate slows for a moment.\n\nIn a 2017 review, Dutch neuroscientist Karin Roelofs describes human freezing as a brake: your body pauses while it gets ready to act. It's normal, and it's meant to be short.\n\n> The goal isn't to never freeze. It's to get out of it in a few seconds instead of a few minutes.",
+              "source": {"label": "Roelofs (2017), Freeze for action, Philosophical Transactions of the Royal Society B", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5332864"},
+              "tip": "Next time you freeze, try to time it in your head. Was it 2 seconds or 20? Just knowing the number helps you shrink it."
+            },
+            {
+              "type": "learn",
+              "title": "What the stare looks like from outside",
+              "body": "Inside, you feel blank. Outside, people can read your silence as:\n- you don't care\n- you're annoyed\n- you're hiding something\n- you didn't hear them\n\nMom asks, \"Did you finish the application?\" You stare. She hears: *no, and I don't want to talk about it.*\n\nA tiny signal fixes this. Even \"Hmm, hold on, thinking\" tells them you're still in the conversation.",
+              "tip": "Pick a thinking signal now and keep it ready: \"Hmm, give me a sec.\" Use it the next time you blank, instead of going silent."
+            },
+            {
+              "type": "scenario",
+              "prompt": "At lunch your friend asks, \"So are you coming Saturday or not?\" You haven't decided, and your mind goes blank. What's the best reply?",
+              "options": [
+                {"text": "(You shrug and look at your phone.)", "feedback": "To your friend, this looks like you don't care about the plan or about them."},
+                {"text": "\"Uh... idk... maybe? I mean, it depends, like... I don't know.\"", "feedback": "Lots of words, zero information. Your friend still has no idea what to plan around."},
+                {"text": "\"Good question. I'm not sure yet. Can I tell you by tonight?\"", "feedback": "Honest, calm, and it gives them a time. That's a real answer even without a decision.", "best": true},
+                {"text": "\"Why are you pressuring me?\"", "feedback": "They asked a normal question. Getting defensive turns a simple plan into a fight."}
+              ],
+              "hint": "Look for the reply that's honest about not knowing AND tells them when they'll get a real answer.",
+              "explain": "When you don't have an answer yet, say so and give a time. That's clear and kind, and it gets you out of the freeze."
+            },
+            {
+              "type": "learn",
+              "title": "Three freeze triggers",
+              "body": "Most freezes come from one of three things:\n- **Surprise**: you weren't expecting the question.\n- **Pressure**: someone important is asking, people are watching, or you're in an argument.\n- **Perfect-answer hunting**: your brain keeps searching for the *best* reply and says nothing while it searches.\n\nThe third one is sneaky. It often feels like the first two.",
+              "tip": "For three days, when you freeze, jot down which trigger it was: surprise, pressure, or hunting for the perfect answer. The pattern shows you what to practice."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each moment to the freeze trigger behind it.",
+              "pairs": [
+                ["Your teacher calls on you while you were zoning out", "Surprise"],
+                ["Your boss and two coworkers are waiting for your answer", "Pressure"],
+                ["You can think of three answers but keep looking for a better one", "Perfect-answer hunting"]
+              ],
+              "explain": "Naming the trigger tells you the fix: surprise needs a reset, pressure needs a calm line, and perfect-answer hunting needs a good-enough answer."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A tourist stops you: \"Excuse me, how do I get to the train station?\" You know it's two blocks away, but your mind blanks. What do you say?",
+              "options": [
+                {"text": "\"Uh... um... sorry, I don't know.\" (You walk off.)", "feedback": "You did know. The freeze answered for you."},
+                {"text": "\"The train station? Yeah. Go straight two blocks, then it's on your left.\"", "feedback": "Saying \"the train station?\" back gave your brain a second, then you gave the simplest route.", "best": true},
+                {"text": "\"So there's a bunch of ways, you could go past the park, or there's a bus, well, it depends where you're coming from...\"", "feedback": "Rambling. The tourist now has more questions than when they started."}
+              ],
+              "hint": "Repeating one key word from the question can buy your brain a second.",
+              "explain": "Say the key word back, then give the simplest true answer. You don't need every option, just one that works."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Freezing is a normal stress response, not a sign you're slow.\n- Stress makes it harder to find words, even for easy questions.\n- Silence can look like you don't care, so give a small signal.\n- Most freezes come from surprise, pressure, or hunting for the perfect answer.",
+              "tip": "Say your thinking signal out loud three times today, like \"Hmm, give me a sec.\" Lines you've practiced come out easier under stress."
+            }
+          ]
+        },
+        {
+          "id": "u1-l2",
+          "title": "Unfreeze in 3 Seconds",
+          "summary": "A quick reset you can do in the middle of a conversation.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "The 3-second reset",
+              "body": "When you blank, do three things:\n1. **Breathe out slowly.** A long out-breath is a simple way to settle your body.\n2. **Feel your feet on the floor.** It pulls your attention out of the panic and into the room.\n3. **Grab one keyword** from the question: \"plans?\", \"done?\", \"station?\" Start your answer from that word.\n\nNobody notices 3 seconds. People do notice 10 seconds of staring.",
+              "tip": "Practice the reset three times today when nothing is wrong: breathe out slowly, feel your feet, pick a word. It's easier to use under pressure if your body already knows it."
+            },
+            {
+              "type": "order",
+              "prompt": "Put the 3-second reset in order.",
+              "items": [
+                "Breathe out slowly",
+                "Feel your feet on the floor",
+                "Grab one keyword from the question",
+                "Start your answer from that keyword"
+              ],
+              "explain": "Calm your body first, then anchor yourself, then use the keyword as a launch pad for your answer."
+            },
+            {
+              "type": "learn",
+              "title": "Why the long breath out",
+              "body": "Stanford researchers had adults (mostly college students) do 5 minutes of breathing practice a day for a month. One method was the **cyclic sigh**: breathe in through your nose, take a second short breath in to fill up, then breathe out slowly through your mouth.\n\nThat group's mood improved more than a group doing mindfulness meditation.\n\nThe study tested daily practice, not one breath mid-conversation. But one slow sigh is an easy mini version to try when you blank.",
+              "source": {"label": "Balban et al. (2023), Brief structured respiration practices enhance mood and reduce physiological arousal, Cell Reports Medicine", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9873947"},
+              "tip": "Do 1 minute of cyclic sighing tonight: in through the nose, a second short sniff in, then a long, slow breath out. Then try one sigh before your next answer that feels tense."
+            },
+            {
+              "type": "scenario",
+              "prompt": "At dinner your dad asks, \"So what are you doing after graduation?\" Everyone looks at you. What's your best move?",
+              "options": [
+                {"text": "Look down at your plate and wait for someone to change the subject.", "feedback": "It might work tonight, but the question comes back, and the silence makes your family worry more."},
+                {"text": "Breathe out, grab \"after graduation\" and say: \"After graduation... honestly, I'm leaning toward working for a year. Still figuring out the rest.\"", "feedback": "Short, honest, and it doesn't pretend you have it all figured out.", "best": true},
+                {"text": "\"Why does everyone keep asking me that?\"", "feedback": "Fair feeling, but it starts a fight at dinner instead of ending the question."},
+                {"text": "\"I mean, there's college, or trade school, or a gap year, or my friend's doing this thing, it's complicated...\"", "feedback": "Overexplaining makes it sound like you have no plan at all, and invites ten more questions."}
+              ],
+              "hint": "The best answer is short and honest, even if your plan isn't finished.",
+              "explain": "Reset, grab the keyword, and give the part you do know. An unfinished plan said clearly sounds much better than silence or a pile of options."
+            },
+            {
+              "type": "learn",
+              "title": "Call it excitement",
+              "body": "Harvard researcher Alison Wood Brooks had people give a short speech. Before speaking, some said \"I am excited\" and others said \"I am calm\".\n\nOutside judges rated the \"excited\" group as more persuasive, more competent and more relaxed.\n\nWhy? Nerves and excitement feel alike in your body: fast heart, lots of energy. Telling yourself to calm down fights that feeling. Calling it excitement uses it.",
+              "source": {"label": "Brooks (2014), Get excited: reappraising pre-performance anxiety as excitement (EurekAlert summary)", "url": "https://www.eurekalert.org/news-releases/607078"},
+              "tip": "Before your next nervous moment (a shift, a class presentation, a hard talk), say quietly, \"I'm excited.\" It feels silly. Do it anyway."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "In Brooks's study, people who told themselves \"I am calm\" before a speech did better than people who said \"I am excited\".",
+              "answer": false,
+              "explain": "It was the other way around. The \"I am excited\" group was rated more persuasive, competent and relaxed."
+            },
+            {
+              "type": "learn",
+              "title": "The blank-out line",
+              "body": "Sometimes the reset isn't enough and your mind stays empty. Say so, out loud and lightly:\n- \"Sorry, my brain just blanked. Can you ask me that again?\"\n- \"Hold on, I lost my train of thought.\"\n- \"Wait, say that one more time?\"\n\nBeing honest about a blank sounds normal. Staring sounds strange.",
+              "tip": "Memorize one blank-out line word for word, like \"Sorry, my brain just blanked. Ask me again?\" Say it out loud twice today so it's ready."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your teacher calls on you: \"What did you think of the reading?\" You read it, but your mind is empty. What do you say?",
+              "options": [
+                {"text": "\"Sorry, my brain just blanked for a sec. The part that stuck with me was the ending, when she finally quits.\"", "feedback": "An honest blank-out line, then one real detail. That's a solid class answer.", "best": true},
+                {"text": "\"I didn't read it.\"", "feedback": "You did read it. Now the teacher thinks you skipped the work."},
+                {"text": "(Stare until the teacher moves on.)", "feedback": "The teacher and class read this as not prepared or not interested."},
+                {"text": "\"Um, I thought it was good. Yeah. Good.\"", "feedback": "Better than silence, but it doesn't show you read it. One specific detail would."}
+              ],
+              "hint": "Try one honest line about the blank, plus one specific detail you remember.",
+              "explain": "Admit the blank lightly, then grab any one real detail. One detail proves you were there and gets the conversation moving again."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- The reset: breathe out slowly, feel your feet, grab a keyword.\n- A long, slow breath out is an easy way to settle your body.\n- Nerves can be called excitement. Say \"I'm excited\".\n- If you stay blank, say so lightly and ask them to repeat.",
+              "tip": "Before your next class or shift, guess the two questions you're most likely to get. Say a one-line answer to each in your head."
+            }
+          ]
+        },
+        {
+          "id": "u1-l3",
+          "title": "Good Enough Beats Perfect",
+          "summary": "Stop hunting for the perfect reply. Say a decent one now and improve it as you go.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "The perfect-answer trap",
+              "body": "Sometimes your brain searches for the best, smartest or funniest reply. While it searches, you say nothing.\n\nStanford communication teacher Matt Abrahams and improv teacher Dan Klein give this advice: **\"dare to be dull.\"** Say the obvious thing. Aiming to be great is what makes you stall.\n\n> A B answer now beats an A answer 30 seconds from now.",
+              "source": {"label": "Stanford GSB, Speaking Without a Net: How to Master Impromptu Communication", "url": "https://www.gsb.stanford.edu/insights/speaking-without-net-how-master-impromptu-communication"},
+              "tip": "Today, answer every simple question (\"What do you want for dinner?\") with your first decent idea within 3 seconds. Notice that nothing bad happens."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your mom is in the kitchen: \"What do you want for dinner?\" What's the best reply?",
+              "options": [
+                {"text": "\"Tacos? Or anything easy is fine.\"", "feedback": "Quick, and it gives her something to work with. A B answer is all this needs.", "best": true},
+                {"text": "\"I don't know. Whatever.\"", "feedback": "Fast, but it dumps the whole decision back on her."},
+                {"text": "(Long pause.) \"Hmm... what did we have yesterday... what do we even have... what do you want?\"", "feedback": "This is perfect-answer hunting out loud. It takes forever and still ends with no answer."},
+                {"text": "\"Why do I always have to decide?\"", "feedback": "She asked because she wants your input. This turns a nice question into a complaint."}
+              ],
+              "explain": "Everyday questions don't need a perfect answer. Give a real one fast, and add a backup if you want."
+            },
+            {
+              "type": "learn",
+              "title": "Say what you know",
+              "body": "When you don't know the whole answer, say the part you do know:\n- \"I know it's due Friday. I'm not sure about the format yet.\"\n- \"I know the bus stop is past the library. After that I'd check a map.\"\n\nA partial answer moves the conversation forward. A stare stops it.",
+              "tip": "When you're unsure this week, start with \"What I know is...\" and finish the sentence. It gets you talking with something true."
+            },
+            {
+              "type": "scenario",
+              "prompt": "At work, a coworker asks, \"Hey, where do the extra cups go?\" You think they go in the back, but you're not 100% sure.",
+              "options": [
+                {"text": "\"I think the back storeroom, top shelf. If they're not there, ask Sam.\"", "feedback": "You shared what you know and gave a backup. That's genuinely helpful.", "best": true},
+                {"text": "\"I don't know.\"", "feedback": "You kind of do know. Saying the part you know helps more."},
+                {"text": "(Shrug.)", "feedback": "Looks like you don't want to help, even if you were just unsure."},
+                {"text": "\"Okay, so, there's the back room, but sometimes they put stuff by the drive-thru, and once I saw them under the counter...\"", "feedback": "Every possibility at once. Your coworker still doesn't know where to look first."}
+              ],
+              "hint": "\"I think...\" plus a backup is a complete answer when you're not sure.",
+              "explain": "Say your best guess, mark it as a guess (\"I think\"), and add one backup. Short, honest and useful."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A friend asks, \"What do you want to do this weekend?\" Which reply is the good-enough answer now?",
+              "options": [
+                "\"Maybe a hike Saturday, if it's not raining.\"",
+                "\"I'll think about it and let you know.\"",
+                "\"I don't know, what do you want to do?\"",
+                "\"Let me look at everything that's going on first.\""
+              ],
+              "answer": 0,
+              "feedback": [
+                "Yes. One real idea, said fast. Your friend can build on it.",
+                "For a big decision that's fine. For a casual weekend question, it stalls.",
+                "Bouncing the question back is the most common freeze escape.",
+                "That's the perfect-answer trap. Give one idea now; you can change it later."
+              ],
+              "explain": "A casual question deserves a quick, real idea. You can always change it later."
+            },
+            {
+              "type": "learn",
+              "title": "Upgrade as you go",
+              "body": "Your first answer isn't final. Lines that let you improve it:\n- \"Actually, let me change that.\"\n- \"One more thing I should add...\"\n- \"Thinking about it more, I'd say...\"\n\nPeople adjust their answers all the time. It sounds thoughtful, not flaky.",
+              "tip": "Use \"Actually, one more thing...\" once this week to add to an answer you already gave. It teaches your brain that the first answer doesn't have to be perfect."
+            },
+            {
+              "type": "scenario",
+              "prompt": "In a group project, a classmate asks, \"Which part do you want to do?\" Everyone's waiting.",
+              "options": [
+                {"text": "\"I'll take the slides. If that changes, I'll tell you by tomorrow.\"", "feedback": "Fast, specific, and leaves room to adjust. The group can move on.", "best": true},
+                {"text": "\"Whatever's left is fine.\"", "feedback": "Quick, but you may end up with the part you're worst at, and it doesn't help the group decide."},
+                {"text": "\"Hmm, let me look at all the parts tonight and decide.\"", "feedback": "This holds up the whole group for a small choice."},
+                {"text": "\"I don't care.\"", "feedback": "Sounds like you don't care about the project, even if you just mean you're flexible."}
+              ],
+              "hint": "Look for the reply that is fast AND actually picks something.",
+              "explain": "Pick something now and say you'll update them if it changes. That's good enough, and it keeps everyone moving."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Think of a simple question you froze on recently (from a parent, friend, teacher or boss). Write the good-enough answer you could have said in 3 seconds.",
+              "placeholder": "They asked: ... I could have said: \"...\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Buy Time the Right Way",
+      "description": "Get a few extra seconds without stalling, staring or filling the air with um.",
+      "levels": [
+        {
+          "id": "u2-l1",
+          "title": "Pause, Don't Stare",
+          "summary": "A short, calm pause works. A long stare or a string of ums doesn't.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Pause vs stare",
+              "body": "A **pause** is 1 to 3 seconds of quiet while you're clearly thinking. You keep eye contact, maybe nod or say \"hmm\".\n\nA **stare** is a long silence with a blank face, or looking away.\n\nThe pause says *I'm working on it*. The stare says *I've left the conversation*.",
+              "tip": "Practice the thinking pause in the mirror: look up, nod once, say \"hmm\", count to two, then answer \"What did you do today?\""
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which of these is a good thinking pause?",
+              "options": [
+                "Look at them, nod, say \"Hmm,\" then answer after 2 seconds",
+                "Look at the floor for 10 seconds",
+                "Say \"um, uh, like, um\" until an idea shows up",
+                "Pull out your phone while you think"
+              ],
+              "answer": 0,
+              "feedback": [
+                "Yes. Short, and they can see you're thinking.",
+                "Ten seconds of looking away reads as a freeze or as not caring.",
+                "A long string of fillers is still stalling, just louder.",
+                "The phone says the conversation isn't your priority."
+              ],
+              "explain": "A good pause is short and visible: eye contact, a small signal, then your answer."
+            },
+            {
+              "type": "learn",
+              "title": "What research says about um",
+              "body": "Researchers in Sweden played listeners computer-voiced sentences and asked how confident the speaker sounded. Adding a **filler** (\"um\", \"uh\") had the biggest effect: it made the speaker sound less confident. An \"um\" in the middle of a sentence hurt most.\n\nOther studies disagree on whether a silent pause is always better than one \"um\". So don't panic about every um. A few are normal. A *string* of them is what sounds unsure.",
+              "source": {"label": "Kirkland et al. (2022), Where's the uh, hesitation?, Interspeech", "url": "https://www.isca-archive.org/interspeech_2022/kirkland22_interspeech.html"},
+              "tip": "Record yourself answering \"What did you do this weekend?\" on your phone. Count the ums. Record it again and swap a short pause for each um."
+            },
+            {
+              "type": "number",
+              "prompt": "You play back your recording. In a 60-second answer, you said \"um\" about once every 5 seconds. About how many ums is that?",
+              "answer": 12,
+              "tolerance": 0,
+              "unit": "ums",
+              "hint": "How many 5-second chunks fit into 60 seconds?",
+              "explain": "60 / 5 = **12 ums** in one minute. That's a string, not an occasional um. Swapping even half of them for short pauses makes a big difference."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "You should never say \"um\". Every single one makes you sound bad.",
+              "answer": false,
+              "explain": "A few fillers are normal in everyday talk, and studies don't all agree on their effect. The problem is long strings of them, which sound like stalling."
+            },
+            {
+              "type": "learn",
+              "title": "Announce your pause",
+              "body": "If you need more than a couple of seconds, say so. Then the silence is fine:\n- \"Good question. Let me think for a second.\"\n- \"Hmm, give me a sec.\"\n- \"Let me think about how to say this.\"\n\nNow they wait calmly instead of wondering what's wrong. Use it once per question, then actually answer.",
+              "tip": "Pick your pause line and use it once this week on a real question. Then answer within about 5 seconds."
+            },
+            {
+              "type": "scenario",
+              "prompt": "In a job interview, the manager asks, \"Why do you want to work here?\" You didn't prepare for this one. What's the best reply?",
+              "options": [
+                {"text": "\"Good question, let me think for a second.\" (Short pause.) \"It's busy, so I'd learn fast, and I already shop here, so I know the products.\"", "feedback": "The announced pause gave you time, and the answer has two real reasons.", "best": true},
+                {"text": "\"Um, like, uh, I guess because, um, I need a job, and, um...\"", "feedback": "A string of fillers sounds unsure, and \"I need a job\" doesn't tell them why this job."},
+                {"text": "(Ten seconds of silence.) \"I don't know.\"", "feedback": "A long stare plus \"I don't know\" is the answer interviewers remember for the wrong reason."},
+                {"text": "\"Honestly, it's close to my house.\"", "feedback": "Honest and fast, but it gives them no reason to pick you over anyone else."}
+              ],
+              "hint": "An announced pause is fine. What should come right after it?",
+              "explain": "Announce the pause, then give a real answer with a reason or two. A planned pause sounds calm; a stare or a pile of ums doesn't."
+            },
+            {
+              "type": "learn",
+              "title": "Think out loud",
+              "body": "Another way to fill a pause: narrate your thinking.\n- \"Let me walk through it. First I...\"\n- \"Okay, so if I leave at 3...\"\n\nThis works great for math, directions and plans. You're talking, so there's no stare, and the other person can follow your steps.",
+              "tip": "Next time someone asks how you got an answer, start with \"Let me walk through it\" and say each step out loud."
+            },
+            {
+              "type": "scenario",
+              "prompt": "In math class your teacher asks, \"Can you explain how you got that answer?\" You got it right, but explaining it feels hard.",
+              "options": [
+                {"text": "\"Uh... I just... did it.\"", "feedback": "The teacher wants to see your thinking. This hides it."},
+                {"text": "\"Let me walk through it. First I found the total, then I divided by four.\"", "feedback": "Thinking out loud turns the pause into the answer.", "best": true},
+                {"text": "(Shrug and look down.)", "feedback": "Reads as not knowing, even though you do."},
+                {"text": "\"I probably did it wrong, sorry, never mind.\"", "feedback": "You got it right. Taking it back throws away your own good work."}
+              ],
+              "explain": "\"Let me walk through it\" buys time and gives the answer at the same time."
+            }
+          ]
+        },
+        {
+          "id": "u2-l2",
+          "title": "Repeat, Rephrase, Clarify",
+          "summary": "Buy two seconds and answer the right question by saying it back or asking one quick question.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Say it back",
+              "body": "Repeating or rephrasing a question is called **paraphrasing**. Stanford's Matt Abrahams recommends it for two reasons:\n- It's easy for your brain, so you can think about your answer while you say it.\n- It lets the other person correct you if you misheard.\n\nKeep it short. Repeat the key words, not the whole question:\n- \"What I'm doing this weekend? Probably...\"\n- \"Why the shelf isn't stocked yet? Because...\"",
+              "source": {"label": "Stanford GSB, Matt Abrahams: The Power of the Paraphrase", "url": "https://www.gsb.stanford.edu/insights/matt-abrahams-power-paraphrase"},
+              "tip": "Today, start your answer to three questions by repeating the key words first: \"Where I'm going? The library.\""
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your manager walks by: \"Hey, what's the status on the drink cooler?\" What's the best reply?",
+              "options": [
+                {"text": "\"The drink cooler? Half done. I ran out of 12-packs, so I'm grabbing more from the back.\"", "feedback": "Repeating \"the drink cooler\" bought a second, then you gave the status and the next step.", "best": true},
+                {"text": "\"Um. Yeah. Kinda.\"", "feedback": "Your manager still doesn't know if it's done or not."},
+                {"text": "\"I've been doing a lot, I helped a customer, then the register jammed, and Jess needed help...\"", "feedback": "That's a defense before an answer. Your manager asked about the cooler."},
+                {"text": "(Freeze, then nod.)", "feedback": "A nod could mean anything. Your manager will have to ask again."}
+              ],
+              "explain": "Say the key words back, then the answer. A quick repeat sounds natural and gives you a beat to think."
+            },
+            {
+              "type": "learn",
+              "title": "Ask one clarifying question",
+              "body": "Sometimes you freeze because the question is fuzzy. Fix it with **one** quick question. That's a **clarifying question**: it makes the question clear before you answer.\n- \"Do you mean today or this week?\"\n- \"Like, overall, or just this part?\"\n- \"Do you want the short version or the details?\"\n\nIt isn't stalling. It means your answer will actually fit.",
+              "tip": "When a question feels too big this week, ask \"Do you want the short version or the details?\" It turns a scary question into an easy one."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each fuzzy question to a good clarifying question.",
+              "pairs": [
+                ["Your aunt: \"How's school going?\"", "\"Like grades, or just in general?\""],
+                ["A manager: \"When can you work?\"", "\"Do you mean this week, or a regular schedule?\""],
+                ["A teacher, pointing at a full page: \"Can you explain this?\"", "\"The whole page, or just this graph?\""],
+                ["A parent: \"What happened?\"", "\"With the car, or with the phone call?\""]
+              ],
+              "explain": "A good clarifying question gives two clear choices, so the other person can answer in one word and you know exactly what to talk about."
+            },
+            {
+              "type": "scenario",
+              "prompt": "In English class your teacher calls on you: \"What do you think about the main character's choice?\" There were two big choices in the book, and you're not sure which one she means.",
+              "options": [
+                {"text": "\"Which choice, leaving home or the lie at the end?\"", "feedback": "One specific question. Now you'll answer the right thing, and it shows you know the book.", "best": true},
+                {"text": "\"Um... it was good?\"", "feedback": "Good how? Which one? This shows you're guessing."},
+                {"text": "\"I don't know.\"", "feedback": "You do know the book. You just weren't sure which part she meant."},
+                {"text": "\"Can you repeat the whole question, and also what we were talking about before?\"", "feedback": "Two big asks makes it sound like you weren't listening at all."}
+              ],
+              "hint": "One specific question can turn a vague question into an easy one.",
+              "explain": "Ask one specific clarifying question, then answer. It shows you're paying attention, not lost."
+            },
+            {
+              "type": "order",
+              "prompt": "You're asked a fuzzy question. Put these moves in order.",
+              "items": [
+                "Breathe out and catch the key words",
+                "Repeat the key words back",
+                "Ask one clarifying question if you need to",
+                "Give your answer"
+              ],
+              "explain": "Reset, repeat, clarify if needed, then answer. The first three take about five seconds total."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Asking one specific clarifying question makes you look like you weren't paying attention.",
+              "answer": false,
+              "explain": "One specific question (\"Which choice, leaving home or the lie?\") shows you were paying attention. Asking them to repeat everything is what sounds lost."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Repeating the key words buys a second and checks you heard right.\n- A clarifying question gives two clear choices: \"today or this week?\"\n- One repeat **or** one clarifying question, then answer. More than that sounds like stalling.",
+              "tip": "This week, catch one fuzzy question and answer it with a two-choice clarifying question, like \"Do you mean today or this week?\" Then answer right away."
+            }
+          ]
+        },
+        {
+          "id": "u2-l3",
+          "title": "Honest Time-Outs",
+          "summary": "When you really need time, say how you'll find out and when you'll get back to them.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "\"I don't know yet\" is a real answer",
+              "body": "You won't always know. That's fine. What doesn't work: guessing wildly, staring, or saying \"idk\" and stopping.\n\nA full \"I don't know\" has three parts:\n1. What you don't know.\n2. How you'll find out.\n3. When you'll get back to them.\n\n> \"I'm not sure yet. I'll ask my manager and text you by 6.\"",
+              "tip": "Use the full \"I don't know\" this week: what you don't know, how you'll find out, and when. Then follow up on time."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A customer holds up a jacket: \"Is this on sale?\" You don't know.",
+              "options": [
+                {"text": "\"I'm not sure. Let me scan it for you real quick.\"", "feedback": "Honest, and you find out right away. Customers love this.", "best": true},
+                {"text": "\"I don't know.\" (You go back to folding.)", "feedback": "True, but it leaves the customer stuck."},
+                {"text": "\"Probably, most stuff is.\"", "feedback": "A wrong guess here means an upset customer at the register."},
+                {"text": "\"That's not my department.\"", "feedback": "Even if it's true, the customer hears \"not my problem.\""}
+              ],
+              "explain": "When you can check fast, \"I'm not sure, let me check\" is the whole answer."
+            },
+            {
+              "type": "learn",
+              "title": "Saying you need more information",
+              "body": "Matt Abrahams at Stanford says one fair way to handle a hard question is to give your real reason for not answering yet. For example, admitting you don't have the information and need to look into it.\n\nThat's honest, and people respect it far more than a bluff.\n- \"I don't have the numbers on me. I'll check and tell you after lunch.\"\n- \"I'd be guessing. Let me ask my coach and get back to you.\"",
+              "source": {"label": "Stanford GSB, How to Handle a Question You Don't Want to Answer", "url": "https://www.gsb.stanford.edu/insights/how-handle-question-you-dont-want-answer"},
+              "tip": "Next time you're tempted to bluff, say \"I'd be guessing. Let me check.\" Then check within the day."
+            },
+            {
+              "type": "learn",
+              "title": "Always add a \"when\"",
+              "body": "For big questions, take time out loud:\n- \"That's a big one. Can I think about it tonight and tell you tomorrow?\"\n- \"I want to give you a real answer. Can I get back to you by Friday?\"\n- \"Let me check my schedule and text you in an hour.\"\n\nThe key is the **when**. \"Let me think about it\" with no time often sounds like a polite no.",
+              "tip": "Every time you say \"let me get back to you\" this week, add a time (\"by tonight\", \"by Friday\") and set a phone reminder right then."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A friend asks if you can help them move next Saturday. You might have work. Which reply is strongest?",
+              "options": [
+                "\"Let me think about it.\"",
+                "\"I'll check my work schedule and text you by 8 tonight.\"",
+                "\"Maybe. We'll see.\"",
+                "\"I'll let you know sometime.\""
+              ],
+              "answer": 1,
+              "feedback": [
+                "No how and no when. It can sound like a polite no.",
+                "Yes. How you'll find out, and exactly when they'll hear back.",
+                "This leaves your friend unable to plan.",
+                "\"Sometime\" often turns into never."
+              ],
+              "explain": "The strongest time-out says how you'll find out and when you'll get back to them."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your friend asks, \"Want to split an apartment next year?\" It's a big decision and you're caught off guard.",
+              "options": [
+                {"text": "\"Sure!\"", "feedback": "Fast, but a lease is a big money promise. Saying yes without thinking can hurt the friendship later."},
+                {"text": "\"That could be cool. It's a big decision, so let me look at my budget and talk to my parents. Can I tell you by next weekend?\"", "feedback": "Warm, honest, and it gives a clear deadline.", "best": true},
+                {"text": "\"Idk.\" (You change the subject.)", "feedback": "Your friend will wonder if you're upset, or just not interested."},
+                {"text": "(You never bring it up again.)", "feedback": "Ghosting a big question hurts more than a clear no."}
+              ],
+              "hint": "Big decisions deserve time, as long as you say when you'll answer.",
+              "explain": "For big choices, a time-out with a deadline is the best answer. It's not a freeze; it's a plan."
+            },
+            {
+              "type": "learn",
+              "title": "Time-out vs stonewalling",
+              "body": "**Stonewalling** means shutting down: going silent, walking away, or refusing to answer with no plan to come back.\n\nA **time-out** is different. You say you need time, and you say when you'll come back.\n- Stonewall: (silence) \"Whatever.\"\n- Time-out: \"I'm too heated to answer well. Can we talk after dinner?\"",
+              "tip": "Write your time-out line in your phone notes now, like \"I need a minute to think. Can we talk after dinner?\" Use it the next time you feel like shutting down."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each situation to the best kind of reply.",
+              "pairs": [
+                ["A customer asks a price you don't know", "Check it right now"],
+                ["A friend asks you to commit to a big trip", "Take a time-out with a deadline"],
+                ["Mom asks if you ate lunch", "Just answer: you know this one"],
+                ["Your boss asks about a rule you're not sure of", "Say what you know, then find out"]
+              ],
+              "explain": "Not every question needs a time-out. Easy ones need a quick answer, checkable ones need a quick check, and big ones need a deadline."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Write two lines in your own words: (1) your pause line for buying a few seconds, and (2) your time-out line for big questions, with a \"when\" in it.",
+              "placeholder": "Pause line: \"...\"  Time-out line: \"... by ...\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Answer Shapes You Can Grab",
+      "description": "Simple ready-made shapes that turn a blank mind into a clear answer.",
+      "levels": [
+        {
+          "id": "u3-l1",
+          "title": "Answer First",
+          "summary": "Lead with the yes, no, number or choice. Explain after.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Lead with the answer",
+              "body": "When someone asks a question, they want the answer. Many people start with the backstory and take ages to get there.\n\nPut the answer in your first sentence:\n- Q: \"Are you coming to dinner?\" A: \"Yes, around 7. I'm finishing my shift first.\"\n- Q: \"Did you finish the essay?\" A: \"Not yet. I've got the intro and two paragraphs. I'll finish tonight.\"",
+              "tip": "Today, make the first word of your answer to any yes/no question \"Yes\", \"No\" or \"Not yet\". Then add one reason."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your mom asks, \"Did you call the dentist?\" You didn't.",
+              "options": [
+                {"text": "\"Not yet. I'll call at lunch tomorrow when they're open.\"", "feedback": "Answer first, then the plan. Short and honest.", "best": true},
+                {"text": "\"Okay, so I was going to, but then I had practice, and then the office was closed, and...\"", "feedback": "She has to dig through the story to find the answer, and it sounds like excuses."},
+                {"text": "\"Why are you always checking on me?\"", "feedback": "Defensive. Now it's an argument instead of a 5-second answer."},
+                {"text": "\"...Hm?\" (Pretend you didn't hear.)", "feedback": "She'll just ask again, a little more annoyed."}
+              ],
+              "explain": "Answer first (\"Not yet\"), then what you'll do. The answer-first habit makes bad news sound responsible instead of sneaky."
+            },
+            {
+              "type": "learn",
+              "title": "The answer-first formula",
+              "body": "**Answer + one reason + next step.**\n- \"No, I can't cover Saturday. I have a family thing. Sunday works if that helps.\"\n- \"Yes, the order's ready. It's on the back counter. I'll grab it.\"\n\nThree short sentences. Most everyday questions need nothing more.",
+              "tip": "Write the formula on a sticky note or your lock screen for a week: Answer, reason, next step. Use it on one work or school question a day."
+            },
+            {
+              "type": "order",
+              "prompt": "Your boss asks, \"Can you stay late tonight?\" Put this answer-first reply in order.",
+              "items": [
+                "\"I can stay until 8.\"",
+                "\"After that I have to pick up my brother.\"",
+                "\"If you need someone later, Jordan said she wanted more hours.\""
+              ],
+              "explain": "Answer (until 8), reason (pick up brother), next step (a helpful idea). Your boss knows the key fact in the first second."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your friend asks, \"Did you like the movie?\" Which reply leads with the answer?",
+              "options": [
+                "\"Kind of. The action was great, but the ending dragged.\"",
+                "\"Well, we got there late, and the previews were long, and...\"",
+                "\"What did you think?\"",
+                "\"It's hard to say. Movies are so subjective.\""
+              ],
+              "answer": 0,
+              "feedback": [
+                "Yes. \"Kind of\" is the answer, then a quick reason.",
+                "That's the backstory. The answer hasn't shown up yet.",
+                "Bouncing it back can be friendly, but it dodges the question.",
+                "That's a way to avoid having an opinion."
+              ],
+              "explain": "\"Kind of\" is a real answer. Lead with it, then give the reason."
+            },
+            {
+              "type": "scenario",
+              "prompt": "It's Friday evening. Your dad asks, \"What are your plans tonight?\"",
+              "options": [
+                {"text": "\"Going to Alex's to study, back by 10.\"", "feedback": "Where, what and when, in one sentence. That's everything he needs.", "best": true},
+                {"text": "\"Nothing.\" (You're actually going out.)", "feedback": "Fast, but if he finds out, it costs you trust next time."},
+                {"text": "\"Why?\"", "feedback": "He's asking a normal parent question. \"Why?\" makes it sound like you're hiding something."},
+                {"text": "\"I don't know, maybe Alex's, or maybe Chris wants to do something, we'll see, it depends...\"", "feedback": "Lots of options and no plan. That's exactly what makes parents worry."}
+              ],
+              "hint": "What does a parent actually need to know? Where, and when you'll be back.",
+              "explain": "Answer first with the facts they care about: where, and when you'll be back. Then add details only if asked."
+            },
+            {
+              "type": "learn",
+              "title": "Bad news goes first too",
+              "body": "Answer-first matters most when the news is bad. If the backstory comes first, it sounds like excuses.\n- \"I missed the deadline. Here's what happened and what I'm doing about it.\"\n- \"I scratched the car. It's on the back bumper. I'll pay for the fix.\"\n\nSaying it straight takes courage, and people trust you more for it.",
+              "tip": "Next time you have bad news, plan the first sentence before you say anything: \"I [what happened]. I'm going to [fix].\""
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Giving the answer first is rude because it skips the explanation.",
+              "answer": false,
+              "explain": "You still explain, just after the answer. Most people find it respectful, because you don't make them wait."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Put the answer in your first sentence: yes, no, not yet, a number or a choice.\n- Formula: answer + one reason + next step.\n- Bad news goes first too. Backstory first sounds like excuses.",
+              "tip": "Tonight, answer one question from your family with answer + reason + next step. Notice how fast the conversation moves."
+            }
+          ]
+        },
+        {
+          "id": "u3-l2",
+          "title": "PREP: Point, Reason, Example, Point",
+          "summary": "A four-part shape for any \"what do you think?\" question.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Meet PREP",
+              "body": "When someone asks your opinion, grab **PREP**:\n- **Point**: your answer in one sentence.\n- **Reason**: why.\n- **Example**: one real example.\n- **Point** again: repeat your answer to wrap up.\n\n\"Should we get a dog?\"\n> \"I think yes. It'd get us outside more. When we watched the neighbor's dog, we walked every day. So yes, I'm in.\"\n\nThat took about 15 seconds.",
+              "tip": "Answer one question a day this week using PREP out loud, even a small one like \"Which pizza place is best?\""
+            },
+            {
+              "type": "order",
+              "prompt": "Someone asks, \"Is it worth getting a job during school?\" Put this PREP answer in order.",
+              "items": [
+                "\"I think yes, a part-time one.\"",
+                "\"You learn to manage time and money early.\"",
+                "\"My cousin worked 12 hours a week and saved for a car by senior year.\"",
+                "\"So yes, as long as it's part-time.\""
+              ],
+              "explain": "Point, Reason, Example, Point. The last line repeats your answer so it sticks."
+            },
+            {
+              "type": "scenario",
+              "prompt": "In class your teacher asks, \"Should schools ban phones during class? What's your take?\"",
+              "options": [
+                {"text": "\"Yes, during lessons. It's hard to focus when your phone keeps buzzing. Last week I missed half the notes checking messages. So yes, at least during class time.\"", "feedback": "Full PREP: point, reason, example, point. Clear and believable.", "best": true},
+                {"text": "\"Um, I don't know, both sides have good points.\"", "feedback": "This sounds safe, but it's a dodge. Pick a side; you can still admit the other side has a point."},
+                {"text": "\"Well, phones are used for a lot of things, like music, and calculators, and emergencies, and some people...\"", "feedback": "Rambling with no point. The class can't tell what you think."},
+                {"text": "\"No.\"", "feedback": "Fast and clear, but with no reason it's hard for anyone to take it seriously."}
+              ],
+              "hint": "Look for the answer that has all four PREP parts.",
+              "explain": "PREP gives a quick opinion everything it needs: a clear point, a reason, proof and a wrap-up."
+            },
+            {
+              "type": "learn",
+              "title": "Grab an example fast",
+              "body": "The Reason and Example make your point believable. Reason = \"because\". Example = \"like the time...\".\n\nIf you can't think of a personal example in 2 seconds, use a quick general one:\n- \"Like most people I know...\"\n- \"Like when you're tired after a long shift...\"\n\nDon't hunt. Grab.",
+              "tip": "Collect three quick personal stories this week (a job, a trip, a mistake) in your phone notes. They become your go-to Examples for PREP."
+            },
+            {
+              "type": "match",
+              "prompt": "A friend asks, \"Is the new burger place any good?\" Match each PREP part to the right line.",
+              "pairs": [
+                ["Point", "\"It's worth trying.\""],
+                ["Reason", "\"The burgers are cheap and huge.\""],
+                ["Example", "\"I got the double for $8 and couldn't finish it.\""],
+                ["Point again", "\"So yeah, go at least once.\""]
+              ],
+              "explain": "Each part is one short sentence. Four sentences and you've given a clear, convincing opinion."
+            },
+            {
+              "type": "scenario",
+              "prompt": "In an interview, the manager asks, \"What's one of your strengths?\"",
+              "options": [
+                {"text": "\"I'm reliable. I show up when I say I will. At my last job I didn't miss a shift in eight months. So you can count on me.\"", "feedback": "PREP in four sentences, with real proof.", "best": true},
+                {"text": "\"Um, I'm a hard worker, I guess?\"", "feedback": "\"I guess\" takes the strength back. There's no proof either."},
+                {"text": "\"I don't really know. I'm not good at talking about myself.\"", "feedback": "Honest, but it leaves the interviewer with nothing."},
+                {"text": "\"I'm a hard worker, a team player, a fast learner, detail-oriented and a people person.\"", "feedback": "A list of claims with no example. Interviewers hear this all day and remember none of it."}
+              ],
+              "hint": "One strength with proof beats five without.",
+              "explain": "Pick one point, give a reason and a real example, then repeat the point. That's what makes it believable."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "PREP is only useful for formal speeches.",
+              "answer": false,
+              "explain": "PREP works for any opinion question: class, interviews, family dinners, even picking a restaurant."
+            },
+            {
+              "type": "learn",
+              "title": "Short PREP for quick chats",
+              "body": "In a fast conversation, shrink it to **Point + Reason** in one breath:\n- \"I'd skip it. It's too far for one afternoon.\"\n- \"The blue one. It goes with everything.\"\n\nSave full PREP for when someone really wants your opinion, like a teacher, an interviewer or a big family decision.",
+              "tip": "This week, give every opinion with a \"because\": \"I'd pick the blue one because it goes with everything.\" It's PREP in one sentence."
+            }
+          ]
+        },
+        {
+          "id": "u3-l3",
+          "title": "What? So What? Now What?",
+          "summary": "A three-part shape for updates, mistakes and explaining what happened.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Three questions in order",
+              "body": "Stanford's Matt Abrahams calls this his favorite structure for speaking on the spot:\n- **What?** What happened, or your point.\n- **So what?** Why it matters.\n- **Now what?** What happens next.\n\nYour manager asks, \"Why isn't the cooler stocked?\"\n> \"The truck came late, so the drinks got here at 4. That means the cooler is half empty for the dinner rush. I'll stock the top sellers first, done in 20 minutes.\"",
+              "source": {"label": "Stanford GSB, Be Better at Spontaneous Speaking", "url": "https://www.gsb.stanford.edu/insights/be-better-spontaneous-speaking"},
+              "tip": "Next time you give an update at work, school or home, use What, So what, Now what. Plan the three sentences before you start talking."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your manager says, \"The trash was supposed to go out an hour ago. Why isn't it done?\"",
+              "options": [
+                {"text": "\"I got pulled to the register when it got busy, so it slipped. I'll take it out right now and do the bathroom check after.\"", "feedback": "What happened, why it slipped, and the fix, in two sentences.", "best": true},
+                {"text": "\"It's not my fault. Nobody told me it was my turn.\"", "feedback": "Even if it's partly true, leading with blame makes your manager trust you less."},
+                {"text": "\"Sorry, sorry, I'm so sorry, I'm the worst...\"", "feedback": "Too much apologizing, and still no plan. Your manager needs the fix, not the guilt."},
+                {"text": "(Shrug and look at the floor.)", "feedback": "The stare reads as \"I don't care\", which is worse than the trash."}
+              ],
+              "hint": "Which one says what happened AND what you'll do now?",
+              "explain": "What, So what, Now what turns a mistake into a quick, calm update. Bosses mostly care about the Now what."
+            },
+            {
+              "type": "order",
+              "prompt": "Your teacher asks, \"Where's your lab report?\" Put this What / So what / Now what answer in order.",
+              "items": [
+                "\"My laptop died last night and I lost the last page.\"",
+                "\"So it isn't ready to turn in today.\"",
+                "\"I'll rewrite that page at lunch and hand it in by the end of the day.\""
+              ],
+              "explain": "What happened, why it matters, what you'll do. Short, honest and with a plan."
+            },
+            {
+              "type": "learn",
+              "title": "Make \"Now what\" specific",
+              "body": "People care most about the **Now what**. When you've messed up, keep What and So what short, and make Now what specific: an action and a time.\n- Vague: \"I'll do better.\"\n- Specific: \"I'll set an alarm for 3:45 so I leave on time.\"\n- Vague: \"I'll fix it.\"\n- Specific: \"I'll redo the shelf before my break.\"",
+              "tip": "The next time you say \"I'll do better\", stop and add one action and one time: \"I'll set a 3:45 alarm starting tomorrow.\""
+            },
+            {
+              "type": "mcq",
+              "prompt": "You were 20 minutes late to your shift. Which \"Now what\" is strongest?",
+              "options": [
+                "\"It won't happen again.\"",
+                "\"I'll try harder.\"",
+                "\"I'm leaving 15 minutes earlier and taking the 3:10 bus from now on.\"",
+                "\"Traffic was really bad.\""
+              ],
+              "answer": 2,
+              "feedback": [
+                "A promise with no plan. Your manager has heard it before.",
+                "\"Try harder\" isn't something anyone can check.",
+                "Yes. A specific action your manager can actually picture.",
+                "That's the What, not the Now what."
+              ],
+              "explain": "A strong Now what names a concrete action. It shows you've already solved the problem."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each situation to the answer shape that fits best.",
+              "pairs": [
+                ["A friend asks if you want pizza or tacos", "Answer first"],
+                ["A teacher asks your opinion on a debate topic", "PREP"],
+                ["Your boss asks why a task isn't done", "What / So what / Now what"],
+                ["You need to check something before you can answer", "\"I don't know yet\" + when you'll answer"]
+              ],
+              "explain": "Quick choices: answer first. Opinions: PREP. Updates and mistakes: What / So what / Now what. Unknowns: say when you'll know."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your report card came. Your mom asks, \"What happened in chemistry?\"",
+              "options": [
+                {"text": "\"I got a C because I missed two quizzes, and that pulled my grade down. I'm making up the quizzes this week and asking Ms. Lee for extra practice.\"", "feedback": "What, So what, Now what. Honest, and she can see you have a plan.", "best": true},
+                {"text": "\"Chem is just hard. Everyone's doing badly.\"", "feedback": "Maybe true, but it sounds like an excuse and has no plan."},
+                {"text": "\"Idk.\" (You walk to your room.)", "feedback": "Now she's worried about the grade AND about you."},
+                {"text": "\"Okay, so the first unit was fine, but then we got a new seating chart, and my lab partner kept...\"", "feedback": "A long backstory. She has to wait a long time to find out what actually happened."}
+              ],
+              "hint": "Look for what happened, why it matters, and what you'll do next.",
+              "explain": "Even hard conversations get easier with a shape. What, So what, Now what keeps you calm and gives the other person a plan to trust."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Pick a question you'll probably get this week from a boss, teacher or parent. Write your answer using PREP or What / So what / Now what.",
+              "placeholder": "Question: ...  My answer: \"...\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Under Pressure",
+      "description": "Next steps, arguments, bosses, teachers and customers: putting it all together.",
+      "levels": [
+        {
+          "id": "u4-l1",
+          "title": "The Very Next Step",
+          "summary": "When someone asks what you need to do, say the next step, then the one after.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "When basic stuff goes blank",
+              "body": "Parent: \"So what do you need to do for your license?\"\nBoss: \"What's next on your list?\"\n\nYou know the answer, but your mind fogs, because it feels like the whole pile at once.\n\nFix: don't answer the whole thing. Say **the very next step**, then the one after.\n> \"Next, I book the written test. After that, I practice my driving hours.\"\n\nTwo steps is enough to show you're on it.",
+              "tip": "Every morning this week, say out loud the next two steps for one thing you're working on: \"Next I..., then I...\""
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your dad asks, \"What do you still need to do for the college application?\"",
+              "options": [
+                {"text": "\"Next I need my teacher recommendation. I'll ask Mr. Diaz tomorrow. Then it's just the essay.\"", "feedback": "The next step, when, and what's after. Your dad can relax.", "best": true},
+                {"text": "\"A lot. I don't know. Everything.\"", "feedback": "This is the overwhelm talking. It makes your dad more worried, not less."},
+                {"text": "\"I've got it. Stop asking.\"", "feedback": "Defensive. He'll keep asking because he still doesn't know where things stand."},
+                {"text": "\"Well, there's the essay and the recs and the fee and the transcript and I don't even know when it's due...\"", "feedback": "Dumping the whole list shows you're stressed, not that you're on it."}
+              ],
+              "hint": "Look for the reply with one specific next action.",
+              "explain": "Name the very next step and when you'll do it. One clear step calms everyone down, including you."
+            },
+            {
+              "type": "learn",
+              "title": "\"I'll find out\" is a step",
+              "body": "If you don't know the next step, then finding out **is** the next step:\n- \"I'm not sure what's next. I'll check the DMV website tonight.\"\n- \"Not sure yet. I'll ask Jess how she did it.\"\n\nThat's a real, complete answer. It beats a blank stare every time.",
+              "tip": "Pick one thing you've been stuck on. Write one sentence: \"Next, I'll find out ___ by ___.\" Do that one step this week."
+            },
+            {
+              "type": "order",
+              "prompt": "Someone asks, \"What do you need to do next?\" Put your moves in order.",
+              "items": [
+                "Breathe out slowly",
+                "Name the very next step",
+                "Name the step after that",
+                "Say when you'll do the first one"
+              ],
+              "explain": "Reset, then two steps and a when. That's a full answer, even for a big messy project."
+            },
+            {
+              "type": "scenario",
+              "prompt": "It's your first week at a store. Your manager asks, \"Okay, what are you doing next?\" You forgot what she told you this morning.",
+              "options": [
+                {"text": "\"I think I'm on fitting rooms next. Is that right?\"", "feedback": "Your best guess plus a quick check. Honest and easy to correct.", "best": true},
+                {"text": "\"Um...\" (You stare.)", "feedback": "She'll wonder if you understood any of the training."},
+                {"text": "\"Whatever you want.\"", "feedback": "Sounds flexible, but it hides that you forgot. She has to plan for you."},
+                {"text": "\"Nobody told me.\"", "feedback": "She did tell you. Now it's a trust problem on top of a memory slip."}
+              ],
+              "hint": "When you're not sure, a best guess with a quick check is a strong answer.",
+              "explain": "Say your best guess and ask to confirm. It shows you're trying, and the fix takes two seconds."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "If you can't list every step of a plan, it's better to say nothing than to give a partial answer.",
+              "answer": false,
+              "explain": "One or two clear next steps is a strong answer. Nobody expects the whole plan on the spot."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your aunt asks, \"So what's your plan for finding a job?\" Which reply is best?",
+              "options": [
+                "\"Next, I'm making my resume this weekend. Then I'll apply at three places near home.\"",
+                "\"I'll figure it out.\"",
+                "\"Get a job, I guess.\"",
+                "\"There's so much, the resume and applications and interviews and I need a ride and...\""
+              ],
+              "answer": 0,
+              "feedback": [
+                "Yes. Next step, when, and the step after.",
+                "Sounds like you haven't thought about it, even if you have.",
+                "That's the goal, not a plan.",
+                "The whole pile at once. Pick the next step."
+              ],
+              "explain": "Two concrete steps with a time beat a vague promise or a list of worries."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- When a basic question makes you blank, answer only the very next step.\n- Then add the step after, and when you'll do the first one.\n- \"I'll find out\" counts as a step.\n- Not sure? Say your best guess and ask to confirm.",
+              "tip": "On a sticky note, write \"Next I... then I...\" and stick it where you study. Use it whenever someone asks what you're working on."
+            }
+          ]
+        },
+        {
+          "id": "u4-l2",
+          "title": "Think Fast in an Argument",
+          "summary": "Short calm lines, asking what they mean, and saying their point before yours.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Why arguments freeze you",
+              "body": "In an argument your stress shoots up. Then you either freeze and go silent, or blurt something you regret.\n\nThe fix is not a big speech. It's a few **short, calm lines** you can grab without thinking.\n\n(People Skills covers the full plan for working out a conflict. This level is just the live lines for the heated moment.)",
+              "tip": "Pick one calm line for your next disagreement, like \"Wait, let me make sure I get your point.\" Put it on your lock screen for a week."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your friend snaps: \"You always bail on plans. You did it again.\"",
+              "options": [
+                {"text": "(You stare, say nothing, and scroll your phone.)", "feedback": "Silence in an argument feels like you don't care, and your friend gets angrier."},
+                {"text": "\"I do NOT always bail. You bailed in June, remember?\"", "feedback": "Fighting back starts a contest about who's worse. Nobody wins that."},
+                {"text": "\"Wait, what do you mean by always? Is this about Friday?\"", "feedback": "You found the real issue and bought yourself time to think, calmly.", "best": true},
+                {"text": "\"Okay, so I had a lot going on, my mom needed the car, I wasn't feeling great, and then...\"", "feedback": "Overexplaining sounds like excuses before you even know what they're upset about."}
+              ],
+              "hint": "Is there a reply that finds out what the real problem is?",
+              "explain": "Asking what they mean slows things down and tells you what you're actually talking about."
+            },
+            {
+              "type": "learn",
+              "title": "Ask \"What do you mean by...?\"",
+              "body": "Big words in arguments are vague: \"always\", \"never\", \"rude\", \"you don't care\". Asking what they mean:\n- buys you time\n- keeps you calm\n- finds the real issue\n\nTry:\n- \"What do you mean by rude?\"\n- \"When you say I don't care, what did I do that felt like that?\"\n\nAsk it curious, not sarcastic. Tone is everything here.",
+              "tip": "In your next disagreement, ask one \"What do you mean by...?\" question before you defend yourself."
+            },
+            {
+              "type": "learn",
+              "title": "Say their point before yours",
+              "body": "Before you answer, sum up their point in one sentence:\n> \"So you're saying I bailed Friday and you felt dumb waiting. That's fair. Here's what happened...\"\n\nThis does two things fast: they feel heard, so they calm down, and you get a few seconds to think.\n\nOne sentence only. Then make your point.",
+              "tip": "This week, start one reply in a disagreement with \"So you're saying...\" before you give your side."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your brother yells, \"You took my charger again!\" You didn't take it today.",
+              "options": [
+                {"text": "\"So you think I took it. I didn't today, but I'll help you look.\"", "feedback": "You said their point, gave your side, and offered help. The fight is basically over.", "best": true},
+                {"text": "\"I didn't take your stupid charger.\"", "feedback": "True, but \"stupid\" turns it into a fight."},
+                {"text": "(You keep scrolling and don't look up.)", "feedback": "Ignoring him makes you look guilty and makes him louder."},
+                {"text": "\"Okay, so yesterday I borrowed it but put it back, and then Mom used it, and I think...\"", "feedback": "A long defense makes it sound like you did take it."}
+              ],
+              "explain": "Say their point back, give your side in one sentence, and move toward a fix."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each argument moment to a calm line you could use.",
+              "pairs": [
+                ["They use a big word like \"always\"", "\"What do you mean by always?\""],
+                ["You want to show you heard them", "\"So you're saying...\""],
+                ["You're too heated to answer well", "\"Let me think about that. Can we talk after dinner?\""],
+                ["They make a good point", "\"That's fair.\""]
+              ],
+              "explain": "Four short lines cover most heated moments. You don't need to think of them on the spot if you've practiced them."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your mom says, \"Midnight is too late. End of discussion.\" You feel the heat rising and you can't think of a good argument.",
+              "options": [
+                {"text": "\"That's not fair! Everyone else gets to stay out!\"", "feedback": "This is the blurt. It almost never changes a parent's mind."},
+                {"text": "(You walk off and slam your door.)", "feedback": "Stonewalling. The door slam makes her less likely to trust you with later curfews."},
+                {"text": "\"Okay. Can I think about it and come back with a plan you'd be okay with, like texting you at 10?\"", "feedback": "Calm, and you bought time without shutting down. You can bring a real proposal later.", "best": true},
+                {"text": "(You stare at her and say nothing.)", "feedback": "She reads it as attitude, even if you're just stuck."}
+              ],
+              "hint": "You need time to think, without shutting the conversation down.",
+              "explain": "When you're too heated to argue well, take a time-out with a plan to come back. That's not losing; it's choosing a better moment."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "\"Let me think about that and get back to you after dinner\" is the same as stonewalling.",
+              "answer": false,
+              "explain": "Stonewalling shuts the conversation down with no plan to return. A time-out names when you'll come back."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- In an argument, short calm lines beat big speeches.\n- Ask \"What do you mean by...?\" when they use big words.\n- Say their point in one sentence before yours.\n- Too heated? Take a time-out with a when. Don't stonewall.",
+              "tip": "Practice the four calm lines out loud tonight: \"What do you mean by...?\", \"So you're saying...\", \"That's fair\", and \"Can we talk after dinner?\""
+            }
+          ]
+        },
+        {
+          "id": "u4-l3",
+          "title": "Boss, Teacher, Customer: Yes, And",
+          "summary": "Build on what people say, and handle put-on-the-spot moments at work and school.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "\"Yes, and\" from improv",
+              "body": "**Improv** actors make up scenes live, with no script. Their main rule is **\"Yes, and\"**: accept what your partner gives you, then add to it.\n\nStanford improv teacher Dan Klein says to treat what people say to you, even tough questions, as offers you can build on.\n\nIn real life: don't shut a question down with \"No\" or \"I don't know\". Accept it and add something useful.\n> Customer: \"Do you have this in blue?\"\n> You: \"Not in blue, but we have navy, and I can check the other store.\"",
+              "source": {"label": "Stanford GSB, Speaking Without a Net: How to Master Impromptu Communication", "url": "https://www.gsb.stanford.edu/insights/speaking-without-net-how-master-impromptu-communication"},
+              "tip": "Play \"Yes, and\" with a friend or sibling for 2 minutes: one person says a line, the other starts with \"Yes, and...\" and adds something. It trains fast replies."
+            },
+            {
+              "type": "scenario",
+              "prompt": "At your job, a customer asks, \"Do you guys deliver?\" You don't.",
+              "options": [
+                {"text": "\"No.\"", "feedback": "True, but the customer leaves with nothing."},
+                {"text": "\"We don't, but you can order online for pickup. It's usually ready in about 20 minutes.\"", "feedback": "Accept the question, then add a useful option. That's \"Yes, and\" at work.", "best": true},
+                {"text": "\"Um... I don't think so? I'm not sure? Maybe?\"", "feedback": "Three question marks make the customer trust nothing you say."},
+                {"text": "\"I just work here.\"", "feedback": "Sounds like you don't care, and the customer will remember it."}
+              ],
+              "explain": "When the answer is no, add what you CAN do. That turns a dead end into help."
+            },
+            {
+              "type": "learn",
+              "title": "Improv and nerves",
+              "body": "University of Michigan researchers studied teens in a school improv program. As the program went on, students' social anxiety went down. Lower anxiety went along with being more willing to make mistakes and more confident in social skills.\n\nThe study showed a link, not proof that improv caused the change. But it fits the idea: practicing quick, imperfect replies makes them less scary.",
+              "source": {"label": "University of Michigan, Anxious teens gain confidence by performing off script", "url": "https://prod.lsa.umich.edu/psych/news-events/all-news/graduate-news/anxious-teens-gain-confidence-by-performing--off-script-.html"},
+              "tip": "Look up whether your school, library or a local theater has an improv class or club. Or try one free online improv game with friends this week."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your teacher calls on you: \"What's the answer to number 5?\" You got stuck on it.",
+              "options": [
+                {"text": "\"I got stuck on 5. I think it's about the slope, but I wasn't sure what to do after that.\"", "feedback": "You said what you know and where you got stuck. Now the teacher can actually help.", "best": true},
+                {"text": "(You stare at your paper until the teacher moves on.)", "feedback": "The class waits, the teacher assumes you didn't try, and you still don't get help."},
+                {"text": "\"Idk.\"", "feedback": "Ends the moment, but you lose the chance to get unstuck."},
+                {"text": "\"I didn't get it because it wasn't explained well.\"", "feedback": "Defensive. Even if it's partly true, it puts the teacher on the defensive too."}
+              ],
+              "hint": "Saying where you got stuck is a real answer.",
+              "explain": "\"Here's what I know, here's where I got stuck\" turns a cold call into help."
+            },
+            {
+              "type": "learn",
+              "title": "When the boss puts you on the spot",
+              "body": "Bosses usually want three things: what's true, what you're doing about it, and when it'll be done. Combine your shapes:\n- \"Did you finish the inventory?\" → \"Not yet. Two aisles left. Done by 5.\"\n- \"Can you train the new guy?\" → \"Yes, and I'll start him on the register, since that's what he'll do most.\"\n\nAnswer first, add a Now what or a \"Yes, and\".",
+              "tip": "Before your next shift, plan your answer to \"How's it going?\" from your boss: one status, one next step, one time."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A customer is upset: \"This is the wrong order. I've been waiting 20 minutes!\"",
+              "options": [
+                {"text": "\"I'm sorry about that. Let me fix it right now. What did you order?\"", "feedback": "A short apology, then straight to the fix. That's what an upset customer wants to hear.", "best": true},
+                {"text": "\"That's not my fault. The kitchen made it.\"", "feedback": "The customer doesn't care whose fault it is. They want food."},
+                {"text": "(You freeze, then go get a manager without a word.)", "feedback": "Getting a manager can be right, but leaving in silence feels like being ignored. Say \"Let me get my manager to fix this\" first."},
+                {"text": "\"Okay, so we're really short-staffed today, and two people called in, and the system has been...\"", "feedback": "Backstory first sounds like excuses, and the customer gets angrier."}
+              ],
+              "hint": "The customer wants to hear the fix, not the backstory.",
+              "explain": "Short apology, then the fix. Under pressure, the Now what is what calms people down."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each put-on-the-spot moment to the move that fits.",
+              "pairs": [
+                ["A customer asks for something you don't have", "\"Yes, and\": offer what you can"],
+                ["Your boss asks if a task is done", "Answer first, then when"],
+                ["A teacher asks your opinion", "PREP"],
+                ["Someone asks for directions", "Repeat the place, then give the first turn"]
+              ],
+              "explain": "Each moment has a shape you can grab. The more you use them, the less you need to think about which one."
+            },
+            {
+              "type": "scenario",
+              "prompt": "At a family party, a relative you barely know asks, \"So what are you doing these days?\" You're between things right now.",
+              "options": [
+                {"text": "\"Not much.\"", "feedback": "Ends the conversation and leaves them wondering if something's wrong."},
+                {"text": "\"Right now I'm working at the grocery store, and I'm looking into trade programs. I'm leaning toward electrician.\"", "feedback": "Answer first, then a next step. Clear and honest, even though you're between things.", "best": true},
+                {"text": "\"Ugh, why does everyone ask that?\"", "feedback": "They're just making conversation. This makes it awkward for both of you."},
+                {"text": "\"Well, I was in school, but then I stopped, and I've been thinking about a lot of different things, and...\"", "feedback": "Rambling makes being between things sound worse than it is."}
+              ],
+              "hint": "Say what's true right now, then one thing you're moving toward.",
+              "explain": "Even an unfinished life fits in two sentences: what you're doing now, and what's next."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Write the question you dread most (from a boss, teacher, parent or customer). Then write the reply you'll use, with any shape from this course. Say it out loud twice.",
+              "placeholder": "The question I dread: ...  My reply: \"...\""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

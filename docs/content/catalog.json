@@ -210,6 +210,27 @@
   ]
  },
  {
+  "id": "think-on-your-feet",
+  "track": "life",
+  "title": "Think on Your Feet",
+  "tagline": "Beat the blank stare. Answer fast and clear in real conversations.",
+  "description": "Learn why your mind goes blank when you're put on the spot, and how to come back in three seconds. Then practice buying time the right way, grabbing a ready-made answer shape, and staying clear in arguments and with bosses, teachers and customers.",
+  "icon": "flame",
+  "color": "#4FB3E8",
+  "order": 11,
+  "file": "content/courses/think-on-your-feet.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 103,
+  "minutes": 72,
+  "unitTitles": [
+   "Why You Freeze, and How to Unfreeze",
+   "Buy Time the Right Way",
+   "Answer Shapes You Can Grab",
+   "Under Pressure"
+  ]
+ },
+ {
   "id": "mission-gospel-foundations",
   "track": "mission",
   "title": "Gospel Foundations",
