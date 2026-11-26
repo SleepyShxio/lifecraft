@@ -22,7 +22,8 @@
               "type": "learn",
               "title": "How much do you need?",
               "body": "The CDC recommends:\n- **Teens (13-17)**: 8-10 hours a night\n- **Adults (18-60)**: 7 or more hours a night\n\nSleep is when your body repairs muscle, your brain stores what you learned, and your immune system recharges. Short sleep is linked to worse grades and reaction time, more colds, more snacking, low mood, and drowsy driving crashes.\n\n> You can't train yourself to need less sleep. You just get used to feeling tired.",
-              "source": { "label": "CDC: About sleep", "url": "https://www.cdc.gov/sleep/about/index.html" }
+              "source": { "label": "CDC: About sleep", "url": "https://www.cdc.gov/sleep/about/index.html" },
+              "tip": "Set a bedtime alarm, not just a wake-up alarm. Count back 8-9 hours from when you have to get up, and have your phone remind you 30 minutes before that."
             },
             {
               "type": "number",
@@ -30,21 +31,34 @@
               "answer": 7,
               "tolerance": 0,
               "unit": "hours",
-              "explain": "11:30 p.m. to 6:30 a.m. is **7 hours**. That meets the adult minimum but is 1-3 hours short of what a 13-17-year-old needs."
+              "explain": "11:30 p.m. to 12:30 a.m. is 1 hour.\n\n12:30 a.m. to 6:30 a.m. is 6 more hours.\n\nTotal: **7 hours**. That meets the adult minimum but is 1-3 hours short of what a 13-17-year-old needs.",
+              "hint": "Count in two parts: from 11:30 p.m. to 12:30 a.m., then from 12:30 a.m. to 6:30 a.m."
             },
             {
-              "type": "number",
-              "prompt": "A 16-year-old needs about 9 hours but sleeps 6 hours on each of 5 school nights. How many hours of sleep do they miss over the school week?",
-              "answer": 15,
-              "tolerance": 0,
-              "unit": "hours",
-              "explain": "9 - 6 = 3 hours short per night. 3 x 5 = **15 hours** missed, almost two full nights of sleep. One weekend sleep-in can't fully make that up."
+              "type": "mcq",
+              "prompt": "A 16-year-old needs about 9 hours of sleep but gets 6 on school nights and feels wiped out. What's the best fix?",
+              "options": [
+                "Move bedtime earlier, 15-30 minutes at a time, until they're closer to 9 hours",
+                "Sleep until noon every Saturday to catch up",
+                "Drink coffee every morning to push through",
+                "Nothing. Teens adjust to 6 hours after a few weeks"
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. Small, steady changes to bedtime fix the cause.",
+                "Big sleep-ins shift your body clock and make Sunday night harder.",
+                "Caffeine covers up tiredness but doesn't repay the sleep, and it can make nights worse.",
+                "You get used to feeling tired. You don't stop needing the sleep."
+              ],
+              "hint": "Which choice fixes the cause instead of covering up the tiredness?",
+              "explain": "Missing 3 hours a night for 5 nights is 15 hours, almost two full nights of sleep. Shifting bedtime earlier in small steps is the change most likely to stick."
             },
             {
               "type": "learn",
               "title": "Habits that help",
               "body": "- **Same schedule every day**, weekends included, as much as possible.\n- **Screens off at least 30 minutes before bed.** Phones keep your brain alert.\n- **Cool, dark, quiet room.**\n- **No caffeine in the afternoon or evening**, including energy drinks and many sodas.\n- **No big meals right before bed.**\n- **Get daylight and exercise** during the day.\n\nIf you can't fall asleep after a while, get up and do something calm in dim light, then try again.",
-              "source": { "label": "CDC: About sleep", "url": "https://www.cdc.gov/sleep/about/index.html" }
+              "source": { "label": "CDC: About sleep", "url": "https://www.cdc.gov/sleep/about/index.html" },
+              "tip": "Tonight, charge your phone across the room instead of next to your bed. You'll scroll less, and you'll have to get up to turn off the alarm."
             },
             {
               "type": "multi",
@@ -67,7 +81,8 @@
                 { "text": "Roll the windows down and blast music so you stay awake.", "feedback": "These tricks don't work for long. You can nod off for a few seconds without realizing it." },
                 { "text": "Drink a coffee and leave right away.", "feedback": "Caffeine takes time to kick in and doesn't replace sleep." }
               ],
-              "explain": "If you're nodding off, the only real fix is sleep. Plan a backup ride before late nights."
+              "explain": "If you're nodding off, the only real fix is sleep. Plan a backup ride before late nights.",
+              "hint": "Which option actually removes the danger, instead of just making you feel more awake for a few minutes?"
             },
             {
               "type": "truefalse",
@@ -85,7 +100,8 @@
                 "Do something calm: shower, read, stretch",
                 "Lights out at 10:30"
               ],
-              "explain": "Each step lowers alertness. Charging the phone away from your bed removes the biggest temptation."
+              "explain": "Each step lowers alertness. Charging the phone away from your bed removes the biggest temptation.",
+              "hint": "Start with what happens earliest in the day and end with lights out."
             },
             {
               "type": "reflect",
@@ -103,7 +119,8 @@
               "type": "learn",
               "title": "Tired eyes",
               "body": "When you stare at a screen, you blink less, so your eyes dry out and feel tired. Common signs: dry or burning eyes, blurry vision, headaches.\n\nThe American Academy of Ophthalmology suggests the **20-20-20 rule**:\n\n> Every **20 minutes**, look at something about **20 feet** away for **20 seconds**.\n\nAlso: keep the screen about an arm's length away, slightly below eye level, and reduce glare. If symptoms continue, get an eye exam; you may need glasses.",
-              "source": { "label": "AAO: Computers, digital devices and eye strain", "url": "https://www.aao.org/eye-health/tips-prevention/computer-usage" }
+              "source": { "label": "AAO: Computers, digital devices and eye strain", "url": "https://www.aao.org/eye-health/tips-prevention/computer-usage" },
+              "tip": "Next time you study on a screen, set a repeating 20-minute timer. When it rings, look out a window or across the room for 20 seconds."
             },
             {
               "type": "match",
@@ -116,17 +133,29 @@
               "explain": "Looking far away relaxes the focusing muscles in your eyes. Set a timer until it becomes a habit."
             },
             {
-              "type": "number",
-              "prompt": "You study at a laptop for 2 hours straight. Following the 20-20-20 rule, how many eye breaks should you take?",
-              "answer": 6,
-              "tolerance": 0,
-              "unit": "breaks",
-              "explain": "2 hours = 120 minutes. 120 / 20 = **6 breaks**, about 2 minutes of looking away in total."
+              "type": "mcq",
+              "prompt": "You'll study on a laptop for 2 hours. What's the easiest way to follow the 20-20-20 rule?",
+              "options": [
+                "Set a repeating 20-minute timer and look at something far away for 20 seconds each time",
+                "Take one long break when the 2 hours are done",
+                "Turn the screen brightness all the way up",
+                "Close your eyes for 20 minutes every hour"
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. A timer makes it automatic: about 6 short breaks in 2 hours.",
+                "One break at the end leaves your eyes working up close for 2 hours straight.",
+                "Very bright screens add glare and can make strain worse.",
+                "That's not the rule, and it would eat most of your study time."
+              ],
+              "hint": "The rule has three parts: how often, how far away, and for how long.",
+              "explain": "Every 20 minutes, look about 20 feet away for 20 seconds. Looking far away relaxes the eye muscles that focus up close."
             },
             {
               "type": "learn",
               "title": "Text neck and desk setup",
-              "body": "Looking down at a phone for hours loads your neck. Slouching at a desk strains your back and shoulders.\n\nA simple setup:\n- **Screen** top at or slightly below eye level (stack books under a laptop and use a separate keyboard if you can).\n- **Feet** flat on the floor, knees about level with hips.\n- **Back** supported, shoulders relaxed, elbows near 90 degrees.\n- **Phone** raised toward eye level instead of dropping your head.\n\nThe best posture is your *next* one: stand up and move every 30-60 minutes."
+              "body": "Looking down at a phone for hours loads your neck. Slouching at a desk strains your back and shoulders.\n\nA simple setup:\n- **Screen** top at or slightly below eye level (stack books under a laptop and use a separate keyboard if you can).\n- **Feet** flat on the floor, knees about level with hips.\n- **Back** supported, shoulders relaxed, elbows near 90 degrees.\n- **Phone** raised toward eye level instead of dropping your head.\n\nThe best posture is your *next* one: stand up and move every 30-60 minutes.",
+              "tip": "Stack a few books under your laptop so the top of the screen is near eye level. Add a cheap separate keyboard so your arms can stay low."
             },
             {
               "type": "multi",
@@ -139,7 +168,8 @@
                 "Play lying on your stomach with your head propped up"
               ],
               "answers": [0, 1, 3],
-              "explain": "Screen height, support and regular movement reduce strain. Leaning in and propping your head up both bend the neck forward."
+              "explain": "Screen height, support and regular movement reduce strain. Leaning in and propping your head up both bend the neck forward.",
+              "hint": "Look for changes that bring the screen up to you instead of bending your neck down to it."
             },
             {
               "type": "scenario",
@@ -149,7 +179,8 @@
                 { "text": "Buy blue-light glasses online and skip the exam.", "feedback": "Eye doctors say there isn't good evidence blue-light glasses prevent eye strain, and you'd miss a real vision problem." },
                 { "text": "Ignore it; everyone's eyes get tired.", "feedback": "Two weeks of headaches and blurry vision deserves a check." }
               ],
-              "explain": "Uncorrected vision problems are a common cause of headaches. An eye exam is quick and often covered by insurance."
+              "explain": "Uncorrected vision problems are a common cause of headaches. An eye exam is quick and often covered by insurance.",
+              "hint": "Good habits didn't fix it. Who can actually check your vision?"
             },
             {
               "type": "truefalse",
@@ -173,7 +204,8 @@
               "type": "learn",
               "title": "Clean hands, fewer sick days",
               "body": "Handwashing is one of the best ways to avoid getting sick and spreading germs. The CDC says to scrub with soap for **at least 20 seconds**, about two rounds of \"Happy Birthday.\"\n\nWash especially:\n- before, during and after preparing food, and before eating\n- after using the toilet\n- after blowing your nose, coughing or sneezing\n- after touching animals, pet food or trash\n- before and after treating a cut or caring for someone sick\n\nNo sink? Hand sanitizer with at least 60% alcohol is the backup.",
-              "source": { "label": "CDC: About handwashing", "url": "https://www.cdc.gov/clean-hands/about/index.html" }
+              "source": { "label": "CDC: About handwashing", "url": "https://www.cdc.gov/clean-hands/about/index.html" },
+              "tip": "Keep a small bottle of hand sanitizer with at least 60% alcohol in your backpack or car for times when there's no sink."
             },
             {
               "type": "order",
@@ -191,7 +223,8 @@
               "type": "learn",
               "title": "Teeth, skin and body",
               "body": "- **Teeth**: brush twice a day with fluoride toothpaste and clean between teeth once a day (floss or picks). The American Dental Association recommends both.\n- **Shower** regularly, and always after sweaty workouts. Use deodorant or antiperspirant daily.\n- **Skin**: wash your face gently; don't pick at acne. Use broad-spectrum sunscreen, SPF 30 or higher, when outdoors.\n- **Laundry**: workout clothes and towels go in the wash after each use; sheets about weekly.",
-              "source": { "label": "ADA MouthHealthy: Brushing your teeth", "url": "https://www.mouthhealthy.org/all-topics-a-z/brushing-your-teeth" }
+              "source": { "label": "ADA MouthHealthy: Brushing your teeth", "url": "https://www.mouthhealthy.org/all-topics-a-z/brushing-your-teeth" },
+              "tip": "Set a repeating phone reminder to replace your toothbrush every 3-4 months, or sooner if the bristles look frayed."
             },
             {
               "type": "multi",
@@ -209,7 +242,8 @@
             {
               "type": "learn",
               "title": "Checkups to keep",
-              "body": "- **Primary care doctor**: a regular physical, plus visits when something feels off. Find one *before* you're sick.\n- **Dentist**: cleanings and checkups, usually once or twice a year, as your dentist advises.\n- **Eye exam**: if you have glasses or contacts, or notice vision changes.\n- **Vaccines**: a flu shot every year, plus others your doctor recommends.\n\nBring a list of questions and any medicines you take. Doctors keep your information private; be honest so they can actually help."
+              "body": "- **Primary care doctor**: a regular physical, plus visits when something feels off. Find one *before* you're sick.\n- **Dentist**: cleanings and checkups, usually once or twice a year, as your dentist advises.\n- **Eye exam**: if you have glasses or contacts, or notice vision changes.\n- **Vaccines**: a flu shot every year, plus others your doctor recommends.\n\nBring a list of questions and any medicines you take. Doctors keep your information private; be honest so they can actually help.",
+              "tip": "Look up an in-network primary care doctor on your insurance website and save the office number in your phone, even if you feel fine."
             },
             {
               "type": "match",
@@ -261,29 +295,46 @@
               "type": "learn",
               "title": "The big ideas",
               "body": "The **Dietary Guidelines for Americans, 2025-2030**, released in January 2026, focus on:\n- **Whole, minimally processed foods**: vegetables, fruits, beans, whole grains, eggs, meat, fish, dairy, nuts.\n- **Enough protein** at each meal.\n- **Limiting highly processed foods**, added sugars and sugary drinks.\n\nA simple plate: half vegetables and fruit, a quarter protein, a quarter whole grains or starchy foods, plus water.",
-              "source": { "label": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/" }
+              "source": { "label": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/" },
+              "tip": "At your next meal, look at your plate. If it isn't about half vegetables or fruit, add a handful of frozen vegetables or a piece of fruit."
             },
             {
               "type": "learn",
-              "title": "Protein and fiber",
-              "body": "**Protein** builds and repairs muscle and keeps you full. The new guidelines suggest **1.2-1.6 grams per kilogram** of body weight per day. Some nutrition researchers argue that's more than most people need, but getting protein at every meal is widely supported.\n\n> Pounds / 2.2 = kilograms\n\n**Fiber** (beans, oats, vegetables, fruit, whole grains) helps digestion and keeps you full. A common target is about **14 grams per 1,000 calories** you eat. Most Americans get far less.",
-              "source": { "label": "Harvard Nutrition Source: the 2025-2030 guidelines", "url": "https://nutritionsource.hsph.harvard.edu/2026/01/09/dietary-guidelines-for-americans-2025-2030/" }
+              "title": "Protein at every meal",
+              "body": "**Protein** builds and repairs muscle and keeps you full longer.\n\nThe 2025-2030 guidelines suggest more protein than older advice did (1.2-1.6 grams per kilogram of body weight a day). Some experts think that's more than most people need. But they agree on the simple part:\n\n> Have a protein food at every meal.\n\nCheap protein foods: eggs, beans and lentils, Greek yogurt, milk, peanut butter, canned tuna, chicken thighs.",
+              "source": { "label": "Harvard Nutrition Source: the 2025-2030 guidelines", "url": "https://nutritionsource.hsph.harvard.edu/2026/01/09/dietary-guidelines-for-americans-2025-2030/" },
+              "tip": "Add one protein food to the meal you usually skimp on, often breakfast: eggs, Greek yogurt, peanut butter on toast, or last night's leftover chicken."
             },
             {
-              "type": "number",
-              "prompt": "Someone weighs 70 kg. Using 1.2 grams of protein per kilogram, how many grams of protein is that per day?",
-              "answer": 84,
-              "tolerance": 0,
-              "unit": "g",
-              "explain": "70 x 1.2 = **84 grams** a day. Spread over three meals, that's about 28 grams each, roughly a chicken breast portion or a cup of Greek yogurt plus eggs."
+              "type": "mcq",
+              "prompt": "Your lunch is rice and vegetables. Which add-on gives it the most protein?",
+              "options": [
+                "A scoop of black beans or a chicken thigh",
+                "A bigger scoop of rice",
+                "A glass of orange juice",
+                "A handful of chips"
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. Beans and chicken are both solid protein foods.",
+                "More rice adds energy but little protein.",
+                "Juice is mostly sugar and water.",
+                "Chips add salt and fat, not much protein."
+              ],
+              "hint": "Check the list of cheap protein foods from the last step.",
+              "explain": "Adding a protein food turns a side dish into a filling meal. Beans bring fiber too, which makes them one of the cheapest upgrades you can make."
             },
             {
-              "type": "number",
-              "prompt": "You eat about 2,000 calories a day. At 14 grams of fiber per 1,000 calories, how many grams of fiber should you aim for?",
-              "answer": 28,
-              "tolerance": 0,
-              "unit": "g",
-              "explain": "2,000 / 1,000 = 2. 2 x 14 = **28 grams** a day. A cup of beans has about 12-15 grams."
+              "type": "learn",
+              "title": "Fiber fills you up",
+              "body": "**Fiber** is the part of plant foods your body can't fully digest. It keeps digestion regular, keeps you full, and is good for your heart.\n\nWhere to find it: beans, lentils, oats, whole grains, vegetables, fruit, nuts.\n\nMost Americans eat far less fiber than recommended. You don't need to count grams. Just add one high-fiber food to each meal.",
+              "tip": "Swap one food this week for a high-fiber one: oatmeal instead of sugary cereal, or a can of rinsed beans stirred into soup, chili or rice."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Most Americans already eat plenty of fiber, so there's no need to add more.",
+              "answer": false,
+              "explain": "Most people get far less than the common target of about 14 grams per 1,000 calories (around 28 grams on a 2,000-calorie day). Beans, oats and fruit are easy ways to close the gap."
             },
             {
               "type": "match",
@@ -316,7 +367,8 @@
                 { "text": "Protein bars and protein shakes for every meal.", "feedback": "Convenient sometimes, but expensive, highly processed and low in fiber." },
                 { "text": "Instant noodles because they're the cheapest.", "feedback": "Cheap per pack, but low in protein and fiber, and very high in sodium." }
               ],
-              "explain": "Frozen vegetables and canned beans are as nutritious as fresh and won't spoil before you use them."
+              "explain": "Frozen vegetables and canned beans are as nutritious as fresh and won't spoil before you use them.",
+              "hint": "Look for foods that are cheap, filling and keep for a while without spoiling."
             },
             {
               "type": "truefalse",
@@ -327,7 +379,7 @@
             {
               "type": "learn",
               "title": "Key takeaways",
-              "body": "- Build meals from whole, minimally processed foods.\n- Get protein at every meal; current guidelines say 1.2-1.6 g per kg a day.\n- Aim for about 14 g fiber per 1,000 calories.\n- Limit highly processed foods, added sugar and sugary drinks.\n- Beans, eggs, oats and frozen vegetables are cheap wins."
+              "body": "- Build meals from whole, minimally processed foods.\n- Have a protein food at every meal.\n- Add a high-fiber food to each meal; most people need more.\n- Limit highly processed foods, added sugar and sugary drinks.\n- Beans, eggs, oats and frozen vegetables are cheap wins."
             }
           ]
         },
@@ -339,37 +391,39 @@
             {
               "type": "learn",
               "title": "Start with the serving",
-              "body": "Every number on a Nutrition Facts label is for **one serving**, not the whole package.\n\n1. Check **servings per container** and **serving size**.\n2. Compare that to how much you'll actually eat.\n3. Multiply.\n\nA bag of chips with 2.5 servings means eating the whole bag is 2.5 times every number on the label."
+              "body": "Every number on a Nutrition Facts label is for **one serving**, not the whole package.\n\n1. Check **servings per container** and **serving size**.\n2. Compare that to how much you'll actually eat.\n3. Multiply.\n\nA bag of chips with 2.5 servings means eating the whole bag is 2.5 times every number on the label.",
+              "tip": "Grab one snack you eat often and find its servings per container. Then be honest: how many servings do you really eat in one sitting?"
             },
             {
               "type": "number",
-              "prompt": "A frozen meal says 250 calories per serving and 2.5 servings per container. You eat the whole thing. How many calories is that?",
-              "answer": 625,
+              "prompt": "A can of soup lists 700 mg of sodium per serving and 2 servings per can. You eat the whole can. How much sodium do you get?",
+              "answer": 1400,
               "tolerance": 0,
-              "unit": "calories",
-              "explain": "250 x 2.5 = **625 calories**. Always multiply by how many servings you actually eat."
+              "unit": "mg",
+              "hint": "The label numbers are for one serving. How many servings are you eating?",
+              "explain": "700 mg x 2 servings = **1,400 mg**.\n\nThe Daily Value for sodium is 2,300 mg, so one can of soup gives you more than half a day's sodium. Look for \"low sodium\" versions."
             },
             {
               "type": "learn",
               "title": "The 5/20 rule",
               "body": "**% Daily Value (%DV)** shows how much one serving contributes to a day's worth of a nutrient. The FDA's quick guide:\n\n> **5% DV or less** is low. **20% DV or more** is high.\n\nLook for **high** fiber, vitamin D, calcium, iron and potassium. Look for **low** saturated fat, sodium and added sugars.\n\nKey Daily Values: added sugars **50 g**, sodium **2,300 mg**.",
-              "source": { "label": "FDA: Lows and highs of percent Daily Value", "url": "https://www.fda.gov/food/nutrition-facts-label/lows-and-highs-percent-daily-value-nutrition-facts-label" }
+              "source": { "label": "FDA: Lows and highs of percent Daily Value", "url": "https://www.fda.gov/food/nutrition-facts-label/lows-and-highs-percent-daily-value-nutrition-facts-label" },
+              "tip": "In the store, compare two versions of something you buy, like two cereals or two soups. Pick the one with the lower %DV for added sugars and sodium."
             },
             {
-              "type": "number",
-              "prompt": "A yogurt has 10 grams of added sugar per serving. The Daily Value for added sugars is 50 grams. What %DV is that?",
-              "answer": 20,
-              "tolerance": 0,
-              "unit": "%",
-              "explain": "10 / 50 = 0.20 = **20% DV**. By the 5/20 rule, that's high in added sugar for one cup of yogurt. Plain yogurt with fruit is a lower-sugar swap."
+              "type": "mcq",
+              "prompt": "A yogurt label shows **20% DV** for added sugars per serving. Using the 5/20 rule, how much added sugar is that?",
+              "options": ["High", "Low", "Medium, nothing to notice", "You can't tell without knowing the grams"],
+              "answer": 0,
+              "hint": "5% DV or less is low. 20% DV or more is high.",
+              "explain": "20% DV or more is high, so this yogurt is high in added sugar for one cup. Plain yogurt with fresh fruit is a lower-sugar swap."
             },
             {
-              "type": "number",
-              "prompt": "A can of soup has 2 servings, each with 690 mg of sodium. The Daily Value is 2,300 mg. If you eat the whole can, what %DV of sodium do you get?",
-              "answer": 60,
-              "tolerance": 0,
-              "unit": "%",
-              "explain": "690 x 2 = 1,380 mg. 1,380 / 2,300 = 0.60 = **60% DV** from one can of soup. Look for 'low sodium' versions."
+              "type": "truefalse",
+              "prompt": "A bag of chips has 3 servings, and each serving is 10% DV for sodium. If you eat the whole bag, you get 10% DV of sodium.",
+              "answer": false,
+              "hint": "Are the label numbers for the whole bag or for one serving?",
+              "explain": "Every number on the label is per serving. The whole bag is 3 servings: 3 x 10% = 30% DV, nearly a third of a day's sodium in one snack."
             },
             {
               "type": "match",
@@ -385,14 +439,10 @@
             {
               "type": "mcq",
               "prompt": "Two cereals: A has 12% DV fiber and 4% DV added sugars. B has 3% DV fiber and 24% DV added sugars. Which is the better everyday pick?",
-              "options": [
-                "Cereal A",
-                "Cereal B",
-                "They're the same",
-                "You can't tell without the price"
-              ],
+              "options": ["Cereal A", "Cereal B", "They're the same", "You can't tell without the price"],
               "answer": 0,
-              "explain": "A is low in added sugar (under 5%) with more fiber. B is high in added sugar (over 20%) and low in fiber."
+              "explain": "A is low in added sugar (under 5%) with more fiber. B is high in added sugar (over 20%) and low in fiber.",
+              "hint": "Use the 5/20 rule: you want fiber high and added sugars low."
             },
             {
               "type": "truefalse",
@@ -416,7 +466,8 @@
               "type": "learn",
               "title": "Water first",
               "body": "Your body needs water to control temperature, move nutrients and keep your brain working. How much you need depends on your size, activity, and the weather. You need more in heat, during exercise, and when sick with fever, vomiting or diarrhea.\n\nSimple checks:\n- Drink with every meal and during exercise.\n- Carry a reusable bottle.\n- **Pale yellow urine** usually means you're well hydrated; dark yellow means drink more.\n\nFood counts too: fruits, vegetables and soups contain lots of water.",
-              "source": { "label": "CDC: Water and healthier drinks", "url": "https://www.cdc.gov/healthy-weight-growth/water-healthy-drinks/index.html" }
+              "source": { "label": "CDC: Water and healthier drinks", "url": "https://www.cdc.gov/healthy-weight-growth/water-healthy-drinks/index.html" },
+              "tip": "Fill a reusable water bottle in the morning and keep it in sight, on your desk or in your bag. You drink more when it's always there."
             },
             {
               "type": "number",
@@ -424,21 +475,34 @@
               "answer": 3,
               "tolerance": 0,
               "unit": "bottles",
-              "explain": "72 / 24 = **3 bottles**. Tie them to your day: one by lunch, one by the end of school or work, one by dinner."
+              "explain": "72 / 24 = **3 bottles**. Tie them to your day: one by lunch, one by the end of school or work, one by dinner.",
+              "hint": "How many 24-ounce bottles fit into 72 ounces? Divide."
             },
             {
               "type": "learn",
-              "title": "Sugary drinks and caffeine",
-              "body": "**Sugary drinks** (soda, sweet tea, fruit drinks, sports and energy drinks, sweet coffee drinks) are the biggest source of added sugar for many people, with calories that don't fill you up.\n\n**Caffeine**: the CDC says up to **400 mg a day** is generally safe for most adults (about 2-3 cups of coffee). Teens should have much less; pediatricians advise teens to avoid energy drinks. Too much causes jitters, a racing heart, anxiety and bad sleep.\n\nSports drinks are designed for long, sweaty exercise. For everyday activity, water is enough.",
-              "source": { "label": "CDC: Water and healthier drinks", "url": "https://www.cdc.gov/healthy-weight-growth/water-healthy-drinks/index.html" }
+              "title": "Sugary drinks",
+              "body": "**Sugary drinks** (soda, sweet tea, fruit drinks, sports drinks, energy drinks, sweet coffee drinks) are the biggest source of added sugar for many people. Their calories don't fill you up the way food does.\n\nA single 20-ounce soda can have more added sugar than the Daily Value for a whole day (50 grams).\n\n**Sports drinks** are made for long, sweaty exercise. For everyday activity, water is enough.",
+              "source": { "label": "CDC: Water and healthier drinks", "url": "https://www.cdc.gov/healthy-weight-growth/water-healthy-drinks/index.html" },
+              "tip": "For one week, swap one sugary drink a day for water, sparkling water or unsweetened tea. Keep track of the money you don't spend."
             },
             {
-              "type": "number",
-              "prompt": "A 20-ounce soda has 65 grams of added sugar. The Daily Value for added sugars is 50 grams. What %DV is one bottle?",
-              "answer": 130,
-              "tolerance": 0,
-              "unit": "%",
-              "explain": "65 / 50 = 1.30 = **130% DV**. One soda is more than a whole day's worth of added sugar."
+              "type": "mcq",
+              "prompt": "A 20-ounce soda has 65 grams of added sugar. The Daily Value for added sugars is 50 grams. What does that tell you?",
+              "options": [
+                "One bottle is more than a whole day's worth of added sugar",
+                "One bottle is about a quarter of a day's added sugar",
+                "Soda sugar doesn't count as added sugar",
+                "It's fine as long as you drink it with a meal"
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. 65 grams is more than the 50-gram Daily Value.",
+                "65 grams is more than 50, not a quarter of it.",
+                "Sugar put into a drink is exactly what 'added sugar' means.",
+                "Drinking it with food doesn't change the amount of sugar."
+              ],
+              "hint": "Compare 65 with 50. Which is bigger?",
+              "explain": "65 grams is about 130% of the Daily Value in one bottle. Swapping one soda a day for water removes a whole day's worth of added sugar."
             },
             {
               "type": "multi",
@@ -454,6 +518,13 @@
               "explain": "Dark urine, dizziness, headache and dry mouth can all signal dehydration. Pale yellow urine is a good sign."
             },
             {
+              "type": "learn",
+              "title": "Caffeine and energy drinks",
+              "body": "**Caffeine** is in coffee, tea, many sodas and energy drinks. The FDA says up to about **400 mg a day** is generally fine for healthy adults, roughly two to three 12-ounce cups of coffee.\n\n**Teens** should have much less, and medical experts advise teens to **avoid energy drinks**.\n\nToo much caffeine causes jitters, a racing heart, anxiety and poor sleep. It stays in your body for hours, so an afternoon drink can still keep you up at night.",
+              "source": { "label": "FDA: How much caffeine is too much?", "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much" },
+              "tip": "Pick a caffeine cutoff time, like 2 p.m., and stick to it for a week. Notice whether you fall asleep faster."
+            },
+            {
               "type": "scenario",
               "prompt": "It's finals week. You're 17 and planning to drink two energy drinks a night to stay up studying. What's the better plan?",
               "options": [
@@ -461,7 +532,8 @@
                 { "text": "Go ahead; caffeine has no side effects.", "feedback": "High doses can cause a racing heart, anxiety and insomnia, and can be dangerous for some people." },
                 { "text": "Pull an all-nighter the night before each exam.", "feedback": "Skipping sleep hurts memory and focus on test day." }
               ],
-              "explain": "Spaced studying plus real sleep beats cramming on caffeine."
+              "explain": "Spaced studying plus real sleep beats cramming on caffeine.",
+              "hint": "What does your brain need in order to store what you studied?"
             },
             {
               "type": "match",
@@ -497,7 +569,8 @@
               "type": "learn",
               "title": "The guidelines",
               "body": "U.S. Physical Activity Guidelines:\n\n**Ages 6-17**: at least **60 minutes a day** of moderate-to-vigorous activity, with vigorous activity, muscle strengthening and bone strengthening (running, jumping) each at least **3 days a week**.\n\n**Adults**: at least **150 minutes a week** of moderate activity (or **75 minutes** of vigorous), plus **muscle strengthening on 2 or more days**.\n\n> Moderate: you can talk but not sing. Vigorous: you can only say a few words before catching your breath.",
-              "source": { "label": "CDC: Activity guidelines for adults", "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html" }
+              "source": { "label": "CDC: Activity guidelines for adults", "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html" },
+              "tip": "Try the talk test on your next walk or bike ride: if you can talk but not sing, it counts as moderate activity."
             },
             {
               "type": "number",
@@ -505,21 +578,21 @@
               "answer": 30,
               "tolerance": 0,
               "unit": "minutes",
-              "explain": "150 / 5 = **30 minutes** a day, like a brisk walk to and from work or school."
+              "explain": "150 / 5 = **30 minutes** a day, like a brisk 15-minute walk to and from school or work.",
+              "hint": "Split the weekly total evenly across the days. Divide."
             },
             {
-              "type": "number",
-              "prompt": "One minute of vigorous activity counts about the same as two minutes of moderate. An adult runs hard for 20 minutes on two days. How many more moderate minutes do they need to reach 150 for the week?",
-              "answer": 70,
-              "tolerance": 0,
-              "unit": "minutes",
-              "explain": "2 runs x 20 minutes = 40 vigorous minutes, which counts like 80 moderate. 150 - 80 = **70 moderate minutes** to go."
+              "type": "truefalse",
+              "prompt": "For adults, 1 minute of vigorous activity (like running hard) counts about the same as 2 minutes of moderate activity (like brisk walking).",
+              "answer": true,
+              "explain": "That's why the adult guideline is 150 minutes of moderate **or** 75 minutes of vigorous activity a week. Mixing both is fine: two hard 20-minute runs count like 80 moderate minutes."
             },
             {
               "type": "learn",
               "title": "Cardio vs strength",
               "body": "**Cardio (aerobic)**: running, biking, swimming, brisk walking, sports. Strengthens your heart and lungs, helps endurance and mood.\n\n**Strength (muscle-strengthening)**: weights, bodyweight moves like push-ups and squats, resistance bands. Builds muscle and bone, protects joints, and makes everyday tasks easier.\n\nYou need both. Any activity beats none, and even short bouts add up.",
-              "source": { "label": "CDC: Activity guidelines for children and teens", "url": "https://www.cdc.gov/physical-activity-basics/guidelines/children.html" }
+              "source": { "label": "CDC: Activity guidelines for children and teens", "url": "https://www.cdc.gov/physical-activity-basics/guidelines/children.html" },
+              "tip": "Pick two days this week for 20 minutes of bodyweight strength: squats, push-ups (on your knees or against a counter is fine) and a plank. Put them in your calendar."
             },
             {
               "type": "match",
@@ -535,14 +608,10 @@
             {
               "type": "mcq",
               "prompt": "During a bike ride you can talk in full sentences but couldn't sing a song. What intensity is that?",
-              "options": [
-                "Light",
-                "Moderate",
-                "Vigorous",
-                "Maximum"
-              ],
+              "options": ["Light", "Moderate", "Vigorous", "Maximum"],
               "answer": 1,
-              "explain": "The talk test: talking but not singing is moderate. If you could only say a few words at a time, it's vigorous."
+              "explain": "The talk test: talking but not singing is moderate. If you could only say a few words at a time, it's vigorous.",
+              "hint": "Use the talk test: talking is fine, but singing isn't possible."
             },
             {
               "type": "scenario",
@@ -552,7 +621,8 @@
                 { "text": "Skip it until you have time for 2-hour gym sessions.", "feedback": "All-or-nothing thinking means nothing. Shorter sessions work." },
                 { "text": "Only do cardio; strength training is just for bodybuilders.", "feedback": "Adults are advised to do strength training at least 2 days a week for muscles, bones and joints." }
               ],
-              "explain": "Walking or biking for transport, taking stairs and quick home workouts all count toward the weekly goal."
+              "explain": "Walking or biking for transport, taking stairs and quick home workouts all count toward the weekly goal.",
+              "hint": "Is the adult goal daily or weekly? Do short sessions count?"
             },
             {
               "type": "truefalse",
@@ -575,7 +645,8 @@
             {
               "type": "learn",
               "title": "Keep it simple",
-              "body": "A good beginner plan is 2-3 full-body strength sessions a week on non-back-to-back days. Each one:\n\n1. **Warm up** 5-10 minutes: light cardio plus moves like leg swings and arm circles.\n2. **Main moves**, one from each pattern:\n   - **Squat** (bodyweight or goblet squat)\n   - **Hinge** (hip bridge, Romanian deadlift)\n   - **Push** (push-ups, bench or dumbbell press)\n   - **Pull** (rows, band pull-aparts)\n   - **Core** (plank)\n3. **Cool down** with easy walking and stretching.\n\nLearn form first with light weight. Good form beats heavy weight."
+              "body": "A good beginner plan is 2-3 full-body strength sessions a week on non-back-to-back days. Each one:\n\n1. **Warm up** 5-10 minutes: light cardio plus moves like leg swings and arm circles.\n2. **Main moves**, one from each pattern:\n   - **Squat** (bodyweight or goblet squat)\n   - **Hinge** (hip bridge, Romanian deadlift)\n   - **Push** (push-ups, bench or dumbbell press)\n   - **Pull** (rows, band pull-aparts)\n   - **Core** (plank)\n3. **Cool down** with easy walking and stretching.\n\nLearn form first with light weight. Good form beats heavy weight.",
+              "tip": "Film one set of squats on your phone from the side. Check that your heels stay down and your back stays straight before you add any weight."
             },
             {
               "type": "order",
@@ -587,12 +658,14 @@
                 "A core exercise like a plank",
                 "Cool-down walk and stretching"
               ],
-              "explain": "Warm-ups raise muscle temperature and rehearse the movement, which lowers injury risk."
+              "explain": "Warm-ups raise muscle temperature and rehearse the movement, which lowers injury risk.",
+              "hint": "Warm-up first, the hardest work in the middle, recovery at the end."
             },
             {
               "type": "learn",
-              "title": "Sets, reps and progressive overload",
-              "body": "- A **rep** is one movement. A **set** is a group of reps. \"3 x 10\" means 3 sets of 10 reps.\n- Rest 1-2 minutes between sets.\n- End each set with about 1-3 reps left \"in the tank\", not at total failure.\n\nMuscles grow when you slowly ask more of them: **progressive overload**. Each week, add a little: one more rep, one more set, or a small amount of weight (often 2.5-5 lb). If form breaks down, go back down.\n\nRest days matter: muscles rebuild between sessions, and sleep and protein fuel that repair."
+              "title": "Sets and reps",
+              "body": "- A **rep** is one movement, like one squat.\n- A **set** is a group of reps done in a row.\n- \"3 x 10\" means 3 sets of 10 reps.\n\nRest 1-2 minutes between sets. End each set with about 1-3 reps left \"in the tank\", not at total failure.\n\nRest days matter too. Muscles rebuild between sessions, fueled by sleep and protein.",
+              "tip": "Log every workout in your phone notes: exercise, weight, and sets x reps. Seeing last week's numbers tells you exactly what to try today."
             },
             {
               "type": "number",
@@ -600,15 +673,33 @@
               "answer": 36,
               "tolerance": 0,
               "unit": "reps",
-              "explain": "3 x 12 = **36 reps**."
+              "explain": "3 sets x 12 reps = **36 squats**. That's a solid beginner amount for one exercise.",
+              "hint": "3 x 12 means 3 sets of 12 reps. Multiply."
             },
             {
-              "type": "number",
-              "prompt": "You start goblet squats with a 25 lb dumbbell and add 5 lb every two weeks while your form stays solid. What weight are you using after 8 weeks?",
-              "answer": 45,
-              "tolerance": 0,
-              "unit": "lb",
-              "explain": "8 weeks / 2 = 4 increases. 4 x 5 lb = 20 lb. 25 + 20 = **45 lb**. Real progress isn't always this steady; some weeks you'll repeat a weight."
+              "type": "learn",
+              "title": "Progressive overload",
+              "body": "Muscles get stronger when you slowly ask more of them. This is called **progressive overload**.\n\nWhen a workout feels easy and your form is solid, add a little next time:\n- one more rep, or\n- one more set, or\n- a small amount of weight (often 2.5-5 lb)\n\nIf your form breaks down, go back to the last weight. Slow and steady wins.",
+              "tip": "When you can finish every set with good form and 2-3 reps to spare, add one rep per set or the smallest weight jump next session."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You've done goblet squats with a 25 lb dumbbell for 3 sets of 10. This week they felt easy and your form stayed solid. What's the best next step?",
+              "options": [
+                "Add a little: try 30 lb, or do 12 reps per set",
+                "Jump to 50 lb to see results faster",
+                "Stay at 25 lb for 10 reps forever, since it's working",
+                "Do as many reps as you can until your legs give out"
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. A small step up keeps you progressing safely.",
+                "Big jumps usually wreck form and invite injury.",
+                "Without more challenge, progress stalls.",
+                "Going to total failure every time makes recovery harder and form sloppy."
+              ],
+              "hint": "Progressive overload means a small step up, not a giant leap.",
+              "explain": "Add one small thing at a time: a few pounds, a couple of reps, or one more set. Real progress isn't always steady; some weeks you'll repeat a weight, and that's fine."
             },
             {
               "type": "match",
@@ -629,7 +720,8 @@
                 { "text": "Push through: no pain, no gain.", "feedback": "Pushing through sharp pain can turn a minor strain into a serious injury." },
                 { "text": "Add more weight to strengthen it.", "feedback": "Loading an injured joint makes it worse." }
               ],
-              "explain": "Muscle burn and next-day soreness are normal. Sharp, stabbing, or joint pain is not."
+              "explain": "Muscle burn and next-day soreness are normal. Sharp, stabbing, or joint pain is not.",
+              "hint": "Is it normal muscle burn, or sharp pain in a joint?"
             },
             {
               "type": "truefalse",
@@ -652,12 +744,14 @@
             {
               "type": "learn",
               "title": "What stress is",
-              "body": "Stress is your body's alarm system. Facing a test, a deadline or a conflict, your heart speeds up and your muscles tense so you can act. Short-term, that helps you perform.\n\nWhen stress doesn't let up, it can show up as:\n- trouble sleeping, or sleeping a lot\n- headaches, stomachaches, tight shoulders\n- irritability or snapping at people\n- trouble concentrating\n- eating much more or less than usual"
+              "body": "Stress is your body's alarm system. Facing a test, a deadline or a conflict, your heart speeds up and your muscles tense so you can act. Short-term, that helps you perform.\n\nWhen stress doesn't let up, it can show up as:\n- trouble sleeping, or sleeping a lot\n- headaches, stomachaches, tight shoulders\n- irritability or snapping at people\n- trouble concentrating\n- eating much more or less than usual",
+              "tip": "Write down your top two body signs of stress, like a tight jaw or a stomachache. Spotting them early lets you step in before stress piles up."
             },
             {
               "type": "learn",
               "title": "Tools that work",
-              "body": "- **Move**: even a 10-minute walk lowers tension.\n- **Sleep**: stress and short sleep feed each other.\n- **Breathe slowly**: try breathing in for 4 counts and out for 6, for a few minutes.\n- **Break it down**: write the problem down and pick the next small step.\n- **Talk to someone** you trust.\n- **Limit** doomscrolling, caffeine and alcohol or drugs, which make stress and sleep worse.\n\n> Coping well isn't about never feeling stressed. It's about having healthy ways to come back down."
+              "body": "- **Move**: even a 10-minute walk lowers tension.\n- **Sleep**: stress and short sleep feed each other.\n- **Breathe slowly**: try breathing in for 4 counts and out for 6, for a few minutes.\n- **Break it down**: write the problem down and pick the next small step.\n- **Talk to someone** you trust.\n- **Limit** doomscrolling, caffeine and alcohol or drugs, which make stress and sleep worse.\n\n> Coping well isn't about never feeling stressed. It's about having healthy ways to come back down.",
+              "tip": "Try one minute of slow breathing right now: in for 4 counts, out for 6. Use it before your next test or hard conversation."
             },
             {
               "type": "multi",
@@ -682,13 +776,15 @@
                 "Break it into a first step you can do in 10 minutes",
                 "Do that step, then decide the next one"
               ],
-              "explain": "Overwhelm usually comes from holding everything in your head at once. Getting it on paper and shrinking the first step breaks the freeze."
+              "explain": "Overwhelm usually comes from holding everything in your head at once. Getting it on paper and shrinking the first step breaks the freeze.",
+              "hint": "Calm down first, then get everything out of your head, then shrink the first task."
             },
             {
               "type": "learn",
               "title": "When it's more than stress",
               "body": "Everyone has bad days. It may be **depression** when, for **at least 2 weeks**, most of the day and nearly every day, you feel sad, empty or hopeless, or lose interest in things you used to enjoy, along with changes in sleep, appetite, energy or focus, or feelings of worthlessness.\n\n**Anxiety** may be a disorder when worry is hard to control, happens most days, and comes with restlessness, tension, trouble sleeping or concentrating.\n\nBoth are common and **treatable**: therapy, lifestyle changes and sometimes medicine work.",
-              "source": { "label": "NIMH: Depression", "url": "https://www.nimh.nih.gov/health/publications/depression" }
+              "source": { "label": "NIMH: Depression", "url": "https://www.nimh.nih.gov/health/publications/depression" },
+              "tip": "If low mood or worry has lasted two weeks or more, book a visit with your doctor or school counselor this week. You can start with: \"I haven't felt like myself for a while.\""
             },
             {
               "type": "scenario",
@@ -698,7 +794,8 @@
                 { "text": "Leave him alone; he'll snap out of it.", "feedback": "Depression usually doesn't go away on its own, and isolation can deepen it." },
                 { "text": "Tell him to cheer up and stop being lazy.", "feedback": "This makes people feel misunderstood and less likely to open up." }
               ],
-              "explain": "Losing interest in things he loved, appetite changes and withdrawal for weeks are warning signs worth acting on."
+              "explain": "Losing interest in things he loved, appetite changes and withdrawal for weeks are warning signs worth acting on.",
+              "hint": "How long has this lasted, and what has changed from how he used to be?"
             },
             {
               "type": "truefalse",
@@ -728,13 +825,15 @@
             {
               "type": "learn",
               "title": "Where to start",
-              "body": "You don't have to be in crisis to ask for help.\n- **A trusted adult**: parent, coach, teacher.\n- **School or college counselor**: usually free.\n- **Your primary care doctor**: can check for physical causes and refer you to a therapist.\n- **Therapists**: your health insurance website lists in-network ones; many offer video visits.\n- **Employee assistance programs (EAP)** at many jobs offer a few free counseling sessions.\n\nIt can take a couple of tries to find a therapist who's a good fit. That's normal."
+              "body": "You don't have to be in crisis to ask for help.\n- **A trusted adult**: parent, coach, teacher.\n- **School or college counselor**: usually free.\n- **Your primary care doctor**: can check for physical causes and refer you to a therapist.\n- **Therapists**: your health insurance website lists in-network ones; many offer video visits.\n- **Employee assistance programs (EAP)** at many jobs offer a few free counseling sessions.\n\nIt can take a couple of tries to find a therapist who's a good fit. That's normal.",
+              "tip": "Search your insurance website for in-network therapists who offer video visits, and save two names before you ever need them."
             },
             {
               "type": "learn",
               "title": "988: the Suicide and Crisis Lifeline",
               "body": "**Call or text 988**, or chat at the Lifeline's website, any time, day or night, for free, confidential support from a trained counselor. It's for anyone in emotional distress, thinking about suicide, struggling with substance use, or worried about someone else.\n\n> If someone is in **immediate danger** (has a weapon, has taken pills, or is about to act), **call 911**.",
-              "source": { "label": "988 Suicide & Crisis Lifeline", "url": "https://988lifeline.org/" }
+              "source": { "label": "988 Suicide & Crisis Lifeline", "url": "https://988lifeline.org/" },
+              "tip": "Save 988 in your phone contacts now as \"988 Crisis Line\", so it's one tap away for you or a friend."
             },
             {
               "type": "mcq",
@@ -746,12 +845,14 @@
                 "Waiting to talk at school next week"
               ],
               "answer": 0,
-              "explain": "988 is answered 24/7 by trained crisis counselors, and you can contact it on a friend's behalf too. If they're in immediate danger, call 911."
+              "explain": "988 is answered 24/7 by trained crisis counselors, and you can contact it on a friend's behalf too. If they're in immediate danger, call 911.",
+              "hint": "Which option reaches a trained person tonight?"
             },
             {
               "type": "learn",
               "title": "Helping a friend",
-              "body": "If you're worried about someone:\n- **Ask directly**: \"Are you thinking about killing yourself?\" Asking does *not* put the idea in their head; it shows you care and can handle the answer.\n- **Listen** without judging or rushing to fix.\n- **Keep them safe**: if they have a plan or means, stay with them and get help.\n- **Connect** them to 988, a counselor or a trusted adult.\n- **Follow up** in the next days.\n\nNever promise to keep suicide plans secret."
+              "body": "If you're worried about someone:\n- **Ask directly**: \"Are you thinking about killing yourself?\" Asking does *not* put the idea in their head; it shows you care and can handle the answer.\n- **Listen** without judging or rushing to fix.\n- **Keep them safe**: if they have a plan or means, stay with them and get help.\n- **Connect** them to 988, a counselor or a trusted adult.\n- **Follow up** in the next days.\n\nNever promise to keep suicide plans secret.",
+              "tip": "Say the direct question out loud once, alone: \"Are you thinking about killing yourself?\" It's much easier to ask in a real moment if you've practiced the words."
             },
             {
               "type": "order",
@@ -763,7 +864,8 @@
                 "Connect them with 988 or a trusted adult",
                 "Check in with them again over the next days"
               ],
-              "explain": "Ask, listen, keep safe, connect, follow up. If danger is immediate, call 911 first."
+              "explain": "Ask, listen, keep safe, connect, follow up. If danger is immediate, call 911 first.",
+              "hint": "Ask, listen, keep safe, connect, follow up."
             },
             {
               "type": "truefalse",
@@ -779,7 +881,8 @@
                 { "text": "Keep the promise so they keep trusting you.", "feedback": "This leaves you alone with a life-or-death situation. Get help." },
                 { "text": "Post about it so other friends can help.", "feedback": "Public posts can embarrass them and don't bring trained help." }
               ],
-              "explain": "You can be a good friend and still get help. They may be upset at first; many people are later grateful."
+              "explain": "You can be a good friend and still get help. They may be upset at first; many people are later grateful.",
+              "hint": "Which matters more here: keeping a promise, or keeping your friend safe?"
             },
             {
               "type": "match",
@@ -807,7 +910,8 @@
             {
               "type": "learn",
               "title": "Read this first",
-              "body": "> These lessons are an introduction, **not a substitute for a certified CPR and first aid class**. Classes from the American Red Cross or American Heart Association take a few hours, include hands-on practice, and are often free or low-cost through schools and workplaces.\n\n**Call 911** for:\n- unresponsive, or not breathing normally\n- chest pain or pressure; trouble breathing\n- severe bleeding that won't stop\n- signs of stroke: face drooping, arm weakness, slurred speech\n- choking that doesn't clear\n- seizures, serious burns, suspected overdose or poisoning"
+              "body": "> These lessons are an introduction, **not a substitute for a certified CPR and first aid class**. Classes from the American Red Cross or American Heart Association take a few hours, include hands-on practice, and are often free or low-cost through schools and workplaces.\n\n**Call 911** for:\n- unresponsive, or not breathing normally\n- chest pain or pressure; trouble breathing\n- severe bleeding that won't stop\n- signs of stroke: face drooping, arm weakness, slurred speech\n- choking that doesn't clear\n- seizures, serious burns, suspected overdose or poisoning",
+              "tip": "Save Poison Help, 1-800-222-1222, in your phone contacts. It's free and answered 24/7 for any possible poisoning. If the person collapses, has a seizure or can't breathe, call 911 instead."
             },
             {
               "type": "multi",
@@ -826,7 +930,8 @@
               "type": "learn",
               "title": "Hands-only CPR",
               "body": "If a teen or adult suddenly collapses and isn't breathing normally (or is only gasping):\n1. Make sure the scene is safe.\n2. Tap and shout. No response? **Call 911** on speaker and send someone for an **AED**.\n3. **Push hard and fast** in the center of the chest: **100-120 pushes a minute**, at least **2 inches** deep but not more than 2.4 inches, letting the chest rise fully each time.\n4. Keep going until an AED or trained help takes over.\n\nFor infants, children, drowning and overdose, rescue breaths are also important; a class teaches you how.",
-              "source": { "label": "American Heart Association: What is CPR?", "url": "https://cpr.heart.org/en/resources/what-is-cpr" }
+              "source": { "label": "American Heart Association: What is CPR?", "url": "https://cpr.heart.org/en/resources/what-is-cpr" },
+              "tip": "Sign up for a certified CPR and AED class from the American Red Cross or American Heart Association. Many schools and workplaces offer them free or at low cost."
             },
             {
               "type": "order",
@@ -838,32 +943,28 @@
                 "Start hard, fast chest compressions in the center of the chest",
                 "Use the AED as soon as it arrives and follow its voice prompts"
               ],
-              "explain": "Safety, check, call, compress, shock. Don't stop compressions to wait for help."
+              "explain": "Safety, check, call, compress, shock. Don't stop compressions to wait for help.",
+              "hint": "Safety, check, call, compress, shock."
             },
             {
-              "type": "number",
-              "prompt": "You do chest compressions at 110 per minute for 2 minutes. About how many compressions is that?",
-              "answer": 220,
-              "tolerance": 0,
-              "unit": "compressions",
-              "explain": "110 x 2 = **220 compressions**. That's tiring, so if someone else knows CPR, switch about every 2 minutes."
+              "type": "truefalse",
+              "prompt": "If another person can do CPR, it's smart to switch who does compressions about every 2 minutes.",
+              "answer": true,
+              "explain": "Compressions get weaker as you tire, often without you noticing. At 100-120 a minute, 2 minutes is over 200 pushes. Swap fast so the pause is only a few seconds."
             },
             {
               "type": "learn",
               "title": "AEDs: anyone can use one",
-              "body": "An **automated external defibrillator (AED)** checks the heart's rhythm and, if needed, delivers a shock that can restart a normal beat. They're in schools, gyms, airports and offices.\n\n- Turn it on: it **talks you through every step**.\n- Put the pads on the bare chest as shown in the pictures.\n- Make sure no one touches the person when it analyzes or shocks.\n- Restart compressions right after a shock or if no shock is advised.\n\nAn AED won't shock someone who doesn't need it."
+              "body": "An **automated external defibrillator (AED)** checks the heart's rhythm and, if needed, delivers a shock that can restart a normal beat. They're in schools, gyms, airports and offices.\n\n- Turn it on: it **talks you through every step**.\n- Put the pads on the bare chest as shown in the pictures.\n- Make sure no one touches the person when it analyzes or shocks.\n- Restart compressions right after a shock or if no shock is advised.\n\nAn AED won't shock someone who doesn't need it.",
+              "tip": "Next time you're at school, the gym or work, look for the AED sign and notice exactly where it is. Knowing ahead saves precious seconds."
             },
             {
               "type": "mcq",
               "prompt": "What compression rate does the American Heart Association recommend for CPR?",
-              "options": [
-                "40-60 per minute",
-                "60-80 per minute",
-                "100-120 per minute",
-                "150-180 per minute"
-              ],
+              "options": ["40-60 per minute", "60-80 per minute", "100-120 per minute", "150-180 per minute"],
               "answer": 2,
-              "explain": "100-120 per minute, about the beat of the song 'Stayin' Alive.' Too slow doesn't move enough blood; too fast doesn't let the heart refill."
+              "explain": "100-120 per minute, about the beat of the song 'Stayin' Alive.' Too slow doesn't move enough blood; too fast doesn't let the heart refill.",
+              "hint": "Think of a song with a fast, steady beat, faster than one beat per second."
             },
             {
               "type": "scenario",
@@ -873,7 +974,8 @@
                 { "text": "Wait for paramedics so you don't do something wrong.", "feedback": "Every minute without CPR lowers survival. Good Samaritan laws generally protect people who help in good faith." },
                 { "text": "Check his pulse for a full minute before doing anything.", "feedback": "Long pulse checks waste critical time. If he's not breathing normally, start CPR." }
               ],
-              "explain": "Hands-only CPR and an AED, started fast, can double or triple survival from cardiac arrest."
+              "explain": "Hands-only CPR and an AED, started fast, can double or triple survival from cardiac arrest.",
+              "hint": "Can you get several things moving at the same time?"
             },
             {
               "type": "truefalse",
@@ -897,7 +999,8 @@
               "type": "learn",
               "title": "Choking",
               "body": "If someone can still **cough or talk**, encourage them to keep coughing.\n\nIf they **can't cough, talk or breathe** (often clutching their throat):\n1. Have someone call 911.\n2. Give **5 back blows** between the shoulder blades with the heel of your hand.\n3. Give **5 abdominal thrusts** (fist just above the belly button, quick inward-upward pulls).\n4. **Alternate** 5 and 5 until the object comes out or they become unresponsive.\n\nIf they become unresponsive, start CPR. For infants, use back blows and chest thrusts, never abdominal thrusts. These steps follow the AHA's 2025 guidelines.",
-              "source": { "label": "AHA newsroom: 2025 CPR guidelines", "url": "https://newsroom.heart.org/news/updated-cpr-guidelines-tackle-choking-response-opioid-related-emergencies-and-a-revised-chain-of-survival" }
+              "source": { "label": "AHA newsroom: 2025 CPR guidelines", "url": "https://newsroom.heart.org/news/updated-cpr-guidelines-tackle-choking-response-opioid-related-emergencies-and-a-revised-chain-of-survival" },
+              "tip": "Find the spot for abdominal thrusts on yourself: make a fist and place it just above your belly button, below the ribs. Knowing the spot helps you act fast."
             },
             {
               "type": "order",
@@ -909,13 +1012,15 @@
                 "Keep alternating back blows and abdominal thrusts",
                 "If they become unresponsive, start CPR"
               ],
-              "explain": "Cycles of 5 back blows and 5 abdominal thrusts, per the 2025 AHA guidelines, until the airway clears or CPR is needed."
+              "explain": "Cycles of 5 back blows and 5 abdominal thrusts, per the 2025 AHA guidelines, until the airway clears or CPR is needed.",
+              "hint": "Get help coming first. Back blows come before abdominal thrusts."
             },
             {
               "type": "learn",
               "title": "Severe bleeding",
               "body": "1. **Call 911** for heavy bleeding, bleeding that won't stop, or signs of shock (pale, clammy skin, confusion, dizziness).\n2. Put on gloves if you have them.\n3. **Press firmly and directly** on the wound with a clean cloth or bandage, and keep pressing.\n4. **Don't lift it to check.** If blood soaks through, add more layers on top.\n5. For life-threatening limb bleeding that pressure doesn't stop, a **tourniquet** goes 2-3 inches above the wound (not on a joint). Note the time you applied it.",
-              "source": { "label": "MedlinePlus: Bleeding", "url": "https://medlineplus.gov/ency/article/000045.htm" }
+              "source": { "label": "MedlinePlus: Bleeding", "url": "https://medlineplus.gov/ency/article/000045.htm" },
+              "tip": "Keep a basic first aid kit at home and in the car, with gloves, gauze pads and a roll of bandage. Check it twice a year and restock what you used."
             },
             {
               "type": "mcq",
@@ -927,13 +1032,15 @@
                 "Rinse the wound under the faucet to see how deep it is"
               ],
               "answer": 1,
-              "explain": "Removing a soaked dressing can pull away clots that are forming. Add layers and keep firm pressure."
+              "explain": "Removing a soaked dressing can pull away clots that are forming. Add layers and keep firm pressure.",
+              "hint": "Lifting or removing the cloth can pull away the clot that's forming."
             },
             {
               "type": "learn",
               "title": "Burns",
               "body": "For a minor heat burn:\n- **Cool it under cool (not ice-cold) running water**, ideally for 10-20 minutes. Different groups give slightly different times; the key is starting fast and cooling for several minutes.\n- Remove rings, watches or tight clothing near the burn before it swells.\n- Cover loosely with a clean, nonstick dressing.\n- **Don't** use ice, butter, oils or toothpaste, and don't pop blisters.\n\n**Get emergency care** for large or deep burns; burns on the face, hands, feet, genitals or major joints; chemical or electrical burns; or any burn with trouble breathing.",
-              "source": { "label": "American Red Cross: Burns", "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/burns" }
+              "source": { "label": "American Red Cross: Burns", "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/burns" },
+              "tip": "Tell everyone you live with the burn rule: cool running water, never ice or butter. Tape a note inside a kitchen cabinet so it's there when you need it."
             },
             {
               "type": "multi",
@@ -967,7 +1074,8 @@
                 { "text": "Pop the blisters so it heals faster.", "feedback": "Blisters protect against infection. Don't pop them." },
                 { "text": "Pack it in ice to stop the pain.", "feedback": "Ice on a large burn can damage tissue and drop body temperature." }
               ],
-              "explain": "Large or deep burns, or burns on the face, hands, feet, genitals or joints, need emergency care."
+              "explain": "Large or deep burns, or burns on the face, hands, feet, genitals or joints, need emergency care.",
+              "hint": "Is this a small burn, or one that needs professional care?"
             },
             {
               "type": "learn",

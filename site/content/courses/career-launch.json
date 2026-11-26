@@ -21,7 +21,8 @@
             {
               "type": "learn",
               "title": "The hidden job market",
-              "body": "Many jobs are filled through people who already know someone: a referral, a past manager, a friend of a friend. A recommendation from a trusted employee gets your application read.\n\nGood places to look:\n- **People you know**: family, friends' parents, teachers, coaches, past bosses\n- **Company career pages** for businesses you'd like to work for\n- **Job boards** and your school's career center\n- **Walking in** for local jobs: restaurants, shops, trades\n\n> Networking just means letting people know what you're looking for and being someone they'd recommend."
+              "body": "Many jobs are filled through people who already know someone: a referral, a past manager, a friend of a friend. A recommendation from a trusted employee gets your application read.\n\nGood places to look:\n- **People you know**: family, friends' parents, teachers, coaches, past bosses\n- **Company career pages** for businesses you'd like to work for\n- **Job boards** and your school's career center\n- **Walking in** for local jobs: restaurants, shops, trades\n\n> Networking just means letting people know what you're looking for and being someone they'd recommend.",
+              "tip": "Text three people this week: \"I'm looking for a summer job in ___. If you hear of anything, could you let me know?\""
             },
             {
               "type": "scenario",
@@ -31,13 +32,15 @@
                 { "text": "Only apply online so you don't bother anyone.", "feedback": "Applying is fine, but skipping a warm connection wastes your best advantage." },
                 { "text": "Ask the cousin to get you hired, today.", "feedback": "Too much pressure. Ask for an introduction or advice, not a guaranteed job." }
               ],
-              "explain": "Warm introductions turn you from a random name into someone a current employee vouches for. Always thank people who help."
+              "explain": "Warm introductions turn you from a random name into someone a current employee vouches for. Always thank people who help.",
+              "hint": "Look for the option that uses the person who already works there, without asking too much of them."
             },
             {
               "type": "learn",
               "title": "Searching smart",
               "body": "Applying to 100 random jobs usually works worse than 15 targeted ones.\n\n- Read the posting. Note **required** vs **preferred** skills. If you meet most requirements, apply.\n- Use specific search terms: \"entry level\", \"no experience\", \"trainee\", \"apprentice\".\n- Track applications in a simple sheet: company, role, date applied, contact, follow-up date.\n- Research pay for the role before you apply. The Bureau of Labor Statistics' Occupational Outlook Handbook lists typical pay and what training each job needs.",
-              "source": { "label": "BLS Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/" }
+              "source": { "label": "BLS Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/" },
+              "tip": "Make a tracking sheet before you send your first application: company, role, date applied, contact, follow-up date."
             },
             {
               "type": "mcq",
@@ -55,7 +58,8 @@
               "type": "learn",
               "title": "Fake job offers",
               "body": "Job scams target people who are eager to start. Warning signs:\n- They ask **you** to pay for training, equipment or a starter kit.\n- They send a **check** and ask you to send part of it to someone else.\n- The job is **reshipping packages**.\n- They promise big money for little work, or hire you after a chat-only \"interview\".\n- They want your SSN or bank info before any real offer.\n\nReal employers pay you, not the other way around. Look the company up yourself and contact it through its official site.",
-              "source": { "label": "FTC: Job scams", "url": "https://consumer.ftc.gov/articles/job-scams" }
+              "source": { "label": "FTC: Job scams", "url": "https://consumer.ftc.gov/articles/job-scams" },
+              "tip": "Before you answer any job offer, find the company's official website yourself and contact it there. Never trust a link or phone number from the message."
             },
             {
               "type": "multi",
@@ -80,7 +84,8 @@
                 "Tailor your resume to each posting and apply",
                 "Log the application and follow up after about a week"
               ],
-              "explain": "Clear targets make networking and tailoring possible. Tracking and follow-up separate you from people who apply and forget."
+              "explain": "Clear targets make networking and tailoring possible. Tracking and follow-up separate you from people who apply and forget.",
+              "hint": "Decide what you want before you tell anyone about it."
             },
             {
               "type": "truefalse",
@@ -103,12 +108,14 @@
             {
               "type": "learn",
               "title": "What a resume is for",
-              "body": "A hiring manager often skims a resume in seconds. Its only job is to get you an interview.\n\nA simple, one-page resume for an early-career job:\n- **Header**: name, phone, professional email, city/state\n- **Experience**: jobs, volunteering, school projects, sports leadership, babysitting, mowing lawns all count\n- **Education**\n- **Skills**: tools, software, languages, certifications\n\nUse a plain layout with clear headings. Fancy graphics and tables can confuse the software many companies use to scan applications."
+              "body": "A hiring manager often skims a resume in seconds. Its only job is to get you an interview.\n\nA simple, one-page resume for an early-career job:\n- **Header**: name, phone, professional email, city/state\n- **Experience**: jobs, volunteering, school projects, sports leadership, babysitting, mowing lawns all count\n- **Education**\n- **Skills**: tools, software, languages, certifications\n\nUse a plain layout with clear headings. Fancy graphics and tables can confuse the software many companies use to scan applications.",
+              "tip": "Make a free email address just for job hunting, like firstname.lastname@..., and use it on every application."
             },
             {
               "type": "learn",
               "title": "The bullet formula: action + result + number",
-              "body": "Weak bullets list duties. Strong bullets show impact.\n\n> **Action verb + what you did + result, with a number when you can**\n\n- Weak: \"Responsible for helping customers.\"\n- Strong: \"Helped 60+ customers a shift find products, earning a 4.8/5 store survey rating.\"\n\n- Weak: \"Did social media for club.\"\n- Strong: \"Grew the robotics club's Instagram from 120 to 450 followers in one semester.\"\n\nNumbers can be counts, money, time saved, percentages or ratings."
+              "body": "Weak bullets list duties. Strong bullets show impact.\n\n> **Action verb + what you did + result, with a number when you can**\n\n- Weak: \"Responsible for helping customers.\"\n- Strong: \"Helped 60+ customers a shift find products, earning a 4.8/5 store survey rating.\"\n\n- Weak: \"Did social media for club.\"\n- Strong: \"Grew the robotics club's Instagram from 120 to 450 followers in one semester.\"\n\nNumbers can be counts, money, time saved, percentages or ratings.",
+              "tip": "Rewrite one bullet tonight: count something real you did (customers, dollars, hours, items) and put that number in."
             },
             {
               "type": "mcq",
@@ -125,12 +132,9 @@
             {
               "type": "order",
               "prompt": "Rebuild this bullet in the formula's order: action verb, what you did, result with a number.",
-              "items": [
-                "Organized",
-                "a canned-food drive across 4 homerooms",
-                "collecting 1,200 items for the local food bank"
-              ],
-              "explain": "'Organized a canned-food drive across 4 homerooms, collecting 1,200 items for the local food bank.' Verb first, then the work, then the measurable result."
+              "items": ["Organized", "a canned-food drive across 4 homerooms", "collecting 1,200 items for the local food bank"],
+              "explain": "'Organized a canned-food drive across 4 homerooms, collecting 1,200 items for the local food bank.' Verb first, then the work, then the measurable result.",
+              "hint": "Start with the verb. End with the number."
             },
             {
               "type": "match",
@@ -147,7 +151,8 @@
             {
               "type": "learn",
               "title": "Tailor it every time",
-              "body": "Keep a long **master resume** with everything. For each application, make a copy and:\n- Move the most relevant experience to the top.\n- Use the **same words** the posting uses for skills (if they say \"customer service\", don't only say \"client support\").\n- Cut bullets that don't help for this job.\n\nThen proofread: one typo can sink an application. Read it out loud, and ask someone else to check it.\n\nSave and send as a PDF named like **FirstName-LastName-Resume.pdf**."
+              "body": "Keep a long **master resume** with everything. For each application, make a copy and:\n- Move the most relevant experience to the top.\n- Use the **same words** the posting uses for skills (if they say \"customer service\", don't only say \"client support\").\n- Cut bullets that don't help for this job.\n\nThen proofread: one typo can sink an application. Read it out loud, and ask someone else to check it.\n\nSave and send as a PDF named like **FirstName-LastName-Resume.pdf**.",
+              "tip": "Before you hit submit, read your resume out loud from the bottom up. You'll catch typos your eyes skip."
             },
             {
               "type": "multi",
@@ -183,7 +188,8 @@
             {
               "type": "learn",
               "title": "A cover letter in three short paragraphs",
-              "body": "Not every job asks for one, but when it's optional, a good one can help.\n\n1. **Hook**: the job you're applying for and one sentence on why this company specifically.\n2. **Proof**: 1-2 examples that match what they need, with results.\n3. **Close**: thank them and say you'd welcome an interview.\n\nKeep it under one page, ideally under 250 words. Address a real person if you can find the name. Never send the same generic letter everywhere."
+              "body": "Not every job asks for one, but when it's optional, a good one can help.\n\n1. **Hook**: the job you're applying for and one sentence on why this company specifically.\n2. **Proof**: 1-2 examples that match what they need, with results.\n3. **Close**: thank them and say you'd welcome an interview.\n\nKeep it under one page, ideally under 250 words. Address a real person if you can find the name. Never send the same generic letter everywhere.",
+              "tip": "Look on the company website or LinkedIn for the hiring manager's name, so you can write \"Dear Ms. Patel\" instead of \"To whom it may concern.\""
             },
             {
               "type": "order",
@@ -212,7 +218,8 @@
             {
               "type": "learn",
               "title": "Applications: details matter",
-              "body": "- Fill out **every field**. \"See resume\" looks lazy.\n- Have ready: work dates, past supervisor contacts, availability, and 2-3 **references** who agreed in advance (teacher, coach, past boss, not family).\n- Be honest about availability and dates.\n- Use the job title exactly as posted.\n\nAfter about a week, a short follow-up email to the hiring contact is fine. More than one or two follow-ups is too many."
+              "body": "- Fill out **every field**. \"See resume\" looks lazy.\n- Have ready: work dates, past supervisor contacts, availability, and 2-3 **references** who agreed in advance (teacher, coach, past boss, not family).\n- Be honest about availability and dates.\n- Use the job title exactly as posted.\n\nAfter about a week, a short follow-up email to the hiring contact is fine. More than one or two follow-ups is too many.",
+              "tip": "Keep one note in your phone with past job dates, supervisor contacts and your references' phone numbers. Then any application takes minutes."
             },
             {
               "type": "scenario",
@@ -222,7 +229,8 @@
                 { "text": "Paste the same generic letter into all five.", "feedback": "Generic letters can hurt more than help, especially if you forget to change the company name." },
                 { "text": "Skip all five applications until you have a whole free weekend.", "feedback": "Good jobs fill fast. Apply while the posting is fresh." }
               ],
-              "explain": "Spend extra effort where you most want the job, and never send a letter with the wrong company name in it."
+              "explain": "Spend extra effort where you most want the job, and never send a letter with the wrong company name in it.",
+              "hint": "Where does extra effort pay off the most?"
             },
             {
               "type": "multi",
@@ -246,7 +254,8 @@
             {
               "type": "learn",
               "title": "Key takeaways",
-              "body": "- Cover letter: why this job, proof with results, thanks.\n- Tailor for your top choices; never send a generic letter.\n- Complete every field and line up references who said yes.\n- One polite follow-up after about a week."
+              "body": "- Cover letter: why this job, proof with results, thanks.\n- Tailor for your top choices; never send a generic letter.\n- Complete every field and line up references who said yes.\n- One polite follow-up after about a week.",
+              "tip": "Ask two people this week whether they'd be a reference, before you need them."
             }
           ]
         }
@@ -265,12 +274,14 @@
             {
               "type": "learn",
               "title": "Prep beats nerves",
-              "body": "Before the interview:\n- **Research** the company: what it does, its customers, recent news.\n- **Reread the posting** and pick 3 strengths that match it.\n- **Prepare stories** for common questions (next step).\n- **Plan logistics**: route and parking, or test video and sound for a virtual interview. Arrive 10 minutes early.\n- **Dress** one step nicer than people who work there do day to day.\n\nBring copies of your resume, a pen, and your questions for them."
+              "body": "Before the interview:\n- **Research** the company: what it does, its customers, recent news.\n- **Reread the posting** and pick 3 strengths that match it.\n- **Prepare stories** for common questions (next step).\n- **Plan logistics**: route and parking, or test video and sound for a virtual interview. Arrive 10 minutes early.\n- **Dress** one step nicer than people who work there do day to day.\n\nBring copies of your resume, a pen, and your questions for them.",
+              "tip": "For each interview, make a one-page prep sheet: three facts about the company, your three strengths, and two questions for them."
             },
             {
               "type": "learn",
               "title": "The STAR method",
-              "body": "Questions like \"Tell me about a time you...\" want a real story. Use **STAR**:\n- **S**ituation: the background, in a sentence or two\n- **T**ask: what you needed to do\n- **A**ction: what *you* did (the biggest part)\n- **R**esult: what happened, with a number if possible, and what you learned\n\nAim for about 1-2 minutes per answer. Prepare 4-5 stories you can adapt: a challenge, a mistake, teamwork, leadership, a conflict."
+              "body": "Questions like \"Tell me about a time you...\" want a real story. Use **STAR**:\n- **S**ituation: the background, in a sentence or two\n- **T**ask: what you needed to do\n- **A**ction: what *you* did (the biggest part)\n- **R**esult: what happened, with a number if possible, and what you learned\n\nAim for about 1-2 minutes per answer. Prepare 4-5 stories you can adapt: a challenge, a mistake, teamwork, leadership, a conflict.",
+              "tip": "Write your 4-5 STAR stories in your phone notes and reread them in the parking lot before each interview."
             },
             {
               "type": "order",
@@ -281,7 +292,8 @@
                 "I asked my manager to open a third lane, then walked the line bagging and directing people with few items to the express lane.",
                 "Wait times dropped from about 15 minutes to 5, and my manager asked me to train new hires on rush-hour tactics."
               ],
-              "explain": "Situation, Task, Action, Result. The action is where you show what you personally did; the result proves it worked."
+              "explain": "Situation, Task, Action, Result. The action is where you show what you personally did; the result proves it worked.",
+              "hint": "STAR: Situation, Task, Action, Result."
             },
             {
               "type": "match",
@@ -304,12 +316,14 @@
                 "I'm usually late, but I'm working on it."
               ],
               "answer": 2,
-              "explain": "A real, non-critical weakness plus concrete steps to improve shows self-awareness. Cliches and 'none' sound rehearsed, and chronic lateness is a dealbreaker for most jobs."
+              "explain": "A real, non-critical weakness plus concrete steps to improve shows self-awareness. Cliches and 'none' sound rehearsed, and chronic lateness is a dealbreaker for most jobs.",
+              "hint": "Look for a real weakness plus proof that you're fixing it."
             },
             {
               "type": "learn",
               "title": "Common questions to prepare",
-              "body": "- **Tell me about yourself**: a 60-second summary: what you're doing now, relevant experience, why this job.\n- **Why do you want to work here?** Use your research.\n- **Tell me about a challenge / mistake / teamwork.** STAR stories.\n- **What's your availability?** Be exact and honest.\n- **Why should we hire you?** Three strengths matching the posting.\n\nPractice out loud with someone, or record yourself. It feels awkward, and it works."
+              "body": "- **Tell me about yourself**: a 60-second summary: what you're doing now, relevant experience, why this job.\n- **Why do you want to work here?** Use your research.\n- **Tell me about a challenge / mistake / teamwork.** STAR stories.\n- **What's your availability?** Be exact and honest.\n- **Why should we hire you?** Three strengths matching the posting.\n\nPractice out loud with someone, or record yourself. It feels awkward, and it works.",
+              "tip": "Record yourself answering \"Tell me about yourself\" on your phone. Cut it down until it's about 60 seconds."
             },
             {
               "type": "scenario",
@@ -336,7 +350,8 @@
             {
               "type": "learn",
               "title": "Interview them back",
-              "body": "Near the end you'll hear, \"Do you have any questions for us?\" Always have 2-3. It shows interest and helps you decide if the job is right.\n\nGood questions:\n- \"What does a typical day look like in this role?\"\n- \"What does success look like in the first 90 days?\"\n- \"How will I be trained?\"\n- \"What do you like most about working here?\"\n- \"What are the next steps in the process?\"\n\nSave pay and benefits questions for later rounds or the offer, unless they bring it up."
+              "body": "Near the end you'll hear, \"Do you have any questions for us?\" Always have 2-3. It shows interest and helps you decide if the job is right.\n\nGood questions:\n- \"What does a typical day look like in this role?\"\n- \"What does success look like in the first 90 days?\"\n- \"How will I be trained?\"\n- \"What do you like most about working here?\"\n- \"What are the next steps in the process?\"\n\nSave pay and benefits questions for later rounds or the offer, unless they bring it up.",
+              "tip": "Write your 2-3 questions on the paper you bring. Glancing at notes is fine and shows you prepared."
             },
             {
               "type": "multi",
@@ -349,12 +364,14 @@
                 "What does your company do? (asked without any research)"
               ],
               "answers": [0, 1, 3],
-              "explain": "Questions about training, success and next steps show you're thinking about doing the job well. Asking about time off first, or what the company does, sends the wrong signal."
+              "explain": "Questions about training, success and next steps show you're thinking about doing the job well. Asking about time off first, or what the company does, sends the wrong signal.",
+              "hint": "Good questions are about doing the job well."
             },
             {
               "type": "learn",
               "title": "Follow up within a day",
-              "body": "Send a short **thank-you email** within 24 hours to each interviewer:\n- Thank them for their time.\n- Mention one specific thing you discussed.\n- Restate your interest in one sentence.\n\nIt's three or four sentences, and many applicants skip it.\n\nIf they said you'd hear back by a date and that date passes, a polite check-in is fine."
+              "body": "Send a short **thank-you email** within 24 hours to each interviewer:\n- Thank them for their time.\n- Mention one specific thing you discussed.\n- Restate your interest in one sentence.\n\nIt's three or four sentences, and many applicants skip it.\n\nIf they said you'd hear back by a date and that date passes, a polite check-in is fine.",
+              "tip": "Before you leave the interview, ask for each interviewer's email or business card so you can send the thank-you."
             },
             {
               "type": "order",
@@ -376,7 +393,8 @@
                 { "text": "Accept immediately so they don't change their mind.", "feedback": "Offers rarely vanish because you ask for a day. Accepting on the spot gives up your chance to review or negotiate." },
                 { "text": "Say nothing and stop answering their calls while you wait.", "feedback": "Going silent can cost you the offer and burns a bridge." }
               ],
-              "explain": "Get it in writing: pay, schedule, start date, benefits. Then you can compare, negotiate, or contact the other company to say you have an offer."
+              "explain": "Get it in writing: pay, schedule, start date, benefits. Then you can compare, negotiate, or contact the other company to say you have an offer.",
+              "hint": "You can sound excited and still take time to review."
             },
             {
               "type": "truefalse",
@@ -387,19 +405,15 @@
             {
               "type": "mcq",
               "prompt": "When should you send your thank-you email after an interview?",
-              "options": [
-                "Within 24 hours",
-                "After one week",
-                "Only if you get the job",
-                "Never; it's outdated"
-              ],
+              "options": ["Within 24 hours", "After one week", "Only if you get the job", "Never; it's outdated"],
               "answer": 0,
               "explain": "Within a day keeps you fresh in their mind while they're deciding."
             },
             {
               "type": "learn",
               "title": "Key takeaways",
-              "body": "- Bring 2-3 questions about the work, training and next steps.\n- Send a specific thank-you email within 24 hours.\n- Ask for offers in writing and a short time to review.\n- Decline politely; never ghost an employer."
+              "body": "- Bring 2-3 questions about the work, training and next steps.\n- Send a specific thank-you email within 24 hours.\n- Ask for offers in writing and a short time to review.\n- Decline politely; never ghost an employer.",
+              "tip": "Save a thank-you email in your drafts with blanks for the name, the role and one detail, so it takes two minutes to send."
             }
           ]
         },
@@ -411,7 +425,8 @@
             {
               "type": "learn",
               "title": "A professional email",
-              "body": "- **Subject**: specific (\"Schedule question for Friday shift\", not \"hey\").\n- **Greeting**: \"Hi Ms. Lopez,\" or \"Hello Sam,\".\n- **Body**: the point in the first sentence or two. Short paragraphs. One clear ask.\n- **Sign-off**: \"Thanks,\" or \"Best,\" plus your full name.\n\nProofread names and dates. Skip slang, emojis and all caps. Reply within one business day, even if just to say \"Got it, I'll have this to you by Thursday.\""
+              "body": "- **Subject**: specific (\"Schedule question for Friday shift\", not \"hey\").\n- **Greeting**: \"Hi Ms. Lopez,\" or \"Hello Sam,\".\n- **Body**: the point in the first sentence or two. Short paragraphs. One clear ask.\n- **Sign-off**: \"Thanks,\" or \"Best,\" plus your full name.\n\nProofread names and dates. Skip slang, emojis and all caps. Reply within one business day, even if just to say \"Got it, I'll have this to you by Thursday.\"",
+              "tip": "Before you send an important email, reread only the subject and first sentence. If someone read just those, would they know what you need?"
             },
             {
               "type": "order",
@@ -435,12 +450,14 @@
                 "Hi Dana! Something came up!!! Lmk"
               ],
               "answer": 1,
-              "explain": "It gives the reason, the exact shift, a solution already arranged, and a clear question. Managers love a problem that arrives with a fix."
+              "explain": "It gives the reason, the exact shift, a solution already arranged, and a clear question. Managers love a problem that arrives with a fix.",
+              "hint": "Which message tells the manager everything and already solves the problem?"
             },
             {
               "type": "learn",
               "title": "Phone calls and voicemail",
-              "body": "Phone calls still matter for interviews, doctors, landlords and work.\n\n- **Answering**: \"Hello, this is Jordan.\" Take calls from unknown numbers somewhere quiet when you're job hunting.\n- **Calling**: state your name and reason in the first sentence. Have notes and something to write with.\n- **Voicemail**: name, reason, number (said slowly), best time to reach you, then repeat the number.\n- **Your greeting**: set up a simple, professional voicemail message and keep the mailbox from filling up."
+              "body": "Phone calls still matter for interviews, doctors, landlords and work.\n\n- **Answering**: \"Hello, this is Jordan.\" Take calls from unknown numbers somewhere quiet when you're job hunting.\n- **Calling**: state your name and reason in the first sentence. Have notes and something to write with.\n- **Voicemail**: name, reason, number (said slowly), best time to reach you, then repeat the number.\n- **Your greeting**: set up a simple, professional voicemail message and keep the mailbox from filling up.",
+              "tip": "Record a simple voicemail greeting today: \"Hi, you've reached Jordan Smith. Please leave a message and I'll call you back.\""
             },
             {
               "type": "order",
@@ -479,7 +496,8 @@
                 ["Thank-you after an interview", "Email"],
                 ["A sensitive conflict with a coworker", "Private, in-person conversation"]
               ],
-              "explain": "Urgent goes by phone; formal or record-worthy goes in writing; sensitive goes face to face."
+              "explain": "Urgent goes by phone; formal or record-worthy goes in writing; sensitive goes face to face.",
+              "hint": "Is it urgent, formal, or sensitive?"
             },
             {
               "type": "reflect",
@@ -503,12 +521,14 @@
             {
               "type": "learn",
               "title": "Reliability is the first skill",
-              "body": "In a first job, being dependable matters more than being brilliant:\n- **Show up on time**, every time. On time means ready to work at the start time.\n- **Do what you said you'd do**, by when you said.\n- **Tell people early** when something will slip.\n- **Phone away** unless it's part of the job.\n- **Learn names** and treat everyone, from the owner to the cleaning crew, with respect.\n\nManagers give more hours, better shifts, raises and references to people they can count on."
+              "body": "In a first job, being dependable matters more than being brilliant:\n- **Show up on time**, every time. On time means ready to work at the start time.\n- **Do what you said you'd do**, by when you said.\n- **Tell people early** when something will slip.\n- **Phone away** unless it's part of the job.\n- **Learn names** and treat everyone, from the owner to the cleaning crew, with respect.\n\nManagers give more hours, better shifts, raises and references to people they can count on.",
+              "tip": "In your first month, plan to arrive 10 minutes early for every shift. Check the route and parking before day one."
             },
             {
               "type": "learn",
               "title": "Taking feedback and asking questions",
-              "body": "**Feedback** is information, not an attack. When you get it:\n1. Listen without arguing or making excuses.\n2. Ask a clarifying question if needed.\n3. Say thanks, and show the change next time.\n\n**Asking questions** is expected when you're new. Make them good ones:\n- Try to find the answer first (notes, manual, coworker).\n- Batch small questions instead of interrupting every five minutes.\n- Write the answer down so you only ask once."
+              "body": "**Feedback** is information, not an attack. When you get it:\n1. Listen without arguing or making excuses.\n2. Ask a clarifying question if needed.\n3. Say thanks, and show the change next time.\n\n**Asking questions** is expected when you're new. Make them good ones:\n- Try to find the answer first (notes, manual, coworker).\n- Batch small questions instead of interrupting every five minutes.\n- Write the answer down so you only ask once.",
+              "tip": "Keep a small notebook in your pocket for your first weeks and write down every new instruction."
             },
             {
               "type": "scenario",
@@ -537,7 +557,8 @@
               "type": "learn",
               "title": "Know your basic rights",
               "body": "- You must be paid for **all hours worked**, including required training and opening/closing tasks.\n- Most hourly workers get **overtime** (1.5x) for hours over 40 in a week.\n- Workers under 18 have **limits on hours and on dangerous tasks** under federal and state child labor laws.\n- Keep your own log of hours and compare it with your pay stub.\n\nIf something seems wrong, ask HR or your manager first. The U.S. Department of Labor's Wage and Hour Division takes complaints.",
-              "source": { "label": "U.S. DOL: Overtime pay", "url": "https://www.dol.gov/agencies/whd/overtime" }
+              "source": { "label": "U.S. DOL: Overtime pay", "url": "https://www.dol.gov/agencies/whd/overtime" },
+              "tip": "Write down your start and end time every shift, then compare them with each pay stub."
             },
             {
               "type": "order",
@@ -549,7 +570,8 @@
                 "Work hard through your last shift and help train your replacement",
                 "Thank your manager and coworkers and keep in touch"
               ],
-              "explain": "Never quit before the new offer is solid. Two weeks' notice is the standard courtesy, and a good exit keeps you a reference for years."
+              "explain": "Never quit before the new offer is solid. Two weeks' notice is the standard courtesy, and a good exit keeps you a reference for years.",
+              "hint": "Never quit until the new job is certain."
             },
             {
               "type": "truefalse",
@@ -573,7 +595,8 @@
               "type": "learn",
               "title": "Know the numbers",
               "body": "Convert pay so you can compare:\n\n> Hourly x 40 hours x 52 weeks = yearly (full-time)\n> Yearly / 2,080 = hourly\n\nResearch what the role pays in your area: the BLS Occupational Outlook Handbook, job postings that list pay (many states now require ranges in postings), and people who do the work.\n\nAlso compare **total compensation**: health insurance, 401(k) match, paid time off, schedule, training, and commute.",
-              "source": { "label": "BLS Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/" }
+              "source": { "label": "BLS Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/" },
+              "tip": "Before any offer conversation, look up the role on the BLS handbook and in three local job postings, and write down a pay range."
             },
             {
               "type": "number",
@@ -581,28 +604,34 @@
               "answer": 41600,
               "tolerance": 0,
               "unit": "$",
-              "explain": "$20 x 40 = $800 a week. $800 x 52 = **$41,600** a year before taxes."
+              "explain": "$20 x 40 = $800 a week. $800 x 52 = **$41,600** a year before taxes.",
+              "hint": "First find one week's pay (hourly rate x 40 hours), then multiply by 52 weeks."
             },
             {
-              "type": "number",
-              "prompt": "A salaried job offers $52,000 a year. What is the equivalent hourly rate for a 2,080-hour work year?",
-              "answer": 25,
-              "tolerance": 0,
-              "unit": "$/hr",
+              "type": "mcq",
+              "prompt": "A salaried job pays $52,000 a year. You want to compare it with hourly jobs. What do you do?",
+              "options": ["Divide by 2,080, the hours in a full-time year", "Divide by 12", "Divide by 52", "Multiply by 40"],
+              "answer": 0,
+              "feedback": [
+                "Right. 40 hours x 52 weeks = 2,080 hours.",
+                "That gives monthly pay, not hourly.",
+                "That gives weekly pay, not hourly.",
+                "That makes the number bigger, not an hourly rate."
+              ],
+              "hint": "How many hours does a full-time worker put in over a year?",
               "explain": "$52,000 / 2,080 = **$25 an hour**. If the job regularly needs 50-hour weeks, the real hourly rate is lower."
             },
             {
               "type": "learn",
               "title": "How to ask",
-              "body": "Negotiating is a normal, polite conversation, not a fight.\n\n1. **Be enthusiastic first**: \"I'm excited about this role.\"\n2. **Give evidence**: market research, relevant skills, a competing offer.\n3. **Make a specific ask**, a bit above your target: \"Based on that, I was hoping for $X.\"\n4. **Then stop talking** and listen.\n\nIf pay can't move, ask about other things: start date, schedule, a raise review after 6 months, training, extra PTO.\n\nFor entry-level hourly jobs there may be little room, but asking politely rarely gets an offer pulled."
+              "body": "Negotiating is a normal, polite conversation, not a fight.\n\n1. **Be enthusiastic first**: \"I'm excited about this role.\"\n2. **Give evidence**: market research, relevant skills, a competing offer.\n3. **Make a specific ask**, a bit above your target: \"Based on that, I was hoping for $X.\"\n4. **Then stop talking** and listen.\n\nIf pay can't move, ask about other things: start date, schedule, a raise review after 6 months, training, extra PTO.\n\nFor entry-level hourly jobs there may be little room, but asking politely rarely gets an offer pulled.",
+              "tip": "Practice your ask out loud once. Then practice staying quiet for five seconds after you say the number."
             },
             {
-              "type": "number",
-              "prompt": "You negotiate a starting salary of $48,000 instead of $45,000. Ignoring future raises, how much more do you earn over 5 years?",
-              "answer": 15000,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "$3,000 x 5 = **$15,000**. In reality it's even more, because percentage raises are calculated on the higher base."
+              "type": "truefalse",
+              "prompt": "Negotiating a starting salary that's $3,000 higher is worth only $3,000 to you.",
+              "answer": false,
+              "explain": "You earn the extra $3,000 every year you stay, so over 5 years it's $15,000. Future percentage raises are also figured on the higher base, so the gap keeps growing."
             },
             {
               "type": "scenario",
@@ -612,15 +641,22 @@
                 { "text": "Complain to coworkers until word gets to the manager.", "feedback": "Indirect pressure damages trust and rarely gets a raise." },
                 { "text": "Threaten to quit without another offer.", "feedback": "If they call your bluff, you're stuck. Only mention leaving if you truly would." }
               ],
-              "explain": "Raises go to people who make their value easy to see. Keep a running list of wins all year so the evidence is ready."
+              "explain": "Raises go to people who make their value easy to see. Keep a running list of wins all year so the evidence is ready.",
+              "hint": "The best approach uses evidence, local pay data and a specific number."
             },
             {
-              "type": "number",
-              "prompt": "You earn $40,000 and get a 3% raise. What is your new salary?",
-              "answer": 41200,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "$40,000 x 0.03 = $1,200. New salary **$41,200**. If prices rose about 3% that year, your buying power stayed about flat."
+              "type": "mcq",
+              "prompt": "You get a 3% raise in a year when prices also rose about 3%. What happened to your buying power?",
+              "options": ["It stayed about the same", "It went up 3%", "It went up 6%", "It went down 3%"],
+              "answer": 0,
+              "feedback": [
+                "Right. Your pay and your costs rose by the same amount.",
+                "Your pay rose 3%, but so did prices.",
+                "The raise and price increases don't add together.",
+                "Your pay kept up with prices, so it didn't fall."
+              ],
+              "hint": "Your pay and your costs went up by the same amount.",
+              "explain": "Rising prices are called **inflation**. A raise only lets you buy more if it's bigger than inflation. On $40,000, a 3% raise is $1,200, which just keeps pace."
             },
             {
               "type": "match",
@@ -648,7 +684,8 @@
             {
               "type": "learn",
               "title": "Side hustles are small businesses",
-              "body": "Tutoring, lawn care, dog walking, editing videos, reselling, delivery apps: these make you **self-employed** (an independent contractor).\n\nThat means:\n- **No one withholds tax** from what you earn.\n- You can deduct legitimate **business expenses** (supplies, some mileage, a portion of software).\n- You might receive a **1099** form, but **all income is taxable** whether or not a form arrives.\n- You need to **track** income and expenses yourself: a simple spreadsheet works."
+              "body": "Tutoring, lawn care, dog walking, editing videos, reselling, delivery apps: these make you **self-employed**. You work for yourself as an **independent contractor**, not as an employee.\n\nThat means:\n- **No one takes tax out** of what you earn.\n- You can subtract real **business expenses** (supplies, some mileage) from your income.\n- You might get a **1099** (a form showing what a business paid you), but **all income is taxable** whether or not one arrives.\n- You **track** income and expenses yourself. A simple spreadsheet works.",
+              "tip": "The day you get your first side-gig payment, start a spreadsheet with four columns: date, client, amount earned, expenses."
             },
             {
               "type": "number",
@@ -656,34 +693,42 @@
               "answer": 600,
               "tolerance": 0,
               "unit": "$",
-              "explain": "3 x 2 = 6 hours a week. 6 x $25 = $150 a week. $150 x 4 = **$600** a month."
+              "explain": "3 x 2 = 6 hours a week. 6 x $25 = $150 a week. $150 x 4 = **$600** a month.",
+              "hint": "Find the total hours per week first. Then the weekly pay. Then multiply by 4 weeks."
             },
             {
               "type": "learn",
               "title": "Self-employment tax",
-              "body": "As an employee, you pay 7.65% FICA and your employer pays 7.65%. Self-employed, you pay **both halves: 15.3%** in **self-employment tax** (12.4% Social Security + 2.9% Medicare), on top of regular income tax.\n\n- It applies once net self-employment earnings reach **$400** in a year.\n- It's figured on 92.35% of your net profit (a built-in adjustment), and you can deduct half of it for income tax.\n- If you'll owe $1,000 or more, the IRS expects **quarterly estimated payments**.\n\n> A simple habit: move 25-30% of every side-gig payment into a separate savings account for taxes.",
-              "source": { "label": "IRS: Self-employment tax", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes" }
+              "body": "At a regular job, your employer takes Social Security and Medicare tax (called **FICA**) out of your pay: 7.65%. The employer pays another 7.65%.\n\nWhen you're self-employed, you pay **both halves: 15.3%**. This is **self-employment tax**, and it comes on top of regular income tax.\n\n- It applies once your **net profit** (income minus business expenses) reaches **$400** in a year.\n- If you'll owe $1,000 or more for the year, the IRS expects **quarterly estimated payments**.\n\n> Simple habit: move 25-30% of every side-gig payment into a separate savings account for taxes.",
+              "source": { "label": "IRS: Self-employment tax", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes" },
+              "tip": "Open a free savings account named \"Taxes\" and move 25-30% of every side-gig payment into it the same day you get paid."
             },
             {
-              "type": "number",
-              "prompt": "You earned $8,000 freelancing this year and set aside 25% for taxes. How much did you set aside?",
-              "answer": 2000,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "$8,000 x 0.25 = **$2,000**. Your actual bill depends on expenses, other income and deductions, but this buffer prevents an April shock."
+              "type": "mcq",
+              "prompt": "A client pays you $200 for a weekend of video editing. Following the 25-30% habit, about how much goes into your tax savings account?",
+              "options": ["About $50-60", "About $5", "About $150", "Nothing until April"],
+              "answer": 0,
+              "feedback": [
+                "Right. 25% of $200 is $50, and 30% is $60.",
+                "That's only 2.5%, far too little.",
+                "That's 75%, more than you'll likely owe.",
+                "Waiting means the money is usually spent when the bill comes."
+              ],
+              "hint": "25% is one quarter. What's a quarter of $200?",
+              "explain": "25% of $200 = $50; 30% = $60. Your actual bill depends on expenses and other income, but this buffer prevents an April shock."
             },
             {
-              "type": "number",
-              "prompt": "Your net self-employment profit is $10,000. Self-employment tax is 15.3% of 92.35% of net profit. What is your self-employment tax? Round to the nearest dollar.",
-              "answer": 1413,
-              "tolerance": 1,
-              "unit": "$",
-              "explain": "$10,000 x 0.9235 = $9,235. $9,235 x 0.153 = **$1,412.96**, about $1,413. That's before any income tax."
+              "type": "truefalse",
+              "prompt": "A teen who makes $400 or more in net profit from side gigs in a year generally owes self-employment tax.",
+              "answer": true,
+              "hint": "Does the $400 rule say anything about age?",
+              "explain": "The $400 rule generally applies at any age. Many teens with lawn or tutoring businesses have to file a tax return because of it, even if they owe little or no income tax."
             },
             {
               "type": "learn",
               "title": "Price your work",
-              "body": "Beginners often charge too little. To set a rate:\n- Check what others nearby charge for similar work.\n- Count unpaid time: travel, messaging, prep, invoicing.\n- Remember taxes and costs come out of what you charge.\n\nRaise prices for new clients once you're booked up. Get the important details in writing, even a text: what you'll do, price, and when you'll be paid.\n\nPlatforms (delivery, freelance marketplaces) take a cut. Compare your earnings **after** their fees, gas and wear on your car."
+              "body": "Beginners often charge too little. To set a rate:\n- Check what others nearby charge for similar work.\n- Count unpaid time: travel, messaging, prep, invoicing.\n- Remember taxes and costs come out of what you charge.\n\nRaise prices for new clients once you're booked up. Get the important details in writing, even a text: what you'll do, price, and when you'll be paid.\n\nPlatforms (delivery, freelance marketplaces) take a cut. Compare your earnings **after** their fees, gas and wear on your car.",
+              "tip": "Time one job from start to finish, including travel and messaging. Divide what you earned by the real hours to see your true hourly rate."
             },
             {
               "type": "scenario",
@@ -711,7 +756,8 @@
             {
               "type": "learn",
               "title": "Key takeaways",
-              "body": "- Side income is self-employment: no withholding.\n- Self-employment tax is 15.3% once you net $400+, plus income tax.\n- Set aside 25-30% of every payment.\n- Track income, expenses and mileage.\n- All income is taxable, form or no form."
+              "body": "- Side income is self-employment: no withholding.\n- Self-employment tax is 15.3% once you net $400+, plus income tax.\n- Set aside 25-30% of every payment.\n- Track income, expenses and mileage.\n- All income is taxable, form or no form.",
+              "tip": "Use a free mileage app or a notebook in the car, and log every business drive: date, miles, purpose."
             }
           ]
         }
@@ -730,7 +776,8 @@
             {
               "type": "learn",
               "title": "Some skills transfer everywhere",
-              "body": "Job titles change; some skills pay off in every one:\n- **Clear writing and speaking**\n- **Reliability**: doing what you said\n- **Problem solving**: figuring things out without step-by-step instructions\n- **Working with people**: teamwork, handling conflict, customer service\n- **Learning fast**: picking up new tools and systems\n- **Numbers and money**: estimates, spreadsheets, budgets\n\nThese **compound**: each job builds on them, and people who have them get trusted with more, which teaches them more."
+              "body": "Job titles change; some skills pay off in every one:\n- **Clear writing and speaking**\n- **Reliability**: doing what you said\n- **Problem solving**: figuring things out without step-by-step instructions\n- **Working with people**: teamwork, handling conflict, customer service\n- **Learning fast**: picking up new tools and systems\n- **Numbers and money**: estimates, spreadsheets, budgets\n\nThese **compound**: each job builds on them, and people who have them get trusted with more, which teaches them more.",
+              "tip": "Pick one transferable skill to improve this year and write it at the top of your brag file."
             },
             {
               "type": "match",
@@ -746,7 +793,8 @@
             {
               "type": "learn",
               "title": "Build skills on purpose",
-              "body": "- **Say yes to stretch tasks** at work: training others, handling a tough customer, learning a new system.\n- **Learn tools** employers ask for: spreadsheets, a trade tool, a coding language, a design app.\n- **Earn credentials** that matter in your field: a CPR card, a forklift certification, an industry certificate.\n- **Keep a brag file**: a running list of wins, numbers and praise. It feeds your resume, interviews and raise requests.\n- **Find mentors**: people a few steps ahead who'll answer questions."
+              "body": "- **Say yes to stretch tasks** at work: training others, handling a tough customer, learning a new system.\n- **Learn tools** employers ask for: spreadsheets, a trade tool, a coding language, a design app.\n- **Earn credentials** that matter in your field: a CPR card, a forklift certification, an industry certificate.\n- **Keep a brag file**: a running list of wins, numbers and praise. It feeds your resume, interviews and raise requests.\n- **Find mentors**: people a few steps ahead who'll answer questions.",
+              "tip": "Create a phone note called \"Brag file\" today. Add one line every time someone thanks or praises you at work or school."
             },
             {
               "type": "scenario",
@@ -756,7 +804,8 @@
                 { "text": "Decline: never do anything you're not paid extra for.", "feedback": "Sometimes reasonable, but turning down every growth chance slows your career." },
                 { "text": "Volunteer, then avoid actually learning it.", "feedback": "That damages trust more than saying no would have." }
               ],
-              "explain": "Stretch tasks are how you get experience you can't get from a job description. If it grows into a lot of extra work, that's a good basis for a raise conversation."
+              "explain": "Stretch tasks are how you get experience you can't get from a job description. If it grows into a lot of extra work, that's a good basis for a raise conversation.",
+              "hint": "Think about what the task leads to in a year, not just this week."
             },
             {
               "type": "multi",
@@ -805,28 +854,36 @@
               "type": "learn",
               "title": "Many paths work",
               "body": "- **Four-year college**: needed for many professional careers (engineering, teaching, nursing BSN, accounting). Highest cost and time.\n- **Community college**: two-year degrees and transfer paths at a much lower cost.\n- **Apprenticeship**: learn a trade (electrician, plumber, HVAC) on the job while **earning a paycheck**, plus classes.\n- **Certificates**: short programs (weeks to a year) in areas like IT support, welding, medical assisting or CDL truck driving.\n- **Military**: training plus education benefits.\n\nThe BLS Occupational Outlook Handbook shows each job's typical training, pay and growth.",
-              "source": { "label": "BLS Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/" }
+              "source": { "label": "BLS Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/" },
+              "tip": "Look up one job you're curious about in the BLS Occupational Outlook Handbook and write down its typical training and pay."
             },
             {
               "type": "learn",
               "title": "Think like an investor: ROI",
-              "body": "**Return on investment (ROI)** compares what a path costs with how much more you'll earn.\n\nCount the full cost:\n- Tuition, fees, books, tools\n- Interest on any loans\n- **Lost wages** while you're in school full-time\n\nThen estimate the earnings boost and how long it takes to pay back:\n\n> Payback years = total cost / yearly earnings increase\n\nAlso weigh things money can't measure: what you'd enjoy, job demand where you want to live, and the physical demands of the work."
+              "body": "**Return on investment (ROI)** compares what a path costs with how much more you'll earn.\n\nCount the full cost:\n- Tuition, fees, books, tools\n- Interest on any loans\n- **Lost wages** while you're in school full-time\n\nThen estimate the earnings boost and how long it takes to pay back:\n\n> Payback years = total cost / yearly earnings increase\n\nAlso weigh things money can't measure: what you'd enjoy, job demand where you want to live, and the physical demands of the work.",
+              "tip": "Before choosing a program, ask the school for its job placement rate and the typical starting pay of recent graduates."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which pays back its cost faster?\n\n**A:** a $4,000 certificate that raises your pay by $8,000 a year\n**B:** a $40,000 degree that raises your pay by $10,000 a year",
+              "options": [
+                "A: it pays back in about 6 months",
+                "B: its raise is bigger",
+                "They pay back at the same speed",
+                "You can't tell without more information"
+              ],
+              "answer": 0,
+              "hint": "For each one, divide the cost by the yearly raise.",
+              "explain": "A: $4,000 / $8,000 = half a year. B: $40,000 / $10,000 = 4 years. A bigger raise doesn't always mean faster payback. Both can still be good choices; a degree may open jobs a certificate can't."
             },
             {
               "type": "number",
-              "prompt": "A 6-month IT support certificate costs $4,000. It raises your pay from $32,000 to $40,000 a year. How many years until the raise pays back the cost?",
-              "answer": 0.5,
-              "tolerance": 0.01,
-              "unit": "years",
-              "explain": "The raise is $8,000 a year. $4,000 / $8,000 = **0.5 years**, about 6 months. That's a strong ROI, if the jobs exist where you live."
-            },
-            {
-              "type": "number",
-              "prompt": "A degree costs $40,000 in total and you expect it to raise your pay by $10,000 a year. How many years to pay back the cost (ignoring interest and lost wages)?",
-              "answer": 4,
+              "prompt": "A trade school program costs $12,000 in total and raises your pay by $6,000 a year. How many years until it pays back the cost?",
+              "answer": 2,
               "tolerance": 0,
               "unit": "years",
-              "explain": "$40,000 / $10,000 = **4 years**. Counting loan interest and wages you gave up while in school, the real payback is longer."
+              "hint": "Payback years = total cost / yearly pay increase.",
+              "explain": "$12,000 / $6,000 = **2 years**. Add loan interest and wages you give up while studying, and the real payback is longer."
             },
             {
               "type": "scenario",
@@ -836,7 +893,8 @@
                 { "text": "An expensive private four-year degree in a field you're not interested in.", "feedback": "High cost and a poor fit for hands-on goals and avoiding debt." },
                 { "text": "Wait a few years and decide later.", "feedback": "Waiting is okay if you're working and exploring, but doing nothing on purpose delays every option." }
               ],
-              "explain": "Match the path to your interests, money situation and timeline. You can also stack paths: a trade now, a degree later, often with employer help."
+              "explain": "Match the path to your interests, money situation and timeline. You can also stack paths: a trade now, a degree later, often with employer help.",
+              "hint": "Match the path to all three wants: hands-on, no debt, earn soon."
             },
             {
               "type": "match",
@@ -860,12 +918,14 @@
                 "What your friends think of the school"
               ],
               "answers": [0, 1, 2, 3],
-              "explain": "Tuition, materials, lost wages and interest are all real costs. Opinions matter for fit, but not for the price tag."
+              "explain": "Tuition, materials, lost wages and interest are all real costs. Opinions matter for fit, but not for the price tag.",
+              "hint": "Which ones would actually show up as a bill or as money you didn't earn?"
             },
             {
               "type": "learn",
               "title": "Key takeaways",
-              "body": "- College, community college, apprenticeships, certificates and the military can all lead to good careers.\n- Count full cost, including lost wages and interest.\n- Payback years = total cost / yearly earnings increase.\n- Check real job demand and pay in the BLS handbook.\n- Fit matters: pick work you can see yourself doing for years."
+              "body": "- College, community college, apprenticeships, certificates and the military can all lead to good careers.\n- Count full cost, including lost wages and interest.\n- Payback years = total cost / yearly earnings increase.\n- Check real job demand and pay in the BLS handbook.\n- Fit matters: pick work you can see yourself doing for years.",
+              "tip": "Search apprenticeship.gov for registered apprenticeships near you, even if you're leaning toward college. It's free to look."
             },
             {
               "type": "reflect",
@@ -882,7 +942,8 @@
             {
               "type": "learn",
               "title": "Test before you commit",
-              "body": "You don't have to know your whole career at 18. You do want to make good bets.\n\nCheap ways to test a field before spending years on it:\n- **Informational interviews**: 20-minute chats with people who do the work. Ask what they like, what's hard, and how they got there.\n- **Job shadowing** for a day\n- **Part-time or summer jobs** near the field\n- **Short online courses** or a small project\n\nEach test either builds excitement or saves you from an expensive wrong turn."
+              "body": "You don't have to know your whole career at 18. You do want to make good bets.\n\nCheap ways to test a field before spending years on it:\n- **Informational interviews**: 20-minute chats with people who do the work. Ask what they like, what's hard, and how they got there.\n- **Job shadowing** for a day\n- **Part-time or summer jobs** near the field\n- **Short online courses** or a small project\n\nEach test either builds excitement or saves you from an expensive wrong turn.",
+              "tip": "Ask one adult who has a job you're curious about for a 20-minute chat. Bring three questions and send a thank-you afterward."
             },
             {
               "type": "multi",
@@ -895,12 +956,14 @@
                 "How much money do you have in savings?"
               ],
               "answers": [0, 1, 3],
-              "explain": "Ask about the work, lessons learned and how to break in. Don't ask for a job directly or about their personal finances. If it goes well, they'll often offer to help."
+              "explain": "Ask about the work, lessons learned and how to break in. Don't ask for a job directly or about their personal finances. If it goes well, they'll often offer to help.",
+              "hint": "Ask about the work and how to get in, not for favors or personal details."
             },
             {
               "type": "learn",
               "title": "Goals with a timeline",
-              "body": "Turn a direction into steps. A simple plan:\n- **1-year goal**: a specific job, certification or skill\n- **3 next actions** that move you toward it this month\n- **Check-in date** every few months\n\nMake goals specific: not \"get better with computers\" but \"earn the IT support certificate by June.\"\n\nPlans change, and that's fine. Reviewing your plan once a year keeps you choosing your direction instead of drifting."
+              "body": "Turn a direction into steps. A simple plan:\n- **1-year goal**: a specific job, certification or skill\n- **3 next actions** that move you toward it this month\n- **Check-in date** every few months\n\nMake goals specific: not \"get better with computers\" but \"earn the IT support certificate by June.\"\n\nPlans change, and that's fine. Reviewing your plan once a year keeps you choosing your direction instead of drifting.",
+              "tip": "Put your next career check-in date in your phone calendar right now, with a reminder a week before."
             },
             {
               "type": "mcq",
@@ -934,7 +997,8 @@
                 { "text": "Push through no matter what, because quitting is failure.", "feedback": "Sunk costs shouldn't trap you in a career you'll dislike for decades." },
                 { "text": "Drop out today without a plan.", "feedback": "Leaving might be right, but have a next step before you stop." }
               ],
-              "explain": "Changing course is normal. Decide based on future value, not on what you've already spent."
+              "explain": "Changing course is normal. Decide based on future value, not on what you've already spent.",
+              "hint": "Decide based on what comes next, not on what you've already spent."
             },
             {
               "type": "truefalse",

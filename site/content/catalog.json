@@ -32,8 +32,8 @@
   "file": "content/courses/adulting-101.json",
   "units": 4,
   "levels": 12,
-  "steps": 104,
-  "minutes": 72,
+  "steps": 106,
+  "minutes": 73,
   "unitTitles": [
    "Your First Place",
    "Insurance and Healthcare",
@@ -74,8 +74,8 @@
   "file": "content/courses/body-and-health.json",
   "units": 4,
   "levels": 12,
-  "steps": 106,
-  "minutes": 73,
+  "steps": 109,
+  "minutes": 75,
   "unitTitles": [
    "Sleep, Screens and Self-Care",
    "Food and Water",
