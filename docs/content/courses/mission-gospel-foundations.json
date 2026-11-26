@@ -22,6 +22,7 @@
               "type": "learn",
               "title": "Your purpose in one sentence",
               "body": "Chapter 1 of *Preach My Gospel* gives every missionary the same purpose:\n\n> Invite others to come unto Christ by helping them receive the restored gospel through faith in Jesus Christ and His Atonement, repentance, baptism, receiving the gift of the Holy Ghost, and enduring to the end.\n\nFinding, teaching, service, planning and even P-day chores all serve this one goal. When you feel unsure what to do next, ask: *does this help someone come unto Christ?*",
+              "tip": "Copy the missionary purpose from Preach My Gospel chapter 1 onto a card and keep it in your scriptures. Read it each morning until you can say it from memory.",
               "source": { "label": "Preach My Gospel, ch. 1", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/03-chapter-1?lang=eng" }
             },
             {
@@ -36,6 +37,7 @@
               "type": "learn",
               "title": "Becoming before going",
               "body": "In 2005 Elder David A. Bednar taught: “The issue is not going on a mission; rather, the issue is becoming a missionary.”\n\nPreparation is not a checklist you finish at 18. It is becoming someone who already lives what missionaries teach:\n- praying and studying the scriptures every day\n- repenting quickly and keeping covenants\n- serving people and talking about the Savior naturally\n\nEvery one of those habits can start this week, at home.",
+              "tip": "Pick a set time for personal prayer and scripture study each day, like right after you wake up, and put it in your phone as a daily reminder.",
               "source": { "label": "Bednar, “Becoming a Missionary” (Oct 2005)", "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/10/becoming-a-missionary?lang=eng" }
             },
             {
@@ -48,6 +50,7 @@
               "type": "learn",
               "title": "What success really means",
               "body": "*Preach My Gospel* is clear that success is **not** measured by how many people you baptize or what leadership role you hold. People have agency; you cannot control their choices.\n\nYou are successful when you, for example:\n- love people and want what is best for them\n- live so you can have the Spirit and follow it\n- work diligently and teach and invite clearly\n- go about doing good and help build the Church\n\n> Focus on what you control: your desire, your obedience, your effort.",
+              "tip": "At the end of each day, write one line in a journal: how you showed love, followed the Spirit, or worked hard. Focus on what you can control.",
               "source": { "label": "Preach My Gospel, ch. 1: A Successful Missionary", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/03-chapter-1?lang=eng" }
             },
             {
@@ -72,11 +75,13 @@
               "type": "learn",
               "title": "You represent Jesus Christ",
               "body": "Missionaries are called by the President of the Church through revelation and are set apart by their stake president. The name tag carries the Savior’s name above your own.\n\nThat means you are not a salesperson. You are an authorized representative sharing what you know is true. A favourite missionary verse puts it this way:\n\n> “O ye that embark in the service of God, see that ye serve him with all your heart, might, mind and strength” (D&C 4:2).",
+              "tip": "Memorize Doctrine and Covenants 4 one verse a day. In a week you will know the whole section by heart.",
               "source": { "label": "Doctrine and Covenants 4", "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/4?lang=eng" }
             },
             {
               "type": "match",
               "prompt": "Match each missionary scripture to what it teaches.",
+              "hint": "Two of these are in D&C 18. Think about which one talks about how much a soul is worth and which talks about joy.",
               "pairs": [
                 ["D&C 4:2", "Serve God with all your heart, might, mind and strength"],
                 ["Moses 1:39", "God’s work and glory is our immortality and eternal life"],
@@ -101,11 +106,13 @@
               "type": "learn",
               "title": "The Savior’s own summary",
               "body": "Nephi (2 Nephi 31) and the resurrected Savior (3 Nephi 11:31–41) both teach the **doctrine of Christ**, the path that leads back to God:\n- faith in Jesus Christ\n- repentance\n- baptism by immersion\n- receiving the gift of the Holy Ghost\n- enduring to the end\n\nIt is not a checklist you do once. We keep returning to faith and repentance all our lives, and we renew our covenants each week through the sacrament.",
+              "tip": "Practice saying each of the five parts of the doctrine of Christ in one plain sentence, out loud, until you can do all five without notes.",
               "source": { "label": "2 Nephi 31", "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng" }
             },
             {
               "type": "order",
               "prompt": "Put the doctrine of Christ in the order taught in 2 Nephi 31 and the fourth article of faith.",
+              "hint": "Think of the fourth article of faith. It lists the first four steps, and the last one lasts the rest of your life.",
               "items": ["Faith in Jesus Christ", "Repentance", "Baptism by immersion", "Receiving the gift of the Holy Ghost", "Enduring to the end"],
               "explain": "Articles of Faith 1:4 lists the first principles and ordinances in this order, and 2 Nephi 31:20 adds pressing forward to the end."
             },
@@ -113,6 +120,7 @@
               "type": "learn",
               "title": "Faith: trust that acts",
               "body": "Alma teaches that faith is not “a perfect knowledge,” but hoping for things “which are not seen, which are true” (Alma 32:21). Faith in Jesus Christ is trusting Him enough to **do** what He asks.\n\nA simple way to say it:\n> “Faith is trusting Jesus Christ so much that you act on His words, even before you see every result.”\n\nFaith grows the way a seed grows: you plant it by acting, then notice the good fruit (Alma 32:27–43).",
+              "tip": "Choose one small act of faith this week, like praying before a hard decision and then acting on what you feel. Write down what happened.",
               "source": { "label": "Alma 32", "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng" }
             },
             {
@@ -127,6 +135,7 @@
               "type": "learn",
               "title": "The gate and the path",
               "body": "Nephi says repentance and baptism are the **gate**; after it comes the “strait and narrow path” (2 Nephi 31:17–18). Then:\n\n> “Ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men” (2 Nephi 31:20).\n\nEnduring to the end is not just waiting. It is pressing forward: feasting on the scriptures, praying, repenting, serving and keeping covenants for life.",
+              "tip": "During the sacrament each Sunday, think of one thing you will work on that week to press forward. Write it in your phone notes after the meeting.",
               "source": { "label": "2 Nephi 31:17–20", "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng&id=p17-p20#p17" }
             },
             {
@@ -174,6 +183,7 @@
               "type": "learn",
               "title": "Chapter 3 at a glance",
               "body": "*Preach My Gospel* (2023) chapter 3 contains the doctrine missionaries teach:\n- **The Invitation to Be Baptized and Confirmed**\n- **Lesson 1:** The Message of the Restoration of the Gospel of Jesus Christ\n- **Lesson 2:** Heavenly Father’s Plan of Salvation\n- **Lesson 3:** The Gospel of Jesus Christ\n- **Lesson 4:** Becoming Lifelong Disciples of Jesus Christ\n\nOlder editions had a fifth lesson, “Laws and Ordinances.” In the 2023 edition, commandments, ordinances and the temple are taught inside Lesson 4.",
+              "tip": "Open Preach My Gospel in the Gospel Library app and read the doctrinal section of one lesson each week. Mark the key scriptures in your own copy.",
               "source": { "label": "Preach My Gospel, ch. 3", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/08-chapter-3-lesson-1?lang=eng" }
             },
             {
@@ -191,6 +201,7 @@
               "type": "learn",
               "title": "A guide, not a script",
               "body": "Each lesson has a doctrinal foundation, key scriptures, questions and invitations, plus a short outline you can teach in about 3–10 minutes.\n\nYou are not meant to recite it. *Preach My Gospel* chapter 10 says to **let the Spirit guide the order of the lessons** and to adapt to each person’s needs, time and background.\n\nThat is why understanding the doctrine deeply (this course) matters more than memorizing wording.",
+              "tip": "Teach a family member a short version of a lesson in 3 to 10 minutes, in your own words and without reading. Ask them what was clear and what was not.",
               "source": { "label": "Preach My Gospel, ch. 10", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/18-chapter-10?lang=eng" }
             },
             {
@@ -203,6 +214,7 @@
               "type": "learn",
               "title": "Invitations are part of every lesson",
               "body": "Teaching without inviting is like describing food without offering any. Lessons 1–3 share common invitations:\n- pray to know the message is true\n- attend church this Sunday\n- read the Book of Mormon and pray about it\n- follow Jesus’s example and be baptized\n- set a time for the next visit\n\nThe invitation to be baptized and confirmed can come in any lesson, as you feel guided by the Spirit.",
+              "tip": "Practice inviting with a family member: ask a clear question that can be answered yes or no, like 'Will you read this chapter before we meet again?'",
               "source": { "label": "PMG ch. 3: The Invitation to Be Baptized", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/07-chapter-3-invite?lang=eng" }
             },
             {
@@ -226,6 +238,7 @@
             {
               "type": "order",
               "prompt": "Put this common flow for a teaching visit in a sensible order.",
+              "hint": "Think about what you need to know about a person before teaching, and what has to happen at the very end of every visit.",
               "items": ["Build the relationship and learn about their needs", "Begin with prayer to invite the Spirit", "Teach a few doctrines simply, using scriptures", "Share your testimony", "Extend an invitation and promise blessings", "Set a time for the next visit"],
               "explain": "This is a typical pattern, not a fixed rule. Understanding people first lets you choose which doctrine to teach; testimony and invitations come after the doctrine."
             },
@@ -252,6 +265,7 @@
               "type": "learn",
               "title": "Start with God’s love",
               "body": "Lesson 1 begins with the truth that makes everything else make sense: **God is our loving Heavenly Father.**\n- He is “the Father of spirits” (Hebrews 12:9). Every person you meet is His child.\n- He “so loved the world, that he gave his only begotten Son” (John 3:16).\n- The Father and the Son have glorified bodies of flesh and bones; the Holy Ghost is a personage of spirit (D&C 130:22).\n\nThe Godhead are three separate beings, perfectly united in purpose.",
+              "tip": "Mark Hebrews 12:9, John 3:16 and Doctrine and Covenants 130:22 in your scriptures, and practice explaining the Godhead with them in under a minute.",
               "source": { "label": "PMG Lesson 1", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/08-chapter-3-lesson-1?lang=eng" }
             },
             {
@@ -264,11 +278,13 @@
               "type": "learn",
               "title": "A pattern of prophets",
               "body": "“Surely the Lord God will do nothing, but he revealeth his secret unto his servants the prophets” (Amos 3:7).\n\nAcross history you see a pattern called **dispensations**: God calls a prophet (Adam, Noah, Abraham, Moses…), many follow, then over time people reject the prophets and truth and authority are lost. Then God calls a prophet again.\n\nJesus Christ organized His Church on “the foundation of the apostles and prophets” with Himself as “the chief corner stone” (Ephesians 2:19–20).",
+              "tip": "Draw the dispensation pattern as a circle on a card: prophet, people follow, people reject, truth lost, new prophet. Use it to explain the idea to a friend or sibling.",
               "source": { "label": "Amos 3:7", "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/amos/3?lang=eng&id=p7#p7" }
             },
             {
               "type": "order",
               "prompt": "Put the pattern of a dispensation in order.",
+              "hint": "The pattern is a cycle. It starts with a prophet and ends with a prophet.",
               "items": ["God calls a prophet and reveals the gospel", "Many people accept and follow the teachings", "Over time people reject the prophets and change the teachings", "Truth and priesthood authority are lost (apostasy)", "God calls a new prophet to restore the truth"],
               "explain": "Recognizing this pattern prepares people to understand why a restoration was needed in the latter days."
             },
@@ -287,7 +303,8 @@
             {
               "type": "learn",
               "title": "Say it simply",
-              "body": "Try explaining the first two doctrines in under 30 seconds:\n\n> “We believe God is your Heavenly Father. He knows you and loves you personally. Because He loves His children, He has always called prophets to teach them how to return to Him, like Noah, Abraham and Moses.”\n\nThen ask a question that invites them in: *“How have you felt God’s love in your life?”*"
+              "body": "Try explaining the first two doctrines in under 30 seconds:\n\n> “We believe God is your Heavenly Father. He knows you and loves you personally. Because He loves His children, He has always called prophets to teach them how to return to Him, like Noah, Abraham and Moses.”\n\nThen ask a question that invites them in: *“How have you felt God’s love in your life?”*",
+              "tip": "Record yourself on your phone giving a 30-second explanation of God's love and prophets. Listen back, cut any words that are not needed, and record it again."
             },
             {
               "type": "mcq",
@@ -324,6 +341,7 @@
               "type": "learn",
               "title": "The falling away",
               "body": "After Jesus Christ’s Resurrection, His Apostles led the Church. Over time they were rejected and killed, and priesthood authority was taken from the earth. Teachings were changed. Paul foretold “a falling away” before the Second Coming (2 Thessalonians 2:1–3).\n\nTeach this respectfully. Many sincere people kept the Bible and much truth alive, and other faiths contain much that is good. The restored gospel builds on that truth; it doesn’t mock it.",
+              "tip": "When you practice teaching the Apostasy, start by naming something good you respect in the other person's faith. Practice it with a family member playing the role.",
               "source": { "label": "PMG Lesson 1: The Falling Away", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/08-chapter-3-lesson-1?lang=eng" }
             },
             {
@@ -336,6 +354,7 @@
               "type": "learn",
               "title": "The First Vision",
               "body": "In 1820, 14-year-old Joseph Smith was confused by competing churches. He read James 1:5: “If any of you lack wisdom, let him ask of God.”\n\nHe prayed in a grove of trees near his home. God the Father and His Son Jesus Christ appeared. The Father pointed to the Son and said, “This is My Beloved Son. Hear Him!” (Joseph Smith—History 1:17). Joseph was told not to join any of the churches of that time.",
+              "tip": "Memorize Joseph Smith—History 1:16–17 word for word. Practice sharing it slowly and reverently, the way you would in a lesson.",
               "source": { "label": "Joseph Smith—History 1:11–20", "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng&id=p11-p20#p11" }
             },
             {
@@ -348,11 +367,13 @@
             {
               "type": "learn",
               "title": "Authority and the Church restored",
-              "body": "The Restoration continued step by step:\n- **1823:** the angel Moroni tells Joseph about an ancient record.\n- **1829:** John the Baptist restores the Aaronic Priesthood (D&C 13); Peter, James and John then restore the Melchizedek Priesthood.\n- **March 1830:** the Book of Mormon is published.\n- **6 April 1830:** the Church is organized.\n\nThe Lord called it “the only true and living church” (D&C 1:30). Revelation continues through living prophets today."
+              "body": "The Restoration continued step by step:\n- **1823:** the angel Moroni tells Joseph about an ancient record.\n- **1829:** John the Baptist restores the Aaronic Priesthood (D&C 13); Peter, James and John then restore the Melchizedek Priesthood.\n- **March 1830:** the Book of Mormon is published.\n- **6 April 1830:** the Church is organized.\n\nThe Lord called it “the only true and living church” (D&C 1:30). Revelation continues through living prophets today.",
+              "source": { "label": "Doctrine and Covenants 13", "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/13?lang=eng" }
             },
             {
               "type": "order",
               "prompt": "Put these events of the Restoration in order.",
+              "hint": "Use the years. When two events share a year, check the month.",
               "items": ["First Vision (1820)", "Moroni’s first visit to Joseph Smith (1823)", "Aaronic Priesthood restored by John the Baptist (1829)", "Book of Mormon published (March 1830)", "Church organized (6 April 1830)"],
               "explain": "The Restoration was a process. Knowing the sequence helps you tell the story clearly."
             },
@@ -395,6 +416,7 @@
               "type": "learn",
               "title": "Another testament of Jesus Christ",
               "body": "The Book of Mormon is a record of God’s dealings with ancient peoples in the Americas, abridged by the prophet Mormon and translated by Joseph Smith “by the gift and power of God” (D&C 135:3).\n\nIts title page says it was written for “the convincing of the Jew and Gentile that Jesus is the Christ.” It stands beside the Bible, not in place of it: Ezekiel saw two records becoming “one in thine hand” (Ezekiel 37:15–17).\n\nIf the Book of Mormon is true, Joseph Smith was a prophet and the Church is restored.",
+              "tip": "As you read the Book of Mormon, mark every verse that teaches about Jesus Christ in one color. It helps you find them fast when teaching.",
               "source": { "label": "PMG ch. 5: The Power of the Book of Mormon", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/13-chapter-5?lang=eng" }
             },
             {
@@ -408,22 +430,26 @@
               "type": "learn",
               "title": "Moroni’s promise",
               "body": "Moroni 10:3–5 gives a pattern anyone can follow:\n- **read** these things\n- **remember** how merciful the Lord has been\n- **ponder** it in your heart\n- **ask** God, the Eternal Father, in the name of Christ, if it is true\n- ask with a sincere heart, with real intent, having faith in Christ\n\nThen: “he will manifest the truth of it unto you, by the power of the Holy Ghost.”",
+              "tip": "Follow Moroni's promise yourself this week: set a time to read, ponder and ask in prayer. Write down any impressions right after.",
               "source": { "label": "Moroni 10:3–5", "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng&id=p3-p5#p3" }
             },
             {
               "type": "order",
               "prompt": "Put Moroni’s promise in the order he gives it.",
+              "hint": "Moroni starts with something you do with the book and ends with something you do in prayer.",
               "items": ["Read the record", "Remember the Lord’s mercy", "Ponder it in your heart", "Ask God in the name of Christ with real intent", "Receive the answer by the power of the Holy Ghost"],
               "explain": "Moroni 10:3–5. Real intent means being willing to act on the answer."
             },
             {
               "type": "learn",
               "title": "Teach people how to pray",
-              "body": "Many people have never prayed out loud. Teach four simple parts:\n1. Address **Heavenly Father**.\n2. **Thank** Him for specific blessings.\n3. **Ask** Him for what you need (including whether this message is true).\n4. Close **in the name of Jesus Christ, amen.**\n\nThen invite them to pray right there, or offer to pray first as an example. Speak reverently, but sincerity matters more than perfect wording."
+              "body": "Many people have never prayed out loud. Teach four simple parts:\n1. Address **Heavenly Father**.\n2. **Thank** Him for specific blessings.\n3. **Ask** Him for what you need (including whether this message is true).\n4. Close **in the name of Jesus Christ, amen.**\n\nThen invite them to pray right there, or offer to pray first as an example. Speak reverently, but sincerity matters more than perfect wording.",
+              "tip": "Offer to say family prayer this week, and use the four simple parts out loud. It is good practice for teaching others how to pray."
             },
             {
               "type": "order",
               "prompt": "Put the parts of a prayer in order.",
+              "hint": "Think of how a letter is built: who it is to, what you want to say, and how you sign it.",
               "items": ["“Dear Heavenly Father…”", "“I thank Thee for…”", "“I ask Thee…”", "“In the name of Jesus Christ, amen.”"],
               "explain": "We pray to the Father, in the name of the Son (3 Nephi 18:19–21). This simple pattern works in any language."
             },
@@ -467,6 +493,7 @@
               "type": "learn",
               "title": "We lived before",
               "body": "Before birth we lived with Heavenly Father as His spirit children (Hebrews 12:9; Abraham 3:22–23). He presented a plan so we could become like Him: we would receive bodies, be tested, and use our **agency** (the power to choose).\n\nJesus Christ was chosen to be our Savior. God’s purpose is summed up in Moses 1:39:\n\n> “This is my work and my glory—to bring to pass the immortality and eternal life of man.”",
+              "tip": "Memorize Moses 1:39. Say it each night before bed for a week, and try to explain it to someone in your own words.",
               "source": { "label": "PMG Lesson 2", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/09-chapter-3-lesson-2?lang=eng" }
             },
             {
@@ -496,6 +523,7 @@
               "type": "learn",
               "title": "The Fall: a necessary step",
               "body": "Adam and Eve chose to eat the fruit. As a result they left the garden, became mortal, could have children, and experienced opposition, sin, sickness and death.\n\nLatter-day Saints see the Fall as part of God’s plan, not as ruining it:\n\n> “Adam fell that men might be; and men are, that they might have joy” (2 Nephi 2:25).\n\nEve rejoiced that without it they would never have known “the joy of our redemption” (Moses 5:11). And we are punished for our own sins, not for Adam’s transgression (Articles of Faith 1:2).",
+              "tip": "Read 2 Nephi 2 a few verses a day for a week, and write down one question each day to study or ask a parent or teacher about.",
               "source": { "label": "2 Nephi 2", "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng" }
             },
             {
@@ -550,6 +578,7 @@
               "type": "learn",
               "title": "The Atonement of Jesus Christ",
               "body": "In Gethsemane and on the cross, Jesus Christ suffered for our sins, and He also took upon Himself our “pains and afflictions and temptations of every kind” and our sicknesses, so He would know how to succor (help) us (Alma 7:11–13).\n\nThen He rose from the dead. His Atonement overcomes:\n- **physical death**: everyone will be resurrected (1 Corinthians 15:22)\n- **spiritual death**: we can be forgiven and cleansed as we repent (D&C 19:16–19)",
+              "tip": "Read Alma 7:11–13, then write a few lines about one hard thing in your life the Savior understands. Pray about it that night.",
               "source": { "label": "Alma 7:11–13", "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng&id=p11-p13#p11" }
             },
             {
@@ -574,6 +603,7 @@
               "type": "learn",
               "title": "The spirit world",
               "body": "At death, our spirit leaves the body and enters the spirit world. Alma describes **paradise**, “a state of rest” for the righteous, and a condition sometimes called spirit prison for those who did not receive or follow the truth (Alma 40:11–14).\n\nGod is just and merciful: the gospel is preached to the dead (1 Peter 4:6; D&C 138:32–34). In temples, members perform ordinances like baptism for those who have died, who can choose to accept them (1 Corinthians 15:29).",
+              "tip": "Ask your family or your ward temple and family history leader to help you find an ancestor on FamilySearch whose temple ordinances still need to be done.",
               "source": { "label": "Alma 40", "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/40?lang=eng" }
             },
             {
@@ -627,6 +657,7 @@
               "type": "learn",
               "title": "Kingdoms of glory",
               "body": "Paul compared resurrected glories to the sun, moon and stars (1 Corinthians 15:40–42). D&C 76 explains:\n- **Celestial:** those who receive the testimony of Jesus, are baptized and keep their covenants.\n- **Terrestrial:** honourable people who were not valiant in the testimony of Jesus.\n- **Telestial:** those who rejected the gospel and lived wickedly, after suffering for their own sins.\n\nEven the telestial glory “surpasses all understanding” (D&C 76:89). The highest degree of the celestial kingdom requires the new and everlasting covenant of marriage (D&C 131:1–4).",
+              "tip": "Draw the plan of salvation on one sheet of paper from memory, then check it against Lesson 2 and fix anything you missed. Repeat until it is easy.",
               "source": { "label": "Doctrine and Covenants 76", "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76?lang=eng" }
             },
             {
@@ -649,6 +680,7 @@
             {
               "type": "order",
               "prompt": "Put the stages of the plan of salvation in order.",
+              "hint": "Follow a life from before birth to after death. Judgment comes after the body is raised again.",
               "items": ["Premortal life", "Birth and mortal life", "Death and the spirit world", "Resurrection", "Final judgment", "Kingdoms of glory"],
               "explain": "Being able to draw this sequence on paper is one of the simplest and most effective ways to teach Lesson 2."
             },
@@ -686,6 +718,7 @@
               "type": "learn",
               "title": "Faith grows by testing it",
               "body": "Faith in Jesus Christ is “the substance of things hoped for, the evidence of things not seen” (Hebrews 11:1).\n\nMoroni adds: “ye receive no witness until after the trial of your faith” (Ether 12:6). In other words, we act first, then the witness comes.\n\nAlma compares this to planting a seed and watching whether it grows (Alma 32:27–43). Invitations give people a seed to plant.",
+              "tip": "Before you invite anyone to act in faith, do the same invitation yourself first, like reading a chapter and praying about it. Then you can share what happened.",
               "source": { "label": "PMG Lesson 3: Faith in Jesus Christ", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/10-chapter-3-lesson-3?lang=eng" }
             },
             {
@@ -699,6 +732,7 @@
               "type": "learn",
               "title": "Repentance: turning toward God",
               "body": "Repentance is not self-punishment. It is a change of mind, heart and behaviour that brings us closer to God, made possible by Jesus Christ. It includes:\n- recognizing the sin and feeling godly sorrow\n- confessing to God (and to the bishop for serious sins)\n- forsaking the sin and making things right where possible\n- keeping the commandments\n\n“He who has repented of his sins, the same is forgiven, and I, the Lord, remember them no more” (D&C 58:42).",
+              "tip": "End each day with a prayer reviewing what went well and what to do better. If something serious weighs on you, ask your bishop for a time to talk.",
               "source": { "label": "D&C 58:42–43", "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/58?lang=eng&id=p42-p43#p42" }
             },
             {
@@ -753,6 +787,7 @@
               "type": "learn",
               "title": "Baptism: our first covenant",
               "body": "Jesus was baptized by immersion (Matthew 3:16) and taught that we must be “born of water and of the Spirit” (John 3:5). Baptism:\n- is by immersion, by someone holding priesthood authority\n- brings remission of sins and membership in the Church\n- symbolizes the death of the old life and a new birth (Romans 6:3–5)\n\nIn the covenant we promise to be willing to take upon us Christ’s name, keep His commandments, serve God and others, and endure to the end. God promises forgiveness and His Spirit (Mosiah 18:8–10).",
+              "tip": "Read Mosiah 18:8–10 and write two lists: what we promise in the baptismal covenant and what God promises. Keep it with your scriptures.",
               "source": { "label": "PMG Lesson 3: Baptism", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/10-chapter-3-lesson-3?lang=eng" }
             },
             {
@@ -771,11 +806,13 @@
             {
               "type": "learn",
               "title": "The gift of the Holy Ghost",
-              "body": "After baptism, a person is confirmed and receives the gift of the Holy Ghost by the laying on of hands by Melchizedek Priesthood holders (Articles of Faith 1:4; Acts 8:14–17).\n\nAnyone can feel the **influence** of the Holy Ghost, which is how people gain a testimony (Moroni 10:5). The **gift** is the right to His constant companionship as we stay worthy. He comforts, guides, warns and sanctifies (3 Nephi 27:20)."
+              "body": "After baptism, a person is confirmed and receives the gift of the Holy Ghost by the laying on of hands by Melchizedek Priesthood holders (Articles of Faith 1:4; Acts 8:14–17).\n\nAnyone can feel the **influence** of the Holy Ghost, which is how people gain a testimony (Moroni 10:5). The **gift** is the right to His constant companionship as we stay worthy. He comforts, guides, warns and sanctifies (3 Nephi 27:20).",
+              "source": { "label": "PMG Lesson 3: The Gift of the Holy Ghost", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/10-chapter-3-lesson-3?lang=eng" }
             },
             {
               "type": "mcq",
               "prompt": "What is the difference between feeling the influence of the Holy Ghost and having the gift of the Holy Ghost?",
+              "hint": "Think about how people who are not yet members can gain a testimony, and what changes after confirmation.",
               "options": ["There is no difference", "The influence can come to anyone seeking truth; the gift is the right to His constant companionship after confirmation", "The gift is only for missionaries", "The influence comes only after baptism"],
               "answer": 1,
               "explain": "People feel the Spirit before baptism (that is how they gain a testimony). The gift, given at confirmation, offers His constant companionship as they keep covenants."
@@ -783,11 +820,13 @@
             {
               "type": "learn",
               "title": "Enduring with the sacrament",
-              "body": "Jesus gave the sacrament “in remembrance of me” (Luke 22:19–20). Each week, members renew their covenants and promise to always remember Him, and He promises that His Spirit will be with them (Moroni 4–5).\n\nThis is how enduring to the end really works: weekly renewal, daily repentance, steady progress toward the temple."
+              "body": "Jesus gave the sacrament “in remembrance of me” (Luke 22:19–20). Each week, members renew their covenants and promise to always remember Him, and He promises that His Spirit will be with them (Moroni 4–5).\n\nThis is how enduring to the end really works: weekly renewal, daily repentance, steady progress toward the temple.",
+              "tip": "Read the sacrament prayers in Moroni 4 and 5 before church this Sunday, then listen closely to the words during the meeting."
             },
             {
               "type": "order",
               "prompt": "Put these steps of someone joining the Church in order.",
+              "hint": "An interview comes before the ordinance, and confirmation comes after baptism.",
               "items": ["Learns the gospel and feels the Spirit", "Repents and decides to follow Jesus Christ", "Has a baptismal interview", "Is baptized by immersion", "Is confirmed and receives the gift of the Holy Ghost", "Takes the sacrament weekly and prepares for the temple"],
               "explain": "Conversion continues after baptism. Lesson 4 is designed for this ongoing discipleship."
             },
@@ -818,11 +857,13 @@
               "type": "learn",
               "title": "Lesson 4 is built on covenants",
               "body": "Lesson 4 is organized around the baptismal covenant:\n- **Take Christ’s name:** pray often, study the scriptures.\n- **Keep the commandments:** the two great commandments, follow the prophet, the Ten Commandments, the law of chastity, tithing, the Word of Wisdom, the Sabbath, obey the law.\n- **Serve God and others:** service, sharing the gospel, fasting and fast offerings.\n- **Endure to the end:** priesthood, family, temple and family history.\n\nCommandments are blessings: those who keep them are “blessed in all things” (Mosiah 2:41).",
+              "tip": "Pick one commandment from Lesson 4 that you find hardest and make one specific plan for it this week. Talk with a parent or leader if you want help.",
               "source": { "label": "PMG Lesson 4", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/11-chapter-3-lesson-4?lang=eng" }
             },
             {
               "type": "match",
               "prompt": "Match each commandment to a key scripture for it.",
+              "hint": "Isaiah 58 appears twice. One part is about the Lord's day, the other about loosing bands and feeding the hungry.",
               "pairs": [
                 ["Tithing", "Malachi 3:8–10"],
                 ["Word of Wisdom", "D&C 89"],
@@ -835,7 +876,8 @@
             {
               "type": "learn",
               "title": "Explaining key commandments simply",
-              "body": "- **Law of chastity:** sexual relations only between a man and a woman who are legally married.\n- **Word of Wisdom:** no alcohol, tobacco, coffee, tea, vaping or harmful drugs; care for your body (D&C 89).\n- **Tithing:** give one-tenth of your income to the Lord (D&C 119:4). It funds the Lord’s work, such as temples and meetinghouses; local leaders are not paid.\n- **Sabbath:** worship, take the sacrament, rest and do good on the Lord’s day.\n\nAlways connect a commandment to the promised blessing."
+              "body": "- **Law of chastity:** sexual relations only between a man and a woman who are legally married.\n- **Word of Wisdom:** no alcohol, tobacco, coffee, tea, vaping or harmful drugs; care for your body (D&C 89).\n- **Tithing:** give one-tenth of your income to the Lord (D&C 119:4). It funds the Lord’s work, such as temples and meetinghouses; local leaders are not paid.\n- **Sabbath:** worship, take the sacrament, rest and do good on the Lord’s day.\n\nAlways connect a commandment to the promised blessing.",
+              "source": { "label": "PMG Lesson 4: Keep the Commandments", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/11-chapter-3-lesson-4?lang=eng" }
             },
             {
               "type": "mcq",
@@ -848,6 +890,7 @@
               "type": "learn",
               "title": "Ordinances of salvation and exaltation",
               "body": "An **ordinance** is a sacred act performed by priesthood authority, usually with a covenant. “In the ordinances thereof, the power of godliness is manifest” (D&C 84:20).\n\nThe ordinances of salvation and exaltation are:\n- baptism\n- confirmation and the gift of the Holy Ghost\n- Melchizedek Priesthood ordination (for men)\n- the temple endowment\n- the temple sealing (eternal marriage)\n\nThe sacrament renews these covenants each week.",
+              "tip": "If you do not have a current temple recommend, ask your bishop for an interview. Then plan regular temple trips with your family or ward.",
               "source": { "label": "D&C 84:19–22", "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng&id=p19-p22#p19" }
             },
             {
