@@ -21,7 +21,7 @@
             {
               "type": "learn",
               "title": "How much do you need?",
-              "body": "The CDC recommends:\n- **Teens (13-17)**: 8-10 hours a night\n- **Adults (18-60)**: 7 or more hours a night\n\nSleep is when your body repairs muscle, your brain stores what you learned, and your immune system recharges. Short sleep is linked to worse grades and reaction time, more colds, more snacking, low mood, and drowsy driving crashes.\n\n> You can't train yourself to need less sleep. You just get used to feeling tired.",
+              "body": "The CDC recommends:\n- **Teens (13-17)**: 8-10 hours a night\n- **Adults (18-60)**: 7 or more hours a night\n\nSleep is when your body repairs muscle, your brain stores what you learned, and your immune system recharges. Short sleep is linked to getting sick more often, weight gain, low mood, worse attention and memory, and more car crashes.\n\n> You can't train yourself to need less sleep. You just get used to feeling tired.",
               "source": { "label": "CDC: About sleep", "url": "https://www.cdc.gov/sleep/about/index.html" },
               "tip": "Set a bedtime alarm, not just a wake-up alarm. Count back 8-9 hours from when you have to get up, and have your phone remind you 30 minutes before that."
             },
@@ -33,6 +33,13 @@
               "unit": "hours",
               "explain": "11:30 p.m. to 12:30 a.m. is 1 hour.\n\n12:30 a.m. to 6:30 a.m. is 6 more hours.\n\nTotal: **7 hours**. That meets the adult minimum but is 1-3 hours short of what a 13-17-year-old needs.",
               "hint": "Count in two parts: from 11:30 p.m. to 12:30 a.m., then from 12:30 a.m. to 6:30 a.m."
+            },
+            {
+              "type": "learn",
+              "title": "Most teens fall short",
+              "body": "A CDC survey of US high school students found that in 2023 only **23%**, fewer than 1 in 4, got 8 or more hours of sleep on an average school night.\n\nSo if you feel tired most days, you are not alone. But you don't have to accept it. Small changes to your evening, covered next, can win back sleep.",
+              "tip": "For one week, write down when you actually fall asleep and when you wake up. Then work out your real average.",
+              "source": { "label": "Contemporary Pediatrics: CDC report on teen sleep (YRBS 2023)", "url": "https://www.contemporarypediatrics.com/view/cdc-most-us-teens-fail-to-get-recommended-8-hours-of-sleep-report-finds" }
             },
             {
               "type": "mcq",
@@ -118,8 +125,8 @@
             {
               "type": "learn",
               "title": "Tired eyes",
-              "body": "When you stare at a screen, you blink less, so your eyes dry out and feel tired. Common signs: dry or burning eyes, blurry vision, headaches.\n\nThe American Academy of Ophthalmology suggests the **20-20-20 rule**:\n\n> Every **20 minutes**, look at something about **20 feet** away for **20 seconds**.\n\nAlso: keep the screen about an arm's length away, slightly below eye level, and reduce glare. If symptoms continue, get an eye exam; you may need glasses.",
-              "source": { "label": "AAO: Computers, digital devices and eye strain", "url": "https://www.aao.org/eye-health/tips-prevention/computer-usage" },
+              "body": "When you stare at a screen, you blink less, so your eyes dry out and feel tired. Common signs: dry or burning eyes, blurry vision, headaches.\n\nEye doctors' groups (the American Academy of Ophthalmology and the American Optometric Association) suggest the **20-20-20 rule**:\n\n> Every **20 minutes**, look at something about **20 feet** away for **20 seconds**.\n\nLittle research has tested it, but it is free and easy. Also: keep the screen about an arm's length away, slightly below eye level, and reduce glare. If symptoms continue, get an eye exam; you may need glasses.",
+              "source": { "label": "Medical News Today: The 20-20-20 rule", "url": "https://www.medicalnewstoday.com/articles/321536" },
               "tip": "Next time you study on a screen, set a repeating 20-minute timer. When it rings, look out a window or across the room for 20 seconds."
             },
             {
@@ -176,7 +183,7 @@
               "prompt": "You've had headaches and blurry vision after every school day for two weeks, even though you take screen breaks. What should you do?",
               "options": [
                 { "text": "Book an eye exam with an optometrist or ophthalmologist.", "feedback": "Yes. Ongoing symptoms despite good habits are a reason to get checked; you may need glasses.", "best": true },
-                { "text": "Buy blue-light glasses online and skip the exam.", "feedback": "Eye doctors say there isn't good evidence blue-light glasses prevent eye strain, and you'd miss a real vision problem." },
+                { "text": "Buy blue-light glasses online and skip the exam.", "feedback": "Glasses bought online won't check your vision, and you'd miss a real problem an exam could find." },
                 { "text": "Ignore it; everyone's eyes get tired.", "feedback": "Two weeks of headaches and blurry vision deserves a check." }
               ],
               "explain": "Uncorrected vision problems are a common cause of headaches. An eye exam is quick and often covered by insurance.",
@@ -222,9 +229,9 @@
             {
               "type": "learn",
               "title": "Teeth, skin and body",
-              "body": "- **Teeth**: brush twice a day with fluoride toothpaste and clean between teeth once a day (floss or picks). The American Dental Association recommends both.\n- **Shower** regularly, and always after sweaty workouts. Use deodorant or antiperspirant daily.\n- **Skin**: wash your face gently; don't pick at acne. Use broad-spectrum sunscreen, SPF 30 or higher, when outdoors.\n- **Laundry**: workout clothes and towels go in the wash after each use; sheets about weekly.",
+              "body": "- **Teeth**: brush twice a day with fluoride toothpaste and clean between teeth once a day (floss or picks). The American Dental Association recommends both.\n- **Shower** regularly, and always after sweaty workouts. Use deodorant or antiperspirant daily.\n- **Skin**: wash your face gently; don't pick at acne. Use broad-spectrum sunscreen, SPF 15 or higher (the CDC's advice), when outdoors.\n- **Laundry**: workout clothes and towels go in the wash after each use; sheets about weekly.",
               "source": { "label": "ADA MouthHealthy: Brushing your teeth", "url": "https://www.mouthhealthy.org/all-topics-a-z/brushing-your-teeth" },
-              "tip": "Set a repeating phone reminder to replace your toothbrush every 3-4 months, or sooner if the bristles look frayed."
+              "tip": "Set a repeating phone reminder to replace your toothbrush every few months, or sooner if the bristles look frayed."
             },
             {
               "type": "multi",
@@ -242,8 +249,9 @@
             {
               "type": "learn",
               "title": "Checkups to keep",
-              "body": "- **Primary care doctor**: a regular physical, plus visits when something feels off. Find one *before* you're sick.\n- **Dentist**: cleanings and checkups, usually once or twice a year, as your dentist advises.\n- **Eye exam**: if you have glasses or contacts, or notice vision changes.\n- **Vaccines**: a flu shot every year, plus others your doctor recommends.\n\nBring a list of questions and any medicines you take. Doctors keep your information private; be honest so they can actually help.",
-              "tip": "Look up an in-network primary care doctor on your insurance website and save the office number in your phone, even if you feel fine."
+              "body": "- **Primary care doctor**: a regular physical, plus visits when something feels off. Find one *before* you're sick.\n- **Dentist**: cleanings and checkups, usually once or twice a year, as your dentist advises.\n- **Eye exam**: if you have glasses or contacts, or notice vision changes.\n- **Vaccines**: a flu shot every year (the CDC advises it for everyone 6 months and older), plus others your doctor recommends.\n\nBring a list of questions and any medicines you take. Doctors keep your information private; be honest so they can actually help.",
+              "tip": "Look up an in-network primary care doctor on your insurance website and save the office number in your phone, even if you feel fine.",
+              "source": { "label": "CDC: Key facts about flu vaccines", "url": "https://www.cdc.gov/flu/vaccines/keyfacts.html" }
             },
             {
               "type": "match",
@@ -264,7 +272,7 @@
                 { "text": "Wait until you get sick, then go to the emergency room.", "feedback": "ERs are for emergencies and cost far more. Prevention is cheaper." },
                 { "text": "Skip doctors as long as you feel fine.", "feedback": "Many problems, like high blood pressure, have no symptoms early." }
               ],
-              "explain": "Most insurance plans cover a yearly preventive checkup at no cost to you when you use an in-network doctor."
+              "explain": "Most health plans cover preventive care, such as many vaccines and screenings, at no cost to you when you use an in-network doctor."
             },
             {
               "type": "truefalse",
@@ -295,7 +303,7 @@
               "type": "learn",
               "title": "The big ideas",
               "body": "The **Dietary Guidelines for Americans, 2025-2030**, released in January 2026, focus on:\n- **Whole, minimally processed foods**: vegetables, fruits, beans, whole grains, eggs, meat, fish, dairy, nuts.\n- **Enough protein** at each meal.\n- **Limiting highly processed foods**, added sugars and sugary drinks.\n\nA simple plate: half vegetables and fruit, a quarter protein, a quarter whole grains or starchy foods, plus water.",
-              "source": { "label": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/" },
+              "source": { "label": "Harvard Nutrition Source: the 2025-2030 guidelines", "url": "https://nutritionsource.hsph.harvard.edu/2026/01/09/dietary-guidelines-for-americans-2025-2030/" },
               "tip": "At your next meal, look at your plate. If it isn't about half vegetables or fruit, add a handful of frozen vegetables or a piece of fruit."
             },
             {
@@ -327,14 +335,15 @@
             {
               "type": "learn",
               "title": "Fiber fills you up",
-              "body": "**Fiber** is the part of plant foods your body can't fully digest. It keeps digestion regular, keeps you full, and is good for your heart.\n\nWhere to find it: beans, lentils, oats, whole grains, vegetables, fruit, nuts.\n\nMost Americans eat far less fiber than recommended. You don't need to count grams. Just add one high-fiber food to each meal.",
-              "tip": "Swap one food this week for a high-fiber one: oatmeal instead of sugary cereal, or a can of rinsed beans stirred into soup, chili or rice."
+              "body": "**Fiber** is the part of plant foods your body can't fully digest. It keeps digestion regular, keeps you full, and is good for your heart.\n\nWhere to find it: beans, lentils, oats, whole grains, vegetables, fruit, nuts.\n\nMost Americans fall short: the Dietary Guidelines report that more than **90% of women and 97% of men** don't get enough fiber. You don't need to count grams. Just add one high-fiber food to each meal.",
+              "tip": "Swap one food this week for a high-fiber one: oatmeal instead of sugary cereal, or a can of rinsed beans stirred into soup, chili or rice.",
+              "source": { "label": "NIH PubMed Central: Dietary Guidelines, pulses and fiber (review)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8621412/" }
             },
             {
               "type": "truefalse",
               "prompt": "Most Americans already eat plenty of fiber, so there's no need to add more.",
               "answer": false,
-              "explain": "Most people get far less than the common target of about 14 grams per 1,000 calories (around 28 grams on a 2,000-calorie day). Beans, oats and fruit are easy ways to close the gap."
+              "explain": "More than 90% of women and 97% of men fall short. The Daily Value on food labels is 28 grams a day. Beans, oats and fruit are easy ways to close the gap."
             },
             {
               "type": "match",
@@ -367,14 +376,14 @@
                 { "text": "Protein bars and protein shakes for every meal.", "feedback": "Convenient sometimes, but expensive, highly processed and low in fiber." },
                 { "text": "Instant noodles because they're the cheapest.", "feedback": "Cheap per pack, but low in protein and fiber, and very high in sodium." }
               ],
-              "explain": "Frozen vegetables and canned beans are as nutritious as fresh and won't spoil before you use them.",
+              "explain": "Frozen vegetables and canned beans are about as nutritious as fresh and won't spoil before you use them.",
               "hint": "Look for foods that are cheap, filling and keep for a while without spoiling."
             },
             {
               "type": "truefalse",
               "prompt": "Frozen vegetables are usually much less nutritious than fresh ones.",
               "answer": false,
-              "explain": "Frozen vegetables are picked and frozen quickly, so they keep most of their nutrients. They're a cheap, low-waste option."
+              "explain": "Frozen vegetables are frozen at peak freshness, and their nutrition is very similar to fresh. They're a cheap, low-waste option."
             },
             {
               "type": "learn",
@@ -407,8 +416,15 @@
               "type": "learn",
               "title": "The 5/20 rule",
               "body": "**% Daily Value (%DV)** shows how much one serving contributes to a day's worth of a nutrient. The FDA's quick guide:\n\n> **5% DV or less** is low. **20% DV or more** is high.\n\nLook for **high** fiber, vitamin D, calcium, iron and potassium. Look for **low** saturated fat, sodium and added sugars.\n\nKey Daily Values: added sugars **50 g**, sodium **2,300 mg**.",
-              "source": { "label": "FDA: Lows and highs of percent Daily Value", "url": "https://www.fda.gov/food/nutrition-facts-label/lows-and-highs-percent-daily-value-nutrition-facts-label" },
+              "source": { "label": "FDA: Daily Value on the Nutrition Facts label", "url": "https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels" },
               "tip": "In the store, compare two versions of something you buy, like two cereals or two soups. Pick the one with the lower %DV for added sugars and sodium."
+            },
+            {
+              "type": "learn",
+              "title": "Most people get too much salt",
+              "body": "The CDC says Americans eat more than **3,300 mg** of sodium a day on average. The advice for teens and adults is **less than 2,300 mg**.\n\nMost of that sodium comes from processed and restaurant foods. That is why the sodium line on a label is worth a look.",
+              "tip": "Check the sodium %DV on three foods you eat often. Anything at 20% DV or more per serving is high.",
+              "source": { "label": "CDC: About sodium", "url": "https://www.cdc.gov/salt/about/index.html" }
             },
             {
               "type": "mcq",
@@ -465,7 +481,7 @@
             {
               "type": "learn",
               "title": "Water first",
-              "body": "Your body needs water to control temperature, move nutrients and keep your brain working. How much you need depends on your size, activity, and the weather. You need more in heat, during exercise, and when sick with fever, vomiting or diarrhea.\n\nSimple checks:\n- Drink with every meal and during exercise.\n- Carry a reusable bottle.\n- **Pale yellow urine** usually means you're well hydrated; dark yellow means drink more.\n\nFood counts too: fruits, vegetables and soups contain lots of water.",
+              "body": "Your body needs water to control temperature, move nutrients and keep your brain working. How much you need depends on your size, activity, and the weather. You need more in heat, during exercise, and when sick with fever, vomiting or diarrhea.\n\nSimple checks:\n- Drink with every meal and during exercise.\n- Carry a reusable bottle.\n- **Darker yellow urine**, thirst, a dry mouth or a headache can mean you need more fluids.\n\nFood counts too: fruits, vegetables and soups contain lots of water.",
               "source": { "label": "CDC: Water and healthier drinks", "url": "https://www.cdc.gov/healthy-weight-growth/water-healthy-drinks/index.html" },
               "tip": "Fill a reusable water bottle in the morning and keep it in sight, on your desk or in your bag. You drink more when it's always there."
             },
@@ -481,8 +497,8 @@
             {
               "type": "learn",
               "title": "Sugary drinks",
-              "body": "**Sugary drinks** (soda, sweet tea, fruit drinks, sports drinks, energy drinks, sweet coffee drinks) are the biggest source of added sugar for many people. Their calories don't fill you up the way food does.\n\nA single 20-ounce soda can have more added sugar than the Daily Value for a whole day (50 grams).\n\n**Sports drinks** are made for long, sweaty exercise. For everyday activity, water is enough.",
-              "source": { "label": "CDC: Water and healthier drinks", "url": "https://www.cdc.gov/healthy-weight-growth/water-healthy-drinks/index.html" },
+              "body": "**Sugary drinks** (soda, sweet tea, fruit drinks, sports drinks, energy drinks, sweet coffee drinks) are the leading source of added sugar in the American diet, says the CDC. Their calories don't fill you up the way food does.\n\nA 12-ounce can of regular soda has about **10 teaspoons** (about 42 grams) of added sugar, close to the whole day's Daily Value of 50 grams. A 20-ounce bottle has even more.\n\n**Sports drinks** have sugar too (about 5 teaspoons in 12 ounces). They are made for long, sweaty exercise. For everyday activity, water is enough.",
+              "source": { "label": "CDC: Rethink your drink", "url": "https://www.cdc.gov/healthy-weight-growth/rethink-your-drink/index.html" },
               "tip": "For one week, swap one sugary drink a day for water, sparkling water or unsweetened tea. Keep track of the money you don't spend."
             },
             {
@@ -515,7 +531,7 @@
                 "Feeling fine after drinking water with each meal"
               ],
               "answers": [0, 1, 3],
-              "explain": "Dark urine, dizziness, headache and dry mouth can all signal dehydration. Pale yellow urine is a good sign."
+              "explain": "Dark urine, dizziness, headache and dry mouth can all signal dehydration. Pale yellow urine is not a warning sign."
             },
             {
               "type": "learn",
@@ -549,7 +565,7 @@
             {
               "type": "learn",
               "title": "Key takeaways",
-              "body": "- Water first: drink with meals and during exercise.\n- Pale yellow urine usually means you're hydrated.\n- One soda can exceed a day's added sugar.\n- Adults: up to about 400 mg caffeine a day. Teens: much less, and no energy drinks.\n- Sports drinks are for long, sweaty workouts."
+              "body": "- Water first: drink with meals and during exercise.\n- Dark yellow urine can mean you need more fluids.\n- One soda can exceed a day's added sugar.\n- Adults: up to about 400 mg caffeine a day. Teens: much less, and no energy drinks.\n- Sports drinks are for long, sweaty workouts."
             }
           ]
         }
@@ -591,7 +607,7 @@
               "type": "learn",
               "title": "Cardio vs strength",
               "body": "**Cardio (aerobic)**: running, biking, swimming, brisk walking, sports. Strengthens your heart and lungs, helps endurance and mood.\n\n**Strength (muscle-strengthening)**: weights, bodyweight moves like push-ups and squats, resistance bands. Builds muscle and bone, protects joints, and makes everyday tasks easier.\n\nYou need both. Any activity beats none, and even short bouts add up.",
-              "source": { "label": "CDC: Activity guidelines for children and teens", "url": "https://www.cdc.gov/physical-activity-basics/guidelines/children.html" },
+              "source": { "label": "ODPHP: Top 10 things to know about the activity guidelines", "url": "https://odphp.health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines/current-guidelines/top-10-things-know" },
               "tip": "Pick two days this week for 20 minutes of bodyweight strength: squats, push-ups (on your knees or against a counter is fine) and a plank. Put them in your calendar."
             },
             {
@@ -750,7 +766,7 @@
             {
               "type": "learn",
               "title": "Tools that work",
-              "body": "- **Move**: even a 10-minute walk lowers tension.\n- **Sleep**: stress and short sleep feed each other.\n- **Breathe slowly**: try breathing in for 4 counts and out for 6, for a few minutes.\n- **Break it down**: write the problem down and pick the next small step.\n- **Talk to someone** you trust.\n- **Limit** doomscrolling, caffeine and alcohol or drugs, which make stress and sleep worse.\n\n> Coping well isn't about never feeling stressed. It's about having healthy ways to come back down.",
+              "body": "- **Move**: even a short walk can ease tension.\n- **Sleep**: stress and short sleep feed each other.\n- **Breathe slowly**: try breathing in for 4 counts and out for 6, for a few minutes.\n- **Break it down**: write the problem down and pick the next small step.\n- **Talk to someone** you trust.\n- **Limit** doomscrolling, caffeine and alcohol or drugs, which make stress and sleep worse.\n\n> Coping well isn't about never feeling stressed. It's about having healthy ways to come back down.",
               "tip": "Try one minute of slow breathing right now: in for 4 counts, out for 6. Use it before your next test or hard conversation."
             },
             {
@@ -782,9 +798,16 @@
             {
               "type": "learn",
               "title": "When it's more than stress",
-              "body": "Everyone has bad days. It may be **depression** when, for **at least 2 weeks**, most of the day and nearly every day, you feel sad, empty or hopeless, or lose interest in things you used to enjoy, along with changes in sleep, appetite, energy or focus, or feelings of worthlessness.\n\n**Anxiety** may be a disorder when worry is hard to control, happens most days, and comes with restlessness, tension, trouble sleeping or concentrating.\n\nBoth are common and **treatable**: therapy, lifestyle changes and sometimes medicine work.",
+              "body": "Everyone has bad days. It may be **depression** when, for **at least 2 weeks**, most of the day and nearly every day, you feel sad, empty or hopeless, or lose interest in things you used to enjoy, along with changes in sleep, appetite, energy or focus, or feelings of worthlessness.\n\n**Anxiety** may be a disorder when worry is hard to control, happens most days, and comes with restlessness, tension, trouble sleeping or concentrating.\n\nBoth are common and **treatable**, usually with therapy, medicine or both.",
               "source": { "label": "NIMH: Depression", "url": "https://www.nimh.nih.gov/health/publications/depression" },
               "tip": "If low mood or worry has lasted two weeks or more, book a visit with your doctor or school counselor this week. You can start with: \"I haven't felt like myself for a while.\""
+            },
+            {
+              "type": "learn",
+              "title": "Depression is common",
+              "body": "NIMH data show that in 2021 about **5 million** US teens aged 12-17, roughly **1 in 5** (20.1%), had at least one major depressive episode. Among adults, the rate was highest for ages 18-25 (18.6%).\n\nSo if you or a friend is struggling, you are far from alone. Depression is a health condition, and it can be treated.",
+              "tip": "If a friend has seemed low for weeks, check in. Something as simple as \"You've seemed down lately. Want to talk?\" can open the door.",
+              "source": { "label": "NIMH: Major depression statistics", "url": "https://www.nimh.nih.gov/health/statistics/major-depression" }
             },
             {
               "type": "scenario",
@@ -852,7 +875,8 @@
               "type": "learn",
               "title": "Helping a friend",
               "body": "If you're worried about someone:\n- **Ask directly**: \"Are you thinking about killing yourself?\" Asking does *not* put the idea in their head; it shows you care and can handle the answer.\n- **Listen** without judging or rushing to fix.\n- **Keep them safe**: if they have a plan or means, stay with them and get help.\n- **Connect** them to 988, a counselor or a trusted adult.\n- **Follow up** in the next days.\n\nNever promise to keep suicide plans secret.",
-              "tip": "Say the direct question out loud once, alone: \"Are you thinking about killing yourself?\" It's much easier to ask in a real moment if you've practiced the words."
+              "tip": "Say the direct question out loud once, alone: \"Are you thinking about killing yourself?\" It's much easier to ask in a real moment if you've practiced the words.",
+              "source": { "label": "NIMH: Frequently asked questions about suicide", "url": "https://www.nimh.nih.gov/health/publications/suicide-faq" }
             },
             {
               "type": "order",
@@ -871,7 +895,7 @@
               "type": "truefalse",
               "prompt": "Asking someone directly whether they're thinking about suicide can put the idea in their head.",
               "answer": false,
-              "explain": "Research shows asking directly does not increase risk. It often brings relief and opens a conversation."
+              "explain": "Studies show that asking directly does not cause or increase suicidal thoughts. It often brings relief and opens a conversation."
             },
             {
               "type": "scenario",
@@ -911,7 +935,8 @@
               "type": "learn",
               "title": "Read this first",
               "body": "> These lessons are an introduction, **not a substitute for a certified CPR and first aid class**. Classes from the American Red Cross or American Heart Association take a few hours, include hands-on practice, and are often free or low-cost through schools and workplaces.\n\n**Call 911** for:\n- unresponsive, or not breathing normally\n- chest pain or pressure; trouble breathing\n- severe bleeding that won't stop\n- signs of stroke: face drooping, arm weakness, slurred speech\n- choking that doesn't clear\n- seizures, serious burns, suspected overdose or poisoning",
-              "tip": "Save Poison Help, 1-800-222-1222, in your phone contacts. It's free and answered 24/7 for any possible poisoning. If the person collapses, has a seizure or can't breathe, call 911 instead."
+              "tip": "Save Poison Help, 1-800-222-1222, in your phone contacts. It's free and answered 24/7 for any possible poisoning. If the person collapses, has a seizure or can't breathe, call 911 instead.",
+              "source": { "label": "Poison Control: Need immediate assistance?", "url": "https://www.poison.org/need-immediate-assistance" }
             },
             {
               "type": "multi",
@@ -928,9 +953,25 @@
             },
             {
               "type": "learn",
+              "title": "Why bystanders matter",
+              "body": "Each year about **350,000** people in the US have a cardiac arrest outside a hospital, and about 90% of them die.\n\nCPR started early could **double or triple** a person's chance of survival. Yet only about **41%** of adults who collapse get CPR before paramedics arrive.\n\nParamedics take minutes to get there. Those first minutes depend on whoever is nearby.",
+              "tip": "Ask your school, youth group or workplace when the next CPR class is, and sign up with a friend.",
+              "source": { "label": "AHA newsroom: 2025 CPR guidelines", "url": "https://newsroom.heart.org/news/updated-cpr-guidelines-tackle-choking-response-opioid-related-emergencies-and-a-revised-chain-of-survival" }
+            },
+            {
+              "type": "number",
+              "prompt": "About 350,000 people in the US have a cardiac arrest outside a hospital each year, and only about 41% get CPR before paramedics arrive. About how many people a year do NOT get that early CPR?",
+              "answer": 206500,
+              "tolerance": 10000,
+              "unit": "people",
+              "hint": "First find the share who don't get CPR: 100% - 41%. Then multiply 350,000 by that share.",
+              "explain": "100% - 41% = 59%. 350,000 x 0.59 = **206,500** people, about 200,000 a year. Each one is a chance for a trained bystander to help."
+            },
+            {
+              "type": "learn",
               "title": "Hands-only CPR",
-              "body": "If a teen or adult suddenly collapses and isn't breathing normally (or is only gasping):\n1. Make sure the scene is safe.\n2. Tap and shout. No response? **Call 911** on speaker and send someone for an **AED**.\n3. **Push hard and fast** in the center of the chest: **100-120 pushes a minute**, at least **2 inches** deep but not more than 2.4 inches, letting the chest rise fully each time.\n4. Keep going until an AED or trained help takes over.\n\nFor infants, children, drowning and overdose, rescue breaths are also important; a class teaches you how.",
-              "source": { "label": "American Heart Association: What is CPR?", "url": "https://cpr.heart.org/en/resources/what-is-cpr" },
+              "body": "If a teen or adult suddenly collapses and isn't breathing normally (or is only gasping):\n1. Make sure the scene is safe.\n2. Tap and shout. No response? **Call 911** on speaker and send someone for an **AED**.\n3. **Push hard and fast** in the center of the chest: **100-120 pushes a minute**, about **2 inches** (5 cm) deep, letting the chest rise fully each time.\n4. Keep going until an AED or trained help takes over.\n\nFor infants, children, drowning and overdose, rescue breaths are also important; a class teaches you how.",
+              "source": { "label": "MedlinePlus: CPR for adults", "url": "https://medlineplus.gov/ency/article/000013.htm" },
               "tip": "Sign up for a certified CPR and AED class from the American Red Cross or American Heart Association. Many schools and workplaces offer them free or at low cost."
             },
             {
@@ -948,7 +989,7 @@
             },
             {
               "type": "truefalse",
-              "prompt": "If another person can do CPR, it's smart to switch who does compressions about every 2 minutes.",
+              "prompt": "If another person can do CPR, it's smart to take turns doing compressions every couple of minutes.",
               "answer": true,
               "explain": "Compressions get weaker as you tire, often without you noticing. At 100-120 a minute, 2 minutes is over 200 pushes. Swap fast so the pause is only a few seconds."
             },
@@ -956,11 +997,12 @@
               "type": "learn",
               "title": "AEDs: anyone can use one",
               "body": "An **automated external defibrillator (AED)** checks the heart's rhythm and, if needed, delivers a shock that can restart a normal beat. They're in schools, gyms, airports and offices.\n\n- Turn it on: it **talks you through every step**.\n- Put the pads on the bare chest as shown in the pictures.\n- Make sure no one touches the person when it analyzes or shocks.\n- Restart compressions right after a shock or if no shock is advised.\n\nAn AED won't shock someone who doesn't need it.",
-              "tip": "Next time you're at school, the gym or work, look for the AED sign and notice exactly where it is. Knowing ahead saves precious seconds."
+              "tip": "Next time you're at school, the gym or work, look for the AED sign and notice exactly where it is. Knowing ahead saves precious seconds.",
+              "source": { "label": "MedlinePlus: CPR for adults", "url": "https://medlineplus.gov/ency/article/000013.htm" }
             },
             {
               "type": "mcq",
-              "prompt": "What compression rate does the American Heart Association recommend for CPR?",
+              "prompt": "What compression rate is recommended for adult CPR?",
               "options": ["40-60 per minute", "60-80 per minute", "100-120 per minute", "150-180 per minute"],
               "answer": 2,
               "explain": "100-120 per minute, about the beat of the song 'Stayin' Alive.' Too slow doesn't move enough blood; too fast doesn't let the heart refill.",
@@ -974,7 +1016,7 @@
                 { "text": "Wait for paramedics so you don't do something wrong.", "feedback": "Every minute without CPR lowers survival. Good Samaritan laws generally protect people who help in good faith." },
                 { "text": "Check his pulse for a full minute before doing anything.", "feedback": "Long pulse checks waste critical time. If he's not breathing normally, start CPR." }
               ],
-              "explain": "Hands-only CPR and an AED, started fast, can double or triple survival from cardiac arrest.",
+              "explain": "The American Heart Association says CPR started early could double or triple the chance of surviving cardiac arrest.",
               "hint": "Can you get several things moving at the same time?"
             },
             {
@@ -986,7 +1028,7 @@
             {
               "type": "learn",
               "title": "Key takeaways",
-              "body": "- Not breathing normally? Call 911, get an AED, push hard and fast.\n- 100-120 compressions a minute, at least 2 inches deep.\n- Turn on the AED and follow its voice prompts.\n- Take a certified CPR class; these lessons aren't a substitute."
+              "body": "- Not breathing normally? Call 911, get an AED, push hard and fast.\n- 100-120 compressions a minute, about 2 inches deep.\n- Turn on the AED and follow its voice prompts.\n- Take a certified CPR class; these lessons aren't a substitute."
             }
           ]
         },
@@ -1038,8 +1080,8 @@
             {
               "type": "learn",
               "title": "Burns",
-              "body": "For a minor heat burn:\n- **Cool it under cool (not ice-cold) running water**, ideally for 10-20 minutes. Different groups give slightly different times; the key is starting fast and cooling for several minutes.\n- Remove rings, watches or tight clothing near the burn before it swells.\n- Cover loosely with a clean, nonstick dressing.\n- **Don't** use ice, butter, oils or toothpaste, and don't pop blisters.\n\n**Get emergency care** for large or deep burns; burns on the face, hands, feet, genitals or major joints; chemical or electrical burns; or any burn with trouble breathing.",
-              "source": { "label": "American Red Cross: Burns", "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/burns" },
+              "body": "For a minor heat burn:\n- **Cool it right away with cool (not ice-cold) water**, under the tap or in a cool bath, for several minutes or more.\n- Remove rings, watches or tight clothing near the burn before it swells.\n- Cover loosely with a clean, nonstick dressing.\n- **Don't** use ice, butter, oil or other home remedies, and don't pop blisters.\n\n**Get emergency care** for burns about the size of your palm or larger, deep burns, blistering burns on the face, hands, feet, groin or a major joint, chemical or electrical burns, or if the person breathed in smoke.",
+              "source": { "label": "MedlinePlus: Burns", "url": "https://medlineplus.gov/ency/article/000030.htm" },
               "tip": "Tell everyone you live with the burn rule: cool running water, never ice or butter. Tape a note inside a kitchen cabinet so it's there when you need it."
             },
             {
@@ -1074,7 +1116,7 @@
                 { "text": "Pop the blisters so it heals faster.", "feedback": "Blisters protect against infection. Don't pop them." },
                 { "text": "Pack it in ice to stop the pain.", "feedback": "Ice on a large burn can damage tissue and drop body temperature." }
               ],
-              "explain": "Large or deep burns, or burns on the face, hands, feet, genitals or joints, need emergency care.",
+              "explain": "Burns the size of a palm or larger, deep burns, and blistering burns on the face, hands, feet, groin or a major joint need emergency care.",
               "hint": "Is this a small burn, or one that needs professional care?"
             },
             {

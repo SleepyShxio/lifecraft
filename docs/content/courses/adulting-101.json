@@ -21,8 +21,9 @@
             {
               "type": "learn",
               "title": "How much rent can you afford?",
-              "body": "A common guideline: keep rent at or below about **30% of your gross monthly income** (your pay before taxes).\n\nExample: you earn $2,500 a month before taxes. 30% of that is $750, so look for rent around $750 or less.\n\n> Rent is not your only housing cost. Utilities (power, water, internet), renter's insurance, parking and getting to work add up too.",
-              "tip": "Before you tour apartments, ask each landlord which utilities are included and what the average monthly bill is. Add that to the rent before you compare places."
+              "body": "A common guideline: keep rent at or below about **30% of your gross monthly income** (your pay before taxes). Above that, the government counts you as \"cost-burdened\". In 2023 nearly half (**49.7%**) of US renter households were.\n\nExample: you earn $2,500 a month before taxes. 30% of that is $750, so look for rent around $750 or less.\n\n> Rent is not your only housing cost. Utilities (power, water, internet), renter's insurance, parking and getting to work add up too.",
+              "tip": "Before you tour apartments, ask each landlord which utilities are included and what the average monthly bill is. Add that to the rent before you compare places.",
+              "source": { "label": "U.S. Census Bureau: Nearly half of renter households are cost-burdened", "url": "https://www.census.gov/newsroom/press-releases/2024/renter-households-cost-burdened-race.html" }
             },
             {
               "type": "number",
@@ -61,8 +62,9 @@
             {
               "type": "learn",
               "title": "What landlords check",
-              "body": "Expect to fill out an application and pay an application fee. Landlords commonly check:\n- **Income**: pay stubs or an offer letter\n- **Credit report**: late payments and debt\n- **Rental history**: references from past landlords\n- **Background check**\n\nWith no credit or rental history, a **co-signer** (often a parent) agrees to pay if you don't. That is a serious promise for them: missed rent can hurt their credit too.\n\n> Never send a deposit for a place you haven't seen in person or through a trusted contact. Rental listing scams are common.",
-              "tip": "Check your free credit reports at AnnualCreditReport.com before you apply for apartments, so you can fix any mistakes before a landlord sees them."
+              "body": "Expect to fill out an application and pay an application fee. Landlords commonly check:\n- **Income**: pay stubs or an offer letter\n- **Credit report**: late payments and debt\n- **Rental history**: references from past landlords\n- **Background check**\n\nWith no credit or rental history, a **co-signer** (often a parent) agrees to pay if you don't. That is a serious promise for them: missed rent can hurt their credit too.\n\n> Never pay for a place you haven't seen in person or through a trusted contact. The FTC warns that fake landlords often claim to be out of the country and ask for payment by wire, gift card or crypto.",
+              "tip": "Check your free credit reports at AnnualCreditReport.com before you apply for apartments, so you can fix any mistakes before a landlord sees them.",
+              "source": { "label": "FTC: Rental listing scams", "url": "https://consumer.ftc.gov/articles/rental-listing-scams" }
             },
             {
               "type": "learn",
@@ -121,7 +123,7 @@
             {
               "type": "learn",
               "title": "Protect your deposit on day one",
-              "body": "Most landlords collect a **security deposit**, often around one month's rent. They can keep part of it for damage beyond normal wear and tear, or unpaid rent.\n\nOn move-in day:\n- Walk through every room and **take time-stamped photos and video**: walls, floors, appliances, inside cabinets.\n- Write down every scratch, stain and broken thing on the move-in checklist.\n- Email a copy to the landlord so there is a dated record.\n\nAt move-out, do the same after cleaning.",
+              "body": "Most landlords collect a **security deposit** before you move in. They can keep part of it for damage beyond normal wear and tear, or unpaid rent.\n\nOn move-in day:\n- Walk through every room and **take time-stamped photos and video**: walls, floors, appliances, inside cabinets.\n- Write down every scratch, stain and broken thing on the move-in checklist.\n- Email a copy to the landlord so there is a dated record.\n\nAt move-out, do the same after cleaning.",
               "tip": "On move-in day, film a slow video of every room, including inside the oven, fridge and cabinets. Email it to yourself and the landlord so it has a date."
             },
             {
@@ -154,7 +156,8 @@
               "type": "learn",
               "title": "Renter's insurance",
               "body": "Your landlord's insurance covers the **building**, not your stuff. **Renter's insurance** covers:\n- **Personal property**: your belongings if stolen or destroyed by fire, smoke, or many kinds of water damage\n- **Liability**: if someone is hurt in your apartment or you accidentally damage someone else's property\n- **Loss of use**: hotel and meals if your place becomes unlivable\n\nIt is usually inexpensive compared with replacing a laptop, phone, and clothes. Floods and earthquakes typically need separate coverage. Some leases require it.",
-              "tip": "Get two or three renter's insurance quotes online before move-in. Ask what the deductible is (the amount you pay first on each claim)."
+              "tip": "Get two or three renter's insurance quotes online before move-in. Ask what the deductible is (the amount you pay first on each claim).",
+              "source": { "label": "Insurance Information Institute: Renters insurance", "url": "https://www.iii.org/article/renters-insurance" }
             },
             {
               "type": "scenario",
@@ -350,7 +353,7 @@
             {
               "type": "learn",
               "title": "Coverage until 26",
-              "body": "Under the Affordable Care Act, you can usually stay on a **parent's health plan until you turn 26**, even if you are married, not living at home, or not a student, and even if you could get a plan through your job.\n\nWhen you age off, you get a **special enrollment period** to pick a new plan through work or HealthCare.gov. Don't let coverage lapse: one ER visit uninsured can cost thousands.",
+              "body": "Under the Affordable Care Act, you can usually stay on a **parent's health plan until you turn 26**, even if you are married, not living at home, or not a student, and even if you could get a plan through your job.\n\nLosing that coverage gives you a **special enrollment period** on HealthCare.gov: you can pick a new plan from 60 days before to 60 days after it ends. You can also join a plan through work. Don't let coverage lapse: one ER visit uninsured can cost thousands.",
               "source": { "label": "HealthCare.gov: coverage for young adults", "url": "https://www.healthcare.gov/young-adults/children-under-26/" },
               "tip": "If you're on a parent's plan, put your 26th birthday on your calendar with a reminder two months before, so you can pick your next plan without a gap."
             },
@@ -514,8 +517,9 @@
             {
               "type": "learn",
               "title": "Check the bill before you pay",
-              "body": "After a visit, your insurer sends an **Explanation of Benefits (EOB)**. It is not a bill. It shows what was charged, what insurance paid, and what you should owe.\n\nThen the clinic or hospital sends the actual **bill**. Compare the two. Mistakes are common: charges listed twice, or services you never got.\n\nIf a correct bill is more than you can pay, ask for a **payment plan** or **financial assistance**. Nonprofit hospitals must offer assistance programs.",
-              "tip": "Never pay a medical bill until it matches the Explanation of Benefits from your insurer. If the numbers differ, call the billing office and ask for an itemized bill."
+              "body": "After a visit, your insurer sends an **Explanation of Benefits (EOB)**. It is not a bill. It shows what was charged, what insurance paid, and what you should owe.\n\nThen the clinic or hospital sends the actual **bill**. Compare the two. Mistakes happen: charges listed twice, or services you never got.\n\nIf a correct bill is more than you can pay, ask for a **payment plan** or **financial assistance**. Nonprofit hospitals must have a written financial assistance policy.",
+              "tip": "Never pay a medical bill until it matches the Explanation of Benefits from your insurer. If the numbers differ, call the billing office and ask for an itemized bill.",
+              "source": { "label": "IRS: Financial assistance policy for nonprofit hospitals (501(r))", "url": "https://www.irs.gov/charities-non-profits/financial-assistance-policy-and-emergency-medical-care-policy-section-501r4" }
             },
             {
               "type": "order",
@@ -569,8 +573,18 @@
             {
               "type": "learn",
               "title": "The price tag is just the start",
-              "body": "The **total cost of ownership** is everything a car costs you, not just the price:\n- Price, plus sales tax, title and registration\n- **Insurance**: can differ by hundreds of dollars a year between cars\n- **Gas**: a car that gets 35 miles per gallon (mpg) uses far less than one that gets 20\n- **Maintenance and repairs**: oil, tires, brakes, surprises\n- **Loan interest** if you borrow\n\n> A cheap car that's pricey to insure or always in the shop can cost more than a reliable one.",
-              "tip": "Before you test-drive a car, get an insurance quote on it using its year, make and model. It takes about ten minutes and can rule a car out fast."
+              "body": "The **total cost of ownership** is everything a car costs you, not just the price:\n- Price, plus sales tax, title and registration\n- **Insurance**: can differ by hundreds of dollars a year between cars\n- **Gas**: a car that gets 35 miles per gallon (mpg) uses far less than one that gets 20\n- **Maintenance and repairs**: oil, tires, brakes, surprises\n- **Loan interest** if you borrow\n\nAAA estimates that in 2025 a **new** car cost about **$11,577** a year to own and run. A used car costs less to buy, but insurance, gas and repairs still add up.",
+              "tip": "Before you test-drive a car, get an insurance quote on it using its year, make and model. It takes about ten minutes and can rule a car out fast.",
+              "source": { "label": "AAA: Your Driving Costs 2025", "url": "https://newsroom.aaa.com/2025/09/aaa-new-vehicle-costs-drop-to-11577/" }
+            },
+            {
+              "type": "number",
+              "prompt": "AAA says a new car cost about $11,577 a year to own and run in 2025. About how much is that per month?",
+              "answer": 965,
+              "tolerance": 15,
+              "unit": "$",
+              "hint": "Divide the yearly cost by 12. For a quick check, $12,000 / 12 = $1,000.",
+              "explain": "$11,577 / 12 = $964.75, about **$965** a month. That is far more than a car payment alone, because it also counts insurance, gas, repairs and the value the car loses each year."
             },
             {
               "type": "mcq",
@@ -594,7 +608,7 @@
             {
               "type": "learn",
               "title": "Check it before you buy it",
-              "body": "Before you hand over money:\n- **Vehicle history report**: run the VIN for accidents, flood or salvage titles and odometer problems.\n- **Open recalls**: check the VIN at NHTSA's recall lookup.\n- **Test drive**: city and highway, braking, strange noises, warning lights.\n- **Pre-purchase inspection** by an independent mechanic you choose (often about $100-200). It's the best money you'll spend.\n\nWalk away if a seller won't allow an inspection.",
+              "body": "Before you hand over money:\n- **Vehicle history report**: run the VIN for accidents, flood or salvage titles and odometer problems.\n- **Open recalls**: check the VIN at NHTSA's recall lookup.\n- **Test drive**: city and highway, braking, strange noises, warning lights.\n- **Pre-purchase inspection** by an independent mechanic you choose. It costs far less than finding a major problem after you buy.\n\nWalk away if a seller won't allow an inspection.",
               "source": { "label": "NHTSA recall lookup", "url": "https://www.nhtsa.gov/recalls" },
               "tip": "Before buying a used car, enter its VIN (the 17-character code on the dashboard by the windshield) at nhtsa.gov/recalls to check for unfixed recalls. It's free."
             },
@@ -651,14 +665,14 @@
             {
               "type": "learn",
               "title": "The owner's manual is the rulebook",
-              "body": "Your car's **owner's manual** lists its maintenance schedule: oil changes, filters, fluids, belts. Many modern cars go 5,000-10,000 miles between oil changes, while older cars may need it sooner. The old \"every 3,000 miles\" rule is often more than needed.\n\nMonthly habits:\n- Check **tire pressure**, including the spare\n- Glance at the **oil level** on the dipstick\n- Check lights and wipers\n\nA warning light on the dashboard is the car asking for help. A **flashing** check-engine light means pull over safely and get it checked soon.",
+              "body": "Your car's **owner's manual** lists its maintenance schedule: oil changes, filters, fluids, belts. Follow its oil-change interval, even if a shop sticker says to come back sooner. Many modern cars go well past the old \"every 3,000 miles\" rule.\n\nMonthly habits:\n- Check **tire pressure**, including the spare\n- Glance at the **oil level** on the dipstick\n- Check lights and wipers\n\nA warning light on the dashboard is the car asking for help. A **flashing** check-engine light means pull over safely and get it checked soon.",
               "tip": "Set a monthly phone reminder to check your tire pressure (spare too) and glance at the oil dipstick. It takes five minutes at a gas station."
             },
             {
               "type": "learn",
               "title": "Tires: pressure and tread",
-              "body": "- Use the pressure on the sticker inside the **driver's door jamb**, not the max number on the tire's sidewall.\n- Check when tires are **cold** (before driving), at least monthly.\n- Low pressure wears tires faster, hurts mpg, and makes handling worse.\n\n**Tread depth**: 2/32 of an inch is the legal minimum in most states. The **penny test**: put a penny in the tread, Lincoln's head down. If you can see all of his head, the tread is too worn. Many experts suggest replacing sooner for wet roads.",
-              "source": { "label": "NHTSA: Tires", "url": "https://www.nhtsa.gov/equipment/tires" },
+              "body": "- Use the pressure on the sticker inside the **driver's door jamb**, not the max number on the tire's sidewall.\n- Check when tires are **cold** (before driving), at least monthly.\n- Low pressure wears tires faster, hurts mpg, and makes handling worse.\n\n**Tread depth**: NHTSA recommends replacing tires at 2/32 of an inch. The **penny test**: put a penny in the tread, Lincoln's head down. If you can see all of his head, the tread is too worn. Many experts suggest replacing sooner for wet roads.",
+              "source": { "label": "Ford: Why does tread wear matter? (cites NHTSA)", "url": "https://www.ford.com/support/how-tos/tires-and-wheels/tire-replacement-and-maintenance/why-does-tread-wear-matter/" },
               "tip": "Keep a cheap tire pressure gauge in your glove box. Gas station air pump gauges can be inaccurate."
             },
             {
@@ -744,8 +758,9 @@
             {
               "type": "learn",
               "title": "Car insurance coverages",
-              "body": "Almost every state requires **liability** insurance. Main types:\n- **Liability**: pays for injuries and damage you cause to others. Required; state minimums are often too low to cover a serious crash.\n- **Collision**: repairs your car after a crash, no matter who's at fault.\n- **Comprehensive**: theft, hail, fire, vandalism, hitting a deer.\n- **Uninsured/underinsured motorist**: covers you when the other driver has no or too little insurance.\n\nCollision and comprehensive have a **deductible**: you pay that much per claim first. Lenders require them if you finance.",
-              "tip": "Open your car insurance app or card and check your liability limits. If they're only the state minimum, ask your agent what higher limits would cost."
+              "body": "Almost every state requires **liability** insurance. Main types:\n- **Liability**: pays for injuries and damage you cause to others. Required; state minimums are often too low to cover a serious crash.\n- **Collision**: repairs your car after a crash, no matter who's at fault.\n- **Comprehensive**: theft, hail, fire, vandalism, hitting a deer.\n- **Uninsured/underinsured motorist**: covers you when the other driver has no or too little insurance. In 2023 about **1 in 7** US drivers (15.4%) had none.\n\nCollision and comprehensive have a **deductible**: you pay that much per claim first. Lenders require them if you finance.",
+              "tip": "Open your car insurance app or card and check your liability limits. If they're only the state minimum, ask your agent what higher limits would cost.",
+              "source": { "label": "Insurance Information Institute: Uninsured motorists", "url": "https://www.iii.org/fact-statistic/facts-statistics-uninsured-motorists" }
             },
             {
               "type": "match",
@@ -825,7 +840,7 @@
             {
               "type": "learn",
               "title": "Plan first, shop second",
-              "body": "Eating out a few times a week adds up fast. A weekly plan saves money and time:\n1. Check what you already have.\n2. Pick 3-4 dinners that share ingredients (one bag of spinach, three meals).\n3. Plan leftovers for lunches.\n4. Write a list and stick to it.\n\nBudget staples: rice, oats, pasta, dried or canned beans, lentils, eggs, frozen vegetables, bananas, potatoes, peanut butter, chicken thighs, canned tuna.\n\n> Frozen vegetables are picked ripe, last for months and are just as nutritious.",
+              "body": "Eating out a few times a week adds up fast. A weekly plan saves money and time:\n1. Check what you already have.\n2. Pick 3-4 dinners that share ingredients (one bag of spinach, three meals).\n3. Plan leftovers for lunches.\n4. Write a list and stick to it.\n\nBudget staples: rice, oats, pasta, dried or canned beans, lentils, eggs, frozen vegetables, bananas, potatoes, peanut butter, chicken thighs, canned tuna.\n\n> Frozen vegetables last for months, so less goes to waste. Pick ones without added sauce or salt.",
               "tip": "Before your next grocery trip, take a photo of your fridge and pantry so you don't buy what you already have."
             },
             {
@@ -918,16 +933,23 @@
           "steps": [
             {
               "type": "learn",
+              "title": "Food poisoning is common",
+              "body": "The CDC estimates that every year about **48 million** people in the US get sick from food. About **128,000** end up in the hospital, and about **3,000** die.\n\nThat is roughly 1 in 7 people each year. A few simple kitchen habits lower your risk. The next steps cover them.",
+              "tip": "Think about the last time food sat out for hours at a party or in a car. That is the habit this lesson fixes.",
+              "source": { "label": "CDC: Food safety facts and stats", "url": "https://www.cdc.gov/food-safety/data-research/facts-stats/index.html" }
+            },
+            {
+              "type": "learn",
               "title": "Clean, separate, cook, chill",
-              "body": "Food poisoning mostly comes from four mistakes. The USDA fixes:\n- **Clean**: wash hands for 20 seconds, and wash cutting boards and counters.\n- **Separate**: keep raw meat away from ready-to-eat food. Use a different cutting board, or wash between uses.\n- **Cook**: to a safe internal temperature, checked with a **food thermometer**. Color is not a reliable test.\n- **Chill**: fridge at **40°F or below**, freezer at 0°F.\n\nBacteria grow fastest between 40°F and 140°F, the **danger zone**.",
-              "source": { "label": "USDA FSIS: Keep food safe", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe" },
+              "body": "Four habits from the CDC and USDA help prevent food poisoning:\n- **Clean**: wash hands for 20 seconds, and wash cutting boards and counters.\n- **Separate**: keep raw meat away from ready-to-eat food. Use a different cutting board, or wash between uses.\n- **Cook**: to a safe internal temperature, checked with a **food thermometer**. Color is not a reliable test.\n- **Chill**: fridge at **40°F or below**, freezer at 0°F.\n\nBacteria grow fastest between 40°F and 140°F, the **danger zone**.",
+              "source": { "label": "CDC: Preventing food poisoning", "url": "https://www.cdc.gov/food-safety/prevention/index.html" },
               "tip": "Put a cheap fridge thermometer in your fridge and check that it reads 40°F or below. Turn the dial colder if it doesn't."
             },
             {
               "type": "learn",
               "title": "Safe internal temperatures",
               "body": "Measure in the thickest part, away from bone:\n- **Poultry** (chicken, turkey, including ground): **165°F**\n- **Ground beef and pork**: **160°F**\n- **Whole cuts** of beef, pork, lamb (steaks, chops, roasts): **145°F**, then rest **3 minutes**\n- **Fish**: **145°F**\n- **Leftovers and casseroles**: reheat to **165°F**\n\nA basic instant-read thermometer is cheap and removes the guessing.",
-              "source": { "label": "USDA FSIS safe temperature chart", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart" },
+              "source": { "label": "CDC: Preventing food poisoning", "url": "https://www.cdc.gov/food-safety/prevention/index.html" },
               "tip": "Buy an instant-read food thermometer and use it the next time you cook chicken or burgers. Push it into the thickest part."
             },
             {
@@ -945,7 +967,7 @@
               "type": "learn",
               "title": "The 2-hour rule",
               "body": "Perishable food (meat, dairy, cooked rice and pasta, cut fruit, leftovers) should not sit out at room temperature for more than **2 hours**, or **1 hour** if it's above 90°F, like at a summer picnic or in a hot car.\n\nAfter that, throw it out. Reheating doesn't always make it safe, because some bacteria make toxins that heat doesn't destroy.\n\nRefrigerate leftovers in shallow containers so they cool quickly, and eat them within **3-4 days**.\n\n> When in doubt, throw it out.",
-              "source": { "label": "USDA FSIS: Leftovers and food safety", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety" },
+              "source": { "label": "CDC: Preventing food poisoning", "url": "https://www.cdc.gov/food-safety/prevention/index.html" },
               "tip": "After a meal or party, set a phone timer for 2 hours (1 hour on days above 90°F) to remind you to put leftovers in the fridge."
             },
             {
@@ -1026,8 +1048,8 @@
             {
               "type": "learn",
               "title": "Getting your first adult passport",
-              "body": "A first adult passport book must be applied for **in person** at an acceptance facility (often a post office or library) using **Form DS-11**. Bring proof of citizenship (like your birth certificate), photo ID, a passport photo, and two separate payments.\n\nCurrent fees for a first adult passport book: **$130** to the State Department plus a **$35** acceptance fee. Adult passports last 10 years. Apply months before any trip: processing takes weeks.",
-              "source": { "label": "State Department passport fees", "url": "https://travel.state.gov/en/passports/apply/help/fees.html" },
+              "body": "A first adult passport book must be applied for **in person** at an acceptance facility (often a post office or library) using **Form DS-11**. Bring proof of citizenship (like your birth certificate), photo ID, a passport photo, and two separate payments.\n\nYou pay the State Department's application fee (check the current amount on travel.state.gov) plus a **$35** acceptance fee at a post office. Adult passports last 10 years. Apply months before any trip: processing takes weeks.",
+              "source": { "label": "USPS: Passports", "url": "https://www.usps.com/international/passports.htm" },
               "tip": "If you might travel abroad in the next year, start your passport now. Book an appointment at a post office or library that accepts passport applications."
             },
             {
@@ -1047,7 +1069,7 @@
                 "Airports don't issue regular passports, and processing takes weeks."
               ],
               "hint": "First-time adult applicants must prove citizenship and identity face to face.",
-              "explain": "Bring Form DS-11, proof of citizenship (like your birth certificate), photo ID, a passport photo and two payments: $130 to the State Department and $35 to the facility, $165 total."
+              "explain": "Bring Form DS-11, proof of citizenship (like your birth certificate), photo ID, a passport photo and two payments: one to the State Department and one to the facility."
             },
             {
               "type": "learn",

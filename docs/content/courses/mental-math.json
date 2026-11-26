@@ -100,8 +100,9 @@
             {
               "type": "learn",
               "title": "Tipping fast",
-              "body": "In the US, a **tip** for table service at a sit-down restaurant is usually 15% to 20% of the bill, and many people now tip about 20%. Norms change by country and by type of service.\n\nThe fast way:\n1. Round the bill to a friendly number.\n2. Find 10%.\n3. Double it for 20%, or add half for 15%.\n\nExample: bill $58.40. Call it $58. 10% = $5.80. 20% = **$11.60**.",
-              "tip": "Next time you eat out, work out the tip in your head first, then check it with the tip line on the receipt."
+              "body": "In the US, a **tip** for table service at a sit-down restaurant is usually 15% to 20% of the bill. In a 2023 Pew Research survey, 92% of adults who eat at sit-down restaurants said they always or often tip. 57% said they would tip 15% or less, and only about 1 in 4 would tip 20% or more. Norms change by country and by type of service.\n\nThe fast way:\n1. Round the bill to a friendly number.\n2. Find 10%.\n3. Double it for 20%, or add half for 15%.\n\nExample: bill $58.40. Call it $58. 10% = $5.80. 20% = **$11.60**.",
+              "tip": "Next time you eat out, work out the tip in your head first, then check it with the tip line on the receipt.",
+              "source": { "label": "Pew Research Center: Tipping culture in America (2023)", "url": "https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-changed-landscape/" }
             },
             {
               "type": "number",
@@ -426,8 +427,9 @@
             {
               "type": "learn",
               "title": "Estimating sales tax",
-              "body": "In the US, **sales tax** is added at the register, so the shelf price is not what you pay. The rate depends on your state and city. A few states have no statewide sales tax. Where there is one, the combined rate is often somewhere around 5% to 10%. Rates change, so look up yours.\n\nTo estimate, use 1% chunks or the percent swap.\n\nExample: $50 at 8% tax. 1% of $50 is $0.50, so 8% is **$4**. Or swap: 8% of 50 = 50% of 8 = **$4**.",
-              "tip": "Look up the combined sales tax rate for your city once and remember it. Then you can add it in your head every time you shop."
+              "body": "In the US, **sales tax** is added at the register, so the shelf price is not what you pay. The rate depends on your state and city. In 2026, five states (Alaska, Delaware, Montana, New Hampshire and Oregon) have no statewide sales tax. The average combined state and local rate across the US is about **7.5%**, and the highest is Louisiana's, about 10%. Look up yours.\n\nTo estimate, use 1% chunks or the percent swap.\n\nExample: $50 at 8% tax. 1% of $50 is $0.50, so 8% is **$4**. Or swap: 8% of 50 = 50% of 8 = **$4**.",
+              "tip": "Look up the combined sales tax rate for your city once and remember it. Then you can add it in your head every time you shop.",
+              "source": { "label": "Tax Foundation: State and local sales tax rates, midyear 2026", "url": "https://taxfoundation.org/data/all/state/2026-sales-tax-rates-midyear/" }
             },
             {
               "type": "number",
@@ -446,6 +448,15 @@
               "unit": "$",
               "hint": "Swap it: 8% of 25 equals 25% of 8.",
               "explain": "25% of 8 is a quarter of 8 = **$2**."
+            },
+            {
+              "type": "number",
+              "prompt": "In 2026 the average combined sales tax rate in the US is about 7.5%. At that rate, how much tax do you pay on a $200 purchase?",
+              "answer": 15,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Find 1% of $200 by moving the decimal two places. Then take 7 of those, plus half of one more.",
+              "explain": "1% of $200 = $2. 7% = 7 x $2 = $14, and 0.5% = $1. Total: **$15**. On big buys, tax is real money, so add it to your budget."
             },
             {
               "type": "learn",

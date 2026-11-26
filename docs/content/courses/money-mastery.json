@@ -40,8 +40,9 @@
             {
               "type": "learn",
               "title": "What gets taken out",
-              "body": "Common lines on a pay stub:\n- **Federal income tax**: the main tax, held back for the IRS.\n- **State income tax**: some states have none.\n- **Social Security and Medicare** (often labeled **FICA**): 7.65% of pay for most workers.\n- **Benefits** you chose, like health insurance or a 401(k) (a retirement savings account through work).\n\nFor a part-time first job, taking home roughly 80-90% of gross pay is common.",
-              "tip": "Read every pay stub for one minute: check your hours and pay rate. Payroll mistakes happen, and you only catch them if you look."
+              "body": "Common lines on a pay stub:\n- **Federal income tax**: the main tax, held back for the IRS.\n- **State income tax**: some states have none.\n- **Social Security and Medicare** (often labeled **FICA**): 6.2% + 1.45% = **7.65%** of pay for most workers.\n- **Benefits** you chose, like health insurance or a 401(k) (a retirement savings account through work).\n\nHow much you keep depends on your pay, your state and your benefits. On a small part-time check, most of it usually reaches you.",
+              "tip": "Read every pay stub for one minute: check your hours and pay rate. Payroll mistakes happen, and you only catch them if you look.",
+              "source": {"label": "IRS: Topic 751, Social Security and Medicare tax rates", "url": "https://www.irs.gov/taxtopics/tc751"}
             },
             {
               "type": "number",
@@ -67,7 +68,8 @@
               "type": "learn",
               "title": "The W-4 form",
               "body": "On your first day you fill out a **W-4**. It tells your employer how much federal income tax to hold back from each check.\n\nIf you are single with one job, you usually just fill in your name and filing status and sign it.\n\nHolding back tax is like **prepaying**. If too much was held back, you get a **refund** in the spring. If too little, you owe.",
-              "tip": "If you work two jobs at once, use the free IRS Tax Withholding Estimator on irs.gov before you fill out the second W-4, so you do not owe a surprise bill in April."
+              "tip": "If you work two jobs at once, use the free IRS Tax Withholding Estimator on irs.gov before you fill out the second W-4, so you do not owe a surprise bill in April.",
+              "source": {"label": "IRS: Topic 753, Form W-4", "url": "https://www.irs.gov/taxtopics/tc753"}
             },
             {
               "type": "scenario",
@@ -160,7 +162,8 @@
               "type": "learn",
               "title": "Two kinds of tax on your pay",
               "body": "**Income tax** (federal, and state in most states) depends on how much you earn. The standard deduction and brackets apply to it.\n\n**Social Security and Medicare** tax is a flat 7.65% for employees, starting with your first dollar. There is no standard deduction for it, and you do not get it back as a refund. It funds benefits you can use later in life.\n\nThat is why even a tiny paycheck shows some tax.",
-              "tip": "Look up whether your state has an income tax (search \"[your state] income tax\" on your state's official .gov site) so you know what to expect on your pay stub."
+              "tip": "Look up whether your state has an income tax (search \"[your state] income tax\" on your state's official .gov site) so you know what to expect on your pay stub.",
+              "source": {"label": "IRS: Topic 751, Social Security and Medicare tax rates", "url": "https://www.irs.gov/taxtopics/tc751"}
             },
             {
               "type": "multi",
@@ -178,7 +181,8 @@
               "type": "learn",
               "title": "Key takeaways",
               "body": "- The 2026 standard deduction (single) is **$16,100**: income up to that is not hit by federal income tax.\n- Brackets work like buckets. Only dollars above a line get the higher rate.\n- A raise or overtime **never** lowers your take-home pay because of brackets.\n- Social Security and Medicare (7.65%) come out of every check and are not refunded.",
-              "tip": "Next time you are offered extra hours, decide based on your time and energy, not bracket fears. Every extra hour still adds to your take-home pay."
+              "tip": "Next time you are offered extra hours, decide based on your time and energy, not bracket fears. Every extra hour still adds to your take-home pay.",
+              "source": {"label": "IRS: 2026 tax inflation adjustments", "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill"}
             }
           ]
         },
@@ -190,8 +194,9 @@
             {
               "type": "learn",
               "title": "The W-2: your tax report card",
-              "body": "By **January 31**, every employer you worked for must give you a **W-2**. It shows what you earned that year and how much tax was withheld.\n\nYou need every W-2 to file. If you had three summer jobs, you need three W-2s.\n\nMoved since then? Your W-2 may get mailed to your old address. Many employers also post it in their online payroll site.",
-              "tip": "Make a folder (paper or a phone album) called \"Taxes\" this week, and drop every W-2 and tax form into it as it arrives."
+              "body": "By the end of January, every employer you worked for must give you a **W-2** (for 2026 pay, by **February 1, 2027**). It shows what you earned that year and how much tax was withheld.\n\nYou need every W-2 to file. If you had three summer jobs, you need three W-2s.\n\nMoved since then? Your W-2 may get mailed to your old address. Many employers also post it in their online payroll site.",
+              "tip": "Make a folder (paper or a phone album) called \"Taxes\" this week, and drop every W-2 and tax form into it as it arrives.",
+              "source": {"label": "IRS: Topic 154, Form W-2", "url": "https://www.irs.gov/taxtopics/tc154"}
             },
             {
               "type": "mcq",
@@ -214,7 +219,7 @@
             {
               "type": "learn",
               "title": "Free ways to file",
-              "body": "You do not need to pay to file a simple return.\n- **IRS Free File** (on irs.gov): free brand-name software if your income is under that year's limit. Most first-job earners qualify.\n- **VITA**: free in-person help from trained volunteers, often at libraries and community centers.\n\nThe deadline is usually **April 15**. Filing online with direct deposit is the fastest way to get a refund.",
+              "body": "You do not need to pay to file a simple return.\n- **IRS Free File** (on irs.gov): free brand-name software. The current limit is an income (AGI) of **$95,000** or less, so most first-job earners qualify.\n- **VITA**: free in-person help from IRS-certified volunteers, often at libraries and community centers, generally for people earning about **$70,000** or less.\n\nThe deadline is usually **April 15**. Filing online with direct deposit is the fastest way to get a refund.",
               "tip": "In January, start from irs.gov/freefile (type it yourself, do not click an ad) so you land on the real free version, not a paid upsell.",
               "source": {"label": "IRS Free File", "url": "https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free"}
             },
@@ -363,8 +368,9 @@
             {
               "type": "learn",
               "title": "Why a cushion matters",
-              "body": "Cars break. Phones crack. Shifts get cut.\n\nAn **emergency fund** is money set aside only for surprises. Without it, a $500 car repair goes on a credit card or a bad loan and turns into debt.\n\nStep one: a **starter fund of $500-$1,000**. That covers most small emergencies.\n\nStep two: build to **3 months of needs** (rent, food, phone, transportation).",
-              "tip": "Open a separate savings account named \"Emergency Fund\" this week, so the money is not mixed with spending money."
+              "body": "Cars break. Phones crack. Shifts get cut. In a 2025 Federal Reserve survey, only **63%** of US adults said they would pay a surprise $400 bill with cash or savings. The rest would have to borrow, sell something, or could not pay.\n\nAn **emergency fund** is money set aside only for surprises. Without it, a $500 car repair goes on a credit card or a bad loan and turns into debt.\n\nStep one: a **starter fund of $500-$1,000**. That covers most small emergencies.\n\nStep two: build to **3 months of needs** (rent, food, phone, transportation).",
+              "tip": "Open a separate savings account named \"Emergency Fund\" this week, so the money is not mixed with spending money.",
+              "source": {"label": "Federal Reserve: Economic Well-Being of U.S. Households in 2025", "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm"}
             },
             {
               "type": "mcq",
@@ -387,8 +393,9 @@
             {
               "type": "learn",
               "title": "How big should it be?",
-              "body": "The goal is **3 months of needs**, not 3 months of all spending. Leave out wants: in a real crisis you would cut them.\n\nExample: Marcus shares an apartment. His rent share, groceries, phone, gas and insurance add up to $1,500 a month. His 3-month goal is the amount that covers 3 of those months.\n\nIf your income changes a lot (tips, gig work), aim for 6 months.",
-              "tip": "Add up your monthly needs only (rent, food, phone, transport, insurance). Write the number on a sticky note: it is the base for your emergency fund goal."
+              "body": "A common guideline is **3 to 6 months of needs**, not of all spending. Start with 3. Leave out wants: in a real crisis you would cut them.\n\nExample: Marcus shares an apartment. His rent share, groceries, phone, gas and insurance add up to $1,500 a month. His 3-month goal is the amount that covers 3 of those months.\n\nIf your income changes a lot (tips, gig work), aim for 6 months.",
+              "tip": "Add up your monthly needs only (rent, food, phone, transport, insurance). Write the number on a sticky note: it is the base for your emergency fund goal.",
+              "source": {"label": "FINRA: Start an emergency fund", "url": "https://www.finra.org/investors/personal-finance/start-emergency-fund"}
             },
             {
               "type": "number",
@@ -445,8 +452,9 @@
             {
               "type": "learn",
               "title": "Checking vs savings",
-              "body": "**Checking account**: for everyday money. Your paycheck lands here, and your debit card and bills come out of it.\n\n**Savings account**: for money you are not spending right now. It earns interest.\n\nMost people need both: checking for spending, savings for goals and emergencies.\n\n> Deposits at an FDIC-insured bank are protected up to $250,000 per person per bank if the bank fails.",
-              "tip": "Look for the FDIC (bank) or NCUA (credit union) logo on your bank's website or app before you open an account."
+              "body": "**Checking account**: for everyday money. Your paycheck lands here, and your debit card and bills come out of it.\n\n**Savings account**: for money you are not spending right now. It earns interest.\n\nMost people need both: checking for spending, savings for goals and emergencies.\n\n> Deposits at an FDIC-insured bank are protected up to **$250,000** per person, per bank, for each type of account ownership (like single or joint) if the bank fails.",
+              "tip": "Look for the FDIC (bank) or NCUA (credit union) logo on your bank's website or app before you open an account.",
+              "source": {"label": "FDIC: Deposit insurance", "url": "https://www.fdic.gov/resources/deposit-insurance"}
             },
             {
               "type": "learn",
@@ -524,14 +532,15 @@
               "type": "learn",
               "title": "What is a credit score?",
               "body": "A **credit score** is a number, usually 300 to 850, that tells lenders how likely you are to pay back money you borrow.\n\nIt matters more than you think. Landlords, car lenders, phone companies and some employers check credit. A good score can mean a cheaper car loan and an easier time renting your first apartment.\n\nYour score comes from your **credit report**: a record of your loans, cards and payments.",
-              "tip": "Get your free credit reports at AnnualCreditReport.com (type the address yourself). It is the official free site, and you can check weekly."
+              "tip": "Get your free credit reports at AnnualCreditReport.com (type the address yourself). It is the official free site, and you can check weekly.",
+              "source": {"label": "CFPB: What is a credit score?", "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-score-en-315/"}
             },
             {
               "type": "learn",
               "title": "What moves your score",
               "body": "For FICO, the most common score:\n- **Payment history (35%)**: do you pay on time?\n- **Amounts owed (30%)**: how much of your card limits you are using.\n- **Length of history (15%)**: how long your accounts have been open.\n- **New credit (10%)**: recent applications.\n- **Credit mix (10%)**: different types of credit.\n\nThe big two are **paying on time** and **using little of your limit**.",
               "tip": "Set every card and loan to autopay at least the minimum, so one forgotten due date can never become a late payment on your report.",
-              "source": {"label": "myFICO: What's in my score", "url": "https://www.myfico.com/crediteducation/whatsinyourscore.aspx"}
+              "source": {"label": "myFICO: What's in my FICO Scores?", "url": "https://www.myfico.com/credit-education/whats-in-your-credit-score"}
             },
             {
               "type": "mcq",
@@ -555,7 +564,8 @@
               "type": "learn",
               "title": "Utilization: use a little, not a lot",
               "body": "**Credit utilization** is how much of your credit limit you are using. Your **credit limit** is the most a card lets you borrow.\n\nUsing a lot of your limit looks risky to lenders, even if you pay in full.\n\nRules of thumb:\n- Keep it **under 30%**.\n- **Under 10%** is even better.\n\nIf your limit is $1,000, keeping the balance under $300 (better: under $100) helps your score.",
-              "tip": "Look up your card's credit limit in the app today and write down 30% of it. Try to keep the statement balance under that number."
+              "tip": "Look up your card's credit limit in the app today and write down 30% of it. Try to keep the statement balance under that number.",
+              "source": {"label": "Experian: What is a credit utilization rate?", "url": "https://www.experian.com/blogs/ask-experian/credit-education/score-basics/credit-utilization-rate/"}
             },
             {
               "type": "number",
@@ -587,7 +597,8 @@
               "type": "learn",
               "title": "Key takeaways",
               "body": "- Your score tells lenders, landlords and phone companies how risky you are.\n- Pay on time, every time: it is the biggest factor.\n- Keep utilization under 30%, under 10% is better.\n- Checking your own credit is free and never hurts it.",
-              "tip": "Put a reminder on your calendar every 4 months to check one of your three credit reports at AnnualCreditReport.com for accounts you do not recognize."
+              "tip": "Put a reminder on your calendar every 4 months to check one of your three credit reports at AnnualCreditReport.com for accounts you do not recognize.",
+              "source": {"label": "CFPB: Does requesting my credit report hurt my score?", "url": "https://www.consumerfinance.gov/ask-cfpb/does-checking-my-credit-report-hurt-my-credit-score-en-1229/"}
             }
           ]
         },
@@ -600,7 +611,8 @@
               "type": "learn",
               "title": "The no-credit catch",
               "body": "To get credit you need a credit history. To get a history you need credit. Frustrating!\n\nThe good news: there are safe on-ramps made for beginners. You do not need debt to build credit. You need an account that reports on-time payments.\n\nAlso know: under federal law, if you are **under 21** you need your own income (or a co-signer) to get a credit card.",
-              "tip": "If you are under 21 and have a job, write down your yearly income before applying. Card applications ask for it, and it must be your own income."
+              "tip": "If you are under 21 and have a job, write down your yearly income before applying. Card applications ask for it, and it must be your own income.",
+              "source": {"label": "CFPB: Regulation Z, 1026.51 (ability to pay)", "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/51/"}
             },
             {
               "type": "learn",
@@ -684,8 +696,9 @@
             {
               "type": "learn",
               "title": "APR and the grace period",
-              "body": "**APR** (annual percentage rate) is the yearly interest rate on a loan or card. Credit card APRs are high, often over 20%.\n\nBut there is a way to pay zero interest: the **grace period**. If you pay the **full statement balance** by the due date every month, you usually pay no interest on purchases.\n\n> Treat a credit card like a debit card: only buy what you already have the cash for.",
-              "tip": "Set your credit card autopay to \"statement balance\" (not \"minimum\") today, so you never pay interest on purchases."
+              "body": "**APR** (annual percentage rate) is the yearly interest rate on a loan or card. Credit card APRs are high: in the third quarter of 2026, the average APR on cards that were charged interest was about **22%** (Federal Reserve).\n\nBut there is a way to pay zero interest: the **grace period**. If you pay the **full statement balance** by the due date every month, you usually pay no interest on purchases.\n\n> Treat a credit card like a debit card: only buy what you already have the cash for.",
+              "tip": "Set your credit card autopay to \"statement balance\" (not \"minimum\") today, so you never pay interest on purchases.",
+              "source": {"label": "Federal Reserve G.19: Consumer credit", "url": "https://www.federalreserve.gov/releases/g19/current/default.htm"}
             },
             {
               "type": "learn",
@@ -711,7 +724,8 @@
               "type": "learn",
               "title": "The minimum-payment trap",
               "body": "Card companies set the minimum payment low on purpose. If you only pay the minimum, a balance can take **years** to pay off, and you pay much more in interest than you borrowed.\n\nYour statement is required to show how long it would take to pay off the balance with only minimum payments. Read it once: it is a wake-up call.\n\n> If you cannot pay in full, stop using the card and pay as much as you can every month.",
-              "tip": "Find the \"minimum payment warning\" box on your next card statement and read how many years minimum payments would take."
+              "tip": "Find the \"minimum payment warning\" box on your next card statement and read how many years minimum payments would take.",
+              "source": {"label": "CFPB: The minimum payment warning on your bill", "url": "https://www.consumerfinance.gov/ask-cfpb/a-box-on-my-credit-card-bill-says-that-i-will-pay-off-the-balance-in-three-years-if-i-pay-a-certain-amount-what-does-that-mean-en-36/"}
             },
             {
               "type": "scenario",
@@ -773,7 +787,7 @@
             {
               "type": "learn",
               "title": "Payday loans: fast cash, huge cost",
-              "body": "A **payday loan** is a small, short loan, usually due on your next payday. A common fee is **$15 for every $100** you borrow for two weeks.\n\nThat sounds small, but as an APR it is **almost 400%**. Compare that with a credit card near 25%.\n\nThe trap: many people cannot repay in two weeks, so they pay another fee to roll it over. And again.",
+              "body": "A **payday loan** is a small, short loan, usually due on your next payday. A common fee is **$15 for every $100** you borrow for two weeks.\n\nThat sounds small, but as an APR it is **almost 400%**. Compare that with about 22% for an average credit card.\n\nThe trap: many people cannot repay in two weeks, so they pay another fee to roll it over. And again.",
               "tip": "If you are short on cash before payday, ask your employer about a pay advance or your credit union about a small-dollar loan before you ever walk into a payday lender.",
               "source": {"label": "CFPB: Payday loan APR", "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-an-annual-percentage-rate-apr-and-why-is-it-higher-than-the-interest-rate-for-my-payday-loan-en-1625/"}
             },
@@ -890,8 +904,9 @@
             {
               "type": "learn",
               "title": "Vesting: when the match is really yours",
-              "body": "**Vesting** is when the employer's match becomes fully yours to keep.\n\nYour own contributions are always 100% yours. But some employers make you stay a certain time, like 2 or 3 years, before their match is yours. Leave earlier and you may lose some of it.\n\nIt is still worth getting the match. Just know your vesting schedule before you switch jobs.",
-              "tip": "Look up your 401(k) vesting schedule in your benefits portal and note the date your match becomes fully yours."
+              "body": "**Vesting** is when the employer's match becomes fully yours to keep.\n\nYour own contributions are always 100% yours. But some employers make you stay a while before their match is yours. By law, the match must be fully yours after at most **3 years** (all at once) or **6 years** (a bit more each year). Leave earlier and you may lose some of it.\n\nIt is still worth getting the match. Just know your vesting schedule before you switch jobs.",
+              "tip": "Look up your 401(k) vesting schedule in your benefits portal and note the date your match becomes fully yours.",
+              "source": {"label": "IRS: Retirement topics, vesting", "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-vesting"}
             },
             {
               "type": "learn",
@@ -985,9 +1000,17 @@
             },
             {
               "type": "learn",
-              "title": "Fees and ups and downs",
-              "body": "The **expense ratio** is the yearly fee a fund charges, as a percent of your money. Many broad index funds charge under 0.10%. Some managed funds charge 1% or more, which eats a lot of growth over decades.\n\nThe market also goes **up and down**. Some years it drops 20% or more. Long-term investors keep going and do not sell in a panic.\n\n> Only invest money you will not need for at least 5 years. Short-term money stays in savings.",
-              "tip": "Turn off daily price notifications in your investing app. Check your long-term investments a few times a year, not every day."
+              "title": "Fees: small percents, big money",
+              "body": "The **expense ratio** is the yearly fee a fund charges, as a percent of your money.\n\nIn 2025, the average stock index ETF charged **0.14%** a year, and the average stock mutual fund **0.40%** (ICI). Many broad index funds charge even less. Some actively managed funds charge several times more.\n\nA fee is taken every year for decades, so a small difference grows into a lot of lost money.",
+              "tip": "Look up the expense ratio of every fund you own. If one is far above 0.20%, compare it with a broad index fund.",
+              "source": {"label": "ICI: Mutual fund and ETF fees in 2025", "url": "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025"}
+            },
+            {
+              "type": "learn",
+              "title": "Expect ups and downs",
+              "body": "The stock market does not rise in a straight line. In 2008 the S&P 500 lost about **37%**, and in 2022 about **18%**. Both times it later recovered and went on to new highs.\n\nLong-term investors keep going and do not sell in a panic.\n\n> Only invest money you will not need for at least 5 years. Short-term money stays in savings.",
+              "tip": "Turn off daily price notifications in your investing app. Check your long-term investments a few times a year, not every day.",
+              "source": {"label": "NYU Stern (Damodaran): Historical S&P 500 returns", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"}
             },
             {
               "type": "scenario",

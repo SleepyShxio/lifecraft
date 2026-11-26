@@ -38,7 +38,7 @@
             {
               "type": "learn",
               "title": "Searching smart",
-              "body": "Applying to 100 random jobs usually works worse than 15 targeted ones.\n\n- Read the posting. Note **required** vs **preferred** skills. If you meet most requirements, apply.\n- Use specific search terms: \"entry level\", \"no experience\", \"trainee\", \"apprentice\".\n- Track applications in a simple sheet: company, role, date applied, contact, follow-up date.\n- Research pay for the role before you apply. The Bureau of Labor Statistics' Occupational Outlook Handbook lists typical pay and what training each job needs.",
+              "body": "Sending the same resume to lots of random jobs usually works worse than fewer applications aimed at jobs you actually fit.\n\n- Read the posting. Note **required** vs **preferred** skills. If you meet most requirements, apply.\n- Use specific search terms: \"entry level\", \"no experience\", \"trainee\", \"apprentice\".\n- Track applications in a simple sheet: company, role, date applied, contact, follow-up date.\n- Research pay for the role before you apply. The Bureau of Labor Statistics' Occupational Outlook Handbook lists typical pay and what training each job needs.",
               "source": { "label": "BLS Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/" },
               "tip": "Make a tracking sheet before you send your first application: company, role, date applied, contact, follow-up date."
             },
@@ -57,7 +57,7 @@
             {
               "type": "learn",
               "title": "Fake job offers",
-              "body": "Job scams target people who are eager to start. Warning signs:\n- They ask **you** to pay for training, equipment or a starter kit.\n- They send a **check** and ask you to send part of it to someone else.\n- The job is **reshipping packages**.\n- They promise big money for little work, or hire you after a chat-only \"interview\".\n- They want your SSN or bank info before any real offer.\n\nReal employers pay you, not the other way around. Look the company up yourself and contact it through its official site.",
+              "body": "Job scams target people who are eager to start. Warning signs:\n- They ask **you** to pay for training, equipment or a starter kit.\n- They send a **check** and ask you to send part of it to someone else.\n- The job is **reshipping packages**.\n- They promise big money for little work, or move fast and offer you the job with no real interview.\n- They ask for your Social Security or bank account number before they have actually interviewed and hired you.\n\nReal employers pay you, not the other way around. Look the company up yourself and contact it through its official site.",
               "source": { "label": "FTC: Job scams", "url": "https://consumer.ftc.gov/articles/job-scams" },
               "tip": "Before you answer any job offer, find the company's official website yourself and contact it there. Never trust a link or phone number from the message."
             },
@@ -108,7 +108,7 @@
             {
               "type": "learn",
               "title": "What a resume is for",
-              "body": "A hiring manager often skims a resume in seconds. Its only job is to get you an interview.\n\nA simple, one-page resume for an early-career job:\n- **Header**: name, phone, professional email, city/state\n- **Experience**: jobs, volunteering, school projects, sports leadership, babysitting, mowing lawns all count\n- **Education**\n- **Skills**: tools, software, languages, certifications\n\nUse a plain layout with clear headings. Fancy graphics and tables can confuse the software many companies use to scan applications.",
+              "body": "A hiring manager often skims a resume quickly. Its only job is to get you an interview.\n\nA simple, one-page resume for an early-career job:\n- **Header**: name, phone, professional email, city/state\n- **Experience**: jobs, volunteering, school projects, sports leadership, babysitting, mowing lawns all count\n- **Education**\n- **Skills**: tools, software, languages, certifications\n\nUse a plain layout with clear headings. Fancy graphics and tables can confuse the software many companies use to scan applications.",
               "tip": "Make a free email address just for job hunting, like firstname.lastname@..., and use it on every application."
             },
             {
@@ -370,7 +370,7 @@
             {
               "type": "learn",
               "title": "Follow up within a day",
-              "body": "Send a short **thank-you email** within 24 hours to each interviewer:\n- Thank them for their time.\n- Mention one specific thing you discussed.\n- Restate your interest in one sentence.\n\nIt's three or four sentences, and many applicants skip it.\n\nIf they said you'd hear back by a date and that date passes, a polite check-in is fine.",
+              "body": "Send a short **thank-you email** within 24 hours to each interviewer:\n- Thank them for their time.\n- Mention one specific thing you discussed.\n- Restate your interest in one sentence.\n\nIt's three or four sentences and takes a few minutes.\n\nIf they said you'd hear back by a date and that date passes, a polite check-in is fine.",
               "tip": "Before you leave the interview, ask for each interviewer's email or business card so you can send the thank-you."
             },
             {
@@ -556,8 +556,8 @@
             {
               "type": "learn",
               "title": "Know your basic rights",
-              "body": "- You must be paid for **all hours worked**, including required training and opening/closing tasks.\n- Most hourly workers get **overtime** (1.5x) for hours over 40 in a week.\n- Workers under 18 have **limits on hours and on dangerous tasks** under federal and state child labor laws.\n- Keep your own log of hours and compare it with your pay stub.\n\nIf something seems wrong, ask HR or your manager first. The U.S. Department of Labor's Wage and Hour Division takes complaints.",
-              "source": { "label": "U.S. DOL: Overtime pay", "url": "https://www.dol.gov/agencies/whd/overtime" },
+              "body": "- You must be paid for **all hours worked**, including required training and opening/closing tasks.\n- Most hourly workers get **overtime** (1.5x) for hours over 40 in a week.\n- Workers under 18 have **limits on hours and on dangerous tasks** under federal and state child labor laws.\n- In 2026 the federal **minimum wage** is still **$7.25** an hour (unchanged since 2009). Many states and cities set a higher one, and your employer must follow both rules, so you get the higher amount.\n\nIf something seems wrong, ask HR or your manager first. The U.S. Department of Labor's Wage and Hour Division takes complaints.",
+              "source": { "label": "U.S. DOL: Minimum wage", "url": "https://www.dol.gov/agencies/whd/minimum-wage" },
               "tip": "Write down your start and end time every shift, then compare them with each pay stub."
             },
             {
@@ -594,7 +594,7 @@
             {
               "type": "learn",
               "title": "Know the numbers",
-              "body": "Convert pay so you can compare:\n\n> Hourly x 40 hours x 52 weeks = yearly (full-time)\n> Yearly / 2,080 = hourly\n\nResearch what the role pays in your area: the BLS Occupational Outlook Handbook, job postings that list pay (many states now require ranges in postings), and people who do the work.\n\nAlso compare **total compensation**: health insurance, 401(k) match, paid time off, schedule, training, and commute.",
+              "body": "Convert pay so you can compare:\n\n> Hourly x 40 hours x 52 weeks = yearly (full-time)\n> Yearly / 2,080 = hourly\n\nResearch what the role pays in your area: the BLS Occupational Outlook Handbook, job postings that list pay (some states and cities require pay ranges in postings), and people who do the work.\n\nAlso compare **total compensation**: health insurance, 401(k) match, paid time off, schedule, training, and commute.",
               "source": { "label": "BLS Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/" },
               "tip": "Before any offer conversation, look up the role on the BLS handbook and in three local job postings, and write down a pay range."
             },
@@ -624,7 +624,7 @@
             {
               "type": "learn",
               "title": "How to ask",
-              "body": "Negotiating is a normal, polite conversation, not a fight.\n\n1. **Be enthusiastic first**: \"I'm excited about this role.\"\n2. **Give evidence**: market research, relevant skills, a competing offer.\n3. **Make a specific ask**, a bit above your target: \"Based on that, I was hoping for $X.\"\n4. **Then stop talking** and listen.\n\nIf pay can't move, ask about other things: start date, schedule, a raise review after 6 months, training, extra PTO.\n\nFor entry-level hourly jobs there may be little room, but asking politely rarely gets an offer pulled.",
+              "body": "Negotiating is a normal, polite conversation, not a fight.\n\n1. **Be enthusiastic first**: \"I'm excited about this role.\"\n2. **Give evidence**: market research, relevant skills, a competing offer.\n3. **Make a specific ask**, a bit above your target: \"Based on that, I was hoping for $X.\"\n4. **Then stop talking** and listen.\n\nIf pay can't move, ask about other things: start date, schedule, a raise review after 6 months, training, extra PTO.\n\nFor entry-level hourly jobs there may be little room. A short, polite ask is still a normal part of hiring.",
               "tip": "Practice your ask out loud once. Then practice staying quiet for five seconds after you say the number."
             },
             {
@@ -685,7 +685,8 @@
               "type": "learn",
               "title": "Side hustles are small businesses",
               "body": "Tutoring, lawn care, dog walking, editing videos, reselling, delivery apps: these make you **self-employed**. You work for yourself as an **independent contractor**, not as an employee.\n\nThat means:\n- **No one takes tax out** of what you earn.\n- You can subtract real **business expenses** (supplies, some mileage) from your income.\n- You might get a **1099** (a form showing what a business paid you), but **all income is taxable** whether or not one arrives.\n- You **track** income and expenses yourself. A simple spreadsheet works.",
-              "tip": "The day you get your first side-gig payment, start a spreadsheet with four columns: date, client, amount earned, expenses."
+              "tip": "The day you get your first side-gig payment, start a spreadsheet with four columns: date, client, amount earned, expenses.",
+              "source": { "label": "IRS: Gig economy tax center", "url": "https://www.irs.gov/businesses/gig-economy-tax-center" }
             },
             {
               "type": "number",
@@ -699,7 +700,7 @@
             {
               "type": "learn",
               "title": "Self-employment tax",
-              "body": "At a regular job, your employer takes Social Security and Medicare tax (called **FICA**) out of your pay: 7.65%. The employer pays another 7.65%.\n\nWhen you're self-employed, you pay **both halves: 15.3%**. This is **self-employment tax**, and it comes on top of regular income tax.\n\n- It applies once your **net profit** (income minus business expenses) reaches **$400** in a year.\n- If you'll owe $1,000 or more for the year, the IRS expects **quarterly estimated payments**.\n\n> Simple habit: move 25-30% of every side-gig payment into a separate savings account for taxes.",
+              "body": "At a regular job, your employer takes Social Security and Medicare tax (called **FICA**) out of your pay: 7.65%. The employer pays another 7.65%.\n\nWhen you're self-employed, you pay **both halves: 15.3%**. This is **self-employment tax**, and it comes on top of regular income tax.\n\n- It applies once your **net profit** (income minus business expenses) reaches **$400** in a year.\n- If you expect to owe $1,000 or more when you file, the IRS generally expects **quarterly estimated payments**.\n\n> Rule of thumb: move 25-30% of every side-gig payment into a separate savings account for taxes.",
               "source": { "label": "IRS: Self-employment tax", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes" },
               "tip": "Open a free savings account named \"Taxes\" and move 25-30% of every side-gig payment into it the same day you get paid."
             },
@@ -757,7 +758,8 @@
               "type": "learn",
               "title": "Key takeaways",
               "body": "- Side income is self-employment: no withholding.\n- Self-employment tax is 15.3% once you net $400+, plus income tax.\n- Set aside 25-30% of every payment.\n- Track income, expenses and mileage.\n- All income is taxable, form or no form.",
-              "tip": "Use a free mileage app or a notebook in the car, and log every business drive: date, miles, purpose."
+              "tip": "Use a free mileage app or a notebook in the car, and log every business drive: date, miles, purpose.",
+              "source": { "label": "IRS: Self-employment tax", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes" }
             }
           ]
         }
@@ -856,6 +858,22 @@
               "body": "- **Four-year college**: needed for many professional careers (engineering, teaching, nursing BSN, accounting). Highest cost and time.\n- **Community college**: two-year degrees and transfer paths at a much lower cost.\n- **Apprenticeship**: learn a trade (electrician, plumber, HVAC) on the job while **earning a paycheck**, plus classes.\n- **Certificates**: short programs (weeks to a year) in areas like IT support, welding, medical assisting or CDL truck driving.\n- **Military**: training plus education benefits.\n\nThe BLS Occupational Outlook Handbook shows each job's typical training, pay and growth.",
               "source": { "label": "BLS Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/" },
               "tip": "Look up one job you're curious about in the BLS Occupational Outlook Handbook and write down its typical training and pay."
+            },
+            {
+              "type": "learn",
+              "title": "What the data says about pay",
+              "body": "The Bureau of Labor Statistics compares typical weekly pay and unemployment by education (2025, full-time workers age 25+):\n- No high school diploma: **$770** a week, 6.1% unemployed\n- High school diploma: **$966**, 4.3%\n- Associate degree: **$1,135**, 3.0%\n- Bachelor's degree: **$1,578**, 2.8%\n\nMore training pays off on average. But these are middle values: a well-paid trade can out-earn a low-paying degree, and cost and debt still matter.",
+              "tip": "When you compare paths, look up the pay for the specific job you want, not just the degree level.",
+              "source": { "label": "BLS: Earnings and unemployment by education, 2025", "url": "https://www.bls.gov/emp/tables/unemployment-earnings-education.htm" }
+            },
+            {
+              "type": "number",
+              "prompt": "Typical weekly pay is $1,578 with a bachelor's degree and $966 with a high school diploma. About how much more is that per year (52 weeks)?",
+              "answer": 31824,
+              "tolerance": 1500,
+              "unit": "$",
+              "hint": "Find the weekly gap first. Then multiply by 52, or estimate with 50 weeks.",
+              "explain": "$1,578 - $966 = $612 a week. $612 x 52 = **$31,824** a year, about $32,000. Quick estimate: $600 x 50 = $30,000. That gap is an average, not a promise, and the cost of school comes off it."
             },
             {
               "type": "learn",

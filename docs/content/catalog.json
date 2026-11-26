@@ -32,8 +32,8 @@
   "file": "content/courses/adulting-101.json",
   "units": 4,
   "levels": 12,
-  "steps": 106,
-  "minutes": 73,
+  "steps": 108,
+  "minutes": 74,
   "unitTitles": [
    "Your First Place",
    "Insurance and Healthcare",
@@ -53,8 +53,8 @@
   "file": "content/courses/career-launch.json",
   "units": 4,
   "levels": 12,
-  "steps": 102,
-  "minutes": 72,
+  "steps": 104,
+  "minutes": 74,
   "unitTitles": [
    "Finding Work",
    "Interviews and Communication",
@@ -74,8 +74,8 @@
   "file": "content/courses/body-and-health.json",
   "units": 4,
   "levels": 12,
-  "steps": 109,
-  "minutes": 75,
+  "steps": 114,
+  "minutes": 78,
   "unitTitles": [
    "Sleep, Screens and Self-Care",
    "Food and Water",
@@ -179,7 +179,7 @@
   "file": "content/courses/mental-math.json",
   "units": 4,
   "levels": 12,
-  "steps": 99,
+  "steps": 100,
   "minutes": 72,
   "unitTitles": [
    "Percents in Your Head",
