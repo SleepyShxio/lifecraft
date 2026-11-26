@@ -4,20 +4,20 @@
   "track": "life",
   "title": "Money Mastery",
   "tagline": "Read a paycheck, budget, build credit, dodge scams and start investing.",
-  "description": "Understand exactly where your paycheck goes, build a budget you can actually keep, and set up the bank accounts and emergency fund that keep small problems small. You will learn how credit scores and interest really work, how to get out of debt, and how to start investing in index funds and retirement accounts while spotting scams before they cost you.",
+  "description": "Learn to read your paycheck, stop worrying about taxes, and set up a budget, a bank account and an emergency fund that actually work. Build credit safely, use a credit card without falling into debt, spot scams and bad loans, and start investing the simple way.",
   "icon": "coin",
   "color": "#E8B04B",
   "order": 1,
   "file": "content/courses/money-mastery.json",
   "units": 4,
   "levels": 12,
-  "steps": 109,
-  "minutes": 73,
+  "steps": 102,
+  "minutes": 72,
   "unitTitles": [
    "Paychecks and Taxes",
-   "Budgeting and Banking",
-   "Credit and Debt",
-   "Grow and Guard Your Money"
+   "Budget, Save and Bank",
+   "Credit Without the Debt",
+   "Protect and Grow Your Money"
   ]
  },
  {

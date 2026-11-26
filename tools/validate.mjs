@@ -50,6 +50,18 @@ function check(course, file) {
         const graded = !["learn", "reflect"].includes(s.type);
         if (graded && !str(s.explain)) e(`${p}: missing explain`);
         if (s.type !== "learn" && !str(s.prompt)) e(`${p}: missing prompt`);
+        for (const k of ["hint", "tip"]) {
+          if (s[k] === undefined) continue;
+          if (!str(s[k])) e(`${p}: ${k} must be a non-empty string`);
+          else {
+            if (/<[a-z]/i.test(s[k])) e(`${p}: HTML not allowed in ${k}`);
+            const w = s[k].split(/\s+/).length, max = k === "hint" ? 50 : 60;
+            if (w > max) warn.push(`${p}: ${k} is ${w} words`);
+          }
+        }
+        if (s.hint !== undefined && !graded) e(`${p}: hint only allowed on graded steps`);
+        if (s.tip !== undefined && s.type !== "learn") e(`${p}: tip only allowed on learn steps`);
+        if (s.type === "number" && s.hint === undefined) warn.push(`${p}: number step has no hint`);
         const opts = s.options;
         switch (s.type) {
           case "learn": if (!str(s.body)) e(`${p}: missing body`);

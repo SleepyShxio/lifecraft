@@ -3,7 +3,7 @@
   "track": "life",
   "title": "Money Mastery",
   "tagline": "Read a paycheck, budget, build credit, dodge scams and start investing.",
-  "description": "Understand exactly where your paycheck goes, build a budget you can actually keep, and set up the bank accounts and emergency fund that keep small problems small. You will learn how credit scores and interest really work, how to get out of debt, and how to start investing in index funds and retirement accounts while spotting scams before they cost you.",
+  "description": "Learn to read your paycheck, stop worrying about taxes, and set up a budget, a bank account and an emergency fund that actually work. Build credit safely, use a credit card without falling into debt, spot scams and bad loans, and start investing the simple way.",
   "icon": "coin",
   "color": "#E8B04B",
   "order": 1,
@@ -11,240 +11,255 @@
     {
       "id": "u1",
       "title": "Paychecks and Taxes",
-      "description": "Where your gross pay goes before it reaches your account, and how income tax really works.",
+      "description": "Know where your paycheck goes and why taxes are less scary than they look.",
       "levels": [
         {
           "id": "u1-l1",
-          "title": "Decode Your Paycheck",
-          "summary": "Gross vs net pay, FICA, withholding and the W-4.",
+          "title": "Read Your Paycheck",
+          "summary": "Gross pay, take-home pay and the lines on your pay stub.",
           "steps": [
             {
               "type": "learn",
-              "title": "Gross pay vs net pay",
-              "body": "**Gross pay** is what you earned: hours x hourly rate, or your salary divided by pay periods.\n\n**Net pay** (take-home pay) is what actually lands in your bank account after deductions.\n\nThe usual deductions:\n- **Federal income tax** withholding\n- **State and local income tax** (some states have none)\n- **FICA**: Social Security and Medicare\n- Benefits you chose: health insurance, 401(k) contributions\n\n> Always budget with **net** pay. A $20/hour job does not put $20/hour in your pocket."
+              "title": "Gross pay vs take-home pay",
+              "body": "**Gross pay** is what you earned before anything is taken out. Work 20 hours at $16/hour and your gross pay is $320.\n\n**Take-home pay** (also called **net pay**) is what actually lands in your bank account after taxes and other deductions.\n\n> Always plan your spending with take-home pay. A $16/hour job does not put $16/hour in your pocket.",
+              "tip": "Find your last pay stub and circle two numbers: gross pay and net pay. Net pay is the number your budget is built on."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You get your first paycheck. Which number should you use to plan your spending?",
+              "options": ["Gross pay", "Net (take-home) pay", "Your hourly rate times 40 hours", "Year-to-date gross pay"],
+              "answer": 1,
+              "feedback": [
+                "Gross pay includes money that goes to taxes before you ever see it.",
+                "Right. Net pay is the money you can actually spend.",
+                "That ignores taxes, and many first jobs are not 40 hours a week.",
+                "Year-to-date is the total for the whole year so far, not one check."
+              ],
+              "explain": "Net pay is what reaches your account. Budgeting with gross pay makes you think you have more money than you do."
+            },
+            {
+              "type": "learn",
+              "title": "What gets taken out",
+              "body": "Common lines on a pay stub:\n- **Federal income tax**: the main tax, held back for the IRS.\n- **State income tax**: some states have none.\n- **Social Security and Medicare** (often labeled **FICA**): 7.65% of pay for most workers.\n- **Benefits** you chose, like health insurance or a 401(k) (a retirement savings account through work).\n\nFor a part-time first job, taking home roughly 80-90% of gross pay is common.",
+              "tip": "Read every pay stub for one minute: check your hours and pay rate. Payroll mistakes happen, and you only catch them if you look."
             },
             {
               "type": "number",
-              "prompt": "You earn $18/hour, work 30 hours a week, and get paid every two weeks (biweekly). What is your **gross** pay per paycheck?",
-              "answer": 1080,
+              "prompt": "Your paycheck is $1,000 gross. About 20% goes to taxes and deductions. About how much do you take home?",
+              "answer": 800,
               "tolerance": 0,
               "unit": "$",
-              "explain": "$18 x 30 hours = $540 per week. Biweekly means two weeks per check: $540 x 2 = **$1,080** gross."
-            },
-            {
-              "type": "learn",
-              "title": "FICA: the tax almost everyone pays",
-              "body": "**FICA** funds Social Security and Medicare. For employees in 2026:\n- **Social Security: 6.2%** of wages, up to a yearly wage cap of $184,500\n- **Medicare: 1.45%** of all wages\n\nTogether that is **7.65%**, taken from every paycheck. Your employer pays a matching 7.65% on top.\n\nUnlike income tax, FICA has no standard deduction: it starts with your first dollar. That is why even a small part-time check shows FICA.\n\n> If you are self-employed, you pay both halves: 15.3%.",
-              "source": { "label": "SSA 2026 COLA fact sheet", "url": "https://www.ssa.gov/news/en/cola/factsheets/2026.html" }
-            },
-            {
-              "type": "number",
-              "prompt": "Your gross pay this check is $1,080. How much is withheld for FICA (7.65%)? Round to the cent.",
-              "answer": 82.62,
-              "tolerance": 0.01,
-              "unit": "$",
-              "explain": "$1,080 x 0.0765 = **$82.62**. That is $66.96 Social Security (6.2%) plus $15.66 Medicare (1.45%)."
-            },
-            {
-              "type": "learn",
-              "title": "The W-4 controls your withholding",
-              "body": "When you start a job you fill out **Form W-4**. It tells your employer how much federal income tax to hold back from each check.\n\n- Most single people with one job just fill in **Step 1** (name, filing status) and **Step 5** (sign).\n- **Step 2** is for multiple jobs. If you have two jobs and skip it, each employer withholds too little and you can owe at tax time.\n- Steps 3-4 are for dependents and extra adjustments.\n\nWithholding is a **prepayment**. Too much means a refund next spring; too little means a bill.",
-              "source": { "label": "IRS Form W-4", "url": "https://www.irs.gov/forms-pubs/about-form-w-4" }
+              "hint": "Find 20% of $1,000 first, then subtract it from $1,000. Or just find 80%, the part you keep.",
+              "explain": "20% of $1,000 = $200 taken out.\n\n$1,000 - $200 = **$800** take-home.\n\nShortcut: you keep 80%, and 0.80 x $1,000 = $800."
             },
             {
               "type": "match",
-              "prompt": "Match each paycheck term to its meaning.",
+              "prompt": "Match each pay stub term to what it means.",
               "pairs": [
-                ["Gross pay", "Total earned before anything is taken out"],
+                ["Gross pay", "Everything you earned before deductions"],
                 ["Net pay", "What actually reaches your bank account"],
-                ["FICA", "Social Security + Medicare tax, 7.65% for employees"],
-                ["W-4", "Form that sets your federal income tax withholding"],
-                ["Pay stub", "The statement listing each deduction for one pay period"]
+                ["FICA", "Social Security and Medicare tax"],
+                ["Year-to-date (YTD)", "Running total since January 1"]
               ],
-              "explain": "Read your pay stub every time: it shows gross pay, each deduction and net pay, so you catch mistakes like missing hours."
+              "explain": "These four terms appear on almost every pay stub. YTD is handy at tax time and for checking you were paid for every shift."
             },
             {
-              "type": "number",
-              "prompt": "Federal law requires overtime of 1.5x your regular rate for hours over 40 in a week for most hourly workers. You make $16/hour and work 45 hours. What is your gross pay for the week?",
-              "answer": 760,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "40 x $16 = $640. Overtime rate = $16 x 1.5 = $24, and 5 x $24 = $120. Total **$760**. Check your stub to make sure overtime was paid."
+              "type": "learn",
+              "title": "The W-4 form",
+              "body": "On your first day you fill out a **W-4**. It tells your employer how much federal income tax to hold back from each check.\n\nIf you are single with one job, you usually just fill in your name and filing status and sign it.\n\nHolding back tax is like **prepaying**. If too much was held back, you get a **refund** in the spring. If too little, you owe.",
+              "tip": "If you work two jobs at once, use the free IRS Tax Withholding Estimator on irs.gov before you fill out the second W-4, so you do not owe a surprise bill in April."
             },
             {
               "type": "scenario",
-              "prompt": "You just took a second part-time job. Your first job already withholds federal tax based on a W-4 where you only filled out Step 1. What do you do with the new W-4?",
+              "prompt": "A coworker says: \"Write EXEMPT on your W-4. Then no tax comes out and your checks are bigger.\" What do you do?",
               "options": [
-                { "text": "Fill out Step 2 (multiple jobs) on the W-4s, for example using the IRS Tax Withholding Estimator, so enough tax is withheld overall.", "feedback": "Right. Each employer only sees its own paycheck, so without Step 2 both withhold as if they were your only job.", "best": true },
-                { "text": "Fill out the new W-4 exactly like the first one; withholding adds up automatically.", "feedback": "Each employer withholds as if it were your only job, so the combined withholding comes out too low and you may owe in April." },
-                { "text": "Write 'exempt' so you get bigger paychecks now.", "feedback": "Exempt is only for people who owed no federal income tax last year and expect to owe none this year. Claiming it wrongly means a big bill, and possibly penalties, later." },
-                { "text": "Skip the W-4; it is optional.", "feedback": "Without a W-4 your employer withholds as if you were single with no adjustments. It is better to fill it out correctly." }
+                {"text": "Fill it out normally. Exempt is only for people who owe no federal income tax at all for the year.", "feedback": "Right. If you claim exempt and do owe tax, you get a bill (and maybe a penalty) later.", "best": true},
+                {"text": "Write exempt. Bigger checks now are always better.", "feedback": "The tax is still due. You just pay it all at once next spring instead of a little each check."},
+                {"text": "Skip the W-4 so nothing is withheld.", "feedback": "Without a W-4, your employer still withholds, using default settings. Skipping it does not stop withholding."}
               ],
-              "explain": "Withholding should roughly match the tax you will owe for the whole year. The IRS Tax Withholding Estimator (free on irs.gov) does the math for multiple jobs."
+              "hint": "Withholding is prepaying a tax you will owe anyway. What happens if you prepay nothing?",
+              "explain": "Withholding does not change how much tax you owe. It only changes when you pay it. Fill out the W-4 honestly."
             },
             {
               "type": "truefalse",
-              "prompt": "Contributions to a traditional 401(k) usually come out before federal income tax is calculated, which lowers your income tax withholding.",
-              "answer": true,
-              "explain": "Traditional 401(k) contributions are pre-tax for income tax (though FICA still applies). So putting $100 in might only shrink your take-home by about $80-90."
+              "prompt": "A big tax refund means you got free money from the government.",
+              "answer": false,
+              "explain": "A refund is your own money coming back. Too much was held from your paychecks during the year, and the IRS returns the extra."
             },
             {
               "type": "reflect",
-              "prompt": "Pull up your most recent pay stub (or a family member's, with permission). Write down gross pay, each deduction, and net pay. What percent of gross did you actually take home?",
-              "placeholder": "Gross: $___  Fed tax: $___  State: $___  FICA: $___  Net: $___  Net / Gross = ___%"
+              "prompt": "Look at a real pay stub (yours, or a parent's with permission). Write down gross pay, net pay, and the biggest deduction. What surprised you?",
+              "placeholder": "Gross: $___  Net: $___  Biggest deduction: ___"
             }
           ]
         },
         {
           "id": "u1-l2",
-          "title": "Tax Brackets Are Marginal",
-          "summary": "Why a raise never lowers your take-home pay, and deductions vs credits.",
+          "title": "Taxes Without the Panic",
+          "summary": "Standard deduction, how tax brackets really work, and why a raise never hurts.",
           "steps": [
             {
               "type": "learn",
-              "title": "Taxable income comes first",
-              "body": "Federal income tax is not charged on every dollar you earn. First you subtract deductions.\n\nMost people take the **standard deduction**. For tax year 2026 it is **$16,100** for a single filer ($32,200 married filing jointly). It changes every year with inflation.\n\n> **Taxable income = income - deductions**\n\nSo a single person earning $16,100 or less in 2026 owes no federal income tax at all (FICA still applies).",
-              "source": { "label": "IRS Rev. Proc. 2025-32 (2026 amounts)", "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
-            },
-            {
-              "type": "number",
-              "prompt": "In 2026 you are single, earn a $40,000 salary and take the standard deduction of $16,100. What is your taxable income?",
-              "answer": 23900,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "$40,000 - $16,100 = **$23,900** of taxable income."
-            },
-            {
-              "type": "learn",
-              "title": "Brackets fill up like buckets",
-              "body": "Tax rates are **marginal**: each rate applies only to the dollars inside that bracket. 2026 brackets for a single filer start like this:\n\n- **10%** on taxable income up to $12,400\n- **12%** on the part from $12,400 to $50,400\n- **22%** on the part from $50,400 to $105,700\n- then 24%, 32%, 35%, 37% higher up\n\nYour first $12,400 is always taxed at 10%, no matter how much you earn. Only dollars that spill into the next bucket get the next rate.",
-              "source": { "label": "IRS 2026 inflation adjustments", "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
-            },
-            {
-              "type": "number",
-              "prompt": "Your 2026 taxable income is $23,900 (single). Using 10% up to $12,400 and 12% above that, what is your federal income tax?",
-              "answer": 2620,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "10% x $12,400 = $1,240. The rest is $23,900 - $12,400 = $11,500, and 12% x $11,500 = $1,380. Total **$2,620**. That is only about 6.6% of the $40,000 salary: your **effective rate**."
+              "title": "The standard deduction",
+              "body": "You do not pay income tax on every dollar. The **standard deduction** is an amount of income that is not taxed at all.\n\nFor 2026, a single person gets a **$16,100** standard deduction. It goes up a little most years.\n\nSo if your part-time job pays $12,000 in 2026, you likely owe **no federal income tax**. Any federal income tax that was withheld comes back as a refund when you file.",
+              "tip": "If you earned under the standard deduction this year but federal tax was taken from your checks, put \"file a tax return\" on your calendar for February so you get that money back.",
+              "source": {"label": "IRS: 2026 tax inflation adjustments", "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill"}
             },
             {
               "type": "mcq",
-              "prompt": "Your taxable income is $50,000 and a raise would push it to $51,000, crossing into the 22% bracket. What happens?",
+              "prompt": "In 2026 you earn $9,000 from a summer job and a part-time job. $300 of federal income tax was withheld. What most likely happens when you file?",
               "options": [
-                "All $51,000 is now taxed at 22%, so you could take home less",
-                "Only the $600 above $50,400 is taxed at 22%; the rest is taxed exactly as before",
-                "Nothing changes until you pass $60,000",
-                "Your whole raise is taxed at 22%, including the part under $50,400"
+                "You owe more tax on top of the $300",
+                "You get most or all of the $300 back as a refund",
+                "Nothing, because teens do not pay taxes",
+                "You lose the $300, since it was already sent to the IRS"
               ],
               "answer": 1,
-              "explain": "Marginal brackets mean only dollars above $50,400 get 22%. Of the $1,000 raise, $400 is taxed at 12% ($48) and $600 at 22% ($132): $180 more federal income tax. You still keep most of the raise. A raise never lowers your take-home from brackets alone."
+              "feedback": [
+                "Your income is below the $16,100 standard deduction, so you likely owe no federal income tax.",
+                "Right. Income under the standard deduction usually means no federal income tax, so withholding comes back.",
+                "Age does not matter to the IRS. Teens with income can owe tax; this one just earned under the line.",
+                "Withholding is a prepayment. If you owed less, the extra is refunded, but only if you file."
+              ],
+              "hint": "Compare $9,000 to the 2026 standard deduction from the last step.",
+              "explain": "$9,000 is under the $16,100 standard deduction, so no federal income tax is likely owed. Filing gets the withheld $300 back. (Social Security and Medicare tax is not refunded.)"
             },
             {
               "type": "learn",
-              "title": "Deductions vs credits",
-              "body": "Two tools lower your tax, and they are not equal.\n\n- A **deduction** lowers your *taxable income*. A $1,000 deduction in the 12% bracket saves $120.\n- A **credit** lowers your *tax bill* dollar for dollar. A $1,000 credit saves $1,000.\n\nCommon credits for young adults include education credits (like the American Opportunity Tax Credit for college costs) and the Earned Income Tax Credit for lower-income workers. Tax software asks the questions that find them."
+              "title": "Tax brackets: stairs, not a cliff",
+              "body": "US income tax uses **brackets**: rates that rise in steps. Think of filling buckets.\n\nYour first taxable dollars fill the 10% bucket. Once it is full, the next dollars go into the 12% bucket, and so on.\n\n> Only the dollars **above** each line are taxed at the higher rate. The dollars below it keep their lower rate.\n\nSo moving into a higher bracket only raises the tax on the extra dollars, not on everything you earn.",
+              "tip": "When someone says \"I do not want overtime, it will bump me into a higher bracket,\" you can tell them: only the extra dollars get the higher rate, so you still keep most of them."
             },
             {
-              "type": "number",
-              "prompt": "You are in the 12% bracket. How much tax does a $500 deduction save you?",
-              "answer": 60,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "A deduction removes $500 of taxable income, which would have been taxed at 12%: $500 x 0.12 = **$60**. A $500 *credit* would have saved the full $500."
+              "type": "truefalse",
+              "prompt": "If a raise moves you into a higher tax bracket, your take-home pay can go down.",
+              "answer": false,
+              "hint": "Which dollars get the higher rate: all of them, or only the ones above the line?",
+              "explain": "The higher rate only applies to dollars above the bracket line. You still keep most of every extra dollar, so a raise always increases take-home pay from tax alone."
             },
             {
-              "type": "match",
-              "prompt": "Match each term to its meaning.",
-              "pairs": [
-                ["Marginal rate", "Rate on your last (highest) dollar of taxable income"],
-                ["Effective rate", "Total tax divided by total income"],
-                ["Standard deduction", "Flat amount subtracted from income before tax"],
-                ["Tax credit", "Dollar-for-dollar cut to the tax you owe"]
+              "type": "mcq",
+              "prompt": "Jordan's taxable income rises just past the line between the 12% bracket and the 22% bracket. Which statement is true?",
+              "options": [
+                "All of Jordan's income is now taxed at 22%",
+                "Only the dollars above the line are taxed at 22%",
+                "Jordan should turn down extra hours to stay at 12%",
+                "Jordan's whole tax bill jumps by 10%"
               ],
-              "explain": "Your marginal rate tells you what a little extra income costs in tax; your effective rate tells you what share of all your income went to tax."
+              "answer": 1,
+              "feedback": [
+                "This is the most common tax myth. The lower buckets keep their lower rates.",
+                "Right. Only the dollars past the line land in the 22% bucket.",
+                "Turning down hours would lose money. Even at 22%, Jordan keeps 78 cents of each extra dollar before other taxes.",
+                "The rate change only hits the few dollars above the line."
+              ],
+              "hint": "Picture buckets: does pouring more water in change what is already in the lower buckets?",
+              "explain": "Brackets are marginal: each rate applies only to the slice of income inside that bracket."
+            },
+            {
+              "type": "learn",
+              "title": "Two kinds of tax on your pay",
+              "body": "**Income tax** (federal, and state in most states) depends on how much you earn. The standard deduction and brackets apply to it.\n\n**Social Security and Medicare** tax is a flat 7.65% for employees, starting with your first dollar. There is no standard deduction for it, and you do not get it back as a refund. It funds benefits you can use later in life.\n\nThat is why even a tiny paycheck shows some tax.",
+              "tip": "Look up whether your state has an income tax (search \"[your state] income tax\" on your state's official .gov site) so you know what to expect on your pay stub."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which of these are true for a teen with a $10,000-a-year job in 2026? Select all that apply.",
+              "options": [
+                "Social Security and Medicare tax comes out of each check",
+                "They likely owe no federal income tax",
+                "Filing a return can get back federal income tax that was withheld",
+                "Social Security and Medicare tax is refunded if income is low"
+              ],
+              "answers": [0, 1, 2],
+              "explain": "The 7.65% Social Security and Medicare tax applies from the first dollar and is not refunded. Federal income tax on $10,000 is likely zero because of the $16,100 standard deduction, so filing returns any that was withheld."
             },
             {
               "type": "learn",
               "title": "Key takeaways",
-              "body": "- Taxable income = income - deductions (2026 single standard deduction: $16,100).\n- Brackets are buckets: each rate hits only the dollars inside it.\n- Taking a raise or extra shifts never lowers your take-home because of brackets.\n- Credits beat deductions of the same size.\n\n> Numbers change every year. Check the IRS's current figures when you file."
+              "body": "- The 2026 standard deduction (single) is **$16,100**: income up to that is not hit by federal income tax.\n- Brackets work like buckets. Only dollars above a line get the higher rate.\n- A raise or overtime **never** lowers your take-home pay because of brackets.\n- Social Security and Medicare (7.65%) come out of every check and are not refunded.",
+              "tip": "Next time you are offered extra hours, decide based on your time and energy, not bracket fears. Every extra hour still adds to your take-home pay."
             }
           ]
         },
         {
           "id": "u1-l3",
-          "title": "Filing Your Tax Return",
-          "summary": "Forms, deadlines, free filing options and what a refund really is.",
+          "title": "Filing Your First Tax Return",
+          "summary": "The W-2, free ways to file, deadlines and tax scams.",
           "steps": [
             {
               "type": "learn",
-              "title": "What filing a return means",
-              "body": "Each spring you file a **tax return** for the previous year. It compares the tax you actually owe with what was withheld from your paychecks.\n\n- Withheld more than you owe: you get a **refund**.\n- Withheld less: you **owe** the difference.\n\nThe deadline is usually **April 15**. For 2026 income, that is April 15, 2027.\n\nKey forms arrive by about **January 31**:\n- **W-2** from each employer (wages and withholding)\n- **1099** forms for other income: freelance work, bank interest, investments"
-            },
-            {
-              "type": "number",
-              "prompt": "Your W-2 shows $2,900 of federal income tax withheld. Your return shows you owe $2,620. What is your refund?",
-              "answer": 280,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "$2,900 withheld - $2,620 owed = **$280** refund. It is your own money coming back: you lent it to the government interest-free."
-            },
-            {
-              "type": "truefalse",
-              "prompt": "A big tax refund means you got a good deal from the IRS.",
-              "answer": false,
-              "explain": "A refund only means you overpaid during the year. A huge refund means smaller paychecks all year. Many people prefer to adjust their W-4 so they get a small refund or owe a little."
-            },
-            {
-              "type": "learn",
-              "title": "Do you need to file?",
-              "body": "A single person under 65 generally **must** file if gross income is above the standard deduction ($16,100 for 2026). If you had **self-employment** income of $400 or more, you must file even if you earned less.\n\nBut even when you don't have to, you often **should**: if tax was withheld, filing is the only way to get it back.\n\n> All income counts, even cash tips, side gigs and freelance work with no 1099 form.",
-              "source": { "label": "IRS: Who needs to file", "url": "https://www.irs.gov/individuals/check-if-you-need-to-file-a-tax-return" }
-            },
-            {
-              "type": "scenario",
-              "prompt": "You earned $6,000 at a summer job in 2026 and $310 in federal tax was withheld. You don't legally have to file. What should you do?",
-              "options": [
-                { "text": "File a return anyway to get the $310 back.", "feedback": "Yes. With $6,000 of income you owe $0 federal income tax, so filing returns all $310 withheld.", "best": true },
-                { "text": "Skip it: if you are not required to file, the IRS mails the money automatically.", "feedback": "The IRS does not refund withholding unless you file a return asking for it." },
-                { "text": "Wait and file all your returns together when you turn 25.", "feedback": "You generally have only 3 years from the due date to claim a refund. Waiting can forfeit it." }
-              ],
-              "explain": "Filing is how you claim withheld tax back. Small refunds are still your money."
-            },
-            {
-              "type": "learn",
-              "title": "Ways to file for free",
-              "body": "- **IRS Free File** (irs.gov/freefile): brand-name software, free for people under an income limit.\n- **VITA**: free in-person help from IRS-certified volunteers, usually for low-to-moderate income filers.\n- Many paid apps have a free tier for simple returns, but watch for upsells.\n\nNote: the IRS's own **Direct File** tool was not offered in the 2026 filing season.\n\n> Keep copies of your return and its forms for at least 3 years.",
-              "source": { "label": "IRS Free File", "url": "https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free" }
-            },
-            {
-              "type": "order",
-              "prompt": "Put the steps of filing a simple return in order.",
-              "items": [
-                "Collect your W-2s and 1099s (they arrive by about January 31)",
-                "Choose a filing method, like IRS Free File or a VITA site",
-                "Enter your income, withholding and deductions or credits",
-                "Review the numbers, then submit by April 15",
-                "Save a copy of the return and the forms for your records"
-              ],
-              "explain": "Gather first, then file, then keep records. Filing electronically with direct deposit usually gets a refund to you fastest."
+              "title": "The W-2: your tax report card",
+              "body": "By **January 31**, every employer you worked for must give you a **W-2**. It shows what you earned that year and how much tax was withheld.\n\nYou need every W-2 to file. If you had three summer jobs, you need three W-2s.\n\nMoved since then? Your W-2 may get mailed to your old address. Many employers also post it in their online payroll site.",
+              "tip": "Make a folder (paper or a phone album) called \"Taxes\" this week, and drop every W-2 and tax form into it as it arrives."
             },
             {
               "type": "mcq",
-              "prompt": "You can't finish your return by April 15. What does filing an extension do?",
+              "prompt": "It is mid-February. You worked two jobs last year but only have one W-2. What should you do?",
               "options": [
-                "Gives you more time to file AND more time to pay with no interest",
-                "Gives you more time to file the paperwork, but any tax owed is still due April 15",
-                "Cancels late penalties for the whole year",
-                "Only works if you are getting a refund"
+                "File with the one W-2 and skip the other job",
+                "Contact the other employer's payroll or HR and ask for your W-2",
+                "Guess the numbers from memory",
+                "Wait until next year and file both then"
               ],
               "answer": 1,
-              "explain": "An extension (usually to October 15) is more time to *file*, not to *pay*. Estimate what you owe and pay it by April 15 to avoid interest and penalties."
+              "feedback": [
+                "The IRS gets a copy of every W-2. Leaving a job off leads to a letter and a bill later.",
+                "Right. Ask payroll, and check their online portal. They may have an old address for you.",
+                "Guessed numbers will not match what the employer reported to the IRS.",
+                "Each year's return is due that spring. Filing late can mean penalties if you owe."
+              ],
+              "explain": "Employers send the IRS a copy of your W-2, so your return must include all of them. Ask the employer first; if that fails, the IRS can help."
             },
             {
-              "type": "reflect",
-              "prompt": "Write down where your W-2s will be sent (mail? employer portal?), which free filing method you will use, and a date in February when you will file.",
-              "placeholder": "My W-2 comes from... I'll file with... on (date)..."
+              "type": "learn",
+              "title": "Free ways to file",
+              "body": "You do not need to pay to file a simple return.\n- **IRS Free File** (on irs.gov): free brand-name software if your income is under that year's limit. Most first-job earners qualify.\n- **VITA**: free in-person help from trained volunteers, often at libraries and community centers.\n\nThe deadline is usually **April 15**. Filing online with direct deposit is the fastest way to get a refund.",
+              "tip": "In January, start from irs.gov/freefile (type it yourself, do not click an ad) so you land on the real free version, not a paid upsell.",
+              "source": {"label": "IRS Free File", "url": "https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free"}
+            },
+            {
+              "type": "order",
+              "prompt": "Put these tax-filing steps in order (first to last).",
+              "items": [
+                "Collect every W-2 by early February",
+                "Go to IRS Free File or a VITA site",
+                "Enter your W-2 numbers and check them",
+                "Choose direct deposit for any refund",
+                "File before the April deadline and save a copy"
+              ],
+              "explain": "Gather forms first, use a free tool, enter and double-check numbers, then pick direct deposit and file. Keep a copy: you may need it for a loan or financial aid."
+            },
+            {
+              "type": "learn",
+              "title": "Tax scams",
+              "body": "Tax season brings scams. Know this:\n- The IRS normally contacts you the first time by **mail**.\n- It only emails or texts people who signed up for that, and a social media direct message is never the IRS.\n- The IRS never asks for payment by **gift card**.\n- Threats of arrest over the phone are a scam sign.\n\nA surprise call, text or DM about taxes is almost always a scammer.",
+              "tip": "If you get a text about an \"IRS refund\" with a link, do not tap it. Delete it and report it by forwarding the text to 7726 (SPAM).",
+              "source": {"label": "IRS: How to know it's the IRS", "url": "https://www.irs.gov/help/how-to-know-its-the-irs"}
+            },
+            {
+              "type": "scenario",
+              "prompt": "You get a call: \"This is the IRS. You owe $900 in back taxes. Pay today with gift cards or police will come to your home.\" What do you do?",
+              "options": [
+                {"text": "Hang up. Do not pay. Real IRS issues start with a mailed letter.", "feedback": "Right. Gift cards plus threats is a scam every time.", "best": true},
+                {"text": "Pay a smaller amount to buy time while you check.", "feedback": "Any payment tells the scammer you are an easy target. They will call again."},
+                {"text": "Give them your Social Security number so they can look up your file.", "feedback": "Now they can file a fake return or open accounts in your name."},
+                {"text": "Call back the number they gave you to confirm.", "feedback": "That number goes straight back to the scammer. Use only numbers from irs.gov."}
+              ],
+              "hint": "Think about how the real IRS contacts people first, and how it takes payment.",
+              "explain": "The IRS contacts you by mail first and never asks for gift cards. Urgency plus an odd payment method is the classic scam signal."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "If your income was low and you do not have to file, filing anyway can still be worth it.",
+              "answer": true,
+              "explain": "If any federal income tax was withheld, the only way to get it back is to file a return. Filing is also good practice for later years."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Gather every W-2 by early February.\n- File for free with IRS Free File or a VITA volunteer.\n- The usual deadline is April 15. Pick direct deposit for refunds.\n- The IRS normally contacts you by mail first and never wants gift cards.",
+              "tip": "Save a PDF of every tax return you file in one cloud folder. Lenders, landlords and student aid forms often ask for past returns."
             }
           ]
         }
@@ -252,237 +267,244 @@
     },
     {
       "id": "u2",
-      "title": "Budgeting and Banking",
-      "description": "Give every dollar a job, pick the right accounts, and build a cushion for emergencies.",
+      "title": "Budget, Save and Bank",
+      "description": "Give every dollar a job, build a cushion, and keep your bank from eating your money in fees.",
       "levels": [
         {
           "id": "u2-l1",
-          "title": "The 50/30/20 Budget",
-          "summary": "A simple split of take-home pay into needs, wants and savings.",
+          "title": "A Budget You'll Actually Keep",
+          "summary": "The 50/30/20 starting point, yearly bills and tracking without stress.",
           "steps": [
             {
               "type": "learn",
               "title": "A budget is a plan, not a punishment",
-              "body": "A budget tells your money where to go *before* the month starts, instead of wondering where it went afterward.\n\nThe simplest starting point is **50/30/20**, based on your **take-home** pay:\n- **50% needs**: rent, utilities, groceries, insurance, transportation, minimum debt payments\n- **30% wants**: eating out, streaming, hobbies, upgrades\n- **20% savings and extra debt payoff**: emergency fund, retirement, paying debt faster\n\nIt is a guideline. In a high-rent city needs may run higher; then trim wants first."
+              "body": "A **budget** is a plan for your take-home pay before you spend it.\n\nA simple starting point is **50/30/20**:\n- **50% needs**: rent, groceries, phone, gas, insurance.\n- **30% wants**: eating out, games, concerts.\n- **20% savings and debt**: emergency fund, investing, paying off cards.\n\nLiving at home with few bills? Flip it: save much more than 20% while it is easy.",
+              "tip": "Open your banking app and add up last month's spending in three piles: needs, wants and savings. That is your starting budget."
             },
             {
-              "type": "number",
-              "prompt": "Your monthly take-home pay is $2,800. Using 50/30/20, how much goes to **wants**?",
-              "answer": 840,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "30% x $2,800 = **$840**. Needs get $1,400 (50%) and savings/debt get $560 (20%)."
+              "type": "match",
+              "prompt": "Sort each expense into its 50/30/20 group.",
+              "pairs": [
+                ["Rent for your first apartment", "Need"],
+                ["Concert tickets", "Want"],
+                ["Money moved to your emergency fund", "Savings"]
+              ],
+              "explain": "Needs keep your life running. Wants make it fun. Savings protect future you. A $90 phone plan is a need, but the extra $40 for a premium plan is really a want."
             },
             {
               "type": "learn",
-              "title": "Need or want?",
-              "body": "A **need** is something you must pay to live and work: a basic place to live, basic food, getting to your job, required insurance, minimum loan payments.\n\nA **want** is the upgrade on top: the newer phone, the nicer apartment, takeout instead of groceries.\n\nMany items are partly both. Basic groceries are a need; the energy drinks in the cart are a want. A phone plan is a need; the $40/month premium tier is mostly a want."
+              "title": "Pay yourself first",
+              "body": "If you save \"whatever is left,\" there is usually nothing left.\n\n**Pay yourself first**: move savings out the day you get paid, before you spend.\n\nExample: Ava earns $600 every two weeks at her café job. The day after payday, $100 moves to savings automatically. She budgets the other $500 and never misses the $100.",
+              "tip": "Set up an automatic transfer to savings for the day after each payday this week. Start with any amount, even $20."
             },
             {
-              "type": "multi",
-              "prompt": "Which of these are **needs** in a 50/30/20 budget? Select all that apply.",
-              "options": [
-                "Rent for a basic apartment",
-                "Concert tickets",
-                "Car insurance required by law",
-                "A third streaming service",
-                "Minimum payment on a student loan",
-                "Basic groceries"
-              ],
-              "answers": [0, 2, 4, 5],
-              "explain": "Rent, legally required insurance, minimum debt payments and basic food are needs. Concerts and extra subscriptions are wants. Paying *more* than the minimum on debt counts toward the 20%."
+              "type": "learn",
+              "title": "Yearly bills, monthly savings",
+              "body": "Some bills come once or twice a year: car insurance, car registration, a yearly app subscription, holiday gifts.\n\nThey feel like emergencies, but they are not. You knew they were coming.\n\nThe fix: divide the yearly cost by 12 and save that much each month. When the bill arrives, the money is waiting.",
+              "tip": "List every bill you pay once or twice a year. Add them up, divide by 12, and set up a monthly transfer for that amount."
             },
             {
               "type": "number",
-              "prompt": "Take-home pay is $3,200/month. Your needs add up to $1,920. What percent of take-home pay is going to needs?",
-              "answer": 60,
+              "prompt": "Your car insurance costs $1,200 a year, paid all at once in June. How much should you set aside each month so the money is ready?",
+              "answer": 100,
               "tolerance": 0,
-              "unit": "%",
-              "explain": "$1,920 / $3,200 = 0.60 = **60%**. That is 10 points over the 50% guideline, so wants or savings have to shrink, or you look for cheaper housing or transport."
+              "unit": "$",
+              "hint": "There are 12 months in a year. Split the yearly cost evenly across them.",
+              "explain": "$1,200 / 12 months = **$100 a month**. Save $100 each month and June's bill is already covered."
             },
             {
               "type": "scenario",
-              "prompt": "Your needs take 60% of take-home pay because rent is high. Your 30% wants include $250/month of takeout and $45 in subscriptions. What is the best first move?",
+              "prompt": "Two weeks after payday, you are $60 over your eating-out budget. A friend invites you to a $40 dinner. What is the best move?",
               "options": [
-                { "text": "Cut wants (cook more, drop unused subscriptions) so savings stays at about 20%.", "feedback": "Good. Wants are the easiest lever to pull this month, and it protects your savings habit.", "best": true },
-                { "text": "Stop saving until you get a raise.", "feedback": "Raises often get absorbed by spending. Skipping savings leaves you exposed to the next emergency." },
-                { "text": "Put the gap on a credit card each month.", "feedback": "Borrowing to cover regular monthly costs grows a balance at 20%+ interest. That makes the problem worse." }
+                {"text": "Suggest a cheaper plan, or move $40 from another want (like your games budget) if you really want to go.", "feedback": "Right. A budget bends: you can trade between wants without touching needs or savings.", "best": true},
+                {"text": "Go and put it on a credit card you cannot pay off this month.", "feedback": "Now dinner may cost more than $40 once interest is added."},
+                {"text": "Give up on budgeting. It clearly does not work for you.", "feedback": "Going over once is normal. Adjusting is the skill, not being perfect."},
+                {"text": "Take the $40 from your rent money and hope it works out.", "feedback": "Needs come first. Short rent leads to late fees or worse."}
               ],
-              "explain": "When needs run high, trim wants first and keep at least some savings flowing. Longer-term fixes: a roommate, cheaper housing at lease renewal, or more income."
-            },
-            {
-              "type": "truefalse",
-              "prompt": "You should build your 50/30/20 budget on your gross (before-tax) pay.",
-              "answer": false,
-              "explain": "Use take-home (net) pay. Taxes come out before you ever see the money, so budgeting gross pay plans for money you don't have."
+              "hint": "Which money can you move without hurting a need or your savings?",
+              "explain": "Good budgets are flexible. Move money between wants, protect needs and savings, and avoid debt for fun."
             },
             {
               "type": "learn",
-              "title": "Key takeaways",
-              "body": "- Start with take-home pay.\n- Aim for about 50% needs, 30% wants, 20% savings and extra debt payoff.\n- When needs run high, trim wants before cutting savings.\n- Pay yourself first: set an automatic transfer to savings on payday so the 20% happens without willpower."
+              "title": "Track without the stress",
+              "body": "You do not need to log every coffee forever.\n\nTry a **weekly money check-in**: 10 minutes, same day each week.\n- Look at what you spent.\n- Compare it to your plan.\n- Adjust next week.\n\nYour bank app probably sorts spending into categories already. Many people check in on Sunday night.",
+              "tip": "Set a repeating 10-minute phone reminder called \"Money check-in\" for the same evening every week."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which budget is most likely to last?",
+              "options": [
+                "Tracking every purchase in a detailed spreadsheet every day",
+                "Spending no money on any wants at all",
+                "Auto-saving on payday plus a 10-minute weekly check-in",
+                "Checking your balance only when your card gets declined"
+              ],
+              "answer": 2,
+              "feedback": [
+                "It can work, but most people burn out within weeks.",
+                "Too strict. People who ban all fun usually quit and overspend.",
+                "Right. Automation does the hard part, and a short check-in keeps you on track.",
+                "By then you may have paid overdraft fees."
+              ],
+              "explain": "The best budget is one you keep. Automate savings and keep tracking light."
             },
             {
               "type": "reflect",
-              "prompt": "Estimate your monthly take-home pay and list your needs and wants. What are your 50/30/20 dollar targets, and where are you over?",
-              "placeholder": "Take-home $___. Needs target $___ (actual $___). Wants target $___. Save $___."
+              "prompt": "Write your first simple budget: monthly take-home pay, then how much goes to needs, wants and savings.",
+              "placeholder": "Take-home: $___  Needs: $___  Wants: $___  Savings: $___"
             }
           ]
         },
         {
           "id": "u2-l2",
-          "title": "Zero-Based Budgeting",
-          "summary": "Give every dollar a job, plan for irregular costs and track spending.",
+          "title": "Your Emergency Fund",
+          "summary": "How much cushion you need, where to keep it and when to use it.",
           "steps": [
             {
               "type": "learn",
-              "title": "Every dollar gets a job",
-              "body": "A **zero-based budget** assigns every dollar of income to a category until the leftover is **$0**. Zero does not mean you spend it all: savings and debt payoff are categories too.\n\n> Income - all assigned categories = $0\n\nWhy it works: money with no job tends to disappear on small purchases. When every dollar has a label, you notice the moment you overspend in one category and must move money from another."
-            },
-            {
-              "type": "number",
-              "prompt": "Monthly income: $2,400. Assigned so far: rent $950, groceries $320, gas and car insurance $260, phone $45, subscriptions $25, emergency fund $300, fun money $200. How many dollars still need a job?",
-              "answer": 300,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "950 + 320 + 260 + 45 + 25 + 300 + 200 = $2,100. $2,400 - $2,100 = **$300** left to assign, for example to a car-repair fund or extra debt payment."
-            },
-            {
-              "type": "learn",
-              "title": "Sinking funds for 'surprise' bills",
-              "body": "Many budget-breakers are not surprises at all: car registration, holiday gifts, annual subscriptions, new tires, back-to-school costs.\n\nA **sinking fund** spreads them out: add up the yearly cost, divide by 12, and set that much aside every month.\n\n> Example: $240 car registration / 12 = $20 per month.\n\nWhen the bill arrives, the money is already waiting."
-            },
-            {
-              "type": "number",
-              "prompt": "You expect $180 for car registration and $600 for birthday and holiday gifts this year. How much should go into a sinking fund each month to cover both?",
-              "answer": 65,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "$180 + $600 = $780 per year. $780 / 12 = **$65 per month**."
-            },
-            {
-              "type": "order",
-              "prompt": "Put the monthly zero-based budgeting routine in order.",
-              "items": [
-                "Write down the income you will actually receive this month",
-                "Assign money to fixed needs (rent, utilities, insurance)",
-                "Assign savings, debt payments and sinking funds",
-                "Assign variable spending (groceries, gas, fun) until $0 is left",
-                "Track spending during the month and move money between categories when you overspend"
-              ],
-              "explain": "Plan with real income, cover essentials and savings early, then give the rest to flexible categories. Adjusting mid-month is part of the plan, not failure."
-            },
-            {
-              "type": "scenario",
-              "prompt": "Halfway through the month your grocery category is empty, but you have $60 left in fun money. Friends invite you out for $40. What do you do?",
-              "options": [
-                { "text": "Move money from fun to groceries first, then decide whether anything is left for going out.", "feedback": "Exactly. Food comes first; you can still join for a cheaper hangout or skip this one.", "best": true },
-                { "text": "Go out and put groceries on a credit card.", "feedback": "That turns a budget overspend into debt, and the budget stops telling the truth." },
-                { "text": "Give up on the budget because it didn't work this month.", "feedback": "Every budget needs adjusting. Moving money between categories is the system working." }
-              ],
-              "explain": "When one category runs out, you move money from another. Needs win over wants."
+              "title": "Why a cushion matters",
+              "body": "Cars break. Phones crack. Shifts get cut.\n\nAn **emergency fund** is money set aside only for surprises. Without it, a $500 car repair goes on a credit card or a bad loan and turns into debt.\n\nStep one: a **starter fund of $500-$1,000**. That covers most small emergencies.\n\nStep two: build to **3 months of needs** (rent, food, phone, transportation).",
+              "tip": "Open a separate savings account named \"Emergency Fund\" this week, so the money is not mixed with spending money."
             },
             {
               "type": "mcq",
-              "prompt": "Which tracking method is most likely to stick for a busy person?",
+              "prompt": "Which of these is a real emergency fund expense?",
               "options": [
-                "Saving every paper receipt and adding them up once a year",
-                "Checking your bank app or budgeting app for 5 minutes a few times a week and labeling transactions",
-                "Only looking at your balance when a card gets declined",
-                "Guessing at the end of the month"
+                "A great sale on headphones",
+                "A $400 car repair you need to get to work",
+                "Concert tickets that will sell out",
+                "A friend's birthday trip"
               ],
               "answer": 1,
-              "explain": "Short, frequent check-ins catch problems while you can still fix them. Most banks and budgeting apps can categorize transactions automatically."
+              "feedback": [
+                "A sale is a want, even a good one.",
+                "Right. It is unexpected, necessary and urgent.",
+                "Fun, but not an emergency. Save for it in a separate goal.",
+                "Plan and save for trips separately."
+              ],
+              "explain": "Ask three questions: Is it unexpected? Is it necessary? Is it urgent? An emergency is all three."
             },
             {
-              "type": "truefalse",
-              "prompt": "In a zero-based budget, reaching $0 means you must spend all your income by the end of the month.",
-              "answer": false,
-              "explain": "Savings, investing and debt payoff are categories. $0 means every dollar has a job, and some of those jobs are 'stay saved'."
+              "type": "learn",
+              "title": "How big should it be?",
+              "body": "The goal is **3 months of needs**, not 3 months of all spending. Leave out wants: in a real crisis you would cut them.\n\nExample: Marcus shares an apartment. His rent share, groceries, phone, gas and insurance add up to $1,500 a month. His 3-month goal is the amount that covers 3 of those months.\n\nIf your income changes a lot (tips, gig work), aim for 6 months.",
+              "tip": "Add up your monthly needs only (rent, food, phone, transport, insurance). Write the number on a sticky note: it is the base for your emergency fund goal."
+            },
+            {
+              "type": "number",
+              "prompt": "Your needs cost $1,500 a month. How much is a 3-month emergency fund?",
+              "answer": 4500,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Multiply one month of needs by the number of months.",
+              "explain": "$1,500 x 3 = **$4,500**. Start with a $500-$1,000 starter fund, then grow toward $4,500."
+            },
+            {
+              "type": "learn",
+              "title": "Where to keep it",
+              "body": "Keep your emergency fund:\n- **Separate** from checking, so you do not spend it by accident.\n- **Safe**: in a bank account insured by the FDIC (or NCUA at a credit union), not in stocks that can drop right when you need cash.\n- **Earning interest**: a **high-yield savings account** (HYSA) pays much more interest than a typical big-bank savings account.\n\nYou should be able to move it to checking in a day or two.",
+              "tip": "Compare the interest rate on your savings account with two online high-yield savings accounts. If yours pays almost nothing, move your emergency fund."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You have $1,000 saved. Your laptop for school dies and a basic replacement costs $450. What do you do?",
+              "options": [
+                {"text": "Use the emergency fund, then rebuild it with extra savings over the next few months.", "feedback": "Right. This is exactly what the fund is for. Refill it afterward.", "best": true},
+                {"text": "Put it on a credit card and keep the fund untouched.", "feedback": "If you cannot pay the card in full, interest makes the laptop cost more. The fund exists so you do not need debt."},
+                {"text": "Use a buy now, pay later plan so your savings look bigger.", "feedback": "That adds a debt to protect savings meant for this. Missed payments can bring late fees."},
+                {"text": "Go without a laptop until you save a separate $450.", "feedback": "You need it for school now. Waiting could hurt your grades."}
+              ],
+              "explain": "An emergency fund only works if you use it for emergencies. Spend it, then refill it."
+            },
+            {
+              "type": "order",
+              "prompt": "Put these money steps in a smart order for someone starting from zero (first to last).",
+              "items": [
+                "Save a $500-$1,000 starter emergency fund",
+                "Get any employer 401(k) match",
+                "Pay off high-interest credit card debt",
+                "Build the emergency fund to 3 months of needs",
+                "Invest more for the long term"
+              ],
+              "hint": "Start with the cushion that keeps small problems from becoming debt. Free money comes early too.",
+              "explain": "A small cushion first stops new debt. The employer match is an instant 50-100% return. High-interest debt is next, then the full fund, then long-term investing."
             },
             {
               "type": "learn",
               "title": "Key takeaways",
-              "body": "- Income - assignments = $0, with savings as an assignment.\n- Use sinking funds for predictable yearly costs: yearly total / 12.\n- Check spending a few times a week.\n- Overspent? Move money from another category instead of reaching for a credit card."
+              "body": "- Start with $500-$1,000, then build to 3 months of needs.\n- Keep it separate, insured, and in a high-yield savings account.\n- Use it for unexpected, necessary, urgent costs, then refill it.",
+              "tip": "Set an automatic transfer of a fixed amount, like $25 every payday, into your emergency fund until it hits your goal."
             }
           ]
         },
         {
           "id": "u2-l3",
-          "title": "Bank Accounts and Your Emergency Fund",
-          "summary": "Checking, savings, high-yield savings, overdraft and your safety cushion.",
+          "title": "Pick a Bank and Dodge Fees",
+          "summary": "Checking vs savings, choosing an account and avoiding overdraft fees.",
           "steps": [
             {
               "type": "learn",
-              "title": "Three accounts, three jobs",
-              "body": "- **Checking**: for spending. Debit card, bill pay, direct deposit. Pays little or no interest.\n- **Savings**: for money you are not spending this month.\n- **High-yield savings account (HYSA)**: a savings account, often at an online bank, that pays much more interest than a typical savings account. Rates change with the economy.\n\nCheck that the bank is **FDIC-insured** (credit unions: **NCUA**). Deposits are protected up to **$250,000** per depositor, per bank, per ownership category if the bank fails.",
-              "source": { "label": "FDIC deposit insurance", "url": "https://www.fdic.gov/resources/deposit-insurance" }
-            },
-            {
-              "type": "number",
-              "prompt": "You keep $5,000 in savings. A HYSA pays 3.5% APY and your current savings account pays 0.01%. Roughly how much more interest would the HYSA earn in a year? (Ignore the tiny 0.01% interest.)",
-              "answer": 175,
-              "tolerance": 1,
-              "unit": "$",
-              "explain": "$5,000 x 0.035 = **$175** per year, versus about $0.50 at 0.01%. Same money, same safety (if FDIC-insured), much more interest. Rates are an example; they move over time."
+              "title": "Checking vs savings",
+              "body": "**Checking account**: for everyday money. Your paycheck lands here, and your debit card and bills come out of it.\n\n**Savings account**: for money you are not spending right now. It earns interest.\n\nMost people need both: checking for spending, savings for goals and emergencies.\n\n> Deposits at an FDIC-insured bank are protected up to $250,000 per person per bank if the bank fails.",
+              "tip": "Look for the FDIC (bank) or NCUA (credit union) logo on your bank's website or app before you open an account."
             },
             {
               "type": "learn",
-              "title": "Overdrafts and how to avoid fees",
-              "body": "An **overdraft** happens when you spend more than is in your checking account. The bank may cover it and charge a fee, often around $25-$35 per item at banks that still charge one.\n\nProtect yourself:\n- For **debit card and ATM** purchases, banks can only charge overdraft fees if you **opted in**. You can opt out; the purchase is simply declined.\n- Turn on **low-balance alerts** in your bank app.\n- Link savings as backup, or pick a bank with no overdraft fees.\n- Keep a small buffer (like $100) you treat as zero.",
-              "source": { "label": "CFPB: overdraft fees", "url": "https://www.consumerfinance.gov/ask-cfpb/what-can-i-do-if-my-bank-charged-me-a-fee-for-overdrawing-my-account-en-1037/" }
+              "title": "What to look for",
+              "body": "A good first checking account has:\n- **No monthly fee** (or one that is easy to avoid)\n- **No minimum balance**\n- **Free ATMs** near you, or ATM fee refunds\n- A good **app** with alerts\n\nOptions: big banks, **credit unions** (member-owned, often lower fees), and online banks. Many offer free student accounts.",
+              "tip": "Before opening an account, search for its \"fee schedule\" and read the monthly fee, overdraft fee and ATM fee lines."
+            },
+            {
+              "type": "number",
+              "prompt": "Bank A charges a $12 monthly maintenance fee. Bank B is free. How much more does Bank A cost over a full year?",
+              "answer": 144,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Multiply the monthly fee by the number of months in a year.",
+              "explain": "$12 x 12 months = **$144 a year** for nothing. Pick the free account, or meet the waiver rule (like direct deposit) every month."
+            },
+            {
+              "type": "learn",
+              "title": "Overdraft: the costly mistake",
+              "body": "An **overdraft** happens when you spend more than is in your checking account. The bank may cover it, then charge a fee. The average overdraft fee was about **$27 in 2025**.\n\nSo a $5 coffee with $3 in your account can cost $32.\n\nWays to avoid it:\n- **Turn off** (or never opt in to) overdraft coverage for debit cards, so the card is just declined.\n- Turn on **low-balance alerts**.\n- Link savings as a backup.",
+              "tip": "Turn on low-balance alerts in your bank app at $100, so you get a warning before you overdraw.",
+              "source": {"label": "Bankrate 2025 checking fee study", "url": "https://www.bankrate.com/banking/checking/checking-account-survey/"}
             },
             {
               "type": "scenario",
-              "prompt": "Your checking account has $40. You buy $55 of groceries with your debit card. You never opted in to overdraft coverage for debit purchases. What most likely happens?",
+              "prompt": "You have $40 in checking. Your $55 phone bill autopays tomorrow and payday is in three days. What do you do?",
               "options": [
-                { "text": "The card is declined at the register, and no overdraft fee is charged.", "feedback": "Right. Without opt-in, the bank can't charge an overdraft fee on a one-time debit card purchase; it usually just declines it.", "best": true },
-                { "text": "The purchase goes through and you are charged a $35 overdraft fee.", "feedback": "That can happen if you opted in. Without opt-in, the bank can't charge that fee on a one-time debit purchase." },
-                { "text": "Your account is immediately closed.", "feedback": "One declined purchase does not close an account." }
+                {"text": "Move money from savings today, or call the phone company to change the date.", "feedback": "Right. A quick transfer or a new due date avoids a fee.", "best": true},
+                {"text": "Do nothing. The bank will cover it.", "feedback": "It may, and charge you an overdraft fee. Or the payment fails and the phone company adds a late fee."},
+                {"text": "Withdraw the $40 in cash so the account is empty.", "feedback": "The autopay still runs and overdraws the account."},
+                {"text": "Cancel the phone plan.", "feedback": "That is drastic. This is a timing problem, not a spending problem."}
               ],
-              "explain": "Opt-in rules apply to one-time debit card and ATM transactions. Checks and automatic bill payments can still overdraft, so alerts and a buffer still matter."
-            },
-            {
-              "type": "learn",
-              "title": "The emergency fund",
-              "body": "An **emergency fund** is cash set aside for true surprises: a car repair, a medical bill, losing your job. It turns an emergency into an inconvenience instead of credit card debt.\n\nA common plan:\n1. Build a **starter fund** of about $1,000 fast.\n2. Grow it to **3-6 months of essential expenses** (needs, not wants).\n\nKeep it in a separate savings account or HYSA: easy to reach in a day or two, but not on your debit card.",
-              "source": { "label": "CFPB: emergency savings", "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/" }
-            },
-            {
-              "type": "number",
-              "prompt": "Your essential expenses (rent, food, utilities, insurance, transport, minimum debt payments) are $1,800 per month. What is a **3-month** emergency fund?",
-              "answer": 5400,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "$1,800 x 3 = **$5,400**. A 6-month fund would be $10,800. Count only essentials, since you would cut wants in a real emergency."
+              "hint": "The problem is timing: the bill comes before your paycheck. How can you fix the timing or the balance?",
+              "explain": "Most overdrafts are timing problems. Match bill due dates to payday and keep a small buffer in checking."
             },
             {
               "type": "multi",
-              "prompt": "Which of these are good uses of an emergency fund? Select all that apply.",
+              "prompt": "Which habits help you avoid bank fees? Select all that apply.",
               "options": [
-                "Your car's alternator dies and you need it for work",
-                "A sale on a new gaming console",
-                "Rent after an unexpected layoff",
-                "An urgent care bill after a sprained ankle",
-                "Concert tickets that are about to sell out"
+                "Turning off debit card overdraft coverage",
+                "Using your own bank's ATMs",
+                "Turning on low-balance alerts",
+                "Checking your balance only once a month"
               ],
-              "answers": [0, 2, 3],
-              "explain": "Emergencies are unexpected, necessary and urgent. Sales and tickets are wants; plan for them with a sinking fund instead."
+              "answers": [0, 1, 2],
+              "explain": "Turning off overdraft, using in-network ATMs and alerts all prevent fees. Checking once a month is too rare to catch problems."
             },
             {
-              "type": "match",
-              "prompt": "Match each account to its best job.",
-              "pairs": [
-                ["Checking", "Paying bills and everyday spending"],
-                ["High-yield savings", "Emergency fund that earns interest"],
-                ["Sinking fund", "Saving monthly for a known future cost"],
-                ["Overdraft opt-out", "Card is declined instead of charging a fee"]
-              ],
-              "explain": "Separate accounts make it obvious which money is for spending and which is off-limits."
+              "type": "truefalse",
+              "prompt": "A debit card spends your own money right away, while a credit card borrows money you pay back later.",
+              "answer": true,
+              "explain": "Debit pulls from checking now. Credit is a short loan that you should pay off in full each month."
             },
             {
-              "type": "reflect",
-              "prompt": "What are your essential monthly expenses? Write your starter and 3-month emergency fund targets and the automatic transfer you'll set up to reach them.",
-              "placeholder": "Essentials $___/mo. Starter goal $1,000 by ___. 3-month goal $___. Auto-transfer $___ every payday."
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Use checking for spending and savings for goals.\n- Choose an account with no monthly fee and no minimum balance.\n- Turn off debit overdraft coverage, and turn on low-balance alerts.\n- Keep money only in FDIC- or NCUA-insured accounts.",
+              "tip": "Keep a $100 buffer in checking that you treat as $0. It catches small timing mistakes before they become fees."
             }
           ]
         }
@@ -490,234 +512,249 @@
     },
     {
       "id": "u3",
-      "title": "Credit and Debt",
-      "description": "How credit scores work, how to build credit from zero, and how to escape interest traps.",
+      "title": "Credit Without the Debt",
+      "description": "Build a strong credit score from zero and use a credit card without ever paying interest.",
       "levels": [
         {
           "id": "u3-l1",
-          "title": "How Credit Scores Work",
-          "summary": "The five FICO factors, utilization and checking your credit report.",
+          "title": "Credit Scores Explained",
+          "summary": "What a credit score is, what moves it and how to check it for free.",
           "steps": [
             {
               "type": "learn",
-              "title": "Why your score matters",
-              "body": "A **credit score** is a 3-digit number (usually **300-850** for FICO) that predicts how likely you are to repay borrowed money. Lenders, landlords, and insurers in most states may use your credit, and a better record can mean:\n- Lower interest on car loans and mortgages\n- Approval for an apartment\n- Lower deposits for utilities and phone plans\n\nYour score comes from your **credit report**: the record of your accounts and payments kept by Equifax, Experian and TransUnion. It does not include your income, age or bank balance."
+              "title": "What is a credit score?",
+              "body": "A **credit score** is a number, usually 300 to 850, that tells lenders how likely you are to pay back money you borrow.\n\nIt matters more than you think. Landlords, car lenders, phone companies and some employers check credit. A good score can mean a cheaper car loan and an easier time renting your first apartment.\n\nYour score comes from your **credit report**: a record of your loans, cards and payments.",
+              "tip": "Get your free credit reports at AnnualCreditReport.com (type the address yourself). It is the official free site, and you can check weekly."
             },
             {
               "type": "learn",
-              "title": "The five FICO factors",
-              "body": "FICO says scores weigh these, for the general population:\n- **Payment history: 35%**. Do you pay on time?\n- **Amounts owed: 30%**. Especially **utilization**: how much of your credit limits you are using.\n- **Length of credit history: 15%**. Age of your oldest and average accounts.\n- **New credit: 10%**. Recent applications and new accounts.\n- **Credit mix: 10%**. Cards and loans together.\n\n> Two-thirds of the score is just paying on time and keeping balances low.",
-              "source": { "label": "myFICO: What's in your score", "url": "https://www.myfico.com/credit-education/whats-in-your-credit-score" }
-            },
-            {
-              "type": "match",
-              "prompt": "Match each FICO factor to its weight.",
-              "pairs": [
-                ["Payment history", "35%"],
-                ["Amounts owed", "30%"],
-                ["Length of credit history", "15%"],
-                ["New credit and credit mix (each)", "10%"]
-              ],
-              "explain": "Payment history and amounts owed together make up 65% of a FICO score."
-            },
-            {
-              "type": "number",
-              "prompt": "You have one card with a $2,000 limit and your statement shows a $600 balance. What is your credit utilization?",
-              "answer": 30,
-              "tolerance": 0,
-              "unit": "%",
-              "explain": "$600 / $2,000 = 0.30 = **30%**. Lower is better. Many people aim for under 30%, and people with top scores often stay under 10%."
+              "title": "What moves your score",
+              "body": "For FICO, the most common score:\n- **Payment history (35%)**: do you pay on time?\n- **Amounts owed (30%)**: how much of your card limits you are using.\n- **Length of history (15%)**: how long your accounts have been open.\n- **New credit (10%)**: recent applications.\n- **Credit mix (10%)**: different types of credit.\n\nThe big two are **paying on time** and **using little of your limit**.",
+              "tip": "Set every card and loan to autopay at least the minimum, so one forgotten due date can never become a late payment on your report.",
+              "source": {"label": "myFICO: What's in my score", "url": "https://www.myfico.com/crediteducation/whatsinyourscore.aspx"}
             },
             {
               "type": "mcq",
-              "prompt": "Which action would usually help your score the **most** over the next year?",
+              "prompt": "Which single habit helps your credit score the most?",
               "options": [
-                "Opening three new store cards to get more available credit",
-                "Paying every bill on time and keeping card balances low",
-                "Closing your oldest credit card",
-                "Checking your own score every day"
+                "Checking your own score often",
+                "Paying every bill on time",
+                "Having lots of different credit cards",
+                "Earning a higher salary"
               ],
               "answer": 1,
-              "explain": "On-time payments (35%) and low utilization (30%) are the biggest factors. New applications can lower your score a bit, closing your oldest card can shorten your history, and checking your own score is a soft inquiry with no effect."
+              "feedback": [
+                "Checking your own score does not change it at all, good or bad.",
+                "Right. Payment history is the biggest factor, about 35% of a FICO score.",
+                "Opening many cards can lower your score for a while and is harder to manage.",
+                "Income is not part of your credit score."
+              ],
+              "explain": "Payment history is the largest factor. A payment 30 or more days late can stay on your report for up to seven years."
             },
             {
               "type": "learn",
-              "title": "Check your credit report for free",
-              "body": "You can get free credit reports from all three bureaus **every week** at **AnnualCreditReport.com**, the only official site. Lookalike sites may try to sell you something.\n\nLook for:\n- Accounts you don't recognize (possible identity theft)\n- Late payments that were actually on time\n- Wrong personal info\n\nDispute errors directly with the bureau that shows them. A **credit freeze** is free and blocks new accounts being opened in your name.",
-              "source": { "label": "FTC: Free credit reports", "url": "https://consumer.ftc.gov/articles/free-credit-reports" }
+              "title": "Utilization: use a little, not a lot",
+              "body": "**Credit utilization** is how much of your credit limit you are using. Your **credit limit** is the most a card lets you borrow.\n\nUsing a lot of your limit looks risky to lenders, even if you pay in full.\n\nRules of thumb:\n- Keep it **under 30%**.\n- **Under 10%** is even better.\n\nIf your limit is $1,000, keeping the balance under $300 (better: under $100) helps your score.",
+              "tip": "Look up your card's credit limit in the app today and write down 30% of it. Try to keep the statement balance under that number."
+            },
+            {
+              "type": "number",
+              "prompt": "Your first credit card has a $500 limit. How much is 30% of your limit, the most you want to have showing on your statement?",
+              "answer": 150,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "30% means 30 out of every 100. Find 10% of $500 first, then multiply by 3.",
+              "explain": "10% of $500 is $50. 30% is 3 x $50 = **$150**. Keeping the balance under $50 (10%) is even better."
             },
             {
               "type": "truefalse",
-              "prompt": "A payment that is 5 days late will show up as a late payment on your credit report.",
+              "prompt": "Checking your own credit score or report lowers your score.",
               "answer": false,
-              "explain": "You may pay a late fee, but lenders generally report a payment as late to the bureaus once it is **30 days** past due. Still, pay on time every time: set up autopay for at least the minimum."
+              "explain": "Checking your own credit is a \"soft inquiry\" and has no effect. Only applications for new credit (\"hard inquiries\") can lower it a little for a short time."
             },
             {
-              "type": "scenario",
-              "prompt": "On your free credit report you find a credit card you never opened, with a $900 balance. What do you do first?",
-              "options": [
-                { "text": "Freeze your credit at all three bureaus, report it at IdentityTheft.gov, and dispute the account with the bureaus and the lender.", "feedback": "Correct. The freeze stops more fraud, and IdentityTheft.gov gives you a recovery plan and report to use with lenders.", "best": true },
-                { "text": "Pay the $900 so it doesn't hurt your score.", "feedback": "You are not responsible for fraudulent accounts. Paying it doesn't fix the identity theft." },
-                { "text": "Ignore it; the bureau will catch it.", "feedback": "Bureaus don't know which accounts are yours. Unreported fraud can grow and damage your credit for years." }
+              "type": "match",
+              "prompt": "Match each credit term to its meaning.",
+              "pairs": [
+                ["Credit report", "The record of your loans, cards and payment history"],
+                ["Credit score", "A 300-850 number summarizing that record"],
+                ["Credit limit", "The most a card lets you borrow"],
+                ["Utilization", "The share of your limit you are using"]
               ],
-              "explain": "Spot it, freeze, report, dispute. Checking your report a few times a year is how you catch this early."
+              "explain": "Your report is the data, your score is the summary. Limit and utilization are about how much you borrow compared to what you could."
             },
             {
               "type": "learn",
               "title": "Key takeaways",
-              "body": "- Scores run about 300-850 and come from your credit report.\n- Pay on time (35%) and keep utilization low (30%).\n- Pull your free reports at AnnualCreditReport.com and dispute errors.\n- A credit freeze is free and is one of the best identity theft protections."
+              "body": "- Your score tells lenders, landlords and phone companies how risky you are.\n- Pay on time, every time: it is the biggest factor.\n- Keep utilization under 30%, under 10% is better.\n- Checking your own credit is free and never hurts it.",
+              "tip": "Put a reminder on your calendar every 4 months to check one of your three credit reports at AnnualCreditReport.com for accounts you do not recognize."
             }
           ]
         },
         {
           "id": "u3-l2",
           "title": "Build Credit From Zero",
-          "summary": "First credit options and how to use a credit card without ever paying interest.",
+          "summary": "Secured cards, authorized users and credit-builder steps that are safe.",
           "steps": [
             {
               "type": "learn",
-              "title": "The no-credit catch-22",
-              "body": "With no history you have no score, and with no score it is hard to get approved. Starter options:\n- **Secured credit card**: you put down a deposit (say $300) that becomes your limit. Use it lightly, pay in full, and many upgrade to a regular card later.\n- **Student credit card**: for college students, with low limits.\n- **Authorized user**: a parent adds you to their well-managed card, and its history can show on your report.\n- **Credit-builder loan**: offered by many credit unions; you repay a small loan into savings.\n\nUnder 21, you need your own income or a co-signer to get a card."
-            },
-            {
-              "type": "number",
-              "prompt": "Your secured card has a $300 limit. You want to keep utilization under 10% when the statement closes. What is the highest statement balance you should let it show?",
-              "answer": 30,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "10% x $300 = **$30**. One small recurring bill (like a phone or streaming bill) on autopay keeps the card active and utilization low."
+              "title": "The no-credit catch",
+              "body": "To get credit you need a credit history. To get a history you need credit. Frustrating!\n\nThe good news: there are safe on-ramps made for beginners. You do not need debt to build credit. You need an account that reports on-time payments.\n\nAlso know: under federal law, if you are **under 21** you need your own income (or a co-signer) to get a credit card.",
+              "tip": "If you are under 21 and have a job, write down your yearly income before applying. Card applications ask for it, and it must be your own income."
             },
             {
               "type": "learn",
-              "title": "The grace period: how to never pay interest",
-              "body": "Each month your card has a **statement balance** and a **due date**. If you pay the **full statement balance** by the due date, most cards charge **no interest** on purchases. That interest-free window is the **grace period**.\n\nPay only part of it, and interest starts on the leftover balance, usually at 20%+ APR. You also typically lose the grace period on new purchases until you pay in full again.\n\n> Rule: only charge what is already in your checking account."
-            },
-            {
-              "type": "order",
-              "prompt": "Put the safe-credit-card routine in order.",
-              "items": [
-                "Use the card for a planned purchase you already have cash for",
-                "Track the charge in your budget like it was debit",
-                "Get the statement and check it for mistakes or fraud",
-                "Pay the full statement balance by the due date (autopay)",
-                "Watch your score grow from on-time payments"
-              ],
-              "explain": "Treat the card like a debit card with a delay. Autopay for the full statement balance means a busy week never turns into a late payment."
+              "title": "Safe ways to start",
+              "body": "- **Authorized user**: a parent adds you to their card. Their on-time history can show up on your report. Only do this if they always pay on time and keep a low balance.\n- **Secured credit card**: you put down a deposit, like $200, and that becomes your limit. Use it like a normal card.\n- **Student card**: a beginner card from your bank or credit union with a low limit.\n\nAll three build a history when used carefully.",
+              "tip": "Ask your bank or credit union this week whether it offers a secured card or student card, and whether it reports to all three credit bureaus."
             },
             {
               "type": "mcq",
-              "prompt": "Which credit card habit costs the most money?",
+              "prompt": "Emma is 19, has a part-time job and no credit history. Which first step is safest?",
               "options": [
-                "Paying the full statement balance every month",
-                "Taking a cash advance from the card at an ATM",
-                "Using the card only for gas",
-                "Setting a low credit limit"
+                "Apply for five store cards to get approved somewhere",
+                "Open a secured card, use it for one small bill and pay it in full",
+                "Take out a personal loan to show she can make payments",
+                "Wait until she is 25 to think about credit"
               ],
               "answer": 1,
-              "explain": "Cash advances usually have a fee (often 3-5%), a higher APR, and no grace period: interest starts the same day. Avoid them."
+              "feedback": [
+                "Many applications at once means several hard inquiries, and store cards often have very high interest.",
+                "Right. A small, regular charge paid in full builds history with no interest.",
+                "Borrowing money you do not need just to build credit costs you interest.",
+                "Starting early gives her a longer history, which helps her score."
+              ],
+              "hint": "Look for the option that builds a history without paying interest.",
+              "explain": "A secured or student card with one small recurring bill, paid in full by autopay, builds credit at no cost."
+            },
+            {
+              "type": "learn",
+              "title": "The set-and-forget method",
+              "body": "Here is a simple way to build credit with almost no risk:\n1. Put **one small bill** on the card, like a $15 streaming plan.\n2. Set **autopay for the full statement balance**.\n3. Do not use the card for anything else at first.\n\nEvery month you get an on-time payment on your report. Your utilization stays low. You never pay interest.",
+              "tip": "Move one small monthly subscription onto your credit card and turn on autopay for the full statement balance."
+            },
+            {
+              "type": "order",
+              "prompt": "Put these credit-building steps in order (first to last).",
+              "items": [
+                "Open a secured or student card",
+                "Put one small monthly bill on it",
+                "Turn on autopay for the full statement balance",
+                "Check your credit report after a few months",
+                "Ask about upgrading to a regular card after about a year"
+              ],
+              "explain": "Open the card, add one small bill, automate full payment, then verify your report. Many secured cards can upgrade and return your deposit after months of on-time payments."
             },
             {
               "type": "scenario",
-              "prompt": "You've had your first credit card for 18 months, always paid in full. A store offers 20% off today if you open its store card. You don't need one. What do you do?",
+              "prompt": "Your aunt offers to add you as an authorized user on her card. She often pays late and the card is nearly maxed out. What do you do?",
               "options": [
-                { "text": "Skip it. The one-time discount isn't worth a hard inquiry, a new account, and the temptation of a high-APR card.", "feedback": "Good call. Store cards often have very high APRs, and the discount is usually small in dollars.", "best": true },
-                { "text": "Open it to save 20%, and then close it right away.", "feedback": "You still take the hard inquiry and a new account; closing it right away doesn't undo those." },
-                { "text": "Open it and carry a balance so it builds credit faster.", "feedback": "Carrying a balance only costs interest. It does not build credit any faster than paying in full." }
+                {"text": "Thank her and say no. Her late payments and high balance could hurt your report.", "feedback": "Right. Authorized user status can copy bad history as well as good.", "best": true},
+                {"text": "Say yes. Any credit history is better than none.", "feedback": "Her late payments and high utilization may show on your report and pull your score down."},
+                {"text": "Say yes and plan to pay her bill for her.", "feedback": "That is your money paying her debt, and it does not fix the history already there."}
               ],
-              "explain": "Apply for credit only when you need it. Each application is a hard inquiry, and new accounts lower your average account age."
+              "hint": "Being an authorized user can copy that account's history to your report. Is this history you want?",
+              "explain": "Only become an authorized user on an account with a long record of on-time payments and a low balance."
             },
             {
               "type": "truefalse",
-              "prompt": "You need to carry a small balance month to month to build credit.",
+              "prompt": "You must carry a balance and pay some interest to build credit.",
               "answer": false,
-              "explain": "This is a myth. Your on-time payments and the statement balance being reported build your history. Paying in full builds credit and costs $0 in interest."
+              "explain": "This is a myth. Paying the full statement balance on time builds credit just as well and costs nothing."
             },
             {
-              "type": "match",
-              "prompt": "Match each term to its meaning.",
-              "pairs": [
-                ["Statement balance", "What you owed when the billing cycle closed"],
-                ["Minimum payment", "Smallest payment that avoids a late fee"],
-                ["Grace period", "Window when paying in full means no interest"],
-                ["Secured card", "Card whose limit is backed by your cash deposit"]
-              ],
-              "explain": "Pay the statement balance, not just the minimum, to stay inside the grace period."
+              "type": "learn",
+              "title": "Protect your credit: freeze it",
+              "body": "A **credit freeze** blocks new lenders from seeing your report. That means a thief cannot open accounts in your name.\n\nIt is **free** at all three credit bureaus: Equifax, Experian and TransUnion. It does not hurt your score. You can lift it in minutes when you apply for a card or loan.\n\nYoung people's credit is often stolen because nobody is watching it.",
+              "tip": "Freeze your credit for free at Equifax, Experian and TransUnion this week, and save the logins or PINs in a password manager.",
+              "source": {"label": "FTC: Credit freezes", "url": "https://consumer.ftc.gov/articles/what-know-about-credit-freezes-and-fraud-alerts"}
             },
             {
               "type": "reflect",
-              "prompt": "Which starter option fits you best (secured card, student card, authorized user, credit-builder loan)? Write the one bill you'd put on it and how you'll set up autopay.",
-              "placeholder": "I'll start with... The only charge will be... Autopay: full statement balance on day..."
+              "prompt": "Which credit-building path fits you best right now (authorized user, secured card, student card, or wait)? What is the one small bill you would put on it?",
+              "placeholder": "My path: ___  Small bill: ___"
             }
           ]
         },
         {
           "id": "u3-l3",
-          "title": "Interest Traps and Getting Out of Debt",
-          "summary": "APR, the minimum-payment trap, avalanche vs snowball, and student loan basics.",
+          "title": "Use a Credit Card Without Debt",
+          "summary": "APR, the grace period, the minimum-payment trap and rewards.",
           "steps": [
             {
               "type": "learn",
-              "title": "APR in plain English",
-              "body": "**APR** (annual percentage rate) is the yearly cost of borrowing. Credit cards charge it monthly: roughly **APR / 12** each month on your balance.\n\n> 24% APR = about 2% per month.\n\nOn a $3,000 balance, 2% is about $60 of interest in one month. If your payment is only a little more than that, almost nothing goes to the actual debt."
+              "title": "APR and the grace period",
+              "body": "**APR** (annual percentage rate) is the yearly interest rate on a loan or card. Credit card APRs are high, often over 20%.\n\nBut there is a way to pay zero interest: the **grace period**. If you pay the **full statement balance** by the due date every month, you usually pay no interest on purchases.\n\n> Treat a credit card like a debit card: only buy what you already have the cash for.",
+              "tip": "Set your credit card autopay to \"statement balance\" (not \"minimum\") today, so you never pay interest on purchases."
             },
             {
-              "type": "number",
-              "prompt": "You owe $3,000 on a card with a 24% APR. About how much interest is added in the first month?",
-              "answer": 60,
-              "tolerance": 1,
-              "unit": "$",
-              "explain": "24% / 12 = 2% per month. 2% x $3,000 = **$60**. A $60 payment would leave the balance exactly where it started."
+              "type": "learn",
+              "title": "Statement balance vs current balance",
+              "body": "Your card shows two numbers:\n- **Statement balance**: what you owed when the last monthly bill was made. Pay this in full to avoid interest.\n- **Current balance**: everything so far, including new purchases since the statement.\n\nThe **minimum payment** is the smallest amount that avoids a late fee. Paying only the minimum means you are charged interest on the rest.",
+              "tip": "Open your card app and find the words \"statement balance\" and \"due date.\" Add the due date to your phone calendar with a 3-day reminder."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your statement balance is $300. The minimum payment is $35. What should you pay to avoid interest?",
+              "options": ["$35", "$150", "$300", "Nothing until next month"],
+              "answer": 2,
+              "feedback": [
+                "That avoids a late fee, but the other $265 starts charging interest.",
+                "Paying half still leaves $150 charging interest.",
+                "Right. Paying the full statement balance keeps your grace period, so there is no interest.",
+                "Missing the due date brings a late fee, interest, and possibly a late mark on your credit report."
+              ],
+              "hint": "Which payment keeps the grace period: the minimum or the whole statement balance?",
+              "explain": "Pay the full statement balance by the due date and you pay no interest on purchases."
             },
             {
               "type": "learn",
               "title": "The minimum-payment trap",
-              "body": "Minimum payments are set low so the debt lasts a long time. Same $3,000 at 24% APR, fixed payments, no new charges:\n\n- **$100/month**: about **47 months** and about **$1,600 in interest**\n- **$200/month**: about **19 months** and about **$600 in interest**\n\nDoubling the payment cuts the time by more than half and saves about $1,000. Your statement includes a box showing how long the minimum would take. Read it once; it is motivating."
-            },
-            {
-              "type": "mcq",
-              "prompt": "Why does paying $200 instead of $100 per month save so much interest?",
-              "options": [
-                "The bank gives a discount for larger payments",
-                "More of each payment goes to principal, so the balance that interest is charged on shrinks faster",
-                "Interest stops once you pay over $150",
-                "It only saves money because of the grace period"
-              ],
-              "answer": 1,
-              "explain": "Interest is charged on the balance. A bigger payment knocks the balance down faster, so every following month's interest is smaller. That snowballs in your favor."
-            },
-            {
-              "type": "learn",
-              "title": "Avalanche vs snowball",
-              "body": "With several debts, pay the minimum on all of them, then put every extra dollar on one target:\n\n- **Avalanche**: target the **highest interest rate** first. Saves the most money.\n- **Snowball**: target the **smallest balance** first. Quick wins keep you motivated.\n\nWhen the target is paid off, roll its whole payment into the next one. Both work far better than spreading extra money evenly. The best method is the one you will stick with."
+              "body": "Card companies set the minimum payment low on purpose. If you only pay the minimum, a balance can take **years** to pay off, and you pay much more in interest than you borrowed.\n\nYour statement is required to show how long it would take to pay off the balance with only minimum payments. Read it once: it is a wake-up call.\n\n> If you cannot pay in full, stop using the card and pay as much as you can every month.",
+              "tip": "Find the \"minimum payment warning\" box on your next card statement and read how many years minimum payments would take."
             },
             {
               "type": "scenario",
-              "prompt": "You have: Card A $400 at 27% APR, Card B $2,500 at 22% APR, Car loan $6,000 at 8% APR. You want to save the most interest. Where does your extra $150/month go?",
+              "prompt": "You owe $800 on a card at 24% APR after an expensive month. You have $250 this month for the card. What is your plan?",
               "options": [
-                { "text": "Card A (27%), then Card B, then the car loan.", "feedback": "Correct for the avalanche method: highest APR first. Here Card A is also the smallest, so you get a quick win too.", "best": true },
-                { "text": "The car loan, because it is the biggest.", "feedback": "The car loan has the lowest rate, so extra money there saves the least interest." },
-                { "text": "Split it evenly across all three.", "feedback": "Splitting slows everything down. Focusing on one target pays it off fastest." }
+                {"text": "Stop using the card, pay $250 now and as much as possible each month until it is gone.", "feedback": "Right. No new charges plus big payments gets you out fast with the least interest.", "best": true},
+                {"text": "Pay the minimum and keep $200 for fun. You can catch up later.", "feedback": "At 24% APR, the balance barely shrinks and interest piles up."},
+                {"text": "Keep using the card for daily spending and pay $250.", "feedback": "New charges can cancel out your payment, so the balance never shrinks."},
+                {"text": "Skip this month's payment and pay it all next month.", "feedback": "A missed payment brings a late fee and, after 30 days, a mark on your credit report."}
               ],
-              "explain": "Avalanche = highest APR first while paying minimums on the rest. In this case avalanche and snowball happen to agree on the first target."
+              "hint": "Two things shrink a balance fastest: no new charges and the biggest payment you can manage.",
+              "explain": "Get out of card debt by freezing new spending and paying well over the minimum every month."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Getting cash from an ATM with your credit card (a cash advance) works the same as a normal purchase.",
+              "answer": false,
+              "explain": "Cash advances usually have a fee, a higher APR and no grace period: interest starts the same day. Use your debit card for cash."
             },
             {
               "type": "learn",
-              "title": "Student loan basics",
-              "body": "- **Federal loans** (apply through the FAFSA) have fixed rates and protections like income-based repayment. For 2026-27, new undergraduate Direct Loans are **6.52%**.\n- **Subsidized** loans: the government pays interest while you're in school at least half-time (need-based).\n- **Unsubsidized** loans: interest builds from day one.\n- **Private loans**: from banks, fewer protections. Use only after federal options.\n\nA common rule of thumb: keep total borrowing below your expected first-year salary.",
-              "source": { "label": "studentaid.gov interest rates", "url": "https://studentaid.gov/understand-aid/types/loans/interest-rates" }
+              "title": "Rewards: a bonus, not a reason",
+              "body": "Many cards give **cash back** or points, like 1-2% of what you spend.\n\nRewards only help if you pay in full. If you carry a balance at over 20% APR, 2% cash back is wiped out many times over.\n\nAlso watch for **annual fees**. A first card should usually have **no annual fee**.",
+              "tip": "If you are choosing your first card, filter for \"no annual fee\" first, then compare rewards."
             },
             {
-              "type": "number",
-              "prompt": "You borrow a $5,500 unsubsidized loan at 6.52%. About how much interest builds up during one school year (simple interest)? Round to the nearest dollar.",
-              "answer": 359,
-              "tolerance": 2,
-              "unit": "$",
-              "explain": "$5,500 x 0.0652 = **$358.60**, about $359 in one year. Over four years of school that adds up, which is why borrowing less matters."
+              "type": "multi",
+              "prompt": "Which habits let you use a credit card with no interest and good credit? Select all that apply.",
+              "options": [
+                "Autopay the full statement balance",
+                "Keep the balance under 30% of your limit",
+                "Only charge what you already have cash for",
+                "Pay the minimum and invest the rest"
+              ],
+              "answers": [0, 1, 2],
+              "hint": "Interest costs over 20% a year. Can investing reliably beat that?",
+              "explain": "Paying in full, keeping utilization low and only spending cash you have keeps a card free and helpful. Card interest is far higher than you can count on earning by investing."
             },
             {
-              "type": "reflect",
-              "prompt": "List any debts you have (or expect to have) with balance and APR. Which would you target first with the avalanche method, and how much extra could you put on it each month?",
-              "placeholder": "Debt / balance / APR... First target: ... Extra per month: $..."
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- APR is the yearly interest rate. Card APRs are often over 20%.\n- Pay the **full statement balance** every month and you pay no interest on purchases.\n- The minimum payment is a trap. Never plan around it.\n- No cash advances. No annual fee on a first card.",
+              "tip": "Before any credit card purchase this week, check that the same amount is sitting in your checking account. If not, do not buy it yet."
             }
           ]
         }
@@ -725,236 +762,256 @@
     },
     {
       "id": "u4",
-      "title": "Grow and Guard Your Money",
-      "description": "Compound interest, index funds, retirement accounts, and protecting yourself from scams.",
+      "title": "Protect and Grow Your Money",
+      "description": "Dodge scams and bad loans, then let time and simple investing grow your money.",
       "levels": [
         {
           "id": "u4-l1",
-          "title": "Compound Interest and Time",
-          "summary": "Why starting early beats starting big.",
+          "title": "Spot Scams and Bad Loans",
+          "summary": "Payday loans, buy now pay later traps and the red flags of a scam.",
           "steps": [
             {
               "type": "learn",
-              "title": "Interest on your interest",
-              "body": "**Compound interest** means your earnings start earning too.\n\n$1,000 growing 7% a year:\n- Year 1: $1,000 + $70 = $1,070\n- Year 2: $1,070 + $74.90 = $1,144.90\n\nThe growth each year gets bigger because the base gets bigger. The formula:\n\n> Future value = Start x (1 + rate)^years\n\nThe 7% is an example, not a promise. Real investment returns go up and down from year to year.",
-              "source": { "label": "Investor.gov compound interest calculator", "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator" }
+              "title": "Payday loans: fast cash, huge cost",
+              "body": "A **payday loan** is a small, short loan, usually due on your next payday. A common fee is **$15 for every $100** you borrow for two weeks.\n\nThat sounds small, but as an APR it is **almost 400%**. Compare that with a credit card near 25%.\n\nThe trap: many people cannot repay in two weeks, so they pay another fee to roll it over. And again.",
+              "tip": "If you are short on cash before payday, ask your employer about a pay advance or your credit union about a small-dollar loan before you ever walk into a payday lender.",
+              "source": {"label": "CFPB: Payday loan APR", "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-an-annual-percentage-rate-apr-and-why-is-it-higher-than-the-interest-rate-for-my-payday-loan-en-1625/"}
             },
             {
               "type": "number",
-              "prompt": "You invest $1,000 and it grows 7% per year, compounded yearly. What is it worth after 10 years? Round to the nearest dollar.",
-              "answer": 1967,
-              "tolerance": 2,
-              "unit": "$",
-              "explain": "$1,000 x 1.07^10 = $1,000 x 1.967 = about **$1,967**. It nearly doubled without you adding a dollar."
-            },
-            {
-              "type": "learn",
-              "title": "The rule of 72",
-              "body": "Quick mental math: **72 / interest rate = years to double**.\n\n- At 6%: 72 / 6 = about 12 years\n- At 9%: 72 / 9 = about 8 years\n\nIt works in reverse too. Credit card debt at 24% doubles in about 72 / 24 = **3 years** if you don't pay it."
-            },
-            {
-              "type": "number",
-              "prompt": "Using the rule of 72, about how many years does money take to double at 8% per year?",
-              "answer": 9,
+              "prompt": "A payday lender charges $15 for every $100 you borrow. You borrow $400 for two weeks. What is the fee?",
+              "answer": 60,
               "tolerance": 0,
-              "unit": "years",
-              "explain": "72 / 8 = **9 years**. So $5,000 at 8% becomes about $10,000 in 9 years and about $20,000 in 18."
+              "unit": "$",
+              "hint": "How many $100s are in $400? Each one costs $15.",
+              "explain": "$400 is 4 hundreds. 4 x $15 = **$60** for just two weeks. Roll it over a few times and the fees can pass the amount you borrowed."
             },
             {
               "type": "learn",
-              "title": "Time in the market beats timing",
-              "body": "Two friends invest **$200 a month**, earning an assumed 7% a year:\n\n- **Alex** starts at 22 and stops at 62 (40 years). Puts in $96,000. Ends with about **$525,000**.\n- **Sam** starts at 32 and stops at 62 (30 years). Puts in $72,000. Ends with about **$244,000**.\n\nAlex invested only $24,000 more but ended with more than **twice** as much. Those first 10 years got the longest time to compound.\n\nTrying to jump in and out to dodge drops (\"timing the market\") usually means missing some of the best days."
+              "title": "Buy now, pay later (BNPL)",
+              "body": "**Buy now, pay later** apps (like \"pay in 4\") split a purchase into a few payments. Many charge no interest if you pay on time.\n\nThe traps:\n- **Late fees** if a payment fails.\n- **Stacking**: four small plans at once feel tiny, but add up fast.\n- It makes it easy to buy things you would not pay cash for.\n\nIf you would not buy it with cash today, do not split it.",
+              "tip": "List every buy now, pay later plan you have and its payment dates in one note. If there are more than one, pause new ones until they are paid off."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Sneakers cost $160. The checkout offers 4 payments of $40, no interest. You have $60 in checking and already have two other pay-in-4 plans. What do you do?",
+              "options": [
+                {"text": "Skip it for now and save up. You already have two plans and only $60.", "feedback": "Right. Stacking plans on a thin balance is how late fees and overdrafts start.", "best": true},
+                {"text": "Do it. $40 is small.", "feedback": "It is $40 on top of your other two plans, all pulling from $60. One failed payment means fees."},
+                {"text": "Do it, and put the payments on a credit card you cannot pay off.", "feedback": "Now there is interest on top of the plan. Two kinds of debt for one pair of shoes."}
+              ],
+              "hint": "Add up all the payments coming out of your account, not just this one.",
+              "explain": "BNPL is a loan. Before you use one, add up every payment you already owe and check your real balance."
+            },
+            {
+              "type": "learn",
+              "title": "The red flags of a scam",
+              "body": "Most scams share the same signs:\n- **Urgency**: \"Act now or your account is closed.\"\n- **Odd payment methods**: gift cards, crypto, wire transfers, or payment apps like Zelle or Venmo to a stranger.\n- **Too good to be true**: \"Earn $500 a day from home.\"\n- **Overpayment**: someone sends a check for too much and asks you to send back the difference. The check bounces later and you lose the money.\n\nPayment app transfers are like cash. Usually you cannot get them back.",
+              "tip": "Make a family code word this week. If someone calls claiming to be a relative in trouble and asking for money, ask for the code word.",
+              "source": {"label": "FTC: How to avoid a scam", "url": "https://consumer.ftc.gov/articles/how-avoid-scam"}
+            },
+            {
+              "type": "multi",
+              "prompt": "Which are red flags of a scam? Select all that apply.",
+              "options": [
+                "A job pays you by check, then asks you to send some back by gift card",
+                "A text says your bank account is locked and gives a link to unlock it",
+                "Your bank app shows a low-balance alert you set up",
+                "A stranger online asks you to pay a fee to receive a prize"
+              ],
+              "answers": [0, 1, 3],
+              "hint": "Look for urgency, links you did not ask for, and requests to send money to get money.",
+              "explain": "Overpayment checks, surprise links and prize fees are classic scams. An alert you set up yourself is normal."
             },
             {
               "type": "mcq",
-              "prompt": "Why does Alex end up with more than twice as much as Sam?",
+              "prompt": "You get a text from \"your bank\" saying there is fraud on your account, with a link to verify. What is the safest move?",
               "options": [
-                "Alex picked better stocks",
-                "Alex's early dollars had 10 extra years to compound, and growth is biggest at the end",
-                "Alex invested twice as much money",
-                "Sam paid higher taxes"
+                "Tap the link and log in quickly to stop the fraud",
+                "Reply STOP to the text",
+                "Ignore the text and open your bank's app or call the number on your card",
+                "Text back your account number so they can check"
               ],
-              "answer": 1,
-              "explain": "Same return and same monthly amount; the only difference is time. Early contributions get the most doublings."
+              "answer": 2,
+              "feedback": [
+                "The link likely leads to a fake login page that steals your password.",
+                "Replying confirms your number is active. Do not engage.",
+                "Right. Contact the bank through a channel you already trust.",
+                "Never share account details with someone who contacted you."
+              ],
+              "explain": "When in doubt, go to the source yourself: the official app, website or the number on the back of your card."
             },
             {
-              "type": "truefalse",
-              "prompt": "Since you're young and don't earn much, it's better to wait until you can invest a large amount.",
-              "answer": false,
-              "explain": "Small amounts started early often beat larger amounts started later. Even $25-$50 a month builds the habit and gets compounding started."
-            },
-            {
-              "type": "number",
-              "prompt": "Credit card debt at 18% APR left unpaid: using the rule of 72, about how many years until it doubles?",
-              "answer": 4,
-              "tolerance": 0,
-              "unit": "years",
-              "explain": "72 / 18 = **4 years**. Compounding works against you on debt, which is why paying off high-interest debt usually comes before investing beyond an employer match."
-            },
-            {
-              "type": "reflect",
-              "prompt": "Pick a monthly amount you could invest starting now, even if it's small. Use the Investor.gov compound interest calculator to see what it could grow to by age 60 at 6-7%. Write the number down.",
-              "placeholder": "$___ per month from age ___ could grow to about $___ by 60."
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Payday loans cost about $15 per $100 for two weeks, almost 400% APR. Avoid them.\n- Treat buy now, pay later as debt, and never stack plans.\n- Urgency, gift cards and \"send back the difference\" mean scam.\n- Contact companies through their app or the number on your card, never through a link sent to you.",
+              "tip": "If you are scammed, report it at ReportFraud.ftc.gov and call your bank right away. Speed raises the chance of stopping a payment."
             }
           ]
         },
         {
           "id": "u4-l2",
-          "title": "Index Funds and Retirement Accounts",
-          "summary": "Low-cost index funds, Roth IRA vs 401(k), and free money from an employer match.",
+          "title": "Free Money: Match and Roth IRA",
+          "summary": "Get your employer's 401(k) match and open a Roth IRA with your first job.",
           "steps": [
             {
               "type": "learn",
-              "title": "Index funds: own a slice of everything",
-              "body": "A **stock** is a small piece of one company. Betting on one company is risky.\n\nAn **index fund** buys every company in an index. An S&P 500 index fund owns about 500 large US companies; a total market fund owns thousands. You get **diversification**: no single company can sink you.\n\nIndex funds just copy the index, so they are cheap. Their yearly fee, the **expense ratio**, is often under 0.1%. Most professional stock pickers fail to beat the index over long periods after fees.",
-              "source": { "label": "Investor.gov bulletin: index funds", "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-26" }
+              "title": "The employer match",
+              "body": "A **401(k)** is a retirement savings account you get through work. Money comes straight out of your paycheck.\n\nMany employers offer a **match**: they add money when you do. Example: \"We match 100% of what you put in, up to 4% of your pay.\" Put in 4%, and they add another 4%.\n\nThat is an instant 100% return. Nothing else gives you that.",
+              "tip": "Ask HR or check your benefits site this week: \"Do you offer a 401(k) match, and what percent do I need to put in to get all of it?\""
             },
             {
               "type": "number",
-              "prompt": "You have $10,000 in a fund with a 1% expense ratio. How much do you pay in fees per year? (A 0.04% index fund would charge $4.)",
-              "answer": 100,
+              "prompt": "You earn $30,000 a year. Your employer matches 100% of your 401(k) savings, up to 4% of your pay. If you save 4%, how much free money does your employer add in a year?",
+              "answer": 1200,
               "tolerance": 0,
               "unit": "$",
-              "explain": "$10,000 x 0.01 = **$100 a year**, versus $4 at 0.04%. Over decades, high fees can eat tens of thousands of dollars of growth."
+              "hint": "Find 4% of $30,000. Try 1% first (divide by 100), then multiply by 4.",
+              "explain": "1% of $30,000 = $300. 4% = 4 x $300 = **$1,200** a year from your employer, on top of your own $1,200."
             },
             {
-              "type": "learn",
-              "title": "Roth IRA vs 401(k)",
-              "body": "These are **accounts**; inside them you pick investments like index funds.\n\n- **401(k)**: through your employer, taken straight from your paycheck. 2026 limit: **$24,500** ($25,500 in 2027). *Traditional* = tax break now, taxed later.\n- **Roth IRA**: you open it yourself at a brokerage. You pay tax now; growth and qualified withdrawals in retirement are **tax-free**. 2026 limit: **$7,500** (same for 2027), and you need earned income at least equal to what you put in.\n\nYoung people in low tax brackets often favor Roth: pay low tax now instead of possibly higher tax later.",
-              "source": { "label": "IRS: 2026 limits", "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500" }
-            },
-            {
-              "type": "learn",
-              "title": "The employer match: free money",
-              "body": "Many employers **match** your 401(k) contributions. A common formula: **50% match on up to 6% of salary**. Put in 6%, and your employer adds 3%.\n\nNot taking the full match is turning down part of your pay.\n\nCheck **vesting**: some employers make you stay a certain number of years before their match is fully yours. Your own contributions are always yours."
-            },
-            {
-              "type": "number",
-              "prompt": "You earn $50,000. Your employer matches 50% of what you contribute, up to 6% of salary. You contribute 6%. How much does your employer add per year?",
-              "answer": 1500,
-              "tolerance": 0,
-              "unit": "$",
-              "explain": "6% of $50,000 = $3,000 from you. The match is 50% of that: **$1,500** free, an instant 50% return on your money before any market growth."
-            },
-            {
-              "type": "match",
-              "prompt": "Match each term to its meaning.",
-              "pairs": [
-                ["Index fund", "Fund that owns every company in a market index"],
-                ["Expense ratio", "Yearly fee as a percent of what you invest"],
-                ["Roth IRA", "Pay tax now, qualified retirement withdrawals tax-free"],
-                ["Vesting", "When employer contributions become fully yours"],
-                ["Diversification", "Spreading money across many investments to lower risk"]
+              "type": "mcq",
+              "prompt": "Your employer matches up to 4%. You are only putting in 2%. What are you doing?",
+              "options": [
+                "Saving the right amount",
+                "Leaving part of the free match on the table",
+                "Paying a penalty",
+                "Getting the full match anyway"
               ],
-              "explain": "Low-cost, diversified index funds inside tax-advantaged accounts are the core of most simple long-term plans."
+              "answer": 1,
+              "feedback": [
+                "You could be getting twice as much from your employer.",
+                "Right. The match only follows your money, so at 2% you only get 2% added.",
+                "There is no penalty. You just miss out on free money.",
+                "The match only matches what you put in."
+              ],
+              "explain": "Always put in at least enough to get the full match. It is part of your pay."
+            },
+            {
+              "type": "learn",
+              "title": "Vesting: when the match is really yours",
+              "body": "**Vesting** is when the employer's match becomes fully yours to keep.\n\nYour own contributions are always 100% yours. But some employers make you stay a certain time, like 2 or 3 years, before their match is yours. Leave earlier and you may lose some of it.\n\nIt is still worth getting the match. Just know your vesting schedule before you switch jobs.",
+              "tip": "Look up your 401(k) vesting schedule in your benefits portal and note the date your match becomes fully yours."
+            },
+            {
+              "type": "learn",
+              "title": "The Roth IRA",
+              "body": "An **IRA** is a retirement account you open yourself, at a brokerage like Fidelity, Schwab or Vanguard.\n\nA **Roth IRA** is the best fit for most young workers:\n- You put in money you already paid tax on.\n- It grows **tax-free**, and withdrawals in retirement are tax-free.\n- You can take out what you **put in** (not the growth) any time without tax or penalty.\n\nFor 2026 the limit is **$7,500** a year, and you can only put in as much as you earned from work.",
+              "tip": "If you have a job, open a Roth IRA this month at a large brokerage. If you are under 18, ask a parent to open a custodial Roth IRA with you.",
+              "source": {"label": "IRS: 2026 401(k) and IRA limits", "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"}
+            },
+            {
+              "type": "truefalse",
+              "prompt": "A 17-year-old who earned $3,000 at a summer job can put up to $3,000 into a custodial Roth IRA in 2026.",
+              "answer": true,
+              "hint": "The yearly limit is $7,500, but there is a second limit tied to work income. Which one is smaller here?",
+              "explain": "You can put in your earned income or the $7,500 limit (2026), whichever is less. Here that is $3,000. Minors need an adult to open a custodial account."
+            },
+            {
+              "type": "learn",
+              "title": "Opening the account is not investing",
+              "body": "Here is a common mistake: you put money in a Roth IRA, and it just sits there as cash. It does not grow.\n\nAfter you deposit, you must **choose an investment** inside the account, like an index fund (next lesson).\n\nThe same goes for a 401(k): check that your money is in a fund, not a cash option.",
+              "tip": "Log in to any retirement account you have and check what your money is invested in. If it says cash or money market, pick a fund."
             },
             {
               "type": "order",
-              "prompt": "Here is one common order for where your next dollars go. Put it in order.",
+              "prompt": "Put these first-job retirement steps in a smart order (first to last).",
               "items": [
-                "Build a starter emergency fund (about $1,000)",
-                "Contribute enough to the 401(k) to get the full employer match",
-                "Pay off high-interest debt like credit cards",
-                "Grow the emergency fund to 3-6 months of expenses",
-                "Contribute to a Roth IRA and more to the 401(k)"
+                "Find out if your employer offers a 401(k) match",
+                "Put in at least enough to get the full match",
+                "Open a Roth IRA",
+                "Choose an investment inside each account",
+                "Raise your savings rate a little each time you get a raise"
               ],
-              "explain": "The starter fund stops new debt, the match is an instant 50-100% return, credit card interest (20%+) beats likely market returns, then you build security and long-term investing. Plans vary, but this order is widely recommended."
+              "explain": "Get the free match first, add a Roth IRA, make sure the money is invested, then save more as your pay grows."
             },
             {
-              "type": "scenario",
-              "prompt": "Six months after you start investing in an index fund, the market drops 15% and your account is down. What do you do?",
-              "options": [
-                { "text": "Keep investing on schedule. You are buying shares on sale, and you won't need the money for decades.", "feedback": "Right. Drops are normal; markets have recovered from every past decline, though how long it takes varies.", "best": true },
-                { "text": "Sell everything to stop the losses, then buy back when it feels safe.", "feedback": "Selling locks in the loss, and 'feels safe' usually comes after prices have already recovered." },
-                { "text": "Move it all into one stock that is going up right now.", "feedback": "Chasing one hot stock removes your diversification and raises risk." }
-              ],
-              "explain": "Money for long-term goals belongs in the market through ups and downs. Money you need within a few years (like an emergency fund) belongs in savings, not stocks."
-            },
-            {
-              "type": "learn",
-              "title": "Key takeaways",
-              "body": "- Index funds give cheap, instant diversification. Check the expense ratio.\n- Get the full employer match first: it's part of your pay.\n- Roth IRA: tax now, tax-free later. 2026 limit $7,500.\n- 401(k): 2026 limit $24,500.\n- Stay invested through drops; keep short-term money in savings."
+              "type": "reflect",
+              "prompt": "What is your next retirement step: asking about a match, opening a Roth IRA, or choosing a fund? When will you do it?",
+              "placeholder": "My next step: ___  By: ___"
             }
           ]
         },
         {
           "id": "u4-l3",
-          "title": "Spot and Stop Scams",
-          "summary": "Red flags, common scams aimed at young adults, and what to do if you're hit.",
+          "title": "Index Funds and the Power of Time",
+          "summary": "Why starting early wins, the rule of 72 and simple low-cost investing.",
           "steps": [
             {
               "type": "learn",
-              "title": "Scams are a big business",
-              "body": "People reported losing about **$15.9 billion** to fraud in 2025, according to the FTC, a record. **Investment scams** caused the biggest losses, and **imposter scams** (someone pretending to be your bank, the government, a boss or a friend) were reported most. Losses from scams that started on social media keep climbing.\n\nScammers target young adults with fake jobs, fake online sellers and crypto 'opportunities'. Knowing the patterns is your best defense.",
-              "source": { "label": "FTC testimony on 2025 fraud data", "url": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-testifies-joint-economic-committee-agencys-efforts-combat-fraud" }
-            },
-            {
-              "type": "multi",
-              "prompt": "Which are classic scam red flags? Select all that apply.",
-              "options": [
-                "They demand payment by gift card, crypto, wire transfer or payment app",
-                "They create urgency: act in the next hour or your account is closed",
-                "They ask you to keep it secret from family or your bank",
-                "Your bank's app shows a monthly statement is ready",
-                "They promise guaranteed high returns with no risk"
-              ],
-              "answers": [0, 1, 2, 4],
-              "explain": "Unusual payment methods, pressure, secrecy and guaranteed returns are the big four. A routine statement in your own bank app is normal."
-            },
-            {
-              "type": "learn",
-              "title": "Common scams to know",
-              "body": "- **Fake job / check scam**: you 'get hired', receive a check, and are told to buy equipment or send part back. The check bounces days later; you are out the money.\n- **Bank or government imposter**: a call or text says there is fraud on your account and asks for a code or a transfer to a 'safe account'. Real banks and the IRS don't do that.\n- **Online marketplace**: the seller wants payment by Zelle or another payment app before you see the item. Those payments are hard to reverse.\n- **Investment / crypto**: a new online friend shows huge gains on a platform you've never heard of."
-            },
-            {
-              "type": "scenario",
-              "prompt": "You get a text: 'BANK ALERT: suspicious $480 charge. Reply YES if not you.' Then someone calls from what looks like your bank's number and asks you to read back the code just texted to you. What do you do?",
-              "options": [
-                { "text": "Hang up, then call the number on the back of your card or open your bank's app to check.", "feedback": "Correct. Caller ID can be faked. Contact the bank through a number you already trust.", "best": true },
-                { "text": "Read them the code since the caller ID matches your bank.", "feedback": "That code lets the scammer log in or approve a transfer. Banks don't call to ask for it." },
-                { "text": "Reply YES to the text to stop the charge.", "feedback": "Replying confirms your number is active and starts the scam conversation." }
-              ],
-              "explain": "Never share one-time codes or passwords with someone who contacted you. Hang up and reach the company through a channel you looked up yourself."
-            },
-            {
-              "type": "truefalse",
-              "prompt": "If a check has 'cleared' and the money shows in your account, the check can no longer bounce.",
-              "answer": false,
-              "explain": "Banks must make deposited funds available within a few days, before they know the check is good. A fake check can be discovered weeks later, and you owe the bank the money."
-            },
-            {
-              "type": "order",
-              "prompt": "You realize you just sent money and your bank login to a scammer. Put your response in order.",
-              "items": [
-                "Call your bank or card company right away using a trusted number and report the fraud",
-                "Change your bank and email passwords and turn on two-factor authentication",
-                "Freeze your credit at Equifax, Experian and TransUnion",
-                "Report it at ReportFraud.ftc.gov (and IdentityTheft.gov if your identity was used)",
-                "Watch your accounts and credit reports closely for the next few months"
-              ],
-              "explain": "Speed matters most with the bank: the faster you report, the better the chance of stopping or reversing transfers. Then lock down your accounts, freeze your credit, and report."
+              "title": "Compound growth",
+              "body": "**Compound growth** means your money earns returns, and then those returns earn returns too. Like a snowball rolling downhill, it grows faster the longer it rolls.\n\nThe biggest ingredient is not how much you invest. It is **time**.\n\nMoney invested at 20 has decades more to grow than money invested at 35. That is why starting small, now, beats starting big, later.",
+              "tip": "Start investing something this month, even $25. Getting the habit and the time on your side matters more than the amount."
             },
             {
               "type": "mcq",
-              "prompt": "An online job offer says you're hired after a quick chat and asks you to deposit a $2,000 check, keep $300, and send $1,700 to their 'equipment vendor' by payment app. What is this?",
+              "prompt": "Maya invests $100 a month from age 20 to 30, then stops. Jake invests $100 a month from age 30 to 60. Both earn the same 8% a year. Who most likely has more at 60?",
               "options": [
-                "A normal onboarding process for remote jobs",
-                "A fake check scam: the check will bounce and you'll owe the $1,700",
-                "Fine as long as you wait until the check clears",
-                "Only a scam if they ask for your Social Security number"
+                "Jake, because he invested three times as much",
+                "Maya, because her money had 10 extra years to grow",
+                "They end up exactly the same",
+                "Nobody can tell from this"
               ],
               "answer": 1,
-              "explain": "Real employers don't send you checks to forward to vendors. When the fake check bounces, the bank takes the full amount back from you."
+              "feedback": [
+                "Jake put in $36,000 to Maya's $12,000, but his money had less time to grow.",
+                "Right. Maya ends up with more, even though she invested only a third as much.",
+                "The timing makes a big difference, so they are not the same.",
+                "With the same return, the earlier money has more time to compound."
+              ],
+              "hint": "Whose first dollar had longer to snowball?",
+              "explain": "At 8% a year (not guaranteed), Maya ends with roughly $200,000 and Jake roughly $150,000. Her early money compounded for 30 more years. Time is the superpower."
+            },
+            {
+              "type": "learn",
+              "title": "The rule of 72",
+              "body": "Want a quick way to see how fast money grows? Use the **rule of 72**:\n\n> 72 divided by the yearly growth rate = about how many years to double.\n\nAt 6% a year, money doubles in about 12 years (72 / 6). At 9%, about 8 years.\n\nIt works backward too: at a 24% credit card APR, a debt you ignore doubles in about 3 years.",
+              "tip": "Look up the APR on any debt you have and divide 72 by it. That is roughly how many years it takes for an unpaid balance to double."
+            },
+            {
+              "type": "number",
+              "prompt": "Using the rule of 72, if your investment grows 8% a year, about how many years until it doubles?",
+              "answer": 9,
+              "tolerance": 0,
+              "unit": "years",
+              "hint": "Divide 72 by the yearly growth rate.",
+              "explain": "72 / 8 = **9 years**. So $1,000 could become about $2,000 in 9 years, and about $4,000 in 18 years, if it keeps growing 8% a year (not guaranteed)."
+            },
+            {
+              "type": "learn",
+              "title": "Index funds: buy the whole basket",
+              "body": "Picking single stocks is risky: one company can crash.\n\nAn **index fund** buys a small piece of hundreds or thousands of companies at once. An **S&P 500 fund** holds about 500 large US companies. A **total market fund** holds even more.\n\nWhy beginners love them:\n- Instant **diversification** (spreading risk).\n- Very **low fees**.\n- No need to pick winners.",
+              "tip": "In your Roth IRA or 401(k), look for a broad index fund (S&P 500, total market, or a target-date fund) and check its expense ratio."
+            },
+            {
+              "type": "learn",
+              "title": "Fees and ups and downs",
+              "body": "The **expense ratio** is the yearly fee a fund charges, as a percent of your money. Many broad index funds charge under 0.10%. Some managed funds charge 1% or more, which eats a lot of growth over decades.\n\nThe market also goes **up and down**. Some years it drops 20% or more. Long-term investors keep going and do not sell in a panic.\n\n> Only invest money you will not need for at least 5 years. Short-term money stays in savings.",
+              "tip": "Turn off daily price notifications in your investing app. Check your long-term investments a few times a year, not every day."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You started investing $50 a month in an index fund. Six months later the market drops 15% and your balance is down. What do you do?",
+              "options": [
+                {"text": "Keep investing on schedule. You are buying at lower prices, and you have decades.", "feedback": "Right. Drops are normal. Staying in is how long-term investors win.", "best": true},
+                {"text": "Sell everything before it drops more.", "feedback": "Selling locks in the loss. Many of the best days come soon after the worst ones."},
+                {"text": "Move it all into one hot stock to win it back fast.", "feedback": "That adds risk right when you are feeling the pain. One stock can drop to zero."},
+                {"text": "Stop investing until the news looks better.", "feedback": "Nobody can time the market. Waiting often means missing the recovery."}
+              ],
+              "hint": "Think about your time horizon. Do you need this money next month or in 40 years?",
+              "explain": "For long-term money, drops are temporary sales. Keep investing steadily and do not panic-sell."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Money you will need for a car down payment in 6 months belongs in an index fund so it can grow.",
+              "answer": false,
+              "explain": "The market could be down right when you need the money. Short-term goals belong in a high-yield savings account. Invest only money you will not need for 5+ years."
             },
             {
               "type": "learn",
               "title": "Key takeaways",
-              "body": "- Pressure + secrecy + unusual payment = scam.\n- Never share passwords or one-time codes with someone who contacted you.\n- Hang up and call back using a number you look up.\n- Turn on two-factor authentication and consider a free credit freeze.\n- If it happens: call your bank first, then report at ReportFraud.ftc.gov."
-            },
-            {
-              "type": "reflect",
-              "prompt": "Agree on a 'scam rule' with your family, like a code word for real emergencies, or 'we always hang up and call back.' Write it here.",
-              "placeholder": "Our family rule: ..."
+              "body": "- Time is the biggest ingredient: start small, start now.\n- Rule of 72: 72 / growth rate = years to double.\n- Broad, low-fee index funds are a simple way to invest.\n- Expect drops. Keep investing and do not panic-sell.\n- Money for the next few years stays in savings.",
+              "tip": "Set up an automatic monthly investment, even $25, into a broad index fund in your Roth IRA, so investing happens without you having to decide each month."
             }
           ]
         }

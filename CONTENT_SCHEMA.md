@@ -85,6 +85,23 @@ under ~120 words: short, concrete, example-driven.
 
 `answer` and `answers` are zero-based indexes. `explain` is required on every graded step.
 
+### Hints and tips (optional fields)
+
+```json
+{ "type": "number", "prompt": "...", "answer": 840, "hint": "Wants are 30%. Find 30% of $2,800.", "explain": "..." }
+{ "type": "learn", "body": "...", "tip": "Turn on auto-transfer the day after payday so saving happens before spending." }
+```
+
+- `hint` (any graded step, optional, max ~35 words): a nudge shown when the learner taps **Hint**
+  before answering. It points at the method; it never states the answer. Give every `number` step
+  and any tricky step a hint.
+- `tip` (learn steps, optional, max ~45 words): a **Real-life tip** callout under the body: one
+  concrete thing to do this week (a setting to change, a script to say, a habit). Tips also feed
+  the home screen's "Tip of the day", so each must make sense on its own without the lesson.
+- Same markdown subset as `body`; no HTML.
+- Every `number` step can be solved with the app's built-in calculator (it opens from the answer
+  box). Keep the math to one or two operations a person would really do in daily life.
+
 ## Quality bar
 
 - Content must be **practically useful**: a skill someone can apply this week, with concrete
