@@ -1,0 +1,690 @@
+{
+  "id": "mission-scripture-testimony",
+  "track": "mission",
+  "title": "Scripture and Testimony",
+  "tagline": "Study like a missionary, know key verses, and feel the Spirit.",
+  "description": "Build the daily study habits missionaries live by, from a study journal to Come, Follow Me. Learn the Doctrinal Mastery passages and how to answer hard questions in faith. Practise recognizing the Spirit, strengthen your testimony and write a first draft of it in your own words.",
+  "icon": "book",
+  "color": "#D9A441",
+  "order": 2,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Study Like a Missionary",
+      "description": "Daily habits that fill you with the word before you ever wear a name tag.",
+      "levels": [
+        {
+          "id": "u1-l1",
+          "title": "Why Daily Study Matters",
+          "summary": "Obtain the word first, then you can share it with power.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "First obtain the word",
+              "body": "Before Hyrum Smith went out to preach, the Lord told him: “Seek not to declare my word, but first seek to obtain my word, and then shall your tongue be loosed” (D&C 11:21).\n\nThat is why the sample missionary schedule sets aside an hour of personal study every morning. You can start the same habit now, even with 15–30 minutes a day. What you store up now is what the Spirit can bring back to your mind later.",
+              "source": { "label": "Preach My Gospel, ch. 2", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-2?lang=eng" }
+            },
+            {
+              "type": "mcq",
+              "prompt": "In D&C 11:21, what does the Lord tell Hyrum to do before declaring His word?",
+              "options": ["Wait for a calling", "First seek to obtain His word", "Memorize a sermon", "Ask permission from his family"],
+              "answer": 1,
+              "explain": "“First seek to obtain my word, and then shall your tongue be loosed.” Study comes before effective teaching."
+            },
+            {
+              "type": "learn",
+              "title": "Treasure it up",
+              "body": "The Lord promises missionaries: “Treasure up in your minds continually the words of life, and it shall be given you in the very hour that portion that shall be meted unto every man” (D&C 84:85).\n\nThis is not a promise that you will never prepare. It is a promise that the Spirit will bring to mind what you **have** studied, at the moment someone needs it. Nephi called this to “feast upon the words of Christ” (2 Nephi 32:3)."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "D&C 84:85 means missionaries don’t really need to study, because the Spirit will tell them what to say.",
+              "answer": false,
+              "explain": "The promise is for those who “treasure up” the words of life continually. The Spirit brings to remembrance what you have already put in."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each scripture to its teaching about studying the word.",
+              "pairs": [
+                ["D&C 11:21", "First obtain the word, then your tongue will be loosed"],
+                ["D&C 84:85", "Treasure up the words of life and it will be given in the hour you need it"],
+                ["2 Nephi 32:3", "Feast upon the words of Christ; they will tell you all things to do"],
+                ["D&C 88:118", "Seek learning by study and also by faith"],
+                ["2 Nephi 28:30", "God gives line upon line, precept upon precept"]
+              ],
+              "explain": "Together these teach that gospel learning is steady, daily and spiritual, not a last-minute cram."
+            },
+            {
+              "type": "learn",
+              "title": "Study with a purpose",
+              "body": "*Preach My Gospel* chapter 2 suggests studying with a purpose instead of just reading pages:\n- start with prayer and a **question** you care about\n- study by **topic** as well as by book (for example, every verse you can find about prayer)\n- **ponder** and write what you learn and feel\n- **apply** it: decide what you will do differently today\n\nThe Gospel Library app makes topic study easy with search, tags and notes."
+            },
+            {
+              "type": "order",
+              "prompt": "Put the parts of a purposeful study session in a sensible order.",
+              "items": ["Pray for the Spirit to teach you", "Choose a question or topic", "Read and search the scriptures", "Ponder and write impressions in your study journal", "Decide one thing to do today"],
+              "explain": "Prayer invites the Spirit, a question gives direction, and ending with action turns learning into living."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You’ve tried reading the Book of Mormon cover to cover three times but keep stopping in 2 Nephi. What change will most likely help?",
+              "options": [
+                { "text": "Switch to study with a question each day, for example “What does this teach me about Jesus Christ?”, and write one insight in a journal.", "feedback": "A question gives your study a purpose, and writing helps you notice the Spirit.", "best": true },
+                { "text": "Read faster so you can finish before you lose motivation.", "feedback": "Speed reading may cover pages but usually brings little understanding or spiritual growth.", "best": false },
+                { "text": "Stop until you feel more motivated.", "feedback": "Motivation often follows action. Waiting usually means stopping for good.", "best": false },
+                { "text": "Only watch videos about the scriptures instead.", "feedback": "Videos can help, but they don’t replace personally searching the word.", "best": false }
+              ],
+              "explain": "Purposeful study (with questions, pondering and writing) is what Preach My Gospel recommends, and it keeps the habit alive."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Set your daily study goal: when, where, for how long, and which question you will start with tomorrow.",
+              "placeholder": "Every day at ___ in ___ for ___ minutes. Tomorrow's question: ..."
+            }
+          ]
+        },
+        {
+          "id": "u1-l2",
+          "title": "Your Study Journal and Come, Follow Me",
+          "summary": "Record what you learn and connect your study to home and church.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Why keep a study journal",
+              "body": "Missionaries keep a **study journal** (paper or in Gospel Library notes). *Preach My Gospel* chapter 2 suggests using it to record:\n- questions you are seeking answers to\n- what you learn and the scriptures that taught it\n- impressions from the Spirit\n- ideas for helping the people you teach\n\nWriting does two things: it helps you notice the Spirit, and it shows you that you **are** receiving guidance over time.",
+              "source": { "label": "Preach My Gospel, ch. 2", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-2?lang=eng" }
+            },
+            {
+              "type": "multi",
+              "prompt": "Which of these belong in a study journal? Select all that apply.",
+              "options": ["A question you are praying about", "A verse that stood out and why", "An impression to reach out to a friend", "A copy of every chapter you read", "An idea for how to explain a doctrine"],
+              "answers": [0, 1, 2, 4],
+              "explain": "A study journal captures questions, insights and impressions, not copies of the text."
+            },
+            {
+              "type": "learn",
+              "title": "A simple entry format",
+              "body": "Many missionaries use a quick format like this:\n- **Date and reading:** Alma 32:26–43\n- **Question:** How do I grow my faith when I don’t feel much?\n- **What I learned:** Faith starts as a desire and grows as I act and notice the results.\n- **Impression:** Text Sam and ask how his week went.\n- **I will:** Pray out loud tonight about my question.\n\nTwo minutes of writing is enough. Consistency matters more than length."
+            },
+            {
+              "type": "scenario",
+              "prompt": "While reading, you get a quiet thought to check on a friend who has stopped coming to church. What is the best response?",
+              "options": [
+                { "text": "Write it down and act on it today with a short, friendly message.", "feedback": "Recording and acting on impressions is how you learn to recognize the Spirit (PMG ch. 4).", "best": true },
+                { "text": "Ignore it; it was probably just your own idea.", "feedback": "A thought that invites you to do good comes from God (Moroni 7:13). Acting on it is how you learn.", "best": false },
+                { "text": "Wait until you are completely sure it was the Spirit.", "feedback": "Waiting for certainty often means missing the moment. Good promptings are safe to act on.", "best": false },
+                { "text": "Tell your whole class about the impression first.", "feedback": "Sacred experiences are usually kept private; the point is to help your friend.", "best": false }
+              ],
+              "explain": "Moroni 7:13 teaches that whatever invites us to do good is inspired of God. Write promptings down and act on them promptly."
+            },
+            {
+              "type": "learn",
+              "title": "Come, Follow Me",
+              "body": "*Come, Follow Me* is the Church’s home-centred, Church-supported study resource. Each year focuses on one book of scripture in a four-year cycle; 2026 is the Old Testament year.\n\nEach week has a reading block, ideas for personal and family study, and links to Sunday School and Primary. Studying the week’s block before Sunday means you can contribute in class and talk about the gospel at home, both great missionary practice.",
+              "source": { "label": "Come, Follow Me", "url": "https://www.churchofjesuschrist.org/study/come-follow-me?lang=eng" }
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Come, Follow Me is designed so that gospel learning centres in the home and is supported by Church classes.",
+              "answer": true,
+              "explain": "The Church describes Come, Follow Me as home-centred and Church-supported. Sunday classes build on what families and individuals study during the week."
+            },
+            {
+              "type": "order",
+              "prompt": "Come, Follow Me rotates through the scriptures in a four-year cycle. Starting with 2026, put the books in order.",
+              "items": ["Old Testament (2026)", "New Testament", "Book of Mormon", "Doctrine and Covenants and Church history"],
+              "explain": "The recent pattern was 2023 New Testament, 2024 Book of Mormon, 2025 Doctrine and Covenants, 2026 Old Testament, and then the cycle repeats. Always check the current year’s manual in Gospel Library."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You have 20 minutes before school. Which plan best combines personal study with Come, Follow Me?",
+              "options": ["Read this week’s block with one question, note one insight, and pray about how to apply it", "Skim the whole week’s reading in 5 minutes and check it off", "Skip it during the week and read on Sunday morning", "Only read the lesson’s headings"],
+              "answer": 0,
+              "explain": "A short, focused session with a question, a written insight and a plan to apply it builds both understanding and habit."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Keep a study journal: questions, insights, impressions, plans.\n- Two minutes of writing a day is enough to start.\n- Act on good impressions promptly.\n- Use Come, Follow Me each week (2026: Old Testament) so home study and Sunday classes work together."
+            }
+          ]
+        },
+        {
+          "id": "u1-l3",
+          "title": "The Power of the Book of Mormon",
+          "summary": "Why the Book of Mormon is central to conversion and how to use it.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "The keystone",
+              "body": "The introduction to the Book of Mormon records the Prophet Joseph Smith’s words that it is “the keystone of our religion,” and that a person “would get nearer to God by abiding by its precepts, than by any other book.”\n\nA keystone holds an arch together. If the Book of Mormon is true, then Joseph Smith was a prophet and the Lord’s Church has been restored. That is why *Preach My Gospel* devotes a whole chapter (ch. 5) to using its power.",
+              "source": { "label": "Preach My Gospel, ch. 5", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/13-chapter-5?lang=eng" }
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is the Book of Mormon called the “keystone” of our religion?",
+              "options": ["It was the first book printed by the Church", "If it is true, the Restoration it supports is true, so it holds everything together", "It replaces the Bible", "It contains all the Church’s rules"],
+              "answer": 1,
+              "explain": "A keystone holds an arch in place. A testimony of the Book of Mormon is tied to a testimony of Joseph Smith and the restored Church."
+            },
+            {
+              "type": "learn",
+              "title": "It answers questions of the soul",
+              "body": "People everywhere ask the same deep questions: Is there a God? Why am I here? What happens when I die? Can I be forgiven? Why do I suffer?\n\nThe Book of Mormon answers these clearly, and the Spirit testifies as people read it. Missionaries often give a specific chapter that fits someone’s question, invite them to read it and pray, then follow up about what they felt."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each question someone might have to a Book of Mormon chapter that speaks to it.",
+              "pairs": [
+                ["What happens after we die?", "Alma 40"],
+                ["Can God really forgive me?", "Alma 36"],
+                ["Why is there opposition and suffering in life?", "2 Nephi 2"],
+                ["Does Jesus understand what I’m going through?", "Alma 7"],
+                ["How can I know if this is true?", "Moroni 10"]
+              ],
+              "explain": "Alma 40 teaches about the spirit world and resurrection; Alma 36 is Alma’s conversion through Christ; 2 Nephi 2 explains opposition and agency; Alma 7:11–13 shows Christ took our pains; Moroni 10:3–5 gives the promise."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "The Book of Mormon is meant to be studied together with the Bible, as two witnesses of Jesus Christ.",
+              "answer": true,
+              "explain": "Ezekiel 37:15–17 speaks of two records becoming one in the Lord’s hand, and 2 Nephi 29:8 calls them two nations’ testimonies. They support, not compete with, each other."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your friend Jordan says he struggles with anxiety and wonders if God even notices him. You want to share the Book of Mormon. What is the best approach?",
+              "options": [
+                { "text": "Listen to him first, then give him Alma 7:11–13 with a sticky note, share how it helped you, invite him to read and pray, and ask if you can check in on Thursday.", "feedback": "A specific passage that fits his need, a personal witness, a clear invitation and follow-up.", "best": true },
+                { "text": "Hand him a copy and suggest he start at 1 Nephi 1.", "feedback": "Good intent, but a targeted chapter for his question is more likely to touch him first.", "best": false },
+                { "text": "Tell him the Book of Mormon will cure his anxiety.", "feedback": "Don’t promise outcomes the Lord hasn’t promised. Medical help and faith can work together.", "best": false },
+                { "text": "Wait until he asks about your church.", "feedback": "He already shared a real need. This is a natural, kind moment to share.", "best": false }
+              ],
+              "explain": "Connect the Book of Mormon to a person’s real questions, invite them to read and pray, and follow up. That is the Preach My Gospel pattern."
+            },
+            {
+              "type": "learn",
+              "title": "Gain your own witness first",
+              "body": "You can only share powerfully what you have received yourself. Before your mission, read the Book of Mormon from start to finish and pray about it using Moroni’s promise (Moroni 10:3–5).\n\nLike Alma, who said he “fasted and prayed many days” to know for himself (Alma 5:45–46), your witness can come step by step. Write down each time you feel the Spirit while reading."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Which Book of Mormon chapter or verse has meant the most to you so far, and why? If you are still looking, which book will you start with this week?",
+              "placeholder": "The passage is... It matters to me because..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Doctrinal Mastery",
+      "description": "Key passages and the principles for answering hard questions in faith.",
+      "levels": [
+        {
+          "id": "u2-l1",
+          "title": "Acquiring Spiritual Knowledge",
+          "summary": "Three principles for finding answers to hard questions.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Questions are part of faith",
+              "body": "Missionaries will face hard questions, from others and sometimes from themselves. The seminary *Doctrinal Mastery* program teaches three principles for **acquiring spiritual knowledge**:\n1. **Act in faith:** keep praying, studying and living the gospel while you seek answers (D&C 6:36; 2 Nephi 28:30).\n2. **Examine concepts and questions with an eternal perspective:** look at the question in light of the plan of salvation and what you already know is true.\n3. **Seek further understanding through divinely appointed sources:** the scriptures, living prophets, parents and leaders, and the Holy Ghost.",
+              "source": { "label": "Doctrinal Mastery: Acquiring Spiritual Knowledge", "url": "https://www.churchofjesuschrist.org/study/manual/doctrinal-mastery-core-document-2023/acquiring-spiritual-knowledge?lang=eng" }
+            },
+            {
+              "type": "order",
+              "prompt": "Put the three principles of acquiring spiritual knowledge in the order the Doctrinal Mastery core document lists them.",
+              "items": ["Act in faith", "Examine concepts and questions with an eternal perspective", "Seek further understanding through divinely appointed sources"],
+              "explain": "In real life you use all three together, but this is the order the Church teaches them in."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each principle to an example of living it.",
+              "pairs": [
+                ["Act in faith", "Keep praying and going to church while you look for an answer"],
+                ["Eternal perspective", "Ask how the question looks in light of God’s plan and His love"],
+                ["Divinely appointed sources", "Search the scriptures and the words of living prophets"]
+              ],
+              "explain": "Each principle is a practical action, not just an idea."
+            },
+            {
+              "type": "learn",
+              "title": "Choose your sources carefully",
+              "body": "Isaiah warned of those who “call evil good, and good evil” (Isaiah 5:20). Not every source is trying to help you find truth.\n\nDivinely appointed sources include the scriptures, the words of living prophets and apostles, trusted parents and leaders, and the Holy Ghost, who will teach “the truth of all things” (Moroni 10:5). The Church also publishes careful, honest articles on hard topics, such as the Gospel Topics essays in Gospel Library."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which of these are divinely appointed or reliable sources for a gospel question? Select all that apply.",
+              "options": ["The scriptures", "General conference talks by living prophets and apostles", "An anonymous social media thread", "A Gospel Topics essay in Gospel Library", "Your bishop or parents", "A video built to mock believers"],
+              "answers": [0, 1, 3, 4],
+              "explain": "Anonymous or mocking sources are not seeking truth. Reliable, faithful sources plus the Holy Ghost lead to understanding."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Having a question about the gospel means your faith is failing.",
+              "answer": false,
+              "explain": "Joseph Smith’s question led to the First Vision. Questions asked in faith are how revelation often begins (James 1:5)."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A friend sends you a video claiming a troubling fact about early Church history and asks, “How can you still believe?” What is the best response?",
+              "options": [
+                { "text": "Say you take the question seriously, look up what the Church has published on the topic and the scriptures, think about it in light of what you already know is true, keep praying, and talk to someone you trust.", "feedback": "This uses all three principles: act in faith, eternal perspective, and reliable sources.", "best": true },
+                { "text": "Refuse to look at anything about it.", "feedback": "Avoiding honest questions can leave them festering. Faith is not afraid of truth.", "best": false },
+                { "text": "Decide the Church must be false because the video sounded convincing.", "feedback": "One source, especially a hostile one, rarely gives the full context.", "best": false },
+                { "text": "Make up an answer so you don’t look unsure.", "feedback": "Honesty matters. It’s fine to say “I don’t know yet, but I know what I do know.”", "best": false }
+              ],
+              "explain": "Acquiring spiritual knowledge means acting in faith, thinking with an eternal perspective and turning to trustworthy sources, while being honest about what you don’t know yet."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Act in faith while you seek: “Doubt not, fear not” (D&C 6:36).\n- Look at questions through God’s plan and what you already know.\n- Use divinely appointed and reliable sources, and let the Holy Ghost confirm truth.\n- It is honest and fine to say, “I don’t know that yet, but here is what I do know.”"
+            }
+          ]
+        },
+        {
+          "id": "u2-l2",
+          "title": "Book of Mormon Passages",
+          "summary": "Master the Book of Mormon Doctrinal Mastery passages.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Why learn these passages",
+              "body": "Seminary teaches 24 Doctrinal Mastery passages for each book of scripture. Knowing where key doctrines are found means you can open someone’s own scriptures and show them, instead of just giving your opinion.\n\nFor each passage, aim to know three things:\n- the **reference**\n- the **key phrase**\n- how you would **use it** with a real person",
+              "source": { "label": "Doctrinal Mastery passages and key phrases", "url": "https://www.churchofjesuschrist.org/study/manual/doctrinal-mastery-core-document-2023/doctrinal-mastery-passages-and-key-phrases?lang=eng" }
+            },
+            {
+              "type": "match",
+              "prompt": "Match each Book of Mormon passage to its key idea.",
+              "pairs": [
+                ["1 Nephi 3:7", "I will go and do the things the Lord has commanded"],
+                ["2 Nephi 2:27", "We are free to choose liberty and eternal life"],
+                ["2 Nephi 32:8–9", "Pray always and do not faint"],
+                ["Mosiah 2:17", "Serving others is serving God"],
+                ["Alma 41:10", "Wickedness never was happiness"]
+              ],
+              "explain": "These five come from the Book of Mormon Doctrinal Mastery list."
+            },
+            {
+              "type": "learn",
+              "title": "Use them with people",
+              "body": "Knowing a verse is only the start. Think about who it could help:\n- someone feeling worthless → **2 Nephi 26:33** (“all are alike unto God”)\n- someone who feels unable to change → **Ether 12:27** (weak things become strong)\n- someone building on shaky ground → **Helaman 5:12** (the rock of our Redeemer)\n- someone seeking to love others → **Moroni 7:45–48** (charity, the pure love of Christ)"
+            },
+            {
+              "type": "match",
+              "prompt": "Match each passage to its key idea.",
+              "pairs": [
+                ["Helaman 5:12", "Build your foundation on the rock of our Redeemer"],
+                ["Ether 12:27", "The Lord can make weak things become strong"],
+                ["Moroni 7:45–48", "Charity is the pure love of Christ"],
+                ["3 Nephi 27:20", "Come unto Christ, be baptized, and be sanctified by the Holy Ghost"],
+                ["Mosiah 3:19", "Put off the natural man and become a saint through Christ"]
+              ],
+              "explain": "All five are Book of Mormon Doctrinal Mastery passages."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A friend says, “I’ll never be good enough for God; I keep messing up.” Which passage fits best?",
+              "options": ["Alma 41:10", "Ether 12:27", "1 Nephi 3:7", "Mosiah 18:8–10"],
+              "answer": 1,
+              "explain": "Ether 12:27 promises that as we humble ourselves and have faith in Christ, His grace makes weak things become strong."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which passage teaches that being baptized is a covenant to “bear one another’s burdens” and “mourn with those that mourn”?",
+              "options": ["Mosiah 18:8–10", "2 Nephi 2:25", "Alma 34:9–10", "Moroni 10:4–5"],
+              "answer": 0,
+              "explain": "At the waters of Mormon, Alma taught that baptism includes a willingness to comfort and serve others."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A teammate says, “Following rules just makes life boring. I’m happier doing whatever I want.” How could you use a Doctrinal Mastery passage well?",
+              "options": [
+                { "text": "Ask what makes him happy, then share Alma 41:10 (“wickedness never was happiness”) gently, with a personal example of how keeping a commandment brought you real peace.", "feedback": "You listen first, share the verse kindly and back it with experience instead of preaching.", "best": true },
+                { "text": "Quote Alma 41:10 and tell him he is being wicked.", "feedback": "Using a verse as a weapon pushes people away.", "best": false },
+                { "text": "Agree with him so things don’t get awkward.", "feedback": "You can be friendly without hiding what you believe.", "best": false },
+                { "text": "Read him all 24 Book of Mormon passages.", "feedback": "One fitting verse beats a lecture.", "best": false }
+              ],
+              "explain": "Doctrinal Mastery passages are tools to help people, used with love, listening and personal testimony."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Learn the reference, the key phrase and a real use for each passage.\n- Choose one fitting verse for a person’s need instead of many.\n- Share passages with kindness and a personal example.\n- Practise with flash cards: reference on one side, key phrase on the other."
+            }
+          ]
+        },
+        {
+          "id": "u2-l3",
+          "title": "Old and New Testament Passages",
+          "summary": "Key Bible passages for teaching people who already love the Bible.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Start where people are",
+              "body": "Many people you will teach already know and love the Bible. Starting from a verse they trust builds connection and shows that the restored gospel fulfils, not replaces, the Bible.\n\nFor example, James 1:5 invites anyone to ask God; Amos 3:7 shows God works through prophets; and John 3:5 teaches the need for baptism. Learn these well so you can turn to them quickly in any translation."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each Old Testament passage to its key idea.",
+              "pairs": [
+                ["Joshua 24:15", "Choose you this day whom ye will serve"],
+                ["Proverbs 3:5–6", "Trust in the Lord with all your heart"],
+                ["Isaiah 1:18", "Though your sins be as scarlet, they shall be white as snow"],
+                ["Malachi 4:5–6", "Elijah will turn the hearts of the fathers and children"],
+                ["Isaiah 53:3–5", "He has borne our griefs and carried our sorrows"]
+              ],
+              "explain": "All five are Old Testament Doctrinal Mastery passages, and 2026 Come, Follow Me covers them."
+            },
+            {
+              "type": "learn",
+              "title": "New Testament anchors",
+              "body": "Some New Testament passages come up again and again in missionary work:\n- **Matthew 11:28–30:** “Come unto me, all ye that labour… and I will give you rest.”\n- **John 17:3:** eternal life is to know God and Jesus Christ.\n- **James 2:17–18:** faith without works is dead.\n- **1 Corinthians 6:19–20:** your body is a temple.\n- **2 Timothy 3:15–17:** scripture is given by inspiration of God."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each New Testament passage to its key idea.",
+              "pairs": [
+                ["Matthew 11:28–30", "Come unto me and I will give you rest"],
+                ["John 7:17", "Do His will and you will know whether the doctrine is of God"],
+                ["James 2:17–18", "Faith without works is dead"],
+                ["1 Corinthians 6:19–20", "Your body is a temple of the Holy Ghost"],
+                ["Revelation 20:12", "The dead are judged according to their works"]
+              ],
+              "explain": "These New Testament Doctrinal Mastery passages connect directly to missionary lessons."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Someone says, “How can I know if your teachings are from God?” Which Bible verse best invites them to test it by living it?",
+              "options": ["John 7:17", "Matthew 5:14–16", "Luke 2:10–12", "Ephesians 1:10"],
+              "answer": 0,
+              "explain": "“If any man will do his will, he shall know of the doctrine, whether it be of God.” Living a teaching is a way to test it."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Matthew 11:28–30 is a good verse for someone who feels weighed down and tired.",
+              "answer": true,
+              "explain": "The Savior invites all who “labour and are heavy laden” to come to Him and find rest."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A Christian neighbour says, “The Bible is enough. Why would anyone need more scripture?” What is the best response?",
+              "options": [
+                { "text": "Share that you love the Bible too, point to Amos 3:7 and Ezekiel 37:15–17 about prophets and two records, and invite her to read a chapter of the Book of Mormon and see if it brings her closer to Christ.", "feedback": "You find common ground, use her trusted scripture and invite a personal test.", "best": true },
+                { "text": "Tell her the Bible has too many errors to trust.", "feedback": "This attacks something sacred to her, and isn’t how Latter-day Saints view the Bible (Articles of Faith 1:8).", "best": false },
+                { "text": "Argue about Revelation 22:18–19 for twenty minutes.", "feedback": "Debate rarely invites the Spirit. A short, kind answer and an invitation work better.", "best": false },
+                { "text": "Say “fair enough” and drop it.", "feedback": "Respectful, but you missed a chance to share something that could bless her.", "best": false }
+              ],
+              "explain": "Start from shared belief in the Bible, show how it points to prophets and more scripture, and invite people to read and pray."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Bible passages build trust with people who already love the Bible.\n- Know the key phrase and a real use for each passage.\n- Latter-day Saints believe the Bible to be the word of God “as far as it is translated correctly” (Articles of Faith 1:8).\n- Combine the Bible and the Book of Mormon as two witnesses of Christ."
+            }
+          ]
+        },
+        {
+          "id": "u2-l4",
+          "title": "Doctrine and Covenants Passages",
+          "summary": "Modern revelation for modern missionaries.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Revelation for our day",
+              "body": "The Doctrine and Covenants contains revelations given mostly through Joseph Smith. Many were given to early missionaries, so they speak directly to you.\n\nFor example, D&C 4 describes the qualities of those who “embark in the service of God,” and D&C 18 explains the great worth of souls and the joy of bringing them to Christ. D&C 1:38 teaches that the word of the Lord through His servants “is the same” as His own voice.",
+              "source": { "label": "Doctrinal Mastery passages and key phrases", "url": "https://www.churchofjesuschrist.org/study/manual/doctrinal-mastery-core-document-2023/doctrinal-mastery-passages-and-key-phrases?lang=eng" }
+            },
+            {
+              "type": "match",
+              "prompt": "Match each Doctrine and Covenants passage to its key idea.",
+              "pairs": [
+                ["D&C 6:36", "Look unto me in every thought; doubt not, fear not"],
+                ["D&C 18:10–11", "The worth of souls is great in the sight of God"],
+                ["D&C 64:9–11", "We are required to forgive all people"],
+                ["D&C 82:10", "The Lord is bound when we do what He says"],
+                ["D&C 89:18–21", "Promised blessings of the Word of Wisdom"]
+              ],
+              "explain": "All five are D&C Doctrinal Mastery passages."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which passage teaches that priesthood power can only be used on principles of righteousness, with persuasion, long-suffering, gentleness and love unfeigned?",
+              "options": ["D&C 121:36, 41–42", "D&C 13:1", "D&C 107:8", "D&C 84:20–22"],
+              "answer": 0,
+              "explain": "D&C 121 describes how priesthood authority must be exercised: with righteousness, persuasion and genuine love, never compulsion."
+            },
+            {
+              "type": "learn",
+              "title": "Missionary verses to know by heart",
+              "body": "Some D&C verses are worth memorizing before your mission:\n- **D&C 4:2:** serve with all your heart, might, mind and strength.\n- **D&C 18:15–16:** great joy in bringing souls to Christ.\n- **D&C 84:88:** “I will go before your face… and my angels round about you, to bear you up.”\n- **D&C 100:5–6:** speak what the Lord puts in your heart and it will be given you.\n\nHard days will come. Verses you know by heart are there when you need them most."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "D&C 84:88 promises missionaries that the Lord will go before them and His angels will be round about them.",
+              "answer": true,
+              "explain": "“I will go before your face. I will be on your right hand and on your left… and mine angels round about you, to bear you up.”"
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your friend is still hurt and angry at someone who treated him badly a year ago. He asks if he really has to forgive. Which response is best?",
+              "options": [
+                { "text": "Listen and acknowledge the hurt, then share D&C 64:9–10 that the Lord asks us to forgive all, explaining that forgiving doesn’t mean excusing what happened or staying in harm’s way, and that the Savior can help him let go.", "feedback": "Compassionate and accurate. Forgiveness frees the person who forgives.", "best": true },
+                { "text": "“Yes, so get over it.”", "feedback": "True doctrine, said without love, rarely helps.", "best": false },
+                { "text": "“Only if the other person apologizes first.”", "feedback": "D&C 64:10 teaches we are to forgive all people, apology or not.", "best": false },
+                { "text": "“Forgiving means you have to trust them completely again.”", "feedback": "Forgiveness and trust are different. Safety and boundaries still matter.", "best": false }
+              ],
+              "explain": "D&C 64:9–11 requires us to forgive all, while the Church also teaches that forgiveness does not mean tolerating abuse or ignoring wrongdoing."
+            },
+            {
+              "type": "order",
+              "prompt": "Put this memorization method in order.",
+              "items": ["Read the passage aloud and learn its context", "Learn the reference and key phrase", "Say it from memory with only the first letters of each word", "Use it in a real conversation or lesson this week", "Review it again a week later"],
+              "explain": "Understanding, then recall, then use, then spaced review. Using a verse with a real person is what makes it stick."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Pick one Doctrinal Mastery passage to memorize this week. Write the reference, the key phrase, and the name of someone you might share it with.",
+              "placeholder": "Passage: ... Key phrase: ... Who I could share it with: ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "The Spirit and Your Testimony",
+      "description": "Recognize the Spirit, protect your testimony and learn to share it.",
+      "levels": [
+        {
+          "id": "u3-l1",
+          "title": "Recognizing the Spirit",
+          "summary": "How the Holy Ghost speaks, and how to tell His voice from strong emotion.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "How the Spirit speaks",
+              "body": "*Preach My Gospel* chapter 4 explains that the Holy Ghost usually speaks quietly:\n- as a “still small voice” (1 Kings 19:11–12)\n- to your **mind and heart** (D&C 8:2–3)\n- as peace (D&C 6:23) and as light that enlightens the mind and fills the soul with joy (D&C 11:12–13)\n- with fruits like love, joy, peace, patience and gentleness (Galatians 5:22–23)\n\nLearning His voice is a skill that grows with practice.",
+              "source": { "label": "Preach My Gospel, ch. 4", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/12-chapter-4?lang=eng" }
+            },
+            {
+              "type": "match",
+              "prompt": "Match each scripture to how the Spirit communicates.",
+              "pairs": [
+                ["1 Kings 19:11–12", "A still small voice, not the wind, earthquake or fire"],
+                ["D&C 8:2–3", "In your mind and in your heart"],
+                ["D&C 6:23", "Speaking peace to your mind"],
+                ["Galatians 5:22–23", "Fruits like love, joy, peace and gentleness"],
+                ["D&C 11:12–13", "Enlightens the mind and fills the soul with joy"]
+              ],
+              "explain": "These passages give a range of ways people experience the Holy Ghost, mostly quiet and peaceful."
+            },
+            {
+              "type": "learn",
+              "title": "Is this prompting from God?",
+              "body": "Mormon gives a simple test: what invites and entices us to do good, and to believe in Christ, is of God (Moroni 7:13, 16–17). What persuades us to do evil, or not to believe in Christ, is not.\n\nTrue promptings also agree with the scriptures and the teachings of living prophets. If a thought contradicts them, it is not from the Holy Ghost."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Preach My Gospel teaches that crying or strong emotion is always a sure sign the Spirit is present.",
+              "answer": false,
+              "explain": "PMG chapter 4 cautions against equating strong emotion or tears with the Spirit. The Spirit can bring tears, but emotion can also come from music, stories or tiredness."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which of these could be ways the Holy Ghost is speaking to you? Select all that apply.",
+              "options": ["A calm, clear thought to text a friend who is struggling", "Peace about a decision after praying", "An idea that suddenly makes a scripture clear", "A thought urging you to lie to avoid trouble", "Feeling increased love for someone you were annoyed with"],
+              "answers": [0, 1, 2, 4],
+              "explain": "Promptings invite good, bring peace and light, and increase love. A thought urging dishonesty fails the test in Moroni 7:13–17."
+            },
+            {
+              "type": "learn",
+              "title": "When you don’t get a clear answer",
+              "body": "Sometimes there is no strong answer, especially when both choices are good. PMG chapter 4 says that in those cases God often trusts you to use your own judgment.\n\nThe Lord told Oliver Cowdery to “study it out in your mind” and then ask if it is right (D&C 9:7–9). Make a good choice, move forward, and stay open to correction."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You’re choosing between two good options for next summer: a job that helps you save for your mission, or a service trip. You’ve prayed, but feel no strong answer either way. What should you do?",
+              "options": [
+                { "text": "Study it out, make a thoughtful choice, pray to tell the Lord your decision, and move forward while staying open to a prompting to change.", "feedback": "This is the pattern in D&C 9:7–9, and PMG ch. 4 notes that God often lets us choose between good options.", "best": true },
+                { "text": "Do nothing until you get a dramatic answer.", "feedback": "Waiting for a sign can mean losing both opportunities.", "best": false },
+                { "text": "Decide God doesn’t answer your prayers.", "feedback": "Silence on a choice between good options is often trust, not absence.", "best": false },
+                { "text": "Flip a coin and call that the answer.", "feedback": "Random chance skips the thinking and prayer the Lord asks for.", "best": false }
+              ],
+              "explain": "Revelation often comes as we study things out and act. God respects our agency and frequently trusts us with good choices."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- The Spirit usually speaks quietly, to the mind and heart, with peace and light.\n- Test promptings: do they invite you to do good and believe in Christ?\n- Strong emotion is not the same thing as the Spirit.\n- When both options are good, study it out, choose, and move forward."
+            }
+          ]
+        },
+        {
+          "id": "u3-l2",
+          "title": "Protecting Your Testimony",
+          "summary": "Put on the armour of God and nourish your testimony like a seed.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Testimony grows like a seed",
+              "body": "In Alma 32, Alma invites people to experiment on the word:\n- even a **desire** to believe is a start (v. 27)\n- give the word place in your heart, and you will feel it swell, enlarge your soul and enlighten your understanding (v. 28)\n- that growth shows the seed is good (v. 33–35)\n- if you **nourish** it with diligence, faith and patience, it grows into a tree of everlasting life (v. 41–42)\n\nA testimony is never finished; neglected, it withers (v. 38–39).",
+              "source": { "label": "Alma 32", "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng" }
+            },
+            {
+              "type": "order",
+              "prompt": "Put Alma’s seed experiment in order.",
+              "items": ["Desire to believe", "Give the word a place in your heart", "Notice it swelling and enlightening your understanding", "Nourish it with diligence, faith and patience", "It grows into a tree bearing fruit of everlasting life"],
+              "explain": "Alma 32:27–43. Testimony is planted, recognized, and then nourished over time."
+            },
+            {
+              "type": "learn",
+              "title": "The armour of God",
+              "body": "Paul taught: “Put on the whole armour of God, that ye may be able to stand against the wiles of the devil” (Ephesians 6:11). *Preach My Gospel* chapter 2 uses this image for spiritual protection:\n- loins girt about with **truth**\n- breastplate of **righteousness**\n- feet shod with the preparation of the **gospel of peace**\n- shield of **faith**\n- helmet of **salvation**\n- sword of the **Spirit**, which is the word of God\n\nDaily prayer, study and obedience are how you put it on.",
+              "source": { "label": "Ephesians 6:10–18", "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/eph/6?lang=eng&id=p10-p18#p10" }
+            },
+            {
+              "type": "match",
+              "prompt": "Match each piece of armour to what it represents in Ephesians 6.",
+              "pairs": [
+                ["Loins girt about", "Truth"],
+                ["Breastplate", "Righteousness"],
+                ["Shield", "Faith, to quench the fiery darts of the wicked"],
+                ["Helmet", "Salvation"],
+                ["Sword", "The Spirit, which is the word of God"]
+              ],
+              "explain": "Ephesians 6:14–17. Notice the only offensive weapon is the word of God."
+            },
+            {
+              "type": "learn",
+              "title": "Safeguards for real life",
+              "body": "Missionaries use smartphones for their work, with clear safeguards. You can practise now:\n- decide in advance what you will and won’t view\n- keep devices out of your bedroom at night\n- use filters and tell a trusted person your goals\n- when you slip, repent quickly and talk to your bishop if needed\n\n> Protecting your testimony is mostly small, daily decisions, not one big one."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which habits help nourish a testimony? Select all that apply.",
+              "options": ["Daily personal prayer", "Taking the sacrament each week", "Waiting until you feel strong before praying", "Daily scripture study", "Serving others", "Ignoring promptings that feel inconvenient"],
+              "answers": [0, 1, 3, 4],
+              "explain": "Alma 32:41–42 calls for diligence and patience. Testimony grows through steady righteous habits, not waiting for feelings."
+            },
+            {
+              "type": "scenario",
+              "prompt": "After a hard month you notice your prayers feel empty and you’ve stopped reading. You don’t feel the Spirit like you used to. What is the best next step?",
+              "options": [
+                { "text": "Restart with small, steady habits (a short sincere prayer morning and night and one chapter a day), repent of anything in the way, and talk to a parent or bishop if you need help.", "feedback": "Alma 32 teaches nourishing the seed with diligence and patience. Small steps restart growth.", "best": true },
+                { "text": "Decide your testimony was never real.", "feedback": "Dry seasons are normal. A testimony needs nourishing, not abandoning.", "best": false },
+                { "text": "Wait for a big spiritual experience before praying again.", "feedback": "That reverses the pattern: the witness comes after the trial of faith (Ether 12:6).", "best": false },
+                { "text": "Pretend everything is fine and tell nobody.", "feedback": "Honest conversations with people who love you are part of healing.", "best": false }
+              ],
+              "explain": "Testimonies wither without nourishment and grow again with it. Small, consistent acts of faith are the way back."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Testimony starts with desire and grows as you nourish it (Alma 32).\n- Put on the armour of God through daily prayer, study and obedience.\n- Set technology safeguards now; they are part of missionary life.\n- Dry seasons happen. Small, steady habits bring the Spirit back."
+            }
+          ]
+        },
+        {
+          "id": "u3-l3",
+          "title": "Sharing Your Testimony",
+          "summary": "What a testimony is, how to bear it simply, and a first draft of your own.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "What a testimony is",
+              "body": "A testimony is a witness from the Holy Ghost of gospel truths. *Preach My Gospel* chapter 10 describes bearing testimony as a simple, direct declaration of what you know and feel, often just a sentence or two.\n\nA testimony is not a travelogue or a thank-you list. It sounds like: “I know Jesus Christ is my Savior. I have felt His forgiveness when I repented.”",
+              "source": { "label": "Preach My Gospel, ch. 10", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/18-chapter-10?lang=eng" }
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which of these is the clearest example of bearing testimony?",
+              "options": ["“I’d like to thank my mom, my friends and my seminary teacher for everything.”", "“I know that God hears our prayers. Last week I prayed for help with my brother and felt peace and an idea of what to say.”", "“I think the Church is probably true for most people.”", "“Let me tell you about my whole trip to the beach.”"],
+              "answer": 1,
+              "explain": "A testimony declares a truth (“I know…”) and often adds a short, personal experience of how you came to know it."
+            },
+            {
+              "type": "learn",
+              "title": "Core truths missionaries testify of",
+              "body": "As you prepare, ask yourself whether you have a witness of these truths:\n- God is our loving Heavenly Father.\n- Jesus Christ is our Savior and Redeemer.\n- Joseph Smith is the prophet of the Restoration.\n- The Book of Mormon is the word of God.\n- God calls living prophets today.\n\nIt’s fine if some are stronger than others. Testimony grows “line upon line” (2 Nephi 28:30), and it often grows as you share it."
+            },
+            {
+              "type": "order",
+              "prompt": "Put the parts of a short testimony into a natural order.",
+              "items": ["A clear declaration: “I know…”", "A brief personal experience of how you came to know it", "Why it matters to the person you are talking to", "An invitation connected to that truth"],
+              "explain": "Declaring the truth, showing how you know it, connecting it to their life and inviting them to act is a pattern used throughout Preach My Gospel."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "You need a perfect, complete testimony of every gospel principle before you are allowed to bear testimony of anything.",
+              "answer": false,
+              "explain": "Testify of what you know now. Many have found that testimony grows as it is shared, and it grows line upon line (2 Nephi 28:30)."
+            },
+            {
+              "type": "scenario",
+              "prompt": "In a lesson, your companion has just taught about prayer. The person you’re teaching looks unsure. What is the most effective way to testify?",
+              "options": [
+                { "text": "Say briefly and sincerely: “I know Heavenly Father hears your prayers. When I prayed about whether to serve a mission, I felt peace. I know you can feel that too.”", "feedback": "Short, sincere and personal. It invites the Spirit to confirm the truth.", "best": true },
+                { "text": "Give a 10-minute talk about every spiritual experience you’ve had.", "feedback": "Long testimonies lose focus. Simple and direct is stronger.", "best": false },
+                { "text": "Say “We believe prayer is important” and move on.", "feedback": "True, but a personal “I know” is what lets the Spirit witness.", "best": false },
+                { "text": "Tell them they will definitely see an angel if they pray.", "feedback": "Don’t promise what the Lord hasn’t promised. Promise the blessings He has promised.", "best": false }
+              ],
+              "explain": "Testimony is most powerful when it is short, sincere, personal and tied to what was just taught."
+            },
+            {
+              "type": "learn",
+              "title": "Before you write",
+              "body": "Next you’ll draft your own testimony. Tips:\n- Use “I know,” “I believe” or “I feel,” whichever is honest for you.\n- Include at least one truth about Jesus Christ.\n- Add one short, real experience.\n- Keep it under 100 words.\n\nThis is just a first draft. Revisit it every few months; you’ll be surprised how it grows."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Draft your testimony in your own words (under 100 words). Include what you know about Jesus Christ and one experience of how you came to know it.",
+              "placeholder": "I know that... I came to know this when... Because of this, I..."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

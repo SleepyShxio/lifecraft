@@ -1,0 +1,169 @@
+[
+ {
+  "id": "money-mastery",
+  "track": "life",
+  "title": "Money Mastery",
+  "tagline": "Read a paycheck, budget, build credit, dodge scams and start investing.",
+  "description": "Understand exactly where your paycheck goes, build a budget you can actually keep, and set up the bank accounts and emergency fund that keep small problems small. You will learn how credit scores and interest really work, how to get out of debt, and how to start investing in index funds and retirement accounts while spotting scams before they cost you.",
+  "icon": "coin",
+  "color": "#E8B04B",
+  "order": 1,
+  "file": "content/courses/money-mastery.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 109,
+  "minutes": 73,
+  "unitTitles": [
+   "Paychecks and Taxes",
+   "Budgeting and Banking",
+   "Credit and Debt",
+   "Grow and Guard Your Money"
+  ]
+ },
+ {
+  "id": "adulting-101",
+  "track": "life",
+  "title": "Adulting 101",
+  "tagline": "Rent, insurance, doctors, cars, cooking and paperwork, handled.",
+  "description": "The practical skills nobody hands you a manual for: renting your first place, choosing insurance, getting the right medical care, and keeping a car running. You will also learn the home fixes that save a service call, how to eat well on a budget without getting sick, and how to keep your important documents safe.",
+  "icon": "home",
+  "color": "#5BB98C",
+  "order": 2,
+  "file": "content/courses/adulting-101.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 104,
+  "minutes": 72,
+  "unitTitles": [
+   "Your First Place",
+   "Insurance and Healthcare",
+   "Cars",
+   "Kitchen and Paperwork"
+  ]
+ },
+ {
+  "id": "career-launch",
+  "track": "life",
+  "title": "Career Launch",
+  "tagline": "Land the job, nail the interview, get paid what you're worth.",
+  "description": "Go from no experience to a job offer: find openings, write a resume that shows results, and answer interview questions with clear stories. Then learn the habits that get you trusted at work, how to negotiate pay, how side income is taxed, and how to compare college, trades and certificates by what they really return.",
+  "icon": "briefcase",
+  "color": "#5B8DEF",
+  "order": 3,
+  "file": "content/courses/career-launch.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 102,
+  "minutes": 72,
+  "unitTitles": [
+   "Finding Work",
+   "Interviews and Communication",
+   "On the Job",
+   "Planning Your Career"
+  ]
+ },
+ {
+  "id": "body-and-health",
+  "track": "life",
+  "title": "Body and Health",
+  "tagline": "Sleep, eat, move, and know what to do when things go wrong.",
+  "description": "Build the everyday habits that keep you healthy: enough sleep, food that fuels you, a simple strength and cardio routine, and regular checkups. Then learn how to handle stress, when and how to get help for your mental health, and the first aid basics for emergencies. The first aid lessons are an introduction, not a replacement for a certified class.",
+  "icon": "heart",
+  "color": "#EF6B6B",
+  "order": 4,
+  "file": "content/courses/body-and-health.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 106,
+  "minutes": 73,
+  "unitTitles": [
+   "Sleep, Screens and Self-Care",
+   "Food and Water",
+   "Move and Mind",
+   "Getting Help and First Aid"
+  ]
+ },
+ {
+  "id": "mission-gospel-foundations",
+  "track": "mission",
+  "title": "Gospel Foundations",
+  "tagline": "Know and explain the core doctrines missionaries teach.",
+  "description": "Learn the missionary purpose and the doctrines in the lessons of Preach My Gospel chapter 3: the Restoration, the plan of salvation, the gospel of Jesus Christ and lifelong discipleship. You will match key scriptures to doctrines and practise explaining each truth simply and kindly in your own words.",
+  "icon": "dove",
+  "color": "#7EA6F6",
+  "order": 1,
+  "file": "content/courses/mission-gospel-foundations.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 108,
+  "minutes": 73,
+  "unitTitles": [
+   "Your Missionary Purpose",
+   "The Message of the Restoration",
+   "The Plan of Salvation",
+   "The Gospel and Lifelong Discipleship"
+  ]
+ },
+ {
+  "id": "mission-scripture-testimony",
+  "track": "mission",
+  "title": "Scripture and Testimony",
+  "tagline": "Study like a missionary, know key verses, and feel the Spirit.",
+  "description": "Build the daily study habits missionaries live by, from a study journal to Come, Follow Me. Learn the Doctrinal Mastery passages and how to answer hard questions in faith. Practise recognizing the Spirit, strengthen your testimony and write a first draft of it in your own words.",
+  "icon": "book",
+  "color": "#D9A441",
+  "order": 2,
+  "file": "content/courses/mission-scripture-testimony.json",
+  "units": 3,
+  "levels": 10,
+  "steps": 82,
+  "minutes": 60,
+  "unitTitles": [
+   "Study Like a Missionary",
+   "Doctrinal Mastery",
+   "The Spirit and Your Testimony"
+  ]
+ },
+ {
+  "id": "mission-life-skills",
+  "track": "mission",
+  "title": "Missionary Life Skills",
+  "tagline": "Get ready, live the schedule, stay healthy, safe and resilient.",
+  "description": "Walk through getting ready to serve: worthiness, the recommendation, health, saving and packing. Then practise the everyday skills of missionary life: the daily schedule, P-day chores, cooking, budgeting your monthly funds, working with a companion, handling stress, staying fit and following Missionary Standards. Policies can change, so each lesson points you to the official page and your bishop.",
+  "icon": "tools",
+  "color": "#6CC4A1",
+  "order": 3,
+  "file": "content/courses/mission-life-skills.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 97,
+  "minutes": 72,
+  "unitTitles": [
+   "Getting Ready to Serve",
+   "Daily Missionary Life",
+   "Companions and Resilience",
+   "Safety and Missionary Standards"
+  ]
+ },
+ {
+  "id": "mission-teaching-people",
+  "track": "mission",
+  "title": "Teaching People Like Christ",
+  "tagline": "Find, listen, teach by the Spirit and invite with love.",
+  "description": "Practise the people skills at the heart of Preach My Gospel: developing Christlike attributes, learning a language, talking with strangers, asking inspired questions and listening. Then learn to teach by the Spirit, extend clear invitations, help with concerns, handle rejection and work with members and leaders.",
+  "icon": "users",
+  "color": "#C58AF9",
+  "order": 4,
+  "file": "content/courses/mission-teaching-people.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 103,
+  "minutes": 72,
+  "unitTitles": [
+   "Becoming a Christlike Missionary",
+   "Finding and Connecting",
+   "Teaching and Inviting",
+   "Challenges, Members and Leaders"
+  ]
+ }
+]

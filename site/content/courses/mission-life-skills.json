@@ -1,0 +1,784 @@
+{
+  "id": "mission-life-skills",
+  "track": "mission",
+  "title": "Missionary Life Skills",
+  "tagline": "Get ready, live the schedule, stay healthy, safe and resilient.",
+  "description": "Walk through getting ready to serve: worthiness, the recommendation, health, saving and packing. Then practise the everyday skills of missionary life: the daily schedule, P-day chores, cooking, budgeting your monthly funds, working with a companion, handling stress, staying fit and following Missionary Standards. Policies can change, so each lesson points you to the official page and your bishop.",
+  "icon": "tools",
+  "color": "#6CC4A1",
+  "order": 3,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Getting Ready to Serve",
+      "description": "Worthiness, the recommendation process, health, money and packing.",
+      "levels": [
+        {
+          "id": "u1-l1",
+          "title": "Worthiness and Interviews",
+          "summary": "What your bishop and stake president will talk about, and how to prepare.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Who should serve",
+              "body": "Church leaders have taught that every worthy, able young man should prepare to serve a mission, and that young women who wish to serve are warmly welcomed. Since November 2025, young women may begin service at 18, the same age as young men.\n\nSome people serve **service missions** while living at home, often for health reasons. Both full-time and service missionaries are called by the Lord.\n\n> Policies like ages and lengths can change. Check the official pages and your bishop.",
+              "source": { "label": "General Handbook, ch. 24", "url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/24-missionary-recommendations-and-service?lang=eng" }
+            },
+            {
+              "type": "truefalse",
+              "prompt": "As of late 2025, young women may begin full-time missionary service at age 18, the same age as young men.",
+              "answer": true,
+              "explain": "The Church announced this on 21 November 2025. Missionary service remains a priesthood responsibility for young men and an optional opportunity for young women."
+            },
+            {
+              "type": "learn",
+              "title": "Worthiness interviews",
+              "body": "Before your recommendation is sent, you will be interviewed by your **bishop** and then your **stake president**. They will ask about your testimony and how you live the commandments, much like a temple recommend interview, since you will receive your temple endowment before you serve.\n\nThe Handbook says that anyone who has committed serious sins must repent, which includes confessing to the bishop, and allow time to show sustained righteous living before a recommendation is submitted. Your bishop decides the timing with you."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You made a serious mistake a year ago that you never told your bishop about. You want to serve. What is the best step?",
+              "options": ["Talk to your bishop now, honestly, so he can help you repent and plan your timing", "Wait until the stake president interview and hope it doesn’t come up", "Leave it out, since it was a year ago", "Just ask God privately and never mention it"],
+              "answer": 0,
+              "explain": "Serious sins are confessed to the bishop, who acts as a judge and helper. Talking early gives the most time to repent fully and prepare, and brings real peace."
+            },
+            {
+              "type": "learn",
+              "title": "Honesty brings peace",
+              "body": "Bishops are not there to shame you. They are there to help you feel the Savior’s forgiveness. Many returned missionaries say the hardest part of repenting was starting the conversation, and the best part was how they felt afterwards.\n\nA simple way to begin: *“Bishop, I want to serve a mission and I want to be ready. There’s something I need to talk to you about.”*"
+            },
+            {
+              "type": "multi",
+              "prompt": "Which of these help you prepare for your worthiness interviews? Select all that apply.",
+              "options": ["Living the standards in For the Strength of Youth now", "Talking with your bishop early about anything serious", "Memorizing the right answers to say", "Building daily habits of prayer and scripture study", "Repenting quickly of everyday mistakes"],
+              "answers": [0, 1, 3, 4],
+              "explain": "Interviews are about who you are becoming, not saying the right words. Honest answers and real preparation are what matter."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your friend says: “I’ve already repented with God, so I don’t need to tell the bishop about something serious. It’s embarrassing.” What do you say?",
+              "options": [
+                { "text": "“I get that it’s scary. But for serious sins the bishop is part of how the Lord helps us repent fully. He’ll be kind. Do you want me to go with you to set up the appointment?”", "feedback": "Empathetic, accurate and practical. You offer support without pressuring.", "best": true },
+                { "text": "“You’re right, it’s between you and God.”", "feedback": "For serious sins, confession to the bishop is part of repentance in the Church.", "best": false },
+                { "text": "“You probably can’t serve now.”", "feedback": "Discouraging and not your call. Many people repent and serve faithfully.", "best": false },
+                { "text": "“Just wait and see if it comes up.”", "feedback": "Hiding it delays real peace and could cause problems later.", "best": false }
+              ],
+              "explain": "Repentance for serious sin includes confession to the bishop. The goal is healing through Jesus Christ, and talking early gives the most time and peace."
+            },
+            {
+              "type": "reflect",
+              "prompt": "What is one standard from For the Strength of Youth you want to live more fully before your interviews, and what will you do this week?",
+              "placeholder": "Standard: ... This week I will ..."
+            }
+          ]
+        },
+        {
+          "id": "u1-l2",
+          "title": "The Recommendation and Your Health",
+          "summary": "The steps from first interview to mission call, and the health checks along the way.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "From recommendation to call",
+              "body": "The General Handbook outlines the process:\n1. Talk to your bishop and start your **missionary recommendation** online (the Missionary Portal).\n2. Complete a **medical** and **dental** assessment.\n3. **Interview** with your bishop, then your stake president.\n4. Your stake president submits the recommendation.\n5. You receive a **call** from the President of the Church.\n6. You are **set apart** by your stake president shortly before you leave.\n\nThe Church’s 2026 guidance says recommendations can be submitted up to 150 days before your availability date.",
+              "source": { "label": "Newsroom: preparing for full-time service", "url": "https://newsroom.churchofjesuschrist.org/article/prepare-full-time-missionary-service-guidance" }
+            },
+            {
+              "type": "order",
+              "prompt": "Put the main steps of becoming a full-time missionary in order.",
+              "items": ["Begin your recommendation with your bishop", "Complete medical and dental assessments", "Interview with your stake president", "Receive your mission call", "Be set apart by your stake president"],
+              "explain": "Your bishop starts the process, health assessments and interviews follow, then the call, then setting apart."
+            },
+            {
+              "type": "number",
+              "prompt": "Your availability date is 1 July. Recommendations can be submitted up to 150 days before it. About how many months early is that? (Round to the nearest whole month.)",
+              "answer": 5,
+              "tolerance": 0,
+              "unit": "months",
+              "explain": "150 days ÷ about 30 days per month ≈ 5 months. Plan backwards: start talking to your bishop and booking appointments well before that."
+            },
+            {
+              "type": "learn",
+              "title": "Health matters",
+              "body": "Missionaries need to be physically, mentally and emotionally able to work the full schedule. Before you submit:\n- see a **doctor** and **dentist** for the required exams\n- get the **vaccinations** asked for\n- apply early for a **passport** (and later a visa if needed)\n- give **complete, honest** medical and mental health information\n\nHonesty helps the Church place you where you can thrive. Dental rules (like what to do about wisdom teeth) have changed over the years, so follow your dentist and the current official forms."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "It’s best to leave out past anxiety or depression on your medical forms so it doesn’t affect your call.",
+              "answer": false,
+              "explain": "The Church asks for complete, honest medical and mental health information. It helps leaders place you where you can be supported and succeed. Many missionaries with managed conditions serve well."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which tasks belong on your “before submitting” health checklist? Select all that apply.",
+              "options": ["Physical exam with a doctor", "Dental exam", "Required vaccinations", "Removing healthy wisdom teeth no matter what", "Applying for a passport"],
+              "answers": [0, 1, 2, 4],
+              "explain": "Exams, vaccinations and a passport are standard prep. Don't have healthy teeth pulled \"just in case\": follow what your dentist and the current official forms actually require."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your dentist says you need two fillings, and your availability date is six months away. What is the wisest plan?",
+              "options": [
+                { "text": "Book the fillings now, finish the exams and paperwork early, and keep your bishop updated.", "feedback": "Starting early prevents delays and stress later.", "best": true },
+                { "text": "Wait until after you get your call.", "feedback": "Dental work is typically expected to be done before you serve. Leaving it late can delay you.", "best": false },
+                { "text": "Skip the fillings; the mission will handle it.", "feedback": "Untreated problems are harder and costlier to treat in the field.", "best": false }
+              ],
+              "explain": "Treat health and dental needs early. The checklist and timing come from the official guidance; your bishop can help with questions."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Bishop → health exams → interviews → call → setting apart.\n- You can submit up to 150 days before your availability date (2026 guidance).\n- Be completely honest about physical and mental health.\n- Start passports, exams and dental work early.\n- Processes change: check the Missionary Portal and ask your bishop."
+            }
+          ]
+        },
+        {
+          "id": "u1-l3",
+          "title": "Saving Money and Packing",
+          "summary": "How missions are funded and how to pack using the official lists.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "How a mission is paid for",
+              "body": "Missionaries and their families contribute a **set monthly amount** through their home ward, no matter where they serve. In the United States this has been $500 a month since 2020. Amounts differ by country and can change, so **check the current amount with your bishop**.\n\nThe Handbook says no one should be kept from serving only because of money. Family, friends and the ward missionary fund can help. Saving yourself still matters: it builds faith and ownership.",
+              "source": { "label": "General Handbook 24: finances", "url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/24-missionary-recommendations-and-service?lang=eng" }
+            },
+            {
+              "type": "number",
+              "prompt": "Suppose the monthly contribution is $500 and you serve 24 months. What is the total contribution?",
+              "answer": 12000,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "$500 × 24 = $12,000. Your actual amount and length of service may differ; check with your bishop."
+            },
+            {
+              "type": "number",
+              "prompt": "You want to save $3,000 toward your mission in 20 months. How much do you need to save each month?",
+              "answer": 150,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "$3,000 ÷ 20 = $150 a month. Automating a transfer to a separate savings account on payday makes this much easier."
+            },
+            {
+              "type": "learn",
+              "title": "Personal funds too",
+              "body": "Beyond the monthly contribution, you’ll need money from home for things like:\n- clothing and shoes that meet missionary dress guidelines\n- luggage and a bike (in some missions)\n- medical costs not otherwise covered\n- gifts and personal extras\n\nTithing is paid on these personal funds through your home ward, as on any income. Make a list and price it out early so there are no surprises."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where should you get the packing and clothing list for your mission?",
+              "options": ["The official information in your call packet and Missionary Portal", "A popular video from someone who served ten years ago", "Whatever your friends packed", "Buy everything after you arrive"],
+              "answer": 0,
+              "explain": "Clothing guidelines and what to bring differ by mission and climate and change over time. The official materials that come with your call are the source to follow."
+            },
+            {
+              "type": "learn",
+              "title": "Packing wisely",
+              "body": "Follow your official list, then add these practical tips:\n- break in new shoes before you leave\n- choose durable, easy-care clothes you can wash by hand\n- label luggage and keep important documents in your carry-on\n- bring a small sewing kit and stain remover\n- pack light: you will carry everything at every transfer\n\nA few family photos and a favourite scripture card help a new apartment feel like home."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Three months before you leave, you realize you’ve saved only half of what you planned. What is the best response?",
+              "options": [
+                { "text": "Talk honestly with your parents and bishop, cut extra spending, pick up extra work hours, and trust that help (such as the ward missionary fund) is available if needed.", "feedback": "Responsible and faithful. The Handbook says finances should not keep a worthy person from serving.", "best": true },
+                { "text": "Postpone your mission until you have it all saved.", "feedback": "Talk to your bishop first. Finances alone should not delay a worthy missionary.", "best": false },
+                { "text": "Put clothes and luggage on a high-interest credit card.", "feedback": "Leaving with debt adds stress. Look for other options first.", "best": false },
+                { "text": "Say nothing and hope it works out.", "feedback": "Leaders can only help if they know.", "best": false }
+              ],
+              "explain": "Do your part, be open with family and your bishop, and trust the Church’s provisions. Money alone shouldn’t stop a prepared missionary."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Write your mission savings plan: your target amount, months left, monthly savings, and one expense you will cut.",
+              "placeholder": "Target: $___ in ___ months = $___ a month. I will cut: ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Daily Missionary Life",
+      "description": "The schedule, P-day chores, cooking and budgeting your monthly funds.",
+      "levels": [
+        {
+          "id": "u2-l1",
+          "title": "The Missionary Schedule",
+          "summary": "How a missionary day is structured and how to use time wisely.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "A sample day",
+              "body": "*Missionary Standards* gives a sample daily schedule (your mission president may adjust it):\n- **6:30 a.m.** Get up, pray, exercise (30 min), get ready\n- **Morning:** personal study (60 min) and companionship planning (30 min)\n- **10:00 a.m.–9:00 p.m.** Find, teach and serve, including companion study (30 min), language study if needed, and meals\n- **9:00 p.m.** Home (9:30 if you have a teaching appointment), plan, write in your journal, pray\n- **Bed** between 9:30 and 10:30 p.m.",
+              "source": { "label": "Missionary Standards, 2.4", "url": "https://www.churchofjesuschrist.org/study/manual/missionary-standards-for-disciples-of-jesus-christ/02-missionary-organization-and-activities?lang=eng" }
+            },
+            {
+              "type": "order",
+              "prompt": "Put the parts of the sample missionary day in order.",
+              "items": ["Wake up, pray and exercise", "Personal study", "Companionship planning", "Find, teach and serve", "Return home, journal and pray"],
+              "explain": "The morning prepares you spiritually and practically, so the rest of the day can be spent with people."
+            },
+            {
+              "type": "number",
+              "prompt": "In the sample schedule, how many minutes of personal study and companionship planning happen in the morning combined?",
+              "answer": 90,
+              "tolerance": 0,
+              "unit": "minutes",
+              "explain": "60 minutes of personal study plus 30 minutes of planning = 90 minutes. Companion study (30 minutes) is also part of the day."
+            },
+            {
+              "type": "learn",
+              "title": "Practise the rhythm now",
+              "body": "The hardest adjustment for many new missionaries is not the teaching. It is the **schedule**: up at 6:30 every day, in bed by 10:30, and no free afternoons.\n\nStart practising now:\n- a fixed wake-up time, even on weekends\n- exercise before school or work\n- a set time for scripture study\n- phone down and lights out at a consistent time\n\nShifting your body clock a few weeks before you leave makes the MTC much easier."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "The sample schedule in Missionary Standards is fixed worldwide and can never be adjusted.",
+              "answer": false,
+              "explain": "It is a sample. Mission presidents may adjust it for local conditions. Follow what your own mission president sets."
+            },
+            {
+              "type": "learn",
+              "title": "Planning makes time count",
+              "body": "*Preach My Gospel* chapter 8 describes **daily planning** (about 30 minutes each morning) and a longer **weekly planning** session with your companion.\n\nGood plans include backup plans. If an appointment falls through, you already know who you’ll visit or where you’ll go to talk with people, so no time is wasted.",
+              "source": { "label": "Preach My Gospel, ch. 8", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/16-chapter-8?lang=eng" }
+            },
+            {
+              "type": "scenario",
+              "prompt": "At 2:00 p.m. your teaching appointment cancels and your companion suggests going back to the apartment to rest until the next one at 5:00. What is the best choice?",
+              "options": [
+                { "text": "Use your backup plan: visit a less-active member nearby or talk with people at the park, and suggest taking a short break if your companion is truly unwell.", "feedback": "This uses time well while staying kind to your companion’s needs.", "best": true },
+                { "text": "Go back and nap; you’ve earned it.", "feedback": "Long stretches in the apartment during proselyting time aren’t what the schedule is for.", "best": false },
+                { "text": "Leave your companion and go work alone.", "feedback": "Missionaries stay together, within sight and hearing.", "best": false },
+                { "text": "Go shopping since you have time.", "feedback": "Shopping belongs on P-day unless it’s an urgent need.", "best": false }
+              ],
+              "explain": "Backup plans keep the day productive. Missionary Standards also asks companions to stay together and to use proselyting time for finding, teaching and serving."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Design your “pre-mission schedule” for weekdays: wake-up time, exercise, study, and bedtime. What will you start tomorrow?",
+              "placeholder": "Wake: ___ Exercise: ___ Study: ___ Bed: ___ Starting tomorrow: ..."
+            }
+          ]
+        },
+        {
+          "id": "u2-l2",
+          "title": "P-Day: Cooking, Laundry and Cleaning",
+          "summary": "The practical skills that keep you healthy and your apartment livable.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "What P-day is for",
+              "body": "**P-day** (preparation day) is one day a week to prepare for the next week. In the sample schedule you still pray, study and plan in the morning, then have time for:\n- writing and calling family\n- laundry, cleaning and grocery shopping\n- haircuts and grooming\n- rest and approved recreation\n\nIn the evening you return to finding, teaching and serving. A good P-day starts with a list.",
+              "source": { "label": "Missionary Standards, 2.5", "url": "https://www.churchofjesuschrist.org/study/manual/missionary-standards-for-disciples-of-jesus-christ/02-missionary-organization-and-activities?lang=eng" }
+            },
+            {
+              "type": "multi",
+              "prompt": "Which activities belong on P-day? Select all that apply.",
+              "options": ["Contacting your family", "Laundry and cleaning", "Grocery shopping", "Watching a movie", "Rest and approved recreation"],
+              "answers": [0, 1, 2, 4],
+              "explain": "Missionary Standards asks missionaries not to watch TV, movies or video games, including on P-day."
+            },
+            {
+              "type": "learn",
+              "title": "Cook five meals",
+              "body": "You’ll cook for yourself on a tight budget. Before you leave, learn to make at least **five cheap, healthy meals** from scratch, for example:\n- rice and beans with vegetables\n- eggs and potatoes\n- pasta with a simple tomato sauce\n- a stir-fry\n- soup with whatever is in season\n\nCook a double batch on P-day and you have quick lunches for the week. Learn what locals eat in your mission and try it: it saves money and builds friendships."
+            },
+            {
+              "type": "learn",
+              "title": "Food safety",
+              "body": "Getting sick costs you days of work. *Missionary Standards* recommends:\n- wash your hands and produce\n- keep raw meat separate from other food\n- cook food thoroughly\n- refrigerate leftovers promptly\n- drink safe, clean water and pasteurized dairy\n- be careful with street food\n\nA common guideline is to refrigerate leftovers within 2 hours of cooking (sooner in hot weather).",
+              "source": { "label": "Missionary Standards, ch. 4", "url": "https://www.churchofjesuschrist.org/study/manual/missionary-standards-for-disciples-of-jesus-christ/04-physical-well-being?lang=eng" }
+            },
+            {
+              "type": "truefalse",
+              "prompt": "It’s fine to cut vegetables on the same board you just used for raw chicken, as long as you rinse it quickly with water.",
+              "answer": false,
+              "explain": "Raw meat juices can carry bacteria. Use a separate board, or wash it well with hot soapy water before cutting anything else."
+            },
+            {
+              "type": "learn",
+              "title": "Laundry and cleaning basics",
+              "body": "**Laundry:** sort whites, darks and colours; read care labels; pre-treat collar and cuff stains; use cold water for colours; don’t overload the machine; hang shirts to dry to avoid shrinking. In some missions you’ll wash by hand in a bucket, so learn how.\n\n**Cleaning:** wash dishes daily, wipe the kitchen and bathroom often, and do a full clean each P-day. Keep the apartment ready for anyone to visit."
+            },
+            {
+              "type": "order",
+              "prompt": "Put the steps of washing a load of white shirts in order.",
+              "items": ["Separate white shirts from coloured clothes", "Check labels and pre-treat collar and cuff stains", "Wash with the right detergent and water setting", "Hang to dry promptly to reduce wrinkles", "Iron or press before wearing"],
+              "explain": "Sorting and pre-treating prevent ruined shirts; hanging promptly saves ironing time."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You and your companion keep arguing because dishes pile up and the apartment is messy. What is the best fix?",
+              "options": [
+                { "text": "In companionship council, agree on a simple chore plan (for example, whoever cooks doesn’t wash dishes, and a full clean each P-day) and write it down.", "feedback": "A clear, shared plan removes daily friction and respects both of you.", "best": true },
+                { "text": "Do everything yourself and quietly resent it.", "feedback": "Resentment grows. Talk it through kindly.", "best": false },
+                { "text": "Complain about your companion to other missionaries.", "feedback": "Missionary Standards asks you not to speak negatively about your companion.", "best": false },
+                { "text": "Leave his dishes in his bed so he gets the message.", "feedback": "Passive aggression creates contention.", "best": false }
+              ],
+              "explain": "Most companionship conflicts are about small daily things. A calm conversation and a clear plan solve most of them."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- P-day is for family contact, chores, shopping, rest and recreation, plus study and planning.\n- Learn five cheap, healthy meals before you leave.\n- Follow food safety: wash, separate, cook, refrigerate, clean water.\n- Learn laundry by machine and by hand.\n- Agree on a chore plan with your companion."
+            }
+          ]
+        },
+        {
+          "id": "u2-l3",
+          "title": "Budgeting Your Monthly Funds",
+          "summary": "Use sacred support funds wisely with a simple spending plan.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Support funds are sacred",
+              "body": "Each month the mission provides **support funds** (often on a missionary card). *Missionary Standards* teaches that these funds are sacred, coming partly from the sacrifices of members. They cover needs like:\n- food\n- local transportation\n- hygiene and cleaning supplies\n- communication\n- fast offerings\n\nYou generally spend them each month. Don’t save them up, lend them, borrow, or give them away. You don’t pay tithing on support funds.",
+              "source": { "label": "Missionary Standards, ch. 4", "url": "https://www.churchofjesuschrist.org/study/manual/missionary-standards-for-disciples-of-jesus-christ/04-physical-well-being?lang=eng" }
+            },
+            {
+              "type": "multi",
+              "prompt": "Which expenses are support funds meant to cover? Select all that apply.",
+              "options": ["Groceries", "Bus fares for missionary work", "Soap and cleaning supplies", "A new pair of shoes", "Fast offerings", "Souvenirs to send home"],
+              "answers": [0, 1, 2, 4],
+              "explain": "Clothing, shoes and gifts are paid from personal funds from home, not from support funds."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "If you spend carefully, you should save leftover support funds each month to buy something nice at the end of your mission.",
+              "answer": false,
+              "explain": "Missionary Standards asks missionaries not to save support funds. They are for this month’s needs."
+            },
+            {
+              "type": "learn",
+              "title": "Make a spending plan",
+              "body": "A spending plan is a budget: decide where money goes **before** you spend it. Put **needs before wants**.\n\n1. Write the month’s total.\n2. Subtract fixed needs first: fast offering, transport, hygiene.\n3. Divide the rest by the number of weeks for food.\n4. Shop with a list and track receipts.\n\nAmounts differ widely between missions, so the numbers below are just practice."
+            },
+            {
+              "type": "number",
+              "prompt": "Practice: your monthly funds are $240. Fixed needs are fast offering $10, transport $30 and hygiene $20. How much is left for food?",
+              "answer": 180,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "$240 − ($10 + $30 + $20) = $240 − $60 = $180 for food."
+            },
+            {
+              "type": "number",
+              "prompt": "Using the $180 food budget, how much can you spend on groceries each week if the month has 4 weeks?",
+              "answer": 45,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "$180 ÷ 4 = $45 a week. Shopping once a week on P-day with a list makes this easy to stick to."
+            },
+            {
+              "type": "scenario",
+              "prompt": "It’s the 20th of the month and you’ve already spent most of your food money on snacks and eating out. What should you do?",
+              "options": [
+                { "text": "Shop carefully for basic staples, cook simple meals, and next month set a weekly limit and track spending. If you truly can’t eat, talk to your mission leaders.", "feedback": "You fix the immediate need responsibly and learn for next month.", "best": true },
+                { "text": "Borrow money from your companion.", "feedback": "Missionary Standards asks you not to borrow or lend support funds.", "best": false },
+                { "text": "Ask your parents to deposit money for food.", "feedback": "Support funds are meant to cover food. Fix the budget first and talk to leaders if needed.", "best": false },
+                { "text": "Skip meals until next month.", "feedback": "Your health matters for the work. Plan cheap, nutritious meals instead.", "best": false }
+              ],
+              "explain": "Needs before wants, weekly limits and simple cooking keep you within budget. Leaders can help in real emergencies."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Practise now: write a one-month spending plan for your own money (job, allowance or gifts). List needs first, then wants.",
+              "placeholder": "Income: $___. Needs: ... Wants: ... Weekly limit: $___"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Companions and Resilience",
+      "description": "Work in unity with a companion and handle stress in healthy ways.",
+      "levels": [
+        {
+          "id": "u3-l1",
+          "title": "Companionship and Conflict",
+          "summary": "Stay together, communicate well and resolve conflict the Lord’s way.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Always together",
+              "body": "Missionaries are assigned a companion and stay together, **within sight and hearing**, at all times. The exceptions in *Missionary Standards* include using the bathroom, interviews with mission leaders and baptismal interviews.\n\nCompanionships provide safety, protection and strength. You will live, study, plan and teach with someone you didn’t choose, which is one of the best and hardest parts of a mission.",
+              "source": { "label": "Missionary Standards, 2.2", "url": "https://www.churchofjesuschrist.org/study/manual/missionary-standards-for-disciples-of-jesus-christ/02-missionary-organization-and-activities?lang=eng" }
+            },
+            {
+              "type": "truefalse",
+              "prompt": "It’s fine for companions to split up for an hour so each can visit a different person, as long as they meet back afterwards.",
+              "answer": false,
+              "explain": "Missionaries stay within sight and hearing of each other, except in the specific cases Missionary Standards lists. If you’re ever separated, contact your mission leaders."
+            },
+            {
+              "type": "learn",
+              "title": "Communicate the way that works",
+              "body": "The *Adjusting to Missionary Life* booklet suggests:\n- **Listen first.** Let your companion share before you do.\n- **Use a “problem and need” statement** instead of criticism: “When we leave late, I feel stressed. I need us to agree on a time.”\n- **Compliment often** and do small daily kindnesses.\n\n*Preach My Gospel* chapter 8 also describes a regular **companionship council** to talk about goals, unity and how to support each other.",
+              "source": { "label": "Adjusting to Missionary Life", "url": "https://www.churchofjesuschrist.org/study/manual/resource-booklet-adjusting-to-missionary-life?lang=eng" }
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is the best example of a “problem and need” statement?",
+              "options": ["“You’re always late and it’s so annoying.”", "“When we leave late, I feel stressed about our appointments. I need us to agree on a time to leave.”", "“Other missionaries are never late.”", "“Whatever, I don’t care anymore.”"],
+              "answer": 1,
+              "explain": "It describes the situation and your feeling without attacking, and asks for a specific change."
+            },
+            {
+              "type": "order",
+              "prompt": "Put a healthy approach to a companion conflict in order.",
+              "items": ["Pray for help and charity", "Talk with your companion calmly and listen first", "Agree together on a plan to improve", "If it isn’t resolved, talk to your mission president"],
+              "explain": "Missionary Standards asks you to try to resolve problems with your companion first and go to the mission president if that doesn’t work. Abuse is different: report it to your mission president right away."
+            },
+            {
+              "type": "multi",
+              "prompt": "According to Missionary Standards, when is it right to go straight to your mission president about a companion problem? Select all that apply.",
+              "options": ["Your companion is abusive or threatening", "You have talked it through and the problem continues", "Your companion snores", "You have been separated from your companion", "You prefer a different companion style"],
+              "answers": [0, 1, 3],
+              "explain": "Abuse, problems you couldn’t resolve together, and any separation from your companion all go to the mission president. Everyday differences are worked out together with patience and charity."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your new companion is quiet and seems unenthusiastic, and you are starting to feel frustrated. What is the best first step?",
+              "options": [
+                { "text": "Get to know him: ask about his family and his conversion, listen, find something to compliment, and pray to see him as the Lord does.", "feedback": "Many “attitude problems” are homesickness or stress. Love and understanding come first.", "best": true },
+                { "text": "Tell the district leader your companion is lazy.", "feedback": "Speaking negatively about a companion to others breaks trust. Talk with him first.", "best": false },
+                { "text": "Do all the talking in lessons so the work still gets done.", "feedback": "This may deepen the problem. Invite him in and build unity.", "best": false },
+                { "text": "Wait for transfers.", "feedback": "Waiting wastes weeks of unity and possible growth for both of you.", "best": false }
+              ],
+              "explain": "Seek to understand before being understood. Unity starts with charity, listening and genuine interest."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Stay within sight and hearing of your companion.\n- Listen first, compliment often, and use “problem and need” statements.\n- Hold regular companionship councils.\n- Resolve problems with your companion first, then your mission president if needed.\n- Never speak negatively about your companion to others."
+            }
+          ]
+        },
+        {
+          "id": "u3-l2",
+          "title": "Emotional Resilience",
+          "summary": "Recognize stress levels and use tools that work for homesickness, discouragement and worry.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Stress is normal",
+              "body": "Every missionary feels stress. *Adjusting to Missionary Life* compares stress to a gauge with four zones:\n- **Green:** confident and happy; you bounce back quickly.\n- **Yellow:** tense or worried; normal on a mission. Be kind to yourself.\n- **Orange:** exhausted, easily angered, deeply discouraged. If it lasts more than **3 days**, tell your mission president.\n- **Red:** persistent depression, panic or hopelessness, unable to eat or sleep. Contact your mission president **right away** and ask for a priesthood blessing.",
+              "source": { "label": "Adjusting to Missionary Life: Understanding Stress", "url": "https://www.churchofjesuschrist.org/study/manual/resource-booklet-adjusting-to-missionary-life?lang=eng" }
+            },
+            {
+              "type": "match",
+              "prompt": "Match each stress zone to what it looks like.",
+              "pairs": [
+                ["Green", "Confident, happy and recovering quickly"],
+                ["Yellow", "Tense or worried, but coping; normal for missionaries"],
+                ["Orange", "Exhausted and deeply discouraged; tell leaders if it lasts over 3 days"],
+                ["Red", "Persistent hopelessness or panic; contact the mission president right away"]
+              ],
+              "explain": "Knowing your zone helps you act early. Yellow is normal; orange and red need help."
+            },
+            {
+              "type": "learn",
+              "title": "Tools that work",
+              "body": "The booklet offers specific tools:\n- **Homesick?** Stay busy serving; allow a few minutes of sadness, then move on.\n- **Discouraged?** Say, “All I have to do right now is ___.” One step at a time.\n- **Self-critical?** Talk back to negative thoughts with something truer; give yourself credit for hard tasks.\n- **Anxious?** Ask, “What’s the worst that could happen, and how would I handle it?” Slow down about 10%.\n- **Unmotivated?** “Just do it for 10 minutes.”\n- **Angry?** Step away, breathe and look for a charitable explanation."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each feeling to a tool from Adjusting to Missionary Life.",
+              "pairs": [
+                ["Homesickness", "Stay busy serving and allow a few minutes of sadness"],
+                ["Discouragement", "“All I have to do right now is ___”"],
+                ["Low motivation", "“Just do it for 10 minutes”"],
+                ["Anger", "Step away, breathe, and look for a charitable explanation"],
+                ["Anxiety", "Ask what the worst case is and plan how you’d handle it"]
+              ],
+              "explain": "Small, specific tools work better than trying to “just be happy.”"
+            },
+            {
+              "type": "learn",
+              "title": "Healthy thinking",
+              "body": "Unhelpful thoughts often sound like:\n- *“I’m the worst missionary ever.”* (all-or-nothing)\n- *“Nobody will ever listen.”* (over-generalizing)\n\nTalk back with something truer: *“I struggled with that lesson, and I’m still learning. Last week someone did listen.”*\n\nBasic care matters too: sleep, food, exercise and prayer. Asking for help is a sign of strength, and mission presidents can connect missionaries with professional support."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "If you feel hopeless and can’t sleep or eat for days, the faithful response is to keep it to yourself and just work harder.",
+              "answer": false,
+              "explain": "That is the red zone. Adjusting to Missionary Life says to contact your mission president right away and ask for a priesthood blessing. Getting help is part of faith."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your companion has seemed deeply down for a week. Today he says, “I don’t see the point of anything anymore.” What do you do?",
+              "options": [
+                { "text": "Listen without judging, tell him you care, and call your mission president today together. Offer a priesthood blessing and stay with him.", "feedback": "Hopelessness is a red-zone sign. Getting leaders involved quickly is loving, not disloyal.", "best": true },
+                { "text": "Tell him to pray more and read his scriptures.", "feedback": "Spiritual habits help, but this needs leader and possibly professional support now.", "best": false },
+                { "text": "Keep it secret so he doesn’t get sent home.", "feedback": "Safety and health come first. The mission president can provide real help.", "best": false },
+                { "text": "Wait a few more days to see if he feels better.", "feedback": "He has been down for a week and now says this. Act today.", "best": false }
+              ],
+              "explain": "Red-zone signs, especially hopelessness, need immediate help from the mission president. If anyone is in immediate danger, call local emergency services first."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Which tool from this lesson will you practise this week in your own life? Describe a moment you could use it.",
+              "placeholder": "Tool: ... I could use it when ..."
+            }
+          ]
+        },
+        {
+          "id": "u3-l3",
+          "title": "Fitness and Physical Health",
+          "summary": "Build the stamina to walk or bike all day and stay healthy in the field.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Missions are physical",
+              "body": "Many missionaries walk or bike for hours every day, in heat, cold or rain. *Missionary Standards* asks for **30 minutes of exercise each morning**, including:\n- **cardio** (running, brisk walking, jump rope)\n- **strength** (push-ups, squats, planks)\n- **flexibility** (stretching)\n\nIt also asks you to avoid heavy weightlifting and not to use public or commercial gyms.",
+              "source": { "label": "Missionary Standards, ch. 4", "url": "https://www.churchofjesuschrist.org/study/manual/missionary-standards-for-disciples-of-jesus-christ/04-physical-well-being?lang=eng" }
+            },
+            {
+              "type": "multi",
+              "prompt": "Which workouts fit Missionary Standards guidelines? Select all that apply.",
+              "options": ["A 20-minute run plus stretching", "Push-ups, squats and planks in the apartment", "Heavy deadlifts at a local commercial gym", "Jump rope intervals", "Yoga-style stretching"],
+              "answers": [0, 1, 3, 4],
+              "explain": "Missionary Standards asks missionaries to avoid heavy weights and not to use public or commercial gyms."
+            },
+            {
+              "type": "learn",
+              "title": "Water, sleep and food",
+              "body": "- **Water:** drink about 6–12 glasses (1.5–3 litres) a day, more in heat.\n- **Sleep:** the schedule gives you about 8 hours. Use them.\n- **Food:** balanced meals; limit junk food.\n- **Medical:** tell your mission’s medical coordinator about health problems early. In an emergency, call local emergency services first, then your leaders.\n\nSmall problems like blisters, dehydration or a cough are easier to fix early."
+            },
+            {
+              "type": "number",
+              "prompt": "You want to drink 2 litres of water a day using a 500 mL bottle. How many bottles is that?",
+              "answer": 4,
+              "tolerance": 0,
+              "unit": "bottles",
+              "explain": "2 litres = 2,000 mL. 2,000 ÷ 500 = 4 bottles a day."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "For a non-emergency health problem, the usual first step in the mission is to contact the mission medical coordinator.",
+              "answer": true,
+              "explain": "Missionary Standards directs missionaries to the mission’s medical coordinator for non-emergencies. For emergencies, call local emergency services first."
+            },
+            {
+              "type": "learn",
+              "title": "Train before you go",
+              "body": "Build a base now so the first weeks don’t wear you out:\n- walk or bike **30–60 minutes** most days\n- do a simple body-weight routine 3 times a week\n- learn to ride and maintain a bike: fix a flat, adjust brakes, use lights\n- break in good walking shoes\n\nGoal: by the time you leave, a 10 km (6 mile) walking day should feel normal."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Two weeks into your mission you have painful blisters and a sore knee, but you don’t want to seem weak. What should you do?",
+              "options": [
+                { "text": "Tell your companion, treat the blisters, check your shoes, and contact the mission medical coordinator about the knee.", "feedback": "Early care prevents a small problem from becoming a long injury.", "best": true },
+                { "text": "Ignore it; real missionaries push through pain.", "feedback": "Ignoring injuries often leads to bigger problems and lost days.", "best": false },
+                { "text": "Stay in the apartment for a week without telling anyone.", "feedback": "Leaders and the medical coordinator need to know so they can help.", "best": false },
+                { "text": "Buy strong painkillers and keep walking.", "feedback": "Masking pain without advice can make injuries worse.", "best": false }
+              ],
+              "explain": "Taking care of your body is part of serving well. Report health issues early to the medical coordinator."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Write a 4-week fitness plan to prepare for missionary life: cardio, strength, flexibility and a walking or biking goal.",
+              "placeholder": "Week 1: ... Week 2: ... Week 3: ... Week 4: ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Safety and Missionary Standards",
+      "description": "The rules that protect you and the work, and why they matter.",
+      "levels": [
+        {
+          "id": "u4-l1",
+          "title": "Staying Safe",
+          "summary": "Practical safety rules and what to do when something feels wrong.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Safety starts with judgment",
+              "body": "*Missionary Standards* asks missionaries to use good judgment and follow the Spirit:\n- If a situation feels uncomfortable or unsafe, **leave** and report it to your leaders.\n- Stay with your companion.\n- Be home on time; avoid unsafe areas, especially after dark.\n- Know the local emergency number and your leaders’ numbers.\n\nObedience to these rules isn’t about fear. It protects you so you can keep serving.",
+              "source": { "label": "Missionary Standards, ch. 3–4", "url": "https://www.churchofjesuschrist.org/study/manual/missionary-standards-for-disciples-of-jesus-christ/03-missionary-conduct?lang=eng" }
+            },
+            {
+              "type": "learn",
+              "title": "Activities that are off-limits",
+              "body": "*Missionary Standards* lists activities missionaries do not do, because of the risk of injury or harm, including:\n- swimming and water sports\n- contact sports and high-risk activities like climbing\n- riding motorcycles or horses\n- handling firearms or fireworks\n\nIf you’re unsure about an activity, ask your mission president first."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which of these activities are not allowed for missionaries under Missionary Standards? Select all that apply.",
+              "options": ["Swimming at the beach on P-day", "A game of tackle football", "Riding a motorcycle taxi to an appointment", "A brisk P-day walk in a safe park", "Rock climbing"],
+              "answers": [0, 1, 2, 4],
+              "explain": "Water sports, contact sports, motorcycles and climbing are on the unauthorized list. Approved recreation, like a walk in a safe area, is fine."
+            },
+            {
+              "type": "learn",
+              "title": "Protecting yourself and others",
+              "body": "Rules about interactions protect missionaries and the people they serve:\n- With people of the opposite gender, a **handshake** is the appropriate contact. Follow your mission’s rules about which adults must be present when you visit or teach.\n- **Never be alone with anyone under 18**, and don’t babysit.\n- Report any abuse or threat to your mission president right away.\n\nThese rules prevent misunderstandings and keep everyone safe."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A family invites you in, but when you arrive only their 15-year-old son is home. He says his parents will be back soon. What do you do?",
+              "options": [
+                { "text": "Kindly say you’ll come back when his parents are home, and leave a message for them.", "feedback": "This follows the rule never to be alone with minors and protects everyone.", "best": true },
+                { "text": "Go in. There are two of you, so you aren’t alone.", "feedback": "Missionary Standards guidelines exist to protect minors and missionaries; wait for an adult.", "best": false },
+                { "text": "Wait inside for just a few minutes.", "feedback": "Even a short visit alone with a minor is not appropriate.", "best": false },
+                { "text": "Teach him a quick lesson on the doorstep about baptism without his parents’ knowledge.", "feedback": "Teaching minors requires parental permission and appropriate settings.", "best": false }
+              ],
+              "explain": "Clear boundaries protect both missionaries and the people they serve. Coming back later costs little."
+            },
+            {
+              "type": "scenario",
+              "prompt": "While knocking doors in the evening, a man becomes aggressive and starts following you. What is the best response?",
+              "options": [
+                { "text": "Stay calm, leave the area together toward a public, well-lit place, call for help if you feel in danger, and report it to your leaders.", "feedback": "Leaving, staying together and reporting are exactly what Missionary Standards asks.", "best": true },
+                { "text": "Try to calm him down by teaching him about peace.", "feedback": "When there is danger, safety comes before teaching.", "best": false },
+                { "text": "Split up so he can only follow one of you.", "feedback": "Never separate, especially in danger.", "best": false },
+                { "text": "Ignore it and keep knocking on the same street.", "feedback": "If something feels unsafe, leave the area.", "best": false }
+              ],
+              "explain": "Leave unsafe situations, stay together, get help if needed and always report to leaders."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "In a medical emergency, missionaries should call local emergency services first, then contact their mission leaders.",
+              "answer": true,
+              "explain": "Missionary Standards directs missionaries to get emergency help first, then inform leaders."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Leave anything that feels unsafe, stay together and report to leaders.\n- No swimming, contact sports, climbing, motorcycles, horses or firearms.\n- Handshakes only with the opposite gender; never be alone with minors.\n- Emergencies: local emergency services first, then leaders.\n- Rules can be updated, so always follow the current Missionary Standards."
+            }
+          ]
+        },
+        {
+          "id": "u4-l2",
+          "title": "Family, Media and Technology",
+          "summary": "How missionaries stay in touch, what they watch and how they use phones.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Staying in touch with family",
+              "body": "*Missionary Standards* allows missionaries to contact family **each week on P-day** and on special occasions such as Christmas, Mother’s Day, Father’s Day and family birthdays. Letters, email, messaging, phone calls or video chats are all options.\n\nThe missionary starts the contact. Family emergencies are handled through the mission president. Friends can write by email or letter.",
+              "source": { "label": "Missionary Standards, 3.9", "url": "https://www.churchofjesuschrist.org/study/manual/missionary-standards-for-disciples-of-jesus-christ/03-missionary-conduct?lang=eng" }
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your grandmother is in hospital mid-week and your family wants to tell you. According to Missionary Standards, how should that news usually reach you?",
+              "options": ["Your family contacts the mission president, who helps you", "Your family video calls you directly any time", "A friend messages you on social media", "You find out on next P-day only"],
+              "answer": 0,
+              "explain": "Family emergencies are handled through the mission president, who can support you and arrange contact as needed."
+            },
+            {
+              "type": "learn",
+              "title": "Media and music",
+              "body": "Missionaries don’t watch TV, movies or video games, and they choose music and content that invite the Spirit. That can feel like a big change.\n\nPractise before you go: try a week with no streaming or gaming and see how much time and focus you gain. Many returned missionaries say this habit was one of the most freeing parts of their mission."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Missionary Standards allows missionaries to watch movies on P-day as long as they are uplifting.",
+              "answer": false,
+              "explain": "Missionary Standards asks missionaries not to watch television, movies or video games, including on P-day. Uplifting music is allowed."
+            },
+            {
+              "type": "learn",
+              "title": "Phones are tools",
+              "body": "Most missionaries use smartphones for finding, teaching, planning and contacting people. That brings both power and temptation.\n\nGood habits to build now:\n- use the phone for a purpose, then put it down\n- no phone in bed\n- turn off non-essential notifications\n- follow any filters and safeguards your mission sets\n- if you slip, tell someone you trust and reset quickly"
+            },
+            {
+              "type": "multi",
+              "prompt": "Which phone habits will help you as a missionary? Select all that apply.",
+              "options": ["Using it for planning and contacting people", "Scrolling social media for fun during study time", "Keeping it out of bed at night", "Following mission filters and safeguards", "Turning off non-essential notifications"],
+              "answers": [0, 2, 3, 4],
+              "explain": "A phone is a tool for the work. Purposeful use and safeguards protect your time and the Spirit."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A friend back home keeps messaging you mid-week with funny videos and gossip. What is the best response?",
+              "options": [
+                { "text": "Thank them kindly, explain that you write on P-day and focus on the work otherwise, and invite them to send news you can read on P-day.", "feedback": "Clear, kind and keeps the relationship while protecting your focus.", "best": true },
+                { "text": "Reply quickly during the day; it’s just a minute.", "feedback": "Small distractions add up and pull you from the work.", "best": false },
+                { "text": "Block them without a word.", "feedback": "You can set a boundary and still be a friend.", "best": false },
+                { "text": "Ask your companion to reply for you.", "feedback": "This just moves the distraction to your companion.", "best": false }
+              ],
+              "explain": "Kind, clear boundaries keep you focused on the Lord’s work and keep friendships healthy."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Pick one media or phone habit to practise now as mission preparation. What will you change, and for how long?",
+              "placeholder": "I will ... for ___ weeks."
+            }
+          ]
+        },
+        {
+          "id": "u4-l3",
+          "title": "Why Obedience Brings Power",
+          "summary": "Seeing mission rules as protection and a source of spiritual power.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Rules with a purpose",
+              "body": "*Missionary Standards* is written “for Disciples of Jesus Christ,” as its full title says. The standards are not there to make you miserable. They:\n- keep you safe\n- protect your reputation and the Church’s\n- keep you focused on people\n- help you have the Spirit, without which you “shall not teach” (D&C 42:14)\n\n“I, the Lord, am bound when ye do what I say” (D&C 82:10).",
+              "source": { "label": "Missionary Standards", "url": "https://www.churchofjesuschrist.org/study/manual/missionary-standards-for-disciples-of-jesus-christ?lang=eng" }
+            },
+            {
+              "type": "match",
+              "prompt": "Match each standard to a main reason for it.",
+              "pairs": [
+                ["Staying within sight and hearing of your companion", "Safety, protection and support"],
+                ["No swimming or contact sports", "Avoiding injury so you can keep serving"],
+                ["Never alone with minors", "Protecting children and missionaries"],
+                ["No movies or video games", "Keeping focus and the Spirit"],
+                ["Spending support funds monthly", "Honouring sacred, donated funds"]
+              ],
+              "explain": "Understanding the “why” makes obedience easier and more willing."
+            },
+            {
+              "type": "mcq",
+              "prompt": "According to D&C 42:14, why does having the Spirit matter so much for missionaries?",
+              "options": ["Without the Spirit, you shall not teach", "The Spirit makes missionaries popular", "The Spirit replaces the need to study", "The Spirit guarantees every person will be baptized"],
+              "answer": 0,
+              "explain": "“If ye receive not the Spirit ye shall not teach.” Obedience helps you keep the Spirit."
+            },
+            {
+              "type": "learn",
+              "title": "Exact obedience vs. perfectionism",
+              "body": "Obedience is a Christlike attribute (*Preach My Gospel* ch. 6). But obedience is not the same as perfectionism.\n\nYou will make mistakes. The Lord’s pattern is: notice, repent quickly, fix what you can, and move on. Constant self-criticism drains the joy and energy you need for the work. Obedience comes from love: “If ye keep my commandments, ye shall abide in my love” (John 15:10)."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "A missionary who makes a mistake with a rule has failed and lost the Spirit for the rest of the mission.",
+              "answer": false,
+              "explain": "Repentance through Jesus Christ is available to missionaries every day. Notice, repent, correct and keep going."
+            },
+            {
+              "type": "scenario",
+              "prompt": "On P-day, other missionaries in your district want to go swimming at a lake. “Just this once, it’s really hot.” What do you do?",
+              "options": [
+                { "text": "Kindly decline, suggest another approved activity like a hike in a safe area or a picnic, and stay with your companion.", "feedback": "You keep the standard without being preachy and offer a good alternative.", "best": true },
+                { "text": "Go along but just stand by the water.", "feedback": "Being part of a rule-breaking outing still puts you and others at risk.", "best": false },
+                { "text": "Go swimming; one time won’t hurt.", "feedback": "Swimming is on the unauthorized list for safety reasons. Missionaries have been hurt this way.", "best": false },
+                { "text": "Lecture the group in front of everyone.", "feedback": "You can hold the line kindly without shaming others.", "best": false }
+              ],
+              "explain": "Keep the standards with kindness, offer alternatives, and let leaders address others’ choices if needed."
+            },
+            {
+              "type": "order",
+              "prompt": "Put the healthy response to a rule mistake in order.",
+              "items": ["Notice the mistake honestly", "Pray and repent", "Tell your companion or leader if needed", "Make it right and adjust your plan", "Move forward with faith"],
+              "explain": "This is the gospel pattern of repentance applied to daily missionary life."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Which mission standard do you think will be hardest for you, and what can you start practising now to prepare?",
+              "placeholder": "The hardest will be... To prepare, I will..."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

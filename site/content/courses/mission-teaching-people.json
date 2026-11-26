@@ -1,0 +1,834 @@
+{
+  "id": "mission-teaching-people",
+  "track": "mission",
+  "title": "Teaching People Like Christ",
+  "tagline": "Find, listen, teach by the Spirit and invite with love.",
+  "description": "Practise the people skills at the heart of Preach My Gospel: developing Christlike attributes, learning a language, talking with strangers, asking inspired questions and listening. Then learn to teach by the Spirit, extend clear invitations, help with concerns, handle rejection and work with members and leaders.",
+  "icon": "users",
+  "color": "#C58AF9",
+  "order": 4,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Becoming a Christlike Missionary",
+      "description": "Who you are becoming matters as much as what you do.",
+      "levels": [
+        {
+          "id": "u1-l1",
+          "title": "Christlike Attributes",
+          "summary": "The attributes of Jesus Christ that make missionaries effective.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Become like Him",
+              "body": "*Preach My Gospel* chapter 6 teaches that the most important thing you bring to your mission is who you are becoming. Christlike attributes include **faith, hope, charity and love, virtue, knowledge, patience, humility, diligence and obedience**.\n\nThese are gifts from God. You receive them as you seek them through prayer, study and righteous effort, and through the grace of Jesus Christ. People often feel the Savior’s love through a missionary before they understand a single doctrine.",
+              "source": { "label": "Preach My Gospel, ch. 6", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/14-chapter-6?lang=eng" }
+            },
+            {
+              "type": "match",
+              "prompt": "Match each attribute to a scripture that teaches it.",
+              "pairs": [
+                ["Charity", "Moroni 7:47: “the pure love of Christ”"],
+                ["Humility", "D&C 112:10: “the Lord thy God shall lead thee by the hand”"],
+                ["Faith", "Alma 32:21: hope for things not seen, which are true"],
+                ["Knowledge", "D&C 88:118: “seek learning, even by study and also by faith”"],
+                ["Obedience", "John 14:15: “If ye love me, keep my commandments”"]
+              ],
+              "explain": "Each scripture describes the attribute or its blessing. Studying them is one way to develop the attribute itself."
+            },
+            {
+              "type": "learn",
+              "title": "Charity first",
+              "body": "Mormon describes charity in Moroni 7:45: it “suffereth long, and is kind,” is not easily provoked, and “seeketh not her own.”\n\nMoroni 7:48 tells us how to get it: “pray unto the Father with all the energy of heart, that ye may be filled with this love.” Charity is a gift you can ask for, especially for people who are hard to love."
+            },
+            {
+              "type": "mcq",
+              "prompt": "According to Moroni 7:48, how do we receive charity?",
+              "options": ["Pray to the Father with all the energy of heart", "Wait until it comes naturally with age", "Serve a set number of hours", "Read about it once and decide to have it"],
+              "answer": 0,
+              "explain": "Moroni 7:48 invites us to pray with all the energy of heart to be filled with this love, which God gives to true followers of His Son."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You are teaching a man who interrupts, mocks some of what you say, and seems to enjoy arguing. Your companion whispers, “Let’s just drop him.” What is the most Christlike response?",
+              "options": [
+                { "text": "Silently pray for love for him, stay kind and calm, ask what he really cares about, and decide later with your companion, prayerfully, whether to keep teaching.", "feedback": "Charity and patience first; the decision about future visits can be made calmly and by the Spirit.", "best": true },
+                { "text": "Argue back so he respects you.", "feedback": "Contention drives the Spirit away (3 Nephi 11:29).", "best": false },
+                { "text": "Leave right away without explaining.", "feedback": "Leaving abruptly can feel like rejection. Be kind even when ending a visit.", "best": false },
+                { "text": "Tell him he clearly isn’t ready for the gospel.", "feedback": "Judging his readiness out loud closes the door he might walk through later.", "best": false }
+              ],
+              "explain": "Christlike missionaries see people as children of God. Charity, patience and humility shape how you treat people even when they are difficult."
+            },
+            {
+              "type": "learn",
+              "title": "Patience and diligence",
+              "body": "**Patience** means accepting that people progress at their own pace and that God’s timing is not ours.\n\n**Diligence** means steady, consistent effort, not frantic overwork. King Benjamin taught that “it is not requisite that a man should run faster than he has strength,” yet he should “be diligent” (Mosiah 4:27).\n\n**Humility** means relying on the Lord and being teachable: accepting counsel from your companion and leaders."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Mosiah 4:27 teaches that a truly diligent missionary should push beyond his or her strength every day.",
+              "answer": false,
+              "explain": "Mosiah 4:27 says it is not required to run faster than you have strength, but to be diligent and do things “in wisdom and order.”"
+            },
+            {
+              "type": "multi",
+              "prompt": "Which of these show humility in a missionary? Select all that apply.",
+              "options": ["Asking your companion for feedback on your teaching", "Praying for help before a hard conversation", "Insisting your way of planning is best", "Thanking members for their help", "Accepting correction from a leader without excuses"],
+              "answers": [0, 1, 3, 4],
+              "explain": "Humility is teachability and reliance on God. Insisting on your own way, even with good intentions, works against unity."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Who you are becoming matters as much as what you do.\n- Christlike attributes are gifts from God that grow through prayer, study and effort.\n- Pray with all the energy of heart for charity (Moroni 7:48).\n- Diligence is steady and wise, not running faster than your strength (Mosiah 4:27).\n- Humility means relying on the Lord and being teachable."
+            }
+          ]
+        },
+        {
+          "id": "u1-l2",
+          "title": "Growing Christlike Attributes",
+          "summary": "Use the Attribute Activity and small goals to grow, without perfectionism.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "The Attribute Activity",
+              "body": "*Preach My Gospel* chapter 6 includes an **Attribute Activity**: you read statements about each attribute and honestly rate how well each describes you. Then you choose one attribute to work on.\n\nTo grow in it:\n- study scriptures about it and look for it in the Savior’s life\n- pray specifically for it\n- set a small goal and record your progress in your study journal\n\nThe Lord’s promise in Ether 12:27 is for exactly this: weak things can become strong.",
+              "source": { "label": "Preach My Gospel, ch. 6", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/14-chapter-6?lang=eng" }
+            },
+            {
+              "type": "order",
+              "prompt": "Put the steps for developing a Christlike attribute in order.",
+              "items": ["Do the Attribute Activity honestly", "Choose one attribute to focus on", "Study scriptures about it and pray for it", "Set a small, specific goal", "Review your progress in your study journal and keep going"],
+              "explain": "Honest self-assessment, focus on one attribute, spiritual effort, concrete action and regular review."
+            },
+            {
+              "type": "mcq",
+              "prompt": "In Ether 12:27, what does the Lord promise to those who humble themselves and have faith in Him?",
+              "options": ["He will make weak things become strong unto them", "He will remove all their weaknesses immediately", "They will never feel weak again", "Their weaknesses will no longer matter"],
+              "answer": 0,
+              "explain": "“I give unto men weakness that they may be humble … then will I make weak things become strong unto them.” Weakness is an invitation to come to Christ."
+            },
+            {
+              "type": "learn",
+              "title": "Make goals specific",
+              "body": "Vague goals like “be more patient” rarely change anything. Specific goals tie the attribute to a real moment:\n- **Patience:** “When an appointment cancels, I’ll reply kindly and reschedule the same day.”\n- **Charity:** “Each day I’ll pray by name for someone I find hard to love.”\n- **Knowledge:** “I’ll study one doctrine from the lessons for 15 minutes before breakfast.”\n\nGrowth is gradual. Christlike attributes come “line upon line,” not overnight."
+            },
+            {
+              "type": "scenario",
+              "prompt": "After the Attribute Activity, you realize you rated yourself lowest on diligence. Which goal is best?",
+              "options": [
+                { "text": "“This week I’ll get up at 6:30 every day and start personal study by 7:30.”", "feedback": "Specific, measurable and tied to a real habit.", "best": true },
+                { "text": "“I’ll try harder to be diligent.”", "feedback": "Too vague to measure or act on.", "best": false },
+                { "text": "“I’ll never waste a single minute again.”", "feedback": "An all-or-nothing goal sets you up to feel like a failure.", "best": false },
+                { "text": "“I’ll work 18 hours a day to make up for it.”", "feedback": "Diligence is wise and steady, not running faster than your strength.", "best": false }
+              ],
+              "explain": "Good attribute goals are small, specific and repeatable, and they connect to daily habits."
+            },
+            {
+              "type": "learn",
+              "title": "Virtue and confidence",
+              "body": "The Lord promises in D&C 121:45: “let virtue garnish thy thoughts unceasingly; then shall thy confidence wax strong in the presence of God.”\n\nVirtue starts with what you think about and what you let in through your eyes and ears. Clean thoughts bring confidence before God, and that confidence shows when you teach and testify."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Christlike attributes are personality traits: you either have them or you don’t.",
+              "answer": false,
+              "explain": "Preach My Gospel presents them as gifts you seek and develop through the Savior’s grace and your own effort. Anyone can grow in them."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which are signs that you are growing in charity? Select all that apply.",
+              "options": ["You find yourself praying for people by name", "You notice what others need more quickly", "You feel less annoyed when plans change", "You compare your success with other missionaries", "You speak kindly about people who are difficult"],
+              "answers": [0, 1, 2, 4],
+              "explain": "Charity turns attention outward. Comparing yourself with others is a sign of pride or insecurity, not charity."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Pick one Christlike attribute you want to grow in before your mission. Write one scripture about it and one specific goal for this week.",
+              "placeholder": "Attribute: ... Scripture: ... This week I will ..."
+            }
+          ]
+        },
+        {
+          "id": "u1-l3",
+          "title": "Learning Your Mission Language",
+          "summary": "How to learn a new language, and how to speak simply in any language.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Every person in their own tongue",
+              "body": "The Lord promised that “every man shall hear the fulness of the gospel in his own tongue” (D&C 90:11). Many missionaries help fulfill that promise by learning a new language.\n\n*Preach My Gospel* chapter 7 counsels you to:\n- rely on the Lord and seek the gift of tongues\n- study and speak the language every day\n- set goals and follow a study plan\n- practise with native speakers, including members\n- not compare yourself with others",
+              "source": { "label": "Preach My Gospel, ch. 7", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/15-chapter-7?lang=eng" }
+            },
+            {
+              "type": "multi",
+              "prompt": "Which language-learning habits does Preach My Gospel chapter 7 encourage? Select all that apply.",
+              "options": ["Speaking the language every day", "Practising with native speakers", "Waiting to speak until you’re fluent", "Setting goals and following a study plan", "Relying on the Lord for help"],
+              "answers": [0, 1, 3, 4],
+              "explain": "Speaking early and often, even imperfectly, is how you learn. Waiting until you feel fluent slows progress."
+            },
+            {
+              "type": "learn",
+              "title": "A daily routine that works",
+              "body": "Missionaries learning a language usually have **30–60 minutes** of language study a day. Use it well:\n- read the Book of Mormon **aloud** in the language\n- learn the phrases you use most: greetings, prayers, simple testimony\n- keep a notebook of new words and review it daily\n- ask members to correct you; most are happy to help\n\nYou can start now with an app, a library course or by reading scriptures in another language."
+            },
+            {
+              "type": "number",
+              "prompt": "If you learn 10 new words a day for your first 12 weeks in the field, how many words is that? (12 weeks = 84 days.)",
+              "answer": 840,
+              "tolerance": 0,
+              "unit": "words",
+              "explain": "10 × 84 = 840 words. Small daily effort adds up fast, especially when you review the words often."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Three weeks into your mission you understand almost nothing, while your companion speaks fluently. You feel useless in lessons. What should you do?",
+              "options": [
+                { "text": "Keep speaking in simple sentences, prepare one short testimony and a question for each lesson, ask your companion for a daily phrase, and pray for help.", "feedback": "Small contributions build confidence, and simple testimony carries the Spirit in any language.", "best": true },
+                { "text": "Stay quiet in lessons until you can speak properly.", "feedback": "Silence slows learning. People respond to effort and sincerity.", "best": false },
+                { "text": "Compare yourself with your companion and push yourself harder.", "feedback": "Preach My Gospel counsels against comparing yourself with others.", "best": false },
+                { "text": "Ask to be reassigned to an English-speaking area.", "feedback": "Struggle is normal at three weeks. Give the Lord and yourself time.", "best": false }
+              ],
+              "explain": "Language learning takes time. Ether 12:27 applies here too: humility and faith turn weakness into strength."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "The gift of tongues means a faithful missionary does not need to study the language.",
+              "answer": false,
+              "explain": "The gift of tongues usually comes as you work hard. The Lord magnifies your effort; He does not replace it."
+            },
+            {
+              "type": "learn",
+              "title": "Speak simply in any language",
+              "body": "Even in your own language, Church words can confuse people. Words like **ward**, **sacrament meeting**, **stake** or **P-day** mean nothing to most people.\n\nSay what you mean in plain words:\n- not “sacrament meeting at the ward building,” but “our Sunday worship service at the church on Main Street”\n- not “investigator,” but “friend” or the person’s name\n\nSimple words help the Spirit carry your message."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which invitation is clearest for someone who has never been to church?",
+              "options": ["“Would you come with us to church on Sunday at 10? It’s a one-hour worship service, and we’ll sit with you.”", "“Come to sacrament meeting at the ward building.”", "“You should come to stake conference.”", "“Would you like to attend some of our meetings sometime?”"],
+              "answer": 0,
+              "explain": "It gives the time, explains what to expect in plain words, and offers support."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- D&C 90:11: everyone will hear the gospel in their own tongue.\n- Study and speak the language every day; practise with native speakers.\n- Don’t compare yourself; rely on the Lord and keep going.\n- The gift of tongues magnifies effort, it doesn’t replace it.\n- In any language, avoid Church jargon and speak simply."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Finding and Connecting",
+      "description": "Talk with strangers, ask inspired questions and listen with love.",
+      "levels": [
+        {
+          "id": "u2-l1",
+          "title": "Talk With Everyone",
+          "summary": "How missionaries find people and start real conversations.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Finding people prepared by God",
+              "body": "*Preach My Gospel* chapter 9 teaches that the Lord prepares people to receive the gospel, and missionaries help find them by:\n- **talking with everyone** they meet\n- working with **members**, who can love, share and invite\n- following up on **referrals** promptly\n- using **technology** and social media within mission guidelines\n- serving, including through JustServe where available\n\nMany are “kept from the truth because they know not where to find it” (D&C 123:12).",
+              "source": { "label": "Preach My Gospel, ch. 9", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/17-chapter-9?lang=eng" }
+            },
+            {
+              "type": "truefalse",
+              "prompt": "D&C 123:12 teaches that many people are kept from the truth because they do not know where to find it.",
+              "answer": true,
+              "explain": "That verse is one reason missionaries talk with everyone: many people would welcome the gospel if someone offered it."
+            },
+            {
+              "type": "learn",
+              "title": "Start with what people value",
+              "body": "Good openers are about the **person**, not about you. People care about family, peace, purpose, healing and faith.\n\nTry something like:\n> “Hi, I’m Elder Ruiz. We’re sharing a message about Jesus Christ. What’s something that brings you peace in your life?”\n\nSmile, use your name, keep it short and **listen**. Then connect what they say to a blessing of the gospel: “Many people we meet feel that way. Jesus Christ promised peace…”"
+            },
+            {
+              "type": "multi",
+              "prompt": "Which openers focus on the person and invite a real conversation? Select all that apply.",
+              "options": ["“What’s something that brings your family joy?”", "“Have you heard of our church? Here’s a pamphlet.”", "“What helps you feel peace when life is hard?”", "“Do you want to be baptized?”", "“How do you feel about God these days?”"],
+              "answers": [0, 2, 4],
+              "explain": "Open questions about what people value invite them to share. Leading with a pamphlet or a baptism question skips getting to know them."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You’re waiting at a bus stop next to an older man reading the news. What is the best way to start?",
+              "options": [
+                { "text": "Smile, comment on something natural, then ask a friendly open question about him, like what he thinks about the news or what matters most to him. Listen before you share.", "feedback": "A natural, person-centred start opens a real conversation.", "best": true },
+                { "text": "Hand him a Book of Mormon without saying much.", "feedback": "Skipping the relationship makes the message feel like an advert.", "best": false },
+                { "text": "Wait for him to talk first.", "feedback": "Preach My Gospel encourages missionaries to talk with everyone.", "best": false },
+                { "text": "Give a full five-minute message about the Restoration.", "feedback": "Too much too soon. Start with him, then share briefly.", "best": false }
+              ],
+              "explain": "Talking with everyone starts with genuine interest in the person. The message comes naturally from what you learn."
+            },
+            {
+              "type": "learn",
+              "title": "When talking to strangers is hard",
+              "body": "Many missionaries feel nervous talking with strangers. The Church’s Missionary Preparation class practises a skill called **Talk with Everyone** because it improves with practice.\n\nStart now:\n- set a small daily goal: talk with 3 new people\n- practise with cashiers, neighbours and classmates\n- ask one open question and really listen\n- remember that a “no” is about timing or the message, not your worth",
+              "source": { "label": "Missionary Preparation teacher manual (2025)", "url": "https://www.churchofjesuschrist.org/study/manual/missionary-preparation-teacher-manual-2025?lang=eng" }
+            },
+            {
+              "type": "order",
+              "prompt": "Put the parts of a short finding conversation in order.",
+              "items": ["Greet the person and introduce yourself", "Ask about them and what they value", "Listen and connect what they said to a gospel blessing", "Share a brief message and your testimony", "Invite them to learn more and exchange contact details"],
+              "explain": "Connection, listening, a brief message, testimony and a clear invitation."
+            },
+            {
+              "type": "number",
+              "prompt": "Practice math: you talk with 20 people a day for 6 days, and about 1 in 10 is interested in learning more. How many interested people is that in a week?",
+              "answer": 12,
+              "tolerance": 0,
+              "unit": "people",
+              "explain": "20 × 6 = 120 people; 120 ÷ 10 = 12. Real numbers vary hugely, but every sincere conversation counts, even when no one says yes."
+            },
+            {
+              "type": "reflect",
+              "prompt": "This week, start a real conversation with three people you don’t usually talk to. Which open question will you use?",
+              "placeholder": "My question: ... People I could talk to: ..."
+            }
+          ]
+        },
+        {
+          "id": "u2-l2",
+          "title": "Asking Inspired Questions",
+          "summary": "Questions that help people think, share and feel the Spirit.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Why questions matter",
+              "body": "*Preach My Gospel* chapter 10 teaches that good questions help you understand people’s needs, invite the Spirit and help people think and apply what they learn.\n\nGuidelines:\n- keep questions **simple**, one idea each\n- avoid questions with **obvious answers** or that might **embarrass** someone\n- ask what people **think and feel**, not just what they know\n- ask people to **explain in their own words** what they learned",
+              "source": { "label": "Preach My Gospel, ch. 10", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/18-chapter-10?lang=eng" }
+            },
+            {
+              "type": "mcq",
+              "prompt": "You just read Alma 32:27–28 with someone. Which follow-up question is best?",
+              "options": ["“What might planting this seed look like in your life this week?”", "“Do you believe this?”", "“Alma compares the word to a seed, right?”", "“Have you read the whole Book of Mormon yet?”"],
+              "answer": 0,
+              "explain": "It is open, simple and invites application. The others are yes/no, leading, or could embarrass the person."
+            },
+            {
+              "type": "learn",
+              "title": "Ammon’s questions",
+              "body": "When Ammon taught King Lamoni, he began with a question: “Believest thou that there is a God?” (Alma 18:24). Lamoni didn’t know what that meant, so Ammon asked whether he believed in a “Great Spirit.” When Lamoni said yes, Ammon built on that belief and taught that the Great Spirit is God (Alma 18:25–28).\n\nThe pattern: find out what people already believe, then build on it."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "In Alma 18, Ammon began teaching King Lamoni by asking what he believed about God.",
+              "answer": true,
+              "explain": "Ammon asked, “Believest thou that there is a God?” and built on Lamoni’s belief in a Great Spirit."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each question to its main purpose.",
+              "pairs": [
+                ["“What do you already know about prayer?”", "Find out what the person understands"],
+                ["“How did you feel as we read that?”", "Help them recognize the Spirit"],
+                ["“How would you explain this to a friend?”", "Check understanding in their own words"],
+                ["“What questions do you have about this?”", "Invite concerns into the open"]
+              ],
+              "explain": "Each type of question does a different job. Using a mix keeps lessons a conversation, not a lecture."
+            },
+            {
+              "type": "learn",
+              "title": "Avoid common mistakes",
+              "body": "- **Stacking:** asking three questions at once (“Do you pray? How often? What do you say?”). Ask one, then wait.\n- **Quiz questions:** “What are the four steps of prayer?” can feel like a test.\n- **Obvious yes/no:** “Do you want to be happy?” Everyone says yes, and nothing is learned.\n- **Embarrassing questions:** asking about sensitive personal matters in front of others.\n\nAfter asking, **wait**. Silence often means the person is thinking."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You ask, “What do you think about Jesus Christ?” and the person goes quiet for several seconds. What do you do?",
+              "options": [
+                { "text": "Wait patiently. If they still seem stuck, rephrase simply or share a sentence about what He means to you, then ask again.", "feedback": "Giving time respects their thinking. A short personal example can open the door.", "best": true },
+                { "text": "Quickly answer the question for them.", "feedback": "Rushing in tells them their thoughts don’t matter.", "best": false },
+                { "text": "Ask three more questions to fill the silence.", "feedback": "Stacking questions creates pressure.", "best": false },
+                { "text": "Move on to the next part of the lesson.", "feedback": "You lose a chance to learn what they believe.", "best": false }
+              ],
+              "explain": "Preach My Gospel encourages giving people time to think and respond. Silence is often where the Spirit works."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which questions follow Preach My Gospel guidelines? Select all that apply.",
+              "options": ["“What did you notice as you read 3 Nephi 11?”", "“Don’t you agree that families are important?”", "“What would change in your life if you knew God loved you?”", "“Why haven’t you been praying?” (asked in front of the family)", "“What is one thing you’d like God to help you with?”"],
+              "answers": [0, 2, 4],
+              "explain": "Good questions are open, simple and respectful. Leading questions and questions that embarrass someone in front of others shut conversations down."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Ask simple, open questions, one idea at a time.\n- Avoid obvious yes/no, quiz and embarrassing questions.\n- Start with what people already believe, as Ammon did (Alma 18).\n- Ask how they feel, and have them explain in their own words.\n- After asking, wait."
+            }
+          ]
+        },
+        {
+          "id": "u2-l3",
+          "title": "Listening With Love",
+          "summary": "Listen to understand people’s needs, spoken and unspoken.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Listening is teaching",
+              "body": "*Preach My Gospel* chapter 10 teaches that listening shows love and helps you know what to teach. Good listeners:\n- genuinely care about the person\n- notice **unspoken messages**: tone, body language, what is left out\n- give people **time** to express themselves\n- show **empathy** rather than rushing to fix\n- **confirm** they understood: “It sounds like…”\n\nJames 1:19: “be swift to hear, slow to speak.”",
+              "source": { "label": "Preach My Gospel, ch. 10", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/18-chapter-10?lang=eng" }
+            },
+            {
+              "type": "multi",
+              "prompt": "Which are signs of good listening? Select all that apply.",
+              "options": ["Making eye contact and putting your phone away", "Planning your next point while they talk", "Summarizing what they said before responding", "Noticing when their tone changes", "Asking a gentle follow-up question"],
+              "answers": [0, 2, 3, 4],
+              "explain": "Planning your reply while someone talks means you aren’t really hearing them."
+            },
+            {
+              "type": "learn",
+              "title": "The listening loop",
+              "body": "1. **Listen** fully, without interrupting.\n2. **Reflect** back: “So since your job changed, Sundays have been really hard.”\n3. **Ask** a follow-up: “What has that been like for your family?”\n4. **Teach to the need** you discovered, as the Spirit directs.\n\nAlma taught that disciples are willing to “mourn with those that mourn” (Mosiah 18:9). Sometimes the most Christlike thing is simply to listen."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A woman says, “Since my mom died last month, I don’t really know what I believe anymore.” What is the best first response?",
+              "options": ["“I’m so sorry. That sounds really hard. Would you tell us about her?”", "“We have a great lesson about the plan of salvation. Let’s start.”", "“Don’t worry, you’ll see her again.”", "“Everyone goes through that. You’ll be fine.”"],
+              "answer": 0,
+              "explain": "Empathy and an invitation to share come first. Doctrine about the plan of salvation will mean more once she feels understood."
+            },
+            {
+              "type": "scenario",
+              "prompt": "During a lesson, a man keeps checking his phone, sits with his arms crossed and gives one-word answers. What is the best response?",
+              "options": [
+                { "text": "Pause and kindly ask, “Is now still a good time? It seems like something might be on your mind.”", "feedback": "You respond to the unspoken message with care and give him a chance to share.", "best": true },
+                { "text": "Speed up so you can finish the lesson.", "feedback": "Ignoring the signals rarely helps anyone feel the Spirit.", "best": false },
+                { "text": "Tell him it’s rude to use his phone.", "feedback": "Correcting him damages trust.", "best": false },
+                { "text": "Ignore it and keep teaching as planned.", "feedback": "Listening includes noticing unspoken messages.", "best": false }
+              ],
+              "explain": "Body language often says more than words. Noticing it and responding kindly is part of listening."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Good listening means preparing your answer while the other person is still talking, so you’re ready to respond.",
+              "answer": false,
+              "explain": "Real listening means focusing on understanding first. Confirm what you heard, then respond."
+            },
+            {
+              "type": "order",
+              "prompt": "Someone shares a painful experience. Put a loving response in order.",
+              "items": ["Listen without interrupting", "Acknowledge their feelings", "Ask a gentle follow-up question", "Share a truth or scripture as the Spirit prompts", "Ask what would help them right now"],
+              "explain": "Understanding and empathy come before teaching. Then you can offer truth that fits their real need."
+            },
+            {
+              "type": "reflect",
+              "prompt": "This week, practise the listening loop with a family member or friend: listen, reflect back, and ask one follow-up question. What did you learn about them?",
+              "placeholder": "Who: ... What I learned: ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Teaching and Inviting",
+      "description": "Teach by the Spirit, use scriptures and testimony, and invite people to act.",
+      "levels": [
+        {
+          "id": "u3-l1",
+          "title": "Teaching by the Spirit",
+          "summary": "The Holy Ghost is the real teacher. Learn how to invite Him in.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "The Spirit is the teacher",
+              "body": "Conversion comes through the Holy Ghost, not through clever words. “When a man speaketh by the power of the Holy Ghost the power of the Holy Ghost carrieth it unto the hearts of the children of men” (2 Nephi 33:1).\n\nPrepare by living worthily, praying, and studying, because “if ye receive not the Spirit ye shall not teach” (D&C 42:14). The Lord counsels: first seek to obtain His word, “and then shall your tongue be loosed” (D&C 11:21).",
+              "source": { "label": "Preach My Gospel, ch. 10", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/18-chapter-10?lang=eng" }
+            },
+            {
+              "type": "match",
+              "prompt": "Match each scripture to what it teaches about teaching.",
+              "pairs": [
+                ["2 Nephi 33:1", "The Holy Ghost carries the message to people’s hearts"],
+                ["D&C 42:14", "Without the Spirit, you shall not teach"],
+                ["D&C 50:22", "The teacher and learner understand each other and are edified together"],
+                ["D&C 11:21", "First obtain the word; then your tongue will be loosed"],
+                ["D&C 84:85", "Treasure up the words of life, and you’ll be given what to say in the very hour"]
+              ],
+              "explain": "Together these verses teach that preparation, worthiness and the Spirit make teaching powerful."
+            },
+            {
+              "type": "learn",
+              "title": "Adapt to the person",
+              "body": "The *Preach My Gospel* lessons are not scripts. You can teach the doctrines in the order and length that fit the person and the time you have, from a few minutes on a doorstep to a full visit.\n\nAsk yourself before each visit: *What does this person need? What do they already believe? Which doctrine will help most today?* Then pray and plan, and be willing to change the plan when the Spirit prompts."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You planned to teach about the Restoration. When you arrive, the woman tells you her son was arrested this week and she is devastated. What do you do?",
+              "options": [
+                { "text": "Set the plan aside, listen, and as the Spirit leads, teach about Heavenly Father’s love and the Savior’s power to comfort. Offer to pray with her.", "feedback": "Teaching to the real need is what adapting by the Spirit means.", "best": true },
+                { "text": "Teach the Restoration lesson as planned; it’s important.", "feedback": "It is important, but not what she needs today.", "best": false },
+                { "text": "Reschedule and leave quickly so you don’t intrude.", "feedback": "She may need support now. Offer to stay and listen.", "best": false },
+                { "text": "Teach about the consequences of sin.", "feedback": "This would feel like judgment at a painful moment.", "best": false }
+              ],
+              "explain": "Plans serve people, not the other way round. The Spirit helps you see what someone needs most."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Preach My Gospel asks missionaries to memorize the lessons and present them word for word.",
+              "answer": false,
+              "explain": "Missionaries master the doctrine and teach it in their own words, adapting to each person as the Spirit directs."
+            },
+            {
+              "type": "learn",
+              "title": "Help people recognize the Spirit",
+              "body": "Many people feel the Spirit without knowing what it is. Paul lists the fruit of the Spirit as “love, joy, peace, longsuffering, gentleness, goodness, faith” (Galatians 5:22).\n\nWhen you notice someone is touched, gently name it:\n> “How do you feel as we talk about this? That peace you mentioned is how the Holy Ghost often speaks to us.”"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which of these is NOT listed in Galatians 5:22–23 as fruit of the Spirit?",
+              "options": ["Anxiety", "Love", "Peace", "Joy"],
+              "answer": 0,
+              "explain": "Galatians 5:22–23 lists love, joy, peace, longsuffering, gentleness, goodness, faith, meekness and temperance. Anxiety and confusion are not how the Spirit usually feels."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which help you teach by the Spirit? Select all that apply.",
+              "options": ["Praying for the people before you visit", "Living the commandments and mission standards", "Memorizing a script and sticking to it no matter what", "Studying the doctrine so you can teach it simply", "Sharing your testimony often"],
+              "answers": [0, 1, 3, 4],
+              "explain": "Worthiness, prayer, study and testimony invite the Spirit. Rigid scripts get in the way of adapting to people."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- The Holy Ghost is the real teacher (2 Nephi 33:1).\n- Without the Spirit you shall not teach (D&C 42:14).\n- Obtain the word first; then your tongue will be loosed (D&C 11:21).\n- Lessons aren’t scripts: adapt to each person’s needs.\n- Help people recognize how the Spirit feels."
+            }
+          ]
+        },
+        {
+          "id": "u3-l2",
+          "title": "Scriptures and Testimony",
+          "summary": "Use the scriptures well and bear simple, sincere testimony.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Teaching with scriptures",
+              "body": "*Preach My Gospel* chapter 10 suggests a simple pattern for using a scripture:\n- **Introduce** it: who is speaking, to whom, and what to look for.\n- **Read** it together, often taking turns.\n- **Apply** it: ask how it relates to the person’s life.\n\nThe Book of Mormon is especially powerful in conversion. Leave people with a short, specific reading invitation after each visit.",
+              "source": { "label": "Preach My Gospel, ch. 10", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/18-chapter-10?lang=eng" }
+            },
+            {
+              "type": "order",
+              "prompt": "Put the steps of teaching with a scripture in order.",
+              "items": ["Choose a passage that fits the person’s need", "Introduce it and say what to look for", "Read it together", "Ask how it applies to their life", "Invite them to read more on their own"],
+              "explain": "Choose, introduce, read, apply, then invite further study."
+            },
+            {
+              "type": "learn",
+              "title": "Simple, sincere testimony",
+              "body": "A testimony is a short, sincere declaration of truth you know by the Spirit. It usually takes one or two sentences, often starting with “I know” or “I believe.”\n\n> “I know Heavenly Father hears your prayers, because He has answered mine.”\n\nTestify often, especially of Jesus Christ, and never exaggerate. A simple, honest testimony often invites the Spirit more than a long story."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is the best example of testimony in a lesson?",
+              "options": ["“I know the Savior can lift your burdens. He has lifted mine when I felt alone.”", "“There’s lots of evidence that proves our church is true.”", "“I think maybe it could be true, I’m not sure.”", "A 10-minute story about your whole conversion"],
+              "answer": 0,
+              "explain": "It is short, sincere, personal and centred on Jesus Christ. Testimony isn’t an argument, and it doesn’t need to be long."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each need to a passage that could help.",
+              "pairs": [
+                ["Wants to know if the Book of Mormon is true", "Moroni 10:4–5"],
+                ["Weighed down by guilt", "Alma 36:17–20"],
+                ["Grieving someone who died", "Alma 40:11–12"],
+                ["Feeling weak and inadequate", "Ether 12:27"],
+                ["Searching for peace", "John 14:27"]
+              ],
+              "explain": "Moroni’s promise; Alma’s relief when he cried to Jesus; the spirit world; weak things made strong; and the Savior’s gift of peace."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Someone asks a hard question about Church history that you don’t know the answer to. What is the best response?",
+              "options": [
+                { "text": "Say honestly that you don’t know, offer to study it with them using reliable Church sources, and share what you do know by the Spirit.", "feedback": "Honesty builds trust, and reliable sources plus testimony help them move forward.", "best": true },
+                { "text": "Make up an answer that sounds right.", "feedback": "Guessing damages trust and may spread errors.", "best": false },
+                { "text": "Tell them the question doesn’t matter.", "feedback": "Their question matters to them. Take it seriously.", "best": false },
+                { "text": "Change the subject quickly.", "feedback": "Avoiding the question can make them more worried.", "best": false }
+              ],
+              "explain": "Preach My Gospel encourages missionaries to use reliable sources and to testify of what they know. It is fine to say “I don’t know yet.”"
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Bearing testimony mainly means proving the gospel with evidence and arguments.",
+              "answer": false,
+              "explain": "Testimony is a sincere witness of what you know by the Spirit. The Holy Ghost, not argument, confirms truth."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Pick one passage from this lesson. Write how you would introduce it in one sentence, and one question to help someone apply it.",
+              "placeholder": "Passage: ... Introduction: ... Apply question: ..."
+            }
+          ]
+        },
+        {
+          "id": "u3-l3",
+          "title": "Invitations and Follow-Up",
+          "summary": "Extend clear invitations, promise blessings, and follow up with love.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Invitations lead to conversion",
+              "body": "*Preach My Gospel* chapter 11 teaches that people come unto Christ by **acting** in faith. Invitations help them do that.\n\n- Invite as the Spirit leads, with a kind and clear question: **“Will you…?”**\n- **Promise blessings** that come from keeping the commitment.\n- **Testify** of the truth you’re inviting them to live.\n- Help them **plan** how they’ll do it.",
+              "source": { "label": "Preach My Gospel, ch. 11", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/19-chapter-11?lang=eng" }
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which invitation is clearest?",
+              "options": ["“Will you read 3 Nephi 11 tonight and pray to know if it’s true?”", "“Maybe you could look at the Book of Mormon sometime?”", "“You should come to church.”", "“Do you think you might want to be baptized someday?”"],
+              "answer": 0,
+              "explain": "A clear invitation uses “Will you…?”, names a specific action and gives a time frame."
+            },
+            {
+              "type": "learn",
+              "title": "Follow up with love",
+              "body": "Following up helps people keep commitments and feel the blessings. *Preach My Gospel* encourages:\n- **brief, frequent contact**, often daily: a visit, call or message\n- asking about their **experience**, not just “Did you do it?”\n- showing **love**, especially when they didn’t keep a commitment\n- involving **members** who can support them\n\n> Try: “How did it go reading 3 Nephi 11? What stood out to you?”"
+            },
+            {
+              "type": "order",
+              "prompt": "Put the invitation cycle in order.",
+              "items": ["Teach the doctrine", "Extend a clear “Will you…?” invitation", "Promise blessings and testify", "Help them plan how they’ll keep it", "Follow up and ask about their experience"],
+              "explain": "Teaching prepares people to act; invitations, promises and testimony help them act; follow-up helps them feel the blessings."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You invited Maria to read 3 Nephi 11. When you follow up, she admits she didn’t read it. What is the best response?",
+              "options": [
+                { "text": "Thank her for being honest, ask what got in the way, offer to read part of it with her now, and agree on a small, specific next step.", "feedback": "Love and practical help turn a missed commitment into progress.", "best": true },
+                { "text": "Express disappointment so she takes it more seriously.", "feedback": "Guilt rarely helps people come unto Christ.", "best": false },
+                { "text": "Skip it and move on to the next lesson.", "feedback": "Without follow-up she misses the blessing of acting in faith.", "best": false },
+                { "text": "Decide she isn’t interested and stop visiting.", "feedback": "One missed commitment is normal. Keep showing love.", "best": false }
+              ],
+              "explain": "Preach My Gospel asks missionaries to show love especially when commitments aren’t kept, and to help people succeed next time."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which follow-up messages fit Preach My Gospel counsel? Select all that apply.",
+              "options": ["“Hi Sam! How was your prayer last night? Did you notice any feelings?”", "“Did you read or not?”", "“We were thinking of you today. What did you think of the chapter?”", "“Sister Lee from church would love to sit with you Sunday. Is that okay?”", "“You promised you’d read. Why didn’t you?”"],
+              "answers": [0, 2, 3],
+              "explain": "Good follow-up is warm, asks about their experience, and brings in member support. Accusing messages push people away."
+            },
+            {
+              "type": "learn",
+              "title": "Inviting to be baptized",
+              "body": "Baptism is a central invitation of the missionary lessons. *Preach My Gospel* encourages missionaries to invite people to prepare to follow the Savior’s example by being baptized, as the Spirit directs, often with a specific date to work toward.\n\nA baptismal date is a goal to help them prepare, not a deadline to pressure them. Their agency and readiness always come first."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "If someone doesn’t keep a commitment, missionaries should stop teaching them.",
+              "answer": false,
+              "explain": "Missed commitments are normal. Follow up with love, understand what got in the way, and help them try again."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- People come unto Christ by acting in faith; invitations help them act.\n- Invite clearly: “Will you…?” with a specific action.\n- Promise blessings, testify and help them plan.\n- Follow up often and ask about their experience.\n- Show extra love when commitments aren’t kept."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Challenges, Members and Leaders",
+      "description": "Help with concerns, handle rejection and work in unity with members and leaders.",
+      "levels": [
+        {
+          "id": "u4-l1",
+          "title": "Helping People With Concerns",
+          "summary": "Understand concerns first, then help with doctrine, scripture and faith.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Understand before you answer",
+              "body": "*Preach My Gospel* chapter 10 teaches how to help people with concerns:\n- **Seek to understand** the concern. Listen and ask questions; the first concern mentioned may not be the real one.\n- **Teach the doctrine** and use the scriptures, especially the Book of Mormon.\n- **Invite them to act in faith**: pray, read, attend church.\n- Use **reliable sources**, such as official Church resources.\n\nBe “ready always to give an answer … with meekness” (1 Peter 3:15).",
+              "source": { "label": "Preach My Gospel, ch. 10", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/18-chapter-10?lang=eng" }
+            },
+            {
+              "type": "order",
+              "prompt": "Put the steps for helping with a concern in order.",
+              "items": ["Listen and ask questions to understand the real concern", "Find the doctrine and scriptures that address it", "Teach and testify", "Invite them to act in faith", "Follow up on how it went"],
+              "explain": "Understanding comes first, then doctrine, testimony, an invitation to act and follow-up."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A man says, “I don’t need organized religion.” What is the best first response?",
+              "options": ["“That’s interesting. What has your experience with churches been like?”", "“Actually, the Bible says you need a church.”", "“Then we probably shouldn’t waste your time.”", "“Let us explain why you’re wrong.”"],
+              "answer": 0,
+              "explain": "An understanding question uncovers what is behind the statement. Arguing or giving up both end the conversation."
+            },
+            {
+              "type": "learn",
+              "title": "Common concerns",
+              "body": "- **Word of Wisdom** (coffee, tobacco, alcohol): teach the promises in D&C 89 and make a step-by-step plan. *Preach My Gospel* has help for overcoming addiction.\n- **Working on Sundays:** teach the blessings of the Sabbath and help them explore options.\n- **Family opposition:** be patient, show respect for the family, and involve members.\n- **“Is Joseph Smith a prophet?”:** invite them to read and pray about the Book of Mormon (Moroni 10:4–5).\n- **History questions:** study reliable Church sources together."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each concern to a helpful starting point.",
+              "pairs": [
+                ["Struggling to give up coffee", "D&C 89’s promises and a step-by-step plan"],
+                ["Wants to know if Joseph Smith was a prophet", "Read and pray about the Book of Mormon"],
+                ["Feels too sinful to be baptized", "The Savior’s Atonement and repentance"],
+                ["Read something worrying about Church history online", "Study reliable Church sources together"]
+              ],
+              "explain": "Each concern has a doctrine or practical step that fits it. Understanding the concern helps you choose the right one."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A woman you’re teaching shows you an online post criticizing the Church and asks what you think. What is the best response?",
+              "options": [
+                { "text": "Thank her for sharing, ask what about it worries her, offer to look at reliable sources together, share your testimony, and invite her to keep reading and praying about the Book of Mormon.", "feedback": "You take her seriously, avoid contention and point her to the Spirit.", "best": true },
+                { "text": "Tell her the post is lies and she shouldn’t read things online.", "feedback": "Dismissing her concern can make it bigger.", "best": false },
+                { "text": "Debate every point in the post.", "feedback": "Arguing invites contention, not the Spirit.", "best": false },
+                { "text": "Say you aren’t allowed to talk about it.", "feedback": "That isn’t true and can feel like hiding something.", "best": false }
+              ],
+              "explain": "Understand the concern, use reliable sources, testify and invite faithful action. Avoid contention (3 Nephi 11:29)."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "In 3 Nephi 11:29, the Savior teaches that the spirit of contention is of the devil, so missionaries should avoid arguments.",
+              "answer": true,
+              "explain": "“He that hath the spirit of contention is not of me, but is of the devil.” Calm, loving answers invite the Spirit; arguments drive it away."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Seek to understand the real concern before answering.\n- Teach the doctrine with scriptures, especially the Book of Mormon.\n- Invite people to act in faith: pray, read, attend.\n- Use reliable Church sources; it’s fine to say “I’ll find out.”\n- Avoid contention; answer with meekness (1 Peter 3:15)."
+            }
+          ]
+        },
+        {
+          "id": "u4-l2",
+          "title": "Handling Rejection",
+          "summary": "Keep going with faith and love when people say no.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Even the Savior was rejected",
+              "body": "Rejection is part of missionary work. Isaiah prophesied that the Savior would be “despised and rejected of men” (Isaiah 53:3).\n\nThe sons of Mosiah faced so much rejection that “our hearts were depressed, and we were about to turn back,” but the Lord comforted them and told them to bear their afflictions with patience (Alma 26:27).\n\n*Adjusting to Missionary Life* suggests praying for people who reject you, and remembering that their choice is about their agency, not your worth.",
+              "source": { "label": "Adjusting to Missionary Life", "url": "https://www.churchofjesuschrist.org/study/manual/resource-booklet-adjusting-to-missionary-life?lang=eng" }
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Alma 26:27 records that the sons of Mosiah became so discouraged they were about to turn back.",
+              "answer": true,
+              "explain": "Ammon recalled that their hearts were depressed, and the Lord comforted them and promised success."
+            },
+            {
+              "type": "learn",
+              "title": "Tools for hard days",
+              "body": "- **Pray for the person** who turned you away.\n- **Remember seeds:** a kind conversation may matter years later. Sincere effort is never wasted.\n- **Debrief** with your companion: one thing that went well, one thing to try next.\n- **Breathe:** the Church’s Missionary Preparation class teaches intentional breathing to calm stress.\n- **Talk back** to unhelpful thoughts with something truer."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A man slams the door and shouts an insult. Your companion is shaken and wants to go home. What do you do?",
+              "options": [
+                { "text": "Take a breath together, say a short prayer for the man, acknowledge it was hard, and then go to the next door or a nearby member.", "feedback": "You care for your companion, show charity to the man and keep going.", "best": true },
+                { "text": "Go back and explain that he was rude.", "feedback": "This invites contention and won’t help him.", "best": false },
+                { "text": "Go home for the rest of the day.", "feedback": "A short break can help, but the rest of the day still holds people to find.", "best": false },
+                { "text": "Pretend it didn’t bother you and tell your companion to toughen up.", "feedback": "Ignoring feelings doesn’t help your companion recover.", "best": false }
+              ],
+              "explain": "Acknowledge feelings, pray, and keep going. Charity for those who reject you is a mark of discipleship."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each unhelpful thought to a healthier one.",
+              "pairs": [
+                ["“Nobody here will ever listen.”", "“Someone is being prepared, and we haven’t met them yet.”"],
+                ["“I’m a terrible missionary.”", "“I’m learning, and I can improve one skill at a time.”"],
+                ["“He rejected me.”", "“He used his agency about the message today.”"],
+                ["“Today was wasted.”", "“We planted seeds, and sincere effort counts.”"]
+              ],
+              "explain": "Healthy thinking replaces all-or-nothing thoughts with ones that are truer and more hopeful."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which responses to rejection are healthy? Select all that apply.",
+              "options": ["Praying for the person", "Talking it through with your companion", "Deciding the whole area is hopeless", "Remembering that the Savior was also rejected", "Being kind even as you leave"],
+              "answers": [0, 1, 3, 4],
+              "explain": "Writing off a whole area turns one hard moment into a story that stops you from finding prepared people."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A man you’ve taught for six weeks tells you he has decided to stop meeting with you. What is the best response?",
+              "options": [
+                { "text": "Thank him sincerely, tell him you’ve loved getting to know him, share a brief testimony, and ask if you could check in sometime. Respect his choice.", "feedback": "You honour his agency and leave the door open with love.", "best": true },
+                { "text": "Warn him about what he is losing.", "feedback": "Pressure and fear don’t invite the Spirit.", "best": false },
+                { "text": "Ask a member to call him every day.", "feedback": "That ignores his wishes.", "best": false },
+                { "text": "Leave without saying much.", "feedback": "He deserves a warm goodbye; the friendship can last.", "best": false }
+              ],
+              "explain": "Respect agency, show love and testify. Many people come back to the gospel later because missionaries treated them kindly."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Think of a time someone turned you down. What healthy thought or tool from this lesson would have helped? Write how you’ll respond next time.",
+              "placeholder": "Next time I’m turned down, I will ..."
+            }
+          ]
+        },
+        {
+          "id": "u4-l3",
+          "title": "Working With Members and Leaders",
+          "summary": "Members and missionaries work best together.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Members are essential",
+              "body": "*Preach My Gospel* chapter 13 teaches that missionaries and members work together. Members help find people, fellowship them, teach with missionaries, and help new members stay strong.\n\nIn a ward, missionaries coordinate with the **bishop**, the **ward council**, the **ward mission leader** and **ward missionaries**. In the mission, they are supported by **district leaders, zone leaders, sister training leaders** and the **mission president and his wife**.",
+              "source": { "label": "Preach My Gospel, ch. 13", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/21-chapter-13?lang=eng" }
+            },
+            {
+              "type": "multi",
+              "prompt": "How can members help the people missionaries teach? Select all that apply.",
+              "options": ["Joining lessons and sharing their testimony", "Sitting with them at church", "Becoming friends who stay after baptism", "Pressuring them to set a baptism date", "Inviting them to activities and service"],
+              "answers": [0, 1, 2, 4],
+              "explain": "Members provide friendship and support that lasts. Pressure is never part of helping someone come unto Christ."
+            },
+            {
+              "type": "learn",
+              "title": "Building trust with members",
+              "body": "- **Be reliable:** arrive on time and do what you say.\n- **Ask how you can help them**, not just what they can do for you.\n- **Make specific requests:** “Could you join us Tuesday at 7 to visit the Garcias? They love gardening, like you.”\n- **Share good news** about people they helped.\n- **Be considerate** at meal appointments: be on time, keep it short and leave a spiritual thought."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Members in your ward rarely help with lessons. What is the best approach?",
+              "options": [
+                { "text": "Build relationships by serving and visiting members, ask in coordination with ward leaders how you can help, and make specific, simple requests for help with individual people.", "feedback": "Trust and specific requests do much more than general appeals.", "best": true },
+                { "text": "Complain about the ward in a sacrament meeting talk.", "feedback": "Criticism damages trust.", "best": false },
+                { "text": "Give up on members and work alone.", "feedback": "Preach My Gospel teaches that members are essential to conversion.", "best": false },
+                { "text": "Ask the mission president to call the bishop.", "feedback": "Start with relationships and local coordination first.", "best": false }
+              ],
+              "explain": "Members help most when they trust missionaries and know exactly how they can help."
+            },
+            {
+              "type": "order",
+              "prompt": "Put the steps for bringing a member to a lesson in order.",
+              "items": ["Ask ward leaders which member might be a good fit", "Invite the member with a specific time and some background", "Plan the visit together briefly", "Teach together, inviting the member to share testimony", "Follow up and thank the member"],
+              "explain": "Good coordination, preparation and gratitude make members want to help again."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who presides over the missionaries serving in a mission?",
+              "options": ["The mission president", "The zone leaders", "The ward mission leader", "The most experienced missionary in the district"],
+              "answer": 0,
+              "explain": "The mission president holds keys for the missionaries in his mission. Zone and district leaders help him and support missionaries."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Missionaries should teach people on their own and only introduce them to members after baptism.",
+              "answer": false,
+              "explain": "Involving members early builds friendships that help people progress and stay strong after baptism."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Members and missionaries work together in conversion.\n- Coordinate with the bishop, ward council and ward mission leader.\n- Build trust: be reliable, serve, and make specific requests.\n- Bring members to lessons early.\n- The mission president, with zone, district and sister training leaders, supports you."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

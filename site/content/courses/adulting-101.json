@@ -1,0 +1,941 @@
+{
+  "id": "adulting-101",
+  "track": "life",
+  "title": "Adulting 101",
+  "tagline": "Rent, insurance, doctors, cars, cooking and paperwork, handled.",
+  "description": "The practical skills nobody hands you a manual for: renting your first place, choosing insurance, getting the right medical care, and keeping a car running. You will also learn the home fixes that save a service call, how to eat well on a budget without getting sick, and how to keep your important documents safe.",
+  "icon": "home",
+  "color": "#5BB98C",
+  "order": 2,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Your First Place",
+      "description": "Find an apartment you can afford, read the lease, protect your deposit and handle basic fixes.",
+      "levels": [
+        {
+          "id": "u1-l1",
+          "title": "Finding and Leasing an Apartment",
+          "summary": "How much rent you can afford, what landlords check, and lease fine print.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "How much rent can you afford?",
+              "body": "A common guideline is to keep rent at or below about **30% of your gross monthly income**.\n\nMany landlords use a similar test called the **40x rule**: your yearly gross income should be at least 40 times the monthly rent.\n\nRent is not the only housing cost. Budget for:\n- Utilities (electric, gas, water, internet)\n- Renter's insurance\n- Parking, laundry, pet fees\n- Getting to work from that location\n\n> A cheaper apartment with a long commute can cost more than it saves."
+            },
+            {
+              "type": "number",
+              "prompt": "You earn $3,000 a month before taxes. Using the 30% guideline, what is the most you should spend on rent each month?",
+              "answer": 900,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "$3,000 x 0.30 = **$900**. Higher rent is possible, but it squeezes savings and everything else."
+            },
+            {
+              "type": "number",
+              "prompt": "A landlord uses the 40x rule. The apartment rents for $1,100 a month. What yearly gross income do you need to qualify?",
+              "answer": 44000,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "$1,100 x 40 = **$44,000** a year. If you earn less, landlords may ask for a co-signer (guarantor) or a larger deposit."
+            },
+            {
+              "type": "learn",
+              "title": "What landlords check",
+              "body": "Expect to fill out an application and pay an application fee. Landlords commonly check:\n- **Income**: pay stubs or an offer letter\n- **Credit report**: late payments and debt\n- **Rental history**: references from past landlords\n- **Background check**\n\nWith no credit or rental history, a **co-signer** (often a parent) agrees to pay if you don't. That is a serious promise for them: missed rent can hurt their credit too.\n\n> Never send a deposit for a place you haven't seen in person or through a trusted contact. Rental listing scams are common."
+            },
+            {
+              "type": "learn",
+              "title": "Read the lease before you sign",
+              "body": "A **lease** is a legal contract. Look for:\n- **Term**: 12 months is typical. What happens at the end: renews automatically or goes month-to-month?\n- **Rent, due date and late fees**\n- **Breaking the lease**: what you owe if you move out early\n- **Who fixes what**, and how to request repairs\n- **Rules**: guests, pets, smoking, subletting\n- **Move-out**: notice period and cleaning requirements\n\nAsk questions and get any promises (like \"we'll paint before you move in\") **in writing**."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each rental term to its meaning.",
+              "pairs": [
+                ["Lease term", "How long the rental contract lasts"],
+                ["Co-signer", "Person who promises to pay if the tenant doesn't"],
+                ["Security deposit", "Money held to cover damage or unpaid rent"],
+                ["Sublet", "Renting your place to someone else while you're on the lease"],
+                ["Notice period", "How far ahead you must say you're moving out"]
+              ],
+              "explain": "Each of these appears in nearly every lease. Knowing the words makes the fine print readable."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You find a great apartment online for well below market rent. The 'owner' says he is overseas, can't show it, and will mail the keys once you wire the first month's rent and deposit. What do you do?",
+              "options": [
+                { "text": "Walk away. Can't-show-it plus wire payment plus a too-good price is a classic rental scam.", "feedback": "Right. A real landlord or agent can show the unit or have someone show it, and will accept traceable payment.", "best": true },
+                { "text": "Wire half now and half when the keys arrive.", "feedback": "Wired money is almost impossible to get back. Half is still a loss." },
+                { "text": "Ask for a copy of his ID first, then wire the money.", "feedback": "Scammers send fake IDs easily. Seeing the place and confirming ownership matter more." }
+              ],
+              "explain": "Rental scams often copy real listings. See it in person, confirm who owns it, and never pay by wire, gift card or crypto."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which of these should you check in a lease before signing? Select all that apply.",
+              "options": [
+                "The penalty for breaking the lease early",
+                "Whether it renews automatically",
+                "The landlord's favorite sports team",
+                "How to submit repair requests",
+                "Late fee amount and grace period"
+              ],
+              "answers": [0, 1, 3, 4],
+              "explain": "Early termination, renewal, repairs and late fees are where tenants most often get surprised."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Aim for rent at or below about 30% of gross income; landlords often use the 40x rule.\n- Count utilities, insurance and commute too.\n- Read the whole lease, especially renewal, breaking the lease, repairs and fees.\n- Get promises in writing, and never wire money for a place you haven't seen."
+            }
+          ]
+        },
+        {
+          "id": "u1-l2",
+          "title": "Deposits, Insurance and Tenant Rights",
+          "summary": "Move-in inspections, renter's insurance and getting your deposit back.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Protect your deposit on day one",
+              "body": "Most landlords collect a **security deposit**, often around one month's rent. They can keep part of it for damage beyond normal wear and tear, or unpaid rent.\n\nOn move-in day:\n- Walk through every room and **take time-stamped photos and video**: walls, floors, appliances, inside cabinets.\n- Write down every scratch, stain and broken thing on the move-in checklist.\n- Email a copy to the landlord so there is a dated record.\n\nAt move-out, do the same after cleaning."
+            },
+            {
+              "type": "order",
+              "prompt": "Put these move-in steps in order.",
+              "items": [
+                "Read and sign the lease and pay the deposit",
+                "Get the keys and do a walk-through before moving furniture in",
+                "Photograph and video every room, noting existing damage",
+                "Email the checklist and photos to the landlord",
+                "Set up renter's insurance and utilities in your name"
+              ],
+              "explain": "Documenting the empty unit before your stuff is in it is the strongest evidence you can have if there's a deposit dispute later."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is most likely **normal wear and tear** that a landlord generally can't charge your deposit for?",
+              "options": [
+                "A large hole in the wall from moving a couch",
+                "Lightly worn carpet in a hallway after two years",
+                "A cracked bathroom mirror",
+                "Burn marks on the countertop"
+              ],
+              "answer": 1,
+              "explain": "Normal aging from everyday living, like light carpet wear or faded paint, is wear and tear. Holes, cracks and burns are damage."
+            },
+            {
+              "type": "learn",
+              "title": "Renter's insurance",
+              "body": "Your landlord's insurance covers the **building**, not your stuff. **Renter's insurance** covers:\n- **Personal property**: your belongings if stolen or destroyed by fire, smoke, or many kinds of water damage\n- **Liability**: if someone is hurt in your apartment or you accidentally damage someone else's property\n- **Loss of use**: hotel and meals if your place becomes unlivable\n\nIt is usually inexpensive compared with replacing a laptop, phone, and clothes. Floods and earthquakes typically need separate coverage. Some leases require it."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A fire in the unit next door causes smoke damage to your clothes, laptop and mattress. You don't have renter's insurance. Who pays to replace your things?",
+              "options": [
+                { "text": "Most likely you do, because the landlord's policy covers the building, not tenants' belongings.", "feedback": "Correct. That's exactly the gap renter's insurance fills.", "best": true },
+                { "text": "The landlord's insurance automatically replaces everything.", "feedback": "A landlord's policy generally covers the structure, not what tenants own." },
+                { "text": "The city pays because it was a fire.", "feedback": "Cities don't replace personal belongings after house fires." }
+              ],
+              "explain": "Renter's insurance is one of the cheapest ways to avoid losing thousands of dollars of belongings at once."
+            },
+            {
+              "type": "learn",
+              "title": "Tenant rights: check your state",
+              "body": "Rules differ a lot by state and city, but common protections include:\n- Your home must be **habitable**: working heat, water, plumbing and electrical, and no serious safety hazards.\n- Landlords usually must give **notice** before entering, except emergencies.\n- After move-out, the landlord must **return your deposit or itemize deductions** within a deadline set by state law.\n- Landlords can't **retaliate** against you for requesting legal repairs.\n\nSearch your state attorney general or housing agency site for its tenant guide.\n\n> Put repair requests in writing (email or portal) so there is a record."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "If your landlord ignores a repair request, it's always legal to stop paying rent until it's fixed.",
+              "answer": false,
+              "explain": "Rent withholding is only allowed in some places, under strict steps. Doing it wrong can get you evicted. Document requests in writing and check your state's rules or a local tenant help line first."
+            },
+            {
+              "type": "match",
+              "prompt": "Match the problem to the best first move.",
+              "pairs": [
+                ["Heater stops working in winter", "Submit a written repair request right away"],
+                ["Moving out next month", "Give written notice as the lease requires"],
+                ["Deposit not returned after move-out", "Ask in writing for it or an itemized list, citing your state's deadline"],
+                ["Burst pipe flooding the floor", "Turn off the water, then call the landlord's emergency line"]
+              ],
+              "explain": "Writing creates a record; emergencies need immediate action first, then a call."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Look up your state's tenant guide. What is the deadline for returning a security deposit, and how much notice must a landlord give before entering?",
+              "placeholder": "State: ___. Deposit deadline: ___ days. Entry notice: ___."
+            }
+          ]
+        },
+        {
+          "id": "u1-l3",
+          "title": "Home Fixes Everyone Should Know",
+          "summary": "Water shutoffs, the breaker box, clogs and a starter toolkit.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Know where to shut things off",
+              "body": "Find these the week you move in, before you need them:\n- **Fixture shutoff valves**: small valves under sinks and behind the toilet. Turn clockwise to close.\n- **Main water shutoff**: stops water to the whole home. Often where the water line enters, near the water heater, or in a utility closet.\n- **Breaker box (electrical panel)**: controls power to each circuit.\n\n> If you smell gas (rotten eggs), don't flip switches or light anything. Leave, then call the gas company or 911 from outside."
+            },
+            {
+              "type": "scenario",
+              "prompt": "The toilet is about to overflow after you flushed. What do you do first?",
+              "options": [
+                { "text": "Reach behind the toilet and turn the shutoff valve clockwise to stop the water.", "feedback": "Yes. That stops more water from entering the bowl. Then you can plunge.", "best": true },
+                { "text": "Flush again to clear it.", "feedback": "Flushing again adds another tankful of water and causes the overflow." },
+                { "text": "Pour chemical drain cleaner into the bowl.", "feedback": "That doesn't stop the overflow, and splashing chemicals is dangerous." }
+              ],
+              "explain": "Stop the water first, then fix the clog. Lifting the tank lid and pushing the flapper down also stops water in a pinch."
+            },
+            {
+              "type": "learn",
+              "title": "The breaker box",
+              "body": "When too much is plugged into one circuit, a **breaker trips** to prevent overheating, and part of your home loses power.\n\nTo reset:\n1. Unplug or turn off what was running on that circuit.\n2. Open the panel and find the breaker that is in the middle or OFF position.\n3. Push it **fully to OFF**, then back to **ON**.\n\nIf it trips again right away, or you see scorch marks or smell burning, stop and call the landlord or an electrician.\n\nBathroom and kitchen outlets often have **GFCI** reset buttons on the outlet itself."
+            },
+            {
+              "type": "order",
+              "prompt": "The kitchen outlets just lost power while the microwave and toaster were running. Put the fix in order.",
+              "items": [
+                "Unplug the microwave and toaster",
+                "Find the tripped breaker in the panel",
+                "Push the breaker fully to OFF",
+                "Push it back to ON",
+                "Plug in one appliance at a time to test"
+              ],
+              "explain": "Removing the load first keeps the breaker from tripping again immediately. If it keeps tripping with little plugged in, it's a job for a pro."
+            },
+            {
+              "type": "learn",
+              "title": "Clogs: plunger before chemicals",
+              "body": "- **Toilet**: use a **flange plunger** (the one with the extra rubber sleeve). Make a seal and push and pull firmly 10-20 times.\n- **Sink or tub**: pull out and clean the stopper (hair builds up there), then try a cup plunger or a cheap plastic **drain snake**.\n- **Prevention**: no grease down the sink, no wipes or paper towels in the toilet, and a hair catcher in the shower.\n\nChemical drain cleaners can damage pipes and burn skin. Never mix two different cleaners: some combinations release toxic gas."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which belong in a basic starter toolkit for an apartment? Select all that apply.",
+              "options": [
+                "Screwdriver set (flat and Phillips)",
+                "Flange plunger",
+                "Tape measure",
+                "Chainsaw",
+                "Adjustable wrench",
+                "Flashlight"
+              ],
+              "answers": [0, 1, 2, 4, 5],
+              "explain": "Screwdrivers, a plunger, tape measure, adjustable wrench, flashlight, plus a hammer, pliers and duct tape cover most small jobs. A chainsaw is not an apartment tool."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Pouring cooking grease down the sink with hot water is fine because the hot water keeps it liquid.",
+              "answer": false,
+              "explain": "Grease cools and hardens further down the pipe, building clogs. Let it solidify in a can or jar and throw it in the trash."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each home emergency to the first thing to do.",
+              "pairs": [
+                ["Pipe bursts under the sink", "Close the shutoff valve or the main water"],
+                ["Smell of gas", "Leave and call from outside"],
+                ["Outlets dead in one room", "Check the breaker panel"],
+                ["Smoke alarm chirps every minute", "Replace its battery"]
+              ],
+              "explain": "Knowing the first move ahead of time turns panic into a 30-second fix."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Walk through your home (or your family's). Where is the main water shutoff, the breaker panel and the toilet shutoff valve? Write their locations.",
+              "placeholder": "Main water: ___. Breaker panel: ___. Toilet valve: ___."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Insurance and Healthcare",
+      "description": "Speak the language of health insurance, compare plans, and know where to go when you're sick or hurt.",
+      "levels": [
+        {
+          "id": "u2-l1",
+          "title": "Health Insurance Vocabulary",
+          "summary": "Premiums, deductibles, copays, coinsurance and the out-of-pocket max.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Five words that decide what you pay",
+              "body": "- **Premium**: what you pay every month just to have the insurance, even if you never use it.\n- **Deductible**: what you pay for covered care each year before the plan starts sharing costs.\n- **Copay**: a flat fee for a service, like $30 for a doctor visit.\n- **Coinsurance**: your percentage share after the deductible, like 20%.\n- **Out-of-pocket maximum**: the most you'll pay for covered in-network care in a year. After that, the plan pays 100%.\n\nPremiums don't count toward the deductible or out-of-pocket max.",
+              "source": { "label": "HealthCare.gov: out-of-pocket maximum", "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/" }
+            },
+            {
+              "type": "match",
+              "prompt": "Match each insurance term to its meaning.",
+              "pairs": [
+                ["Premium", "Monthly cost to keep the plan"],
+                ["Deductible", "Amount you pay before the plan shares costs"],
+                ["Copay", "Flat fee for a visit or prescription"],
+                ["Coinsurance", "Your percent of the bill after the deductible"],
+                ["Out-of-pocket max", "Yearly cap on what you pay for covered care"]
+              ],
+              "explain": "These five terms are on every plan summary. Once you know them you can compare any two plans."
+            },
+            {
+              "type": "number",
+              "prompt": "Your plan has a $2,000 deductible and 20% coinsurance. You haven't paid anything toward the deductible this year. You get a $5,000 covered hospital bill. How much do you pay?",
+              "answer": 2600,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "First $2,000 is the deductible. The remaining $3,000 is split: you pay 20% = $600. Total **$2,600**, and the plan pays $2,400."
+            },
+            {
+              "type": "learn",
+              "title": "The out-of-pocket maximum protects you",
+              "body": "The **out-of-pocket max** is your worst-case cost for covered, in-network care in a year. Deductibles, copays and coinsurance all count toward it.\n\nFor 2026 marketplace and most other plans, the legal ceiling is **$10,600 for one person** ($21,200 for a family). Many plans set theirs lower.\n\n> Going **out of network** can cost far more and may not count toward the max. Check that a doctor or hospital is in network before non-emergency care.",
+              "source": { "label": "HealthCare.gov: out-of-pocket maximum", "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/" }
+            },
+            {
+              "type": "number",
+              "prompt": "Your plan's out-of-pocket max is $6,000. You've already paid $5,400 in deductible and coinsurance this year. Then you get another covered in-network bill where your normal share would be $1,500. How much do you actually pay?",
+              "answer": 600,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "You can only pay $6,000 - $5,400 = **$600** more this year. After that the plan covers 100% of covered in-network care for the rest of the year."
+            },
+            {
+              "type": "learn",
+              "title": "Coverage until 26",
+              "body": "Under the Affordable Care Act, you can usually stay on a **parent's health plan until you turn 26**, even if you are married, not living at home, or not a student, and even if you could get a plan through your job.\n\nWhen you age off, you get a **special enrollment period** to pick a new plan through work or HealthCare.gov. Don't let coverage lapse: one ER visit uninsured can cost thousands.",
+              "source": { "label": "HealthCare.gov: coverage for young adults", "url": "https://www.healthcare.gov/young-adults/children-under-26/" }
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Your monthly premiums count toward your deductible.",
+              "answer": false,
+              "explain": "Premiums are the price of having the plan. Only what you pay for care (deductible, copays, coinsurance) counts toward the deductible and out-of-pocket max."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You see a doctor with a $30 copay listed for office visits. What does the $30 usually mean?",
+              "options": [
+                "You pay $30 for the visit and the plan pays the rest of the visit cost",
+                "You pay $30 per month whether you go or not",
+                "The visit is free until you've paid $30 in premiums",
+                "You pay 30% of the bill"
+              ],
+              "answer": 0,
+              "explain": "A copay is a flat fee per service. The monthly charge is the premium, and a percentage share is coinsurance. Tests done during the visit may be billed separately."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Premium = monthly cost; deductible = paid first; coinsurance = your % after that; copay = flat fee.\n- The out-of-pocket max caps your yearly cost for covered in-network care.\n- Stay in network when you can.\n- You can usually stay on a parent's plan until 26."
+            }
+          ]
+        },
+        {
+          "id": "u2-l2",
+          "title": "Comparing Health Plans",
+          "summary": "Low premium vs low deductible, and how to estimate your true yearly cost.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "There is no free lunch",
+              "body": "Plans trade off monthly cost against cost when you use care:\n- **Low premium, high deductible**: cheap each month, expensive if you get sick or hurt.\n- **High premium, low deductible**: expensive each month, cheaper when you use care.\n\nTo compare, estimate your **total yearly cost**:\n\n> Premiums x 12 + what you expect to pay for care\n\nThen check the worst case: premiums x 12 + the out-of-pocket max."
+            },
+            {
+              "type": "number",
+              "prompt": "Plan A costs $150 a month in premiums. What are its total premiums for the year?",
+              "answer": 1800,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "$150 x 12 = **$1,800** a year, before any care."
+            },
+            {
+              "type": "number",
+              "prompt": "Plan A: $150/month premium, $6,000 out-of-pocket max. What is the **worst-case** total you could pay in a year for premiums plus covered in-network care?",
+              "answer": 7800,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "$1,800 in premiums + $6,000 max = **$7,800**. Knowing the worst case tells you how big an emergency fund you'd need with this plan."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You're healthy, rarely see a doctor, and have $3,000 in savings. Plan A: $150/month, $3,000 deductible. Plan B: $320/month, $500 deductible. Which is the better fit?",
+              "options": [
+                { "text": "Plan A. You save $2,040 a year in premiums, and your savings could cover the deductible if something happened.", "feedback": "Good reasoning. Plan B costs $3,840 in premiums vs $1,800; a healthy person rarely makes that back.", "best": true },
+                { "text": "Plan B, because a lower deductible is always better.", "feedback": "You'd pay $2,040 more in premiums every year for protection you probably won't use." },
+                { "text": "Neither. Skip insurance and save the money.", "feedback": "A single accident or appendicitis can cost tens of thousands of dollars uninsured." }
+              ],
+              "explain": "Low-premium, high-deductible plans fit healthy people with savings. If you have ongoing prescriptions or a planned surgery, run the numbers again: the low-deductible plan may win."
+            },
+            {
+              "type": "learn",
+              "title": "HDHPs and HSAs",
+              "body": "A **high-deductible health plan (HDHP)** that meets IRS rules lets you open a **Health Savings Account (HSA)**.\n\n- For 2026 an HDHP must have a deductible of at least **$1,700** for one person.\n- You can put in up to **$4,400** (self-only, 2026).\n- Money goes in tax-free, grows tax-free, and comes out tax-free for medical costs. It never expires and stays yours if you change jobs.\n\nAn HSA can make a high-deductible plan much more attractive, especially if your employer adds money.",
+              "source": { "label": "HealthCare.gov: HDHP", "url": "https://www.healthcare.gov/high-deductible-health-plan/" }
+            },
+            {
+              "type": "multi",
+              "prompt": "Which should you check when comparing two health plans? Select all that apply.",
+              "options": [
+                "Whether your current doctors are in network",
+                "Monthly premium x 12",
+                "Deductible and out-of-pocket max",
+                "Whether your prescriptions are covered (the formulary)",
+                "The color of the insurance card"
+              ],
+              "answers": [0, 1, 2, 3],
+              "explain": "Network, total premiums, deductible, out-of-pocket max and drug coverage decide your real cost. The card design doesn't."
+            },
+            {
+              "type": "order",
+              "prompt": "Put these plan-choosing steps in order.",
+              "items": [
+                "List the care you expect next year (visits, prescriptions, procedures)",
+                "Check that your doctors and medicines are covered in each plan",
+                "Add up yearly premiums for each plan",
+                "Estimate expected costs and the worst case (premiums + out-of-pocket max)",
+                "Pick the plan with the best mix of expected cost and a worst case you can afford"
+              ],
+              "explain": "Start with your needs, filter by coverage, then compare dollars. Repeat every open enrollment, because plans change yearly."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Compare total yearly cost, not just the premium.\n- Worst case = premiums + out-of-pocket max.\n- Healthy with savings? A high-deductible plan with an HSA often wins.\n- Regular prescriptions or planned care? Run the numbers on a low-deductible plan.\n- Check networks and drug lists every year."
+            }
+          ]
+        },
+        {
+          "id": "u2-l3",
+          "title": "Getting the Right Care",
+          "summary": "Primary care, urgent care vs the ER, and handling appointments and bills.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Where to go for care",
+              "body": "- **Primary care doctor (PCP)**: checkups, ongoing issues, referrals. Your home base.\n- **Telehealth**: video visits for simple problems like rashes, colds or prescription refills.\n- **Urgent care**: same-day help for problems that can't wait but aren't life-threatening: sprains, minor cuts that need stitches, flu, ear infections, UTIs.\n- **Emergency room (ER)**: life-threatening or severe problems. Much more expensive.\n\n> If it might be life-threatening, call **911** or go to the ER. Never skip the ER to save money in a true emergency."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each problem to the best place for care.",
+              "pairs": [
+                ["Chest pain and shortness of breath", "Call 911 / ER"],
+                ["Twisted ankle, can still walk on it", "Urgent care"],
+                ["Yearly physical", "Primary care doctor"],
+                ["Mild rash you want looked at", "Telehealth visit"]
+              ],
+              "explain": "Chest pain could be a heart attack: always emergency. Sprains fit urgent care. Routine and minor issues fit your PCP or telehealth."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which are signs you should call 911 or go to the ER? Select all that apply.",
+              "options": [
+                "Face drooping, arm weakness or slurred speech",
+                "Bleeding that won't stop with firm pressure",
+                "A sore throat for two days",
+                "Trouble breathing",
+                "Confusion after hitting your head"
+              ],
+              "answers": [0, 1, 3, 4],
+              "explain": "Stroke signs, uncontrolled bleeding, trouble breathing and confusion after a head injury are emergencies. A two-day sore throat can go to urgent care or your PCP."
+            },
+            {
+              "type": "learn",
+              "title": "Booking and preparing for an appointment",
+              "body": "When you call or book online, have ready:\n- Your **insurance card** and photo ID\n- The reason for the visit in one sentence\n- Your availability\n\nBefore the visit, write down:\n- Symptoms: when they started, what makes them better or worse\n- Medicines and supplements you take, and allergies\n- Your questions, most important first\n\nAsk the office if they are **in network** with your plan before you go."
+            },
+            {
+              "type": "order",
+              "prompt": "Put these steps for handling a new medical bill in order.",
+              "items": [
+                "Wait for the Explanation of Benefits (EOB) from your insurer",
+                "Compare the bill from the provider with the EOB",
+                "Call the provider's billing office about any mismatch or error",
+                "Ask about a payment plan or financial assistance if you can't pay",
+                "Pay the correct amount and keep the records"
+              ],
+              "explain": "The EOB shows what insurance paid and what you owe. Billing errors are common, and many hospitals have financial assistance programs if you ask."
+            },
+            {
+              "type": "scenario",
+              "prompt": "It's Saturday night. You cut your hand while cooking; it's deep and gaping but stops bleeding with pressure. Your doctor's office is closed. Where do you go?",
+              "options": [
+                { "text": "An urgent care that's open now, since it probably needs stitches soon but isn't life-threatening.", "feedback": "Good choice. Cuts that gape usually need stitches within hours, and urgent care handles that for much less than the ER.", "best": true },
+                { "text": "Wait until Monday for your regular doctor.", "feedback": "Stitches work best within hours, and waiting raises the risk of infection." },
+                { "text": "Super glue it at home and skip care.", "feedback": "A deep, gaping cut needs proper cleaning and closing by a professional." }
+              ],
+              "explain": "If the bleeding wouldn't stop with firm pressure, or you couldn't move your fingers normally, that would be ER territory."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "In a true emergency, federal law requires ERs to screen and stabilize you even if you can't pay.",
+              "answer": true,
+              "explain": "The EMTALA law requires hospitals with ERs to provide a medical screening and stabilizing treatment regardless of ability to pay. You may still get a bill, but you can ask about financial assistance."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Find the nearest urgent care that takes your insurance and its hours. Do you have a primary care doctor? If not, write down one in-network doctor you could book.",
+              "placeholder": "Urgent care: ___ (hours ___). PCP: ___."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Cars",
+      "description": "Buy a used car without getting burned, keep it running, and know what to do after a crash.",
+      "levels": [
+        {
+          "id": "u3-l1",
+          "title": "Buying a Used Car",
+          "summary": "Total cost of ownership, inspections, history reports and financing.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "The price tag is just the start",
+              "body": "The **total cost of ownership** includes:\n- Purchase price, tax, title and registration\n- **Insurance**: varies hugely by car, age and driving record. Get quotes before you buy.\n- **Fuel**: miles per year / mpg x price per gallon\n- **Maintenance and repairs**: oil, tires, brakes, surprises\n- Loan interest if you finance\n\nA cheap car that's expensive to insure or always in the shop can cost more than a pricier, reliable one."
+            },
+            {
+              "type": "number",
+              "prompt": "You drive 12,000 miles a year in a car that gets 30 miles per gallon. Gas costs $3.20 a gallon. What will you spend on gas per year?",
+              "answer": 1280,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "12,000 / 30 = 400 gallons. 400 x $3.20 = **$1,280** a year. A 20-mpg car would use 600 gallons: $1,920."
+            },
+            {
+              "type": "learn",
+              "title": "Check it before you buy it",
+              "body": "Before you hand over money:\n- **Vehicle history report**: run the VIN for accidents, flood or salvage titles and odometer problems.\n- **Open recalls**: check the VIN at NHTSA's recall lookup.\n- **Test drive**: city and highway, braking, strange noises, warning lights.\n- **Pre-purchase inspection** by an independent mechanic you choose (often about $100-200). It's the best money you'll spend.\n\nWalk away if a seller won't allow an inspection.",
+              "source": { "label": "NHTSA recall lookup", "url": "https://www.nhtsa.gov/recalls" }
+            },
+            {
+              "type": "order",
+              "prompt": "Put these used-car buying steps in a smart order.",
+              "items": [
+                "Set a total budget, including insurance and repairs",
+                "Get pre-approved for a loan from a bank or credit union (if financing)",
+                "Shortlist reliable models and get insurance quotes",
+                "Check the history report and test drive",
+                "Get an independent pre-purchase inspection",
+                "Negotiate the out-the-door price and sign"
+              ],
+              "explain": "Budget and financing first keep you from being sold a monthly payment. The inspection comes before you negotiate so problems become bargaining points or a reason to walk."
+            },
+            {
+              "type": "scenario",
+              "prompt": "At a dealership, the salesperson asks, 'What monthly payment are you looking for?' What's your best answer?",
+              "options": [
+                { "text": "Say you're focused on the total out-the-door price and already have financing lined up.", "feedback": "Right. Negotiating the payment lets them stretch the loan term or add extras while the payment looks fine.", "best": true },
+                { "text": "Give a monthly number, like $300.", "feedback": "They can hit $300 with a 72- or 84-month loan and a higher price. You pay much more in total." },
+                { "text": "Tell them your credit score and income so they can find the best deal.", "feedback": "That helps them structure the deal for themselves. Get your own pre-approval first." }
+              ],
+              "explain": "Negotiate one number: the out-the-door price including all fees. Compare dealer financing to your pre-approval."
+            },
+            {
+              "type": "number",
+              "prompt": "Car A costs $9,000 and is $1,200/year to insure. Car B costs $8,000 and is $2,000/year to insure. Over 3 years, how much more does Car B cost in total (price + insurance)?",
+              "answer": 1400,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "Car A: $9,000 + 3 x $1,200 = $12,600. Car B: $8,000 + 3 x $2,000 = $14,000. Car B costs **$1,400** more despite the lower price."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "A clean title and a shiny exterior mean a used car has never been in a flood or serious accident.",
+              "answer": false,
+              "explain": "Not all damage gets reported, and titles can be 'washed' through other states. Use a history report and an independent mechanic's inspection."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Budget the total cost: price, insurance, fuel, maintenance and interest.\n- Get insurance quotes and loan pre-approval before shopping.\n- Run the VIN, check recalls, test drive, and get an independent inspection.\n- Negotiate the out-the-door price, not the monthly payment."
+            }
+          ]
+        },
+        {
+          "id": "u3-l2",
+          "title": "Basic Car Care",
+          "summary": "Oil, tires, warning lights and how to jump-start a dead battery.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "The owner's manual is the rulebook",
+              "body": "Your car's **owner's manual** lists its maintenance schedule: oil changes, filters, fluids, belts. Many modern cars go 5,000-10,000 miles between oil changes, while older cars may need it sooner. The old \"every 3,000 miles\" rule is often more than needed.\n\nMonthly habits:\n- Check **tire pressure**, including the spare\n- Glance at the **oil level** on the dipstick\n- Check lights and wipers\n\nA warning light on the dashboard is the car asking for help. A **flashing** check-engine light means pull over safely and get it checked soon."
+            },
+            {
+              "type": "learn",
+              "title": "Tires: pressure and tread",
+              "body": "- Use the pressure on the sticker inside the **driver's door jamb**, not the max number on the tire's sidewall.\n- Check when tires are **cold** (before driving), at least monthly.\n- Low pressure wears tires faster, hurts mpg, and makes handling worse.\n\n**Tread depth**: 2/32 of an inch is the legal minimum in most states. The **penny test**: put a penny in the tread, Lincoln's head down. If you can see all of his head, the tread is too worn. Many experts suggest replacing sooner for wet roads.",
+              "source": { "label": "NHTSA: Tires", "url": "https://www.nhtsa.gov/equipment/tires" }
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where do you find the correct tire pressure for your car?",
+              "options": [
+                "The maximum PSI printed on the tire sidewall",
+                "The sticker in the driver's door jamb or the owner's manual",
+                "Whatever the gas station air pump says",
+                "Always 40 PSI for any car"
+              ],
+              "answer": 1,
+              "explain": "The door-jamb sticker shows the carmaker's recommended pressure. The sidewall number is the maximum the tire can safely hold, not the target."
+            },
+            {
+              "type": "learn",
+              "title": "Jump-starting a dead battery",
+              "body": "You need jumper cables and a running car (or a portable jump starter). Both cars off, parking brakes on.\n\nConnect in this order:\n1. **Red** clamp to the dead battery's **+**\n2. Other **red** clamp to the good battery's **+**\n3. **Black** clamp to the good battery's **-**\n4. Last **black** clamp to bare, unpainted metal on the dead car, away from the battery\n\nStart the good car, wait a few minutes, then try the dead one. Remove clamps in **reverse** order. Check your manual first: some cars have special jump points."
+            },
+            {
+              "type": "order",
+              "prompt": "Put the jumper cable connections in the correct order.",
+              "items": [
+                "Red clamp on the dead battery's positive (+) terminal",
+                "Other red clamp on the good battery's positive (+) terminal",
+                "Black clamp on the good battery's negative (-) terminal",
+                "Last black clamp on bare metal on the dead car, away from the battery",
+                "Start the working car and let it run a few minutes"
+              ],
+              "explain": "Connecting the last clamp to bare metal away from the battery keeps any spark away from battery gases."
+            },
+            {
+              "type": "number",
+              "prompt": "Your car's oil change interval is 7,500 miles. Your last change was at 41,200 miles. At what odometer reading is the next one due?",
+              "answer": 48700,
+              "tolerance": 0,
+              "unit": "miles",
+              "explain": "41,200 + 7,500 = **48,700** miles. Most shops put a reminder sticker on the windshield; many cars also show an oil-life reminder."
+            },
+            {
+              "type": "scenario",
+              "prompt": "While driving on the highway, your check-engine light starts **flashing** and the car feels like it's shaking. What do you do?",
+              "options": [
+                { "text": "Slow down, pull over safely, and get the car checked before driving it much further.", "feedback": "Right. A flashing light usually means a serious misfire that can damage the engine and catalytic converter.", "best": true },
+                { "text": "Keep driving normally and book a check-up next month.", "feedback": "A flashing light is more urgent than a steady one. Driving on can turn a small repair into a big one." },
+                { "text": "Turn the radio up so you don't hear it.", "feedback": "Ignoring the warning risks expensive damage and a breakdown in traffic." }
+              ],
+              "explain": "Steady check-engine light: get it checked soon. Flashing: pull over safely and address it now. Red oil or temperature lights also mean stop soon."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "You should check tire pressure right after a long highway drive for the most accurate reading.",
+              "answer": false,
+              "explain": "Driving heats tires and raises pressure. Check cold, before driving or after the car has sat a few hours."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Find your car's (or a family car's) recommended tire pressure on the door sticker and its oil change interval in the manual. Write them down.",
+              "placeholder": "Front PSI: ___ Rear PSI: ___ Oil change every ___ miles."
+            }
+          ]
+        },
+        {
+          "id": "u3-l3",
+          "title": "Car Insurance and Accidents",
+          "summary": "Coverage types, deductibles, and the steps to take after a crash.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Car insurance coverages",
+              "body": "Almost every state requires **liability** insurance. Main types:\n- **Liability**: pays for injuries and damage you cause to others. Required; state minimums are often too low to cover a serious crash.\n- **Collision**: repairs your car after a crash, no matter who's at fault.\n- **Comprehensive**: theft, hail, fire, vandalism, hitting a deer.\n- **Uninsured/underinsured motorist**: covers you when the other driver has no or too little insurance.\n\nCollision and comprehensive have a **deductible**: you pay that much per claim first. Lenders require them if you finance."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each event to the coverage that pays.",
+              "pairs": [
+                ["You rear-end someone and damage their car", "Liability"],
+                ["Hail dents your car in a parking lot", "Comprehensive"],
+                ["You slide into a pole and dent your own car", "Collision"],
+                ["A driver with no insurance hits you", "Uninsured motorist"]
+              ],
+              "explain": "Liability covers others; collision covers your car in crashes; comprehensive covers non-crash damage."
+            },
+            {
+              "type": "number",
+              "prompt": "You have a $500 collision deductible. You back into a pole and the repair costs $1,800. How much does insurance pay?",
+              "answer": 1300,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "You pay the first $500; insurance pays $1,800 - $500 = **$1,300**. A higher deductible lowers your premium but means more out of pocket per claim."
+            },
+            {
+              "type": "learn",
+              "title": "After a crash: stay calm, stay safe",
+              "body": "1. **Check for injuries**. Call 911 if anyone is hurt.\n2. **Get safe**: if the cars can move and it's minor, move out of traffic. Hazard lights on.\n3. **Call police** if required in your state or if there are injuries or major damage. Get the report number.\n4. **Exchange info**: names, phone, insurance company and policy number, license plate.\n5. **Document**: photos of both cars, plates, the scene, damage; get witness contacts.\n6. **Report** to your insurer promptly.\n\nStick to facts. Don't argue about who was at fault at the scene."
+            },
+            {
+              "type": "order",
+              "prompt": "Put these after-crash steps in order.",
+              "items": [
+                "Check yourself and others for injuries and call 911 if anyone is hurt",
+                "Move to a safe spot if possible and turn on hazard lights",
+                "Exchange names, insurance and plate numbers with the other driver",
+                "Take photos of the cars, plates and scene",
+                "Call your insurance company to report the claim"
+              ],
+              "explain": "People first, safety second, information and evidence third, then the insurer."
+            },
+            {
+              "type": "scenario",
+              "prompt": "After a minor fender-bender, the other driver says, 'Let's not involve insurance. I'll just pay you cash for the damage.' What's the smartest move?",
+              "options": [
+                { "text": "Still exchange full insurance info, take photos, and get a written repair estimate before agreeing to anything.", "feedback": "Smart. Hidden damage and injuries can show up later, and you need info to file a claim if the cash never comes.", "best": true },
+                { "text": "Agree, shake hands, and leave without their information.", "feedback": "If they never pay or later claim you caused it, you have nothing to go on." },
+                { "text": "Apologize and say it was all your fault so things stay friendly.", "feedback": "Let the facts and insurers decide fault. Be polite, but stick to what happened." }
+              ],
+              "explain": "You can still settle privately, but always collect information and evidence first. Some states also require you to report crashes above a damage amount."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Your state's minimum liability coverage is always enough to cover a serious accident.",
+              "answer": false,
+              "explain": "Minimums can be far below the cost of a serious crash. If you cause more damage than your limits, you can be personally responsible for the rest. Many people choose higher limits."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Liability covers others; collision and comprehensive cover your car.\n- Your deductible comes out first on each claim.\n- After a crash: injuries, safety, info, photos, insurer.\n- Keep your insurance card and registration in the car, and a crash checklist in your phone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Kitchen and Paperwork",
+      "description": "Eat well for less, keep food safe, and keep your important documents and contracts under control.",
+      "levels": [
+        {
+          "id": "u4-l1",
+          "title": "Groceries and Meal Planning on a Budget",
+          "summary": "Plan meals, compare unit prices and cook a few flexible base recipes.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Plan first, shop second",
+              "body": "Eating out a few times a week adds up fast. A weekly plan saves money and time:\n1. Check what you already have.\n2. Pick 3-4 dinners that share ingredients (one bag of spinach, three meals).\n3. Plan leftovers for lunches.\n4. Write a list and stick to it.\n\nBudget staples: rice, oats, pasta, dried or canned beans, lentils, eggs, frozen vegetables, bananas, potatoes, peanut butter, chicken thighs, canned tuna.\n\n> Frozen vegetables are picked ripe, last for months and are just as nutritious."
+            },
+            {
+              "type": "learn",
+              "title": "Compare unit prices",
+              "body": "The shelf tag usually shows a **unit price**: cost per ounce, pound or count. It lets you compare different sizes and brands fairly.\n\n> Unit price = price / quantity\n\nBigger is often cheaper per unit, but not always, and it's only a deal if you use it before it goes bad. Store brands are often much cheaper than name brands for nearly the same product."
+            },
+            {
+              "type": "number",
+              "prompt": "A 24 oz jar of peanut butter costs $4.80. A 32 oz jar costs $5.76. What is the unit price of the **32 oz** jar, in cents per ounce?",
+              "answer": 18,
+              "tolerance": 0,
+              "unit": "cents/oz",
+              "explain": "$5.76 / 32 = $0.18 = **18 cents per ounce**. The 24 oz jar is $4.80 / 24 = 20 cents per ounce, so the bigger jar is the better deal."
+            },
+            {
+              "type": "number",
+              "prompt": "You spend $14 on takeout lunch 4 days a week. Packing lunch costs about $4. How much do you save per week by packing?",
+              "answer": 40,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "($14 - $4) x 4 days = **$40 a week**, roughly $2,000 a year."
+            },
+            {
+              "type": "learn",
+              "title": "Three base recipes that adapt",
+              "body": "Learn a few patterns, not just recipes:\n- **Sheet-pan dinner**: chopped vegetables and a protein tossed in oil, salt and spices; roast at about 425°F until browned and cooked through.\n- **Stir-fry or rice bowl**: cook protein, add vegetables, add a sauce (soy sauce, garlic, a little sugar or honey), serve over rice.\n- **Pot of beans or lentil soup**: onion, garlic, canned tomatoes, beans or lentils, broth, spices. Simmer. Makes many meals.\n\nSwap whatever is on sale into the pattern."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which are good ways to cut grocery costs? Select all that apply.",
+              "options": [
+                "Plan meals that share ingredients",
+                "Shop hungry without a list",
+                "Compare unit prices and try store brands",
+                "Buy frozen vegetables and fruit",
+                "Buy a giant bag of fresh produce you won't finish"
+              ],
+              "answers": [0, 2, 3],
+              "explain": "Planning, unit prices, store brands and frozen produce save money. Shopping hungry and buying food that spoils waste it."
+            },
+            {
+              "type": "order",
+              "prompt": "Put a weekly meal-planning routine in order.",
+              "items": [
+                "Check the fridge, freezer and pantry",
+                "Pick meals that use what you have and share ingredients",
+                "Write a grocery list by store section",
+                "Shop with the list",
+                "Prep ingredients or cook a batch for the week"
+              ],
+              "explain": "Starting with what you own avoids buying duplicates and throwing food away."
+            },
+            {
+              "type": "scenario",
+              "prompt": "It's Thursday, you're tired, and your plan says stir-fry. Your phone shows a $22 delivery order is two taps away. What's the best move?",
+              "options": [
+                { "text": "Make a fast fallback meal you keep stocked, like eggs and toast or a frozen-veg rice bowl, and save the delivery for a planned treat.", "feedback": "That's the trick: have a 10-minute backup meal for low-energy nights.", "best": true },
+                { "text": "Order delivery and throw out the stir-fry ingredients.", "feedback": "You pay twice: once for the groceries that spoil and once for delivery." },
+                { "text": "Skip dinner.", "feedback": "Skipping meals often leads to bigger, pricier snacking later." }
+              ],
+              "explain": "Plans fail on tired nights, so plan for those nights too. Budgeting a few treat meals a month keeps it sustainable."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Plan three dinners for next week that share at least two ingredients. Write the meals and the shopping list.",
+              "placeholder": "Meals: 1) ___ 2) ___ 3) ___. List: ___"
+            }
+          ]
+        },
+        {
+          "id": "u4-l2",
+          "title": "Food Safety",
+          "summary": "Safe cooking temperatures, the 2-hour rule and avoiding cross-contamination.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Clean, separate, cook, chill",
+              "body": "Food poisoning mostly comes from four mistakes. The USDA fixes:\n- **Clean**: wash hands for 20 seconds, and wash cutting boards and counters.\n- **Separate**: keep raw meat away from ready-to-eat food. Use a different cutting board, or wash between uses.\n- **Cook**: to a safe internal temperature, checked with a **food thermometer**. Color is not a reliable test.\n- **Chill**: fridge at **40°F or below**, freezer at 0°F.\n\nBacteria grow fastest between 40°F and 140°F, the **danger zone**.",
+              "source": { "label": "USDA FSIS: Keep food safe", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe" }
+            },
+            {
+              "type": "learn",
+              "title": "Safe internal temperatures",
+              "body": "Measure in the thickest part, away from bone:\n- **Poultry** (chicken, turkey, including ground): **165°F**\n- **Ground beef and pork**: **160°F**\n- **Whole cuts** of beef, pork, lamb (steaks, chops, roasts): **145°F**, then rest **3 minutes**\n- **Fish**: **145°F**\n- **Leftovers and casseroles**: reheat to **165°F**\n\nA basic instant-read thermometer is cheap and removes the guessing.",
+              "source": { "label": "USDA FSIS safe temperature chart", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart" }
+            },
+            {
+              "type": "match",
+              "prompt": "Match each food to its USDA minimum safe internal temperature.",
+              "pairs": [
+                ["Chicken breast", "165°F"],
+                ["Hamburger patty", "160°F"],
+                ["Pork chop (then rest 3 minutes)", "145°F"],
+                ["Fridge temperature", "40°F or below"]
+              ],
+              "explain": "Ground meat needs a higher temperature than whole cuts because grinding mixes surface bacteria all the way through."
+            },
+            {
+              "type": "learn",
+              "title": "The 2-hour rule",
+              "body": "Perishable food (meat, dairy, cooked rice and pasta, cut fruit, leftovers) should not sit out at room temperature for more than **2 hours**, or **1 hour** if it's above 90°F, like at a summer picnic or in a hot car.\n\nAfter that, throw it out. Reheating doesn't always make it safe, because some bacteria make toxins that heat doesn't destroy.\n\nRefrigerate leftovers in shallow containers so they cool quickly, and eat them within **3-4 days**.\n\n> When in doubt, throw it out.",
+              "source": { "label": "USDA FSIS: Leftovers and food safety", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety" }
+            },
+            {
+              "type": "scenario",
+              "prompt": "You get home from a party at 1 a.m. The leftover pizza and chicken wings have been on the counter since 8 p.m. What do you do?",
+              "options": [
+                { "text": "Throw them out: they've been in the danger zone for about 5 hours.", "feedback": "Right. Far past 2 hours, and smelling fine doesn't mean safe.", "best": true },
+                { "text": "Refrigerate them now; the fridge will kill the bacteria.", "feedback": "Cold slows bacteria but doesn't kill them or undo toxins that already formed." },
+                { "text": "Reheat them in the microwave tomorrow until they're hot.", "feedback": "Some bacterial toxins survive reheating." }
+              ],
+              "explain": "The 2-hour clock is about time in the danger zone, not how the food looks or smells."
+            },
+            {
+              "type": "number",
+              "prompt": "You set out potato salad at a backyard party at 2:00 p.m. It's 95°F outside. Using USDA's rule, how many hours can it safely stay out?",
+              "answer": 1,
+              "tolerance": 0,
+              "unit": "hours",
+              "explain": "Above 90°F the limit drops from 2 hours to **1 hour**. Put it back in a cooler on ice by 3:00 p.m."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "If chicken is no longer pink inside, it's definitely safe to eat.",
+              "answer": false,
+              "explain": "Color isn't reliable: chicken can look done before reaching 165°F, or stay pinkish after. A food thermometer is the only reliable test."
+            },
+            {
+              "type": "order",
+              "prompt": "You're making chicken stir-fry. Put the safe-handling steps in order.",
+              "items": [
+                "Wash your hands",
+                "Cut the vegetables on a clean board first",
+                "Cut the raw chicken last on that board, or use a separate board",
+                "Wash the board, knife and your hands with hot soapy water",
+                "Cook the chicken until a thermometer reads 165°F"
+              ],
+              "explain": "Cutting vegetables before raw meat avoids carrying raw-meat juices onto food that won't be cooked as hot."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Clean, separate, cook, chill.\n- Poultry 165°F, ground meat 160°F, whole cuts and fish 145°F, leftovers 165°F.\n- 2 hours out max, 1 hour above 90°F.\n- Leftovers: 3-4 days in the fridge.\n- Use a thermometer, not color."
+            }
+          ]
+        },
+        {
+          "id": "u4-l3",
+          "title": "Documents, Contracts and Fine Print",
+          "summary": "Keep key documents safe, get a passport, and read before you sign.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Documents you'll need again and again",
+              "body": "Know where these are, and keep originals in one safe, dry place (a fire-resistant folder or box):\n- **Birth certificate**\n- **Social Security card**: don't carry it in your wallet. Memorize the number and share it only when truly required (employer, bank, taxes).\n- **Passport**\n- **Driver's license or state ID**\n- **Car title** and insurance documents\n- **Health insurance card** and vaccination records\n\nKeep secure digital copies too. Shred papers with personal info before throwing them out."
+            },
+            {
+              "type": "multi",
+              "prompt": "Which should you usually **not** carry in your wallet every day? Select all that apply.",
+              "options": [
+                "Social Security card",
+                "Birth certificate",
+                "Driver's license",
+                "Health insurance card",
+                "Passport (when you're not traveling)"
+              ],
+              "answers": [0, 1, 4],
+              "explain": "Your SSN card, birth certificate and passport are hard to replace and valuable to identity thieves. Your license and insurance card are meant to be carried."
+            },
+            {
+              "type": "learn",
+              "title": "Getting your first adult passport",
+              "body": "A first adult passport book must be applied for **in person** at an acceptance facility (often a post office or library) using **Form DS-11**. Bring proof of citizenship (like your birth certificate), photo ID, a passport photo, and two separate payments.\n\nCurrent fees for a first adult passport book: **$130** to the State Department plus a **$35** acceptance fee. Adult passports last 10 years. Apply months before any trip: processing takes weeks.",
+              "source": { "label": "State Department passport fees", "url": "https://travel.state.gov/en/passports/apply/help/fees.html" }
+            },
+            {
+              "type": "number",
+              "prompt": "Using the fees above, what is the total cost of a first adult passport book ($130 application + $35 acceptance fee)?",
+              "answer": 165,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "$130 + $35 = **$165**. Expedited service and faster shipping cost extra."
+            },
+            {
+              "type": "learn",
+              "title": "Read before you sign",
+              "body": "Phone plans, gym memberships, car loans, leases and apps all come with contracts. Before you sign or click agree, look for:\n- **Total cost**, not just the monthly price, and when promo pricing ends\n- **Length** and **automatic renewal**\n- **Cancellation**: how, how much notice, any fee\n- **Fees**: late, early termination, activation\n- **Arbitration** clauses that limit suing\n\nIf a salesperson promises something, get it in the written contract. Take a photo or keep a copy of everything you sign."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A gym offers $10/month. The contract says 24-month term, $49 annual fee, auto-renews, and cancellation requires a certified letter 30 days in advance. What should you do?",
+              "options": [
+                { "text": "Calculate the real cost (24 x $10 + 2 x $49 = $338), decide if you'll really use it that long, and put the cancellation deadline in your calendar if you join.", "feedback": "Exactly. The real price is the total, and auto-renewal deadlines are easy to miss.", "best": true },
+                { "text": "Sign it; $10 a month is too cheap to matter.", "feedback": "The fine print turns $10 into $338 over two years, and you might keep paying after that." },
+                { "text": "Sign it and just stop paying if you quit going.", "feedback": "Unpaid contract fees can go to collections and damage your credit." }
+              ],
+              "explain": "Find the total cost, the commitment length and the exit before you sign."
+            },
+            {
+              "type": "number",
+              "prompt": "A phone plan is $35/month for the first 12 months, then $55/month. What will you pay over 24 months?",
+              "answer": 1080,
+              "tolerance": 0,
+              "unit": "$",
+              "explain": "12 x $35 = $420, plus 12 x $55 = $660. Total **$1,080**, an average of $45 a month, not $35."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "It's safe to throw old bank statements and medical bills in the regular trash without shredding them.",
+              "answer": false,
+              "explain": "Account numbers, addresses and medical details help identity thieves. Shred them, or keep them if you still need the record."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Do you know where your birth certificate, Social Security card and passport are right now? Write where you'll keep them, and one subscription or contract you'll check for auto-renewal.",
+              "placeholder": "My documents live in ___. Subscription to check: ___ (renews on ___)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
