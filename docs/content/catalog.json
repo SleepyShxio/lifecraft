@@ -84,6 +84,90 @@
   ]
  },
  {
+  "id": "learn-how-to-learn",
+  "track": "life",
+  "title": "Learn How to Learn",
+  "tagline": "Study less, remember more: the science of learning that sticks.",
+  "description": "Swap rereading and cramming for the techniques memory research rates highest: self-testing, spacing and mixing. You will build your own review schedule, protect your focus, use memory tricks that work, and get good at any new skill faster.",
+  "icon": "brain",
+  "color": "#A77BF3",
+  "order": 5,
+  "file": "content/courses/learn-how-to-learn.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 105,
+  "minutes": 72,
+  "unitTitles": [
+   "Why Most Studying Fails",
+   "Make It Stick",
+   "Focus, Notes and Memory Tricks",
+   "Learn Any Skill Faster"
+  ]
+ },
+ {
+  "id": "think-clearly",
+  "track": "life",
+  "title": "Think Clearly",
+  "tagline": "Catch your brain's shortcuts, spot bad info, and make better calls.",
+  "description": "Learn the mental shortcuts that trip up smart people, how to take apart a bad argument, how to check a claim (or an AI fake) in under a minute, the few numbers ideas that protect you from scary headlines and bad deals, and simple tools for making big decisions.",
+  "icon": "lightbulb",
+  "color": "#3FC1C9",
+  "order": 6,
+  "file": "content/courses/think-clearly.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 106,
+  "minutes": 72,
+  "unitTitles": [
+   "Your Brain's Shortcuts",
+   "Spot Bad Arguments and Bad Info",
+   "Numbers That Don't Fool You",
+   "Better Decisions"
+  ]
+ },
+ {
+  "id": "people-skills",
+  "track": "life",
+  "title": "People Skills",
+  "tagline": "Listen well, handle conflict, negotiate, speak up and keep friends.",
+  "description": "Practical, research-backed skills for dealing with people: real listening, easy conversations, feedback that helps, calm conflict, good apologies, fair negotiation, confident public speaking, and making and keeping friends. Every level includes scripts you can actually say.",
+  "icon": "chat",
+  "color": "#F08A4B",
+  "order": 7,
+  "file": "content/courses/people-skills.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 102,
+  "minutes": 71,
+  "unitTitles": [
+   "Listening and Conversation",
+   "Feedback, Conflict and Apologies",
+   "Negotiate and Speak Up",
+   "Friendships and Boundaries"
+  ]
+ },
+ {
+  "id": "self-mastery",
+  "track": "life",
+  "title": "Self-Mastery",
+  "tagline": "Build habits, beat procrastination, and handle stress and setbacks.",
+  "description": "The science of getting yourself to do what you said you would: habits that run on autopilot, beating procrastination, planning your week, setting goals that work, taming your phone, managing emotions, bouncing back from failure, and reviewing your life so you keep improving.",
+  "icon": "target",
+  "color": "#E36BAE",
+  "order": 8,
+  "file": "content/courses/self-mastery.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 101,
+  "minutes": 72,
+  "unitTitles": [
+   "Build Habits That Stick",
+   "Get Things Done",
+   "Emotions and Resilience",
+   "Focus, Discipline and Reflection"
+  ]
+ },
+ {
   "id": "mission-gospel-foundations",
   "track": "mission",
   "title": "Gospel Foundations",
