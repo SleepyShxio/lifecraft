@@ -1,0 +1,1180 @@
+{
+  "id": "sharp-thinking",
+  "track": "life",
+  "title": "Sharp Thinking",
+  "tagline": "Break problems down, reason fast and plan your way through real life.",
+  "description": "Train quick, clear reasoning for everyday situations: break big problems into small ones, find the real bottleneck, read if/then rules correctly, and estimate anything in your head. Then learn to decide fast when it is safe, think a few moves ahead, and solve real puzzles like schedules, errands and packing.",
+  "icon": "target",
+  "color": "#E86A8A",
+  "order": 10,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Break It Down",
+      "description": "Turn big, messy problems into small ones you can act on today.",
+      "levels": [
+        {
+          "id": "u1-l1",
+          "title": "Shrink the Problem",
+          "summary": "Split a big problem into pieces and find the real question behind it.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Big problem, small pieces",
+              "body": "When a problem feels huge, your brain freezes. The fix is to **break it into pieces**, each small enough that you know the next action.\n\nExample: 'I need a car.'\n- How much can I pay up front and each month?\n- What do I need it for: school, work, road trips?\n- Where will I look?\n- Who can help me check it before I buy?\n- How much will insurance cost?\n\nEach piece is a question you can answer this week.",
+              "tip": "Pick one thing you have been putting off. Write it at the top of a page, list 3 to 5 smaller pieces under it, and do the smallest one today."
+            },
+            {
+              "type": "order",
+              "prompt": "Put the steps for breaking down a big problem in order.",
+              "items": [
+                "Write the big problem in one sentence",
+                "List the smaller pieces it is made of",
+                "Pick the piece that unlocks the others",
+                "Do the next small action on that piece"
+              ],
+              "explain": "Name it, split it, find the piece that matters most, then act. Action on one small piece beats worrying about the whole thing."
+            },
+            {
+              "type": "learn",
+              "title": "Find the real question",
+              "body": "Often the problem you name is not the real problem.\n\n'I need a new phone' might really be 'my phone dies by noon.' That could be fixed by a battery replacement or a portable charger, for a fraction of the price.\n\nAsk: **What problem would this solve?** Then ask: **Is there a simpler way to solve that?**",
+              "tip": "Before you buy something to fix a problem, write the problem in one sentence without naming any product. Then list two other ways to solve it."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your chemistry grade dropped from a B to a D in three weeks. What is the sharpest first move?",
+              "options": [
+                {
+                  "text": "Look at the grade book and see exactly which assignments or tests lost the points.",
+                  "feedback": "Right. Maybe it is one bad test, or missing homework. Each cause has a different fix, and you can't pick one until you know.",
+                  "best": true
+                },
+                {
+                  "text": "Start studying chemistry for three hours every night.",
+                  "feedback": "Effort is good, but if the real problem is three missing assignments, extra study won't fix it."
+                },
+                {
+                  "text": "Drop the class before it gets worse.",
+                  "feedback": "That is a big, hard-to-undo move made before you know what went wrong."
+                },
+                {
+                  "text": "Decide the teacher grades unfairly.",
+                  "feedback": "Possible, but you have no evidence yet. Check the details first."
+                }
+              ],
+              "hint": "Which option helps you find out what the problem actually is?",
+              "explain": "Break 'my grade dropped' into its pieces first. The fix depends on which piece is broken."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your problem: 'I never have money.' Which smaller question is the most useful one to answer first?",
+              "options": [
+                "Where did my money go last month?",
+                "How do rich people think about money?",
+                "Should I get a second job?",
+                "Which budgeting app is the best?"
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. You can't fix a leak until you find it. Your bank app can answer this in 10 minutes.",
+                "Interesting, but it doesn't tell you anything about your own money.",
+                "Maybe, but more income won't help if the real issue is spending you didn't notice.",
+                "The app is a tool. You still need to know where the money goes."
+              ],
+              "explain": "Start with the piece that gives you facts. Once you see where the money went, the next step is usually obvious."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each big problem to a good first small piece.",
+              "pairs": [
+                [
+                  "'I'm always late to school'",
+                  "Time each part of your morning for 3 days"
+                ],
+                [
+                  "'My room is a disaster'",
+                  "Clear just the desk tonight"
+                ],
+                [
+                  "'I want a summer job'",
+                  "List 5 places within biking distance that hire teens"
+                ],
+                [
+                  "'I'm out of shape'",
+                  "Walk 20 minutes after dinner tomorrow"
+                ]
+              ],
+              "explain": "A good first piece is small, specific and something you can do soon. It also teaches you something about the bigger problem."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Big problems freeze you. Small pieces get you moving.\n- Ask: what problem would this solve? The answer is often cheaper or simpler than your first idea.\n- Start with the piece that gives you facts or unlocks the rest.",
+              "tip": "When a friend is stuck on a big problem, ask them: 'What's the smallest piece of this you could do today?' It helps more than advice."
+            }
+          ]
+        },
+        {
+          "id": "u1-l2",
+          "title": "First Principles",
+          "summary": "Strip a problem down to what is actually true, then build a better answer.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Back to the basics",
+              "body": "**First-principles thinking** means breaking a problem down to the basic facts you know are true, instead of copying what everyone usually does.\n\nAsk: **What do I actually need?** and **Why?**\n\nExample: 'After high school you go to a 4-year university.'\nWhat do you actually need? A skill people will pay for, and proof you have it. Ways to get that: a university, community college first, a trade school, a certificate, an apprenticeship or a job with training.\n\nThe habit opens up options you didn't see.",
+              "tip": "Take one 'that's just how it's done' choice in your life this week and ask: what do I actually need here? Write two other ways to get it."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You want a $1,200 gaming PC. Which question gets closest to first principles?",
+              "options": [
+                "Which PC do my favorite streamers use?",
+                "Which games do I want to play, and what is the cheapest setup that runs them well?",
+                "How fast can I save $1,200?",
+                "Which brand has the best reviews?"
+              ],
+              "answer": 1,
+              "feedback": [
+                "That copies someone else's needs, not yours.",
+                "Right. Start from what you actually need. It might be a $600 build, a used console or upgrading your current PC.",
+                "That accepts the $1,200 price without checking if you need it.",
+                "Reviews help later. First decide what you need it to do."
+              ],
+              "explain": "First principles start from your real goal, not from the product you first thought of."
+            },
+            {
+              "type": "learn",
+              "title": "What would have to be true?",
+              "body": "Instead of arguing whether a plan is good, ask: **What would have to be true for this to work?**\n\nExample: selling custom-painted sneakers.\n- People want them at your price.\n- You can make them for less than that price.\n- You can reach buyers.\n- You have the time each week.\n\nThen test the **shakiest one** cheaply. Paint one pair, post it, and see who asks to buy before you spend $300 on supplies.",
+              "tip": "For your next plan, write 'For this to work, it must be true that...' and list 3 to 4 things. Test the shakiest one first, as cheaply as you can."
+            },
+            {
+              "type": "multi",
+              "prompt": "You want to start a dog-walking business this summer. Which of these must be true for it to work? Select all that apply.",
+              "options": [
+                "Enough dog owners nearby would pay for walks",
+                "You have reliable time on weekdays",
+                "You can get to their homes easily",
+                "You own a dog yourself",
+                "You have a professional website before you start"
+              ],
+              "answers": [
+                0,
+                1,
+                2
+              ],
+              "hint": "Which ones could the business not survive without? Which are just nice to have?",
+              "explain": "Customers, time and getting there are must-haves. Owning a dog or having a website can help, but plenty of dog walkers start with flyers and word of mouth."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your friends say the beach trip is off because the flights are too expensive. What first-principles question helps most?",
+              "options": [
+                {
+                  "text": "'What do we actually want: the beach itself, or a weekend away together? Is there a closer place we could drive to?'",
+                  "feedback": "Right. The goal was time together somewhere fun. A lake or a state park you can drive to might give you 90% of that for a fraction of the cost.",
+                  "best": true
+                },
+                {
+                  "text": "'Let's wait until flights get cheaper.'",
+                  "feedback": "They might not, and the trip may never happen."
+                },
+                {
+                  "text": "'Let's put it all on a credit card.'",
+                  "feedback": "That keeps the plan but adds debt and interest, without asking if there's a better plan."
+                },
+                {
+                  "text": "'I guess trips are just too expensive for us.'",
+                  "feedback": "That treats one version of the plan as the only version."
+                }
+              ],
+              "explain": "When a plan hits a wall, go back to the real goal. There is usually more than one way to reach it."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "First-principles thinking means ignoring what other people have done before.",
+              "answer": false,
+              "explain": "False. What others have done is useful information. First principles just means you don't treat 'how it's usually done' as a rule you must follow."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Ask: what do I actually need, and why?\n- List what would have to be true for a plan to work.\n- Test the shakiest part first, as cheaply as you can.\n- Use other people's examples as information, not as rules.",
+              "tip": "Before a big purchase, write your real need in one sentence. Then find the cheapest option that fully meets it, and compare it to what you first wanted."
+            }
+          ]
+        },
+        {
+          "id": "u1-l3",
+          "title": "Find the Bottleneck",
+          "summary": "Find the one slow step holding everything up, and start long waits first.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "The neck of the bottle",
+              "body": "A **bottleneck** is the slowest step in a process. It limits everything, the way the narrow neck of a bottle limits how fast water pours out.\n\nSpeeding up other steps does not help. Only fixing the bottleneck does.\n\nExample: your group project has slides done by three people. Everyone is waiting on one person's section. Polishing the finished slides won't get it done sooner. Helping with that last section will.",
+              "tip": "Next time something keeps running late, like your morning or a group project, ask: which one step is everyone waiting on? Put your effort there."
+            },
+            {
+              "type": "number",
+              "prompt": "Your team runs a car wash with one person per station. Soaping takes 2 minutes per car, scrubbing takes 6 minutes, and drying takes 3 minutes. What is the most cars you can finish in one hour?",
+              "answer": 10,
+              "tolerance": 0,
+              "unit": "cars",
+              "hint": "Cars can only leave as fast as the slowest station lets them. Which station is slowest?",
+              "explain": "Scrubbing is the bottleneck at 6 minutes per car. 60 / 6 = **10 cars an hour**. Adding a second scrubber would help the most."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You're late to school most days. You timed your morning: you and your brother share one bathroom, and you wait about 15 minutes for him to finish his shower. What is the best fix?",
+              "options": [
+                {
+                  "text": "Shower the night before, so the bathroom wait disappears.",
+                  "feedback": "Right. That removes the bottleneck instead of working around it.",
+                  "best": true
+                },
+                {
+                  "text": "Eat breakfast faster.",
+                  "feedback": "Breakfast isn't the slow step. You'd still wait for the bathroom."
+                },
+                {
+                  "text": "Wake up 30 minutes earlier.",
+                  "feedback": "It works, but it costs you sleep to work around a problem you could remove."
+                },
+                {
+                  "text": "Argue with your brother every morning about who goes first.",
+                  "feedback": "That adds stress and doesn't create more bathroom time."
+                }
+              ],
+              "hint": "Which option changes the step everyone is waiting on?",
+              "explain": "Find the slow step and change it. Fixing anything else only moves the waiting around."
+            },
+            {
+              "type": "learn",
+              "title": "Start the long waits first",
+              "body": "Some tasks take time but not your attention: laundry, baking, a big download, waiting for someone to reply.\n\n**Start those first**, then do other things while they run.\n\nExample: you need to wash clothes (45 minutes), vacuum (20 minutes) and do dishes (15 minutes). Start the washer, then vacuum and do dishes while it runs. Done in about 45 minutes instead of 80.",
+              "tip": "Before a busy day, circle the tasks that run on their own (laundry, oven, charging, sending a question to someone) and start them first."
+            },
+            {
+              "type": "order",
+              "prompt": "Saturday chores: laundry (washer then dryer), vacuuming, dishes and folding. Put the steps in the fastest order.",
+              "items": [
+                "Start the washing machine",
+                "Vacuum while the washer runs",
+                "Move the clothes to the dryer",
+                "Do the dishes while the dryer runs",
+                "Fold the dry clothes"
+              ],
+              "hint": "Which tasks run by themselves? Start those before the hands-on ones.",
+              "explain": "The machines are the slow part, so keep them running the whole time and fill the waits with hands-on chores."
+            },
+            {
+              "type": "mcq",
+              "prompt": "For a bake sale, your oven bakes 24 cupcakes an hour, and your three friends can frost 60 an hour. You need 120 cupcakes by tomorrow. What helps most?",
+              "options": [
+                "Invite two more friends to frost",
+                "Bake a second batch in a neighbor's or friend's oven at the same time",
+                "Buy fancier frosting",
+                "Frost faster"
+              ],
+              "answer": 1,
+              "feedback": [
+                "The frosters are already waiting on the oven. More frosters means more waiting.",
+                "Right. The oven is the bottleneck. A second oven nearly doubles your output.",
+                "That doesn't change how many cupcakes you can make.",
+                "Frosting isn't the slow step, so faster frosting saves no time."
+              ],
+              "hint": "Which step is slower: baking or frosting?",
+              "explain": "Baking (24 an hour) is slower than frosting (60 an hour), so the oven limits everything. Add oven capacity."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- The slowest step sets the speed of the whole process.\n- Improving any other step doesn't help.\n- Start tasks that run on their own first, then fill the wait with hands-on work.",
+              "tip": "In your next group project, ask on day one: 'Which part takes longest or depends on someone else?' Start that part first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Everyday Logic",
+      "description": "Read rules correctly, tell must-haves from enough, and catch the missing step.",
+      "levels": [
+        {
+          "id": "u2-l1",
+          "title": "If/Then Without Getting Fooled",
+          "summary": "Know what an if/then rule really tells you, and what it doesn't.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "What 'if/then' really says",
+              "body": "An **if/then** rule says: **if A happens, then B happens.**\n\nIt does **not** say that B only happens because of A.\n\nExample rule from your manager: 'If you're late three times, you get a written warning.'\nKai got a written warning. Was he late three times? **Maybe.** He could have gotten it for something else, like a missed shift.\n\nReading B as proof of A is one of the most common logic slips.",
+              "tip": "When you hear an if/then rule at work, school or in a sports team, ask yourself: what else could cause the same result?"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Coach's rule: 'If it rains, practice moves to the gym.' Today practice is in the gym. What can you conclude?",
+              "options": [
+                "It's raining.",
+                "It isn't raining.",
+                "You can't tell. Practice might be in the gym for another reason.",
+                "The coach broke the rule."
+              ],
+              "answer": 2,
+              "feedback": [
+                "That is the classic slip. The rule only says what happens when it rains.",
+                "Nothing in the rule says that either.",
+                "Right. Maybe the field is being mowed or it's too cold.",
+                "The rule doesn't say the gym is used only when it rains."
+              ],
+              "hint": "Does the rule say the gym is used ONLY when it rains?",
+              "explain": "'If A, then B' plus B tells you nothing certain about A. Other things can cause B too."
+            },
+            {
+              "type": "learn",
+              "title": "The flip that works",
+              "body": "There is one flip that always works: **if B did not happen, A did not happen.**\n\nRule: 'If the store is open, the lights are on.'\n- Lights are off, so the store is **not open**. Valid.\n- Lights are on, so the store is open? **Not sure.** Staff could be cleaning.\n- Store is closed, so the lights are off? **Not sure.** Same reason.\n\nSo only two moves are safe: A is true, so B is true; B is false, so A is false.",
+              "tip": "When you catch yourself saying 'so that means...', check which of the four moves you just made. Only two are safe."
+            },
+            {
+              "type": "match",
+              "prompt": "Rule: 'If a package weighs over 50 pounds, there is a heavy-item fee.' Match each fact to what you can conclude.",
+              "pairs": [
+                [
+                  "The package weighs 60 pounds",
+                  "There is a heavy-item fee"
+                ],
+                [
+                  "There is no heavy-item fee",
+                  "The package weighs 50 pounds or less"
+                ],
+                [
+                  "There is a heavy-item fee",
+                  "Can't tell: the rule doesn't say only heavy packages get it"
+                ],
+                [
+                  "The package weighs 30 pounds",
+                  "Can't tell: the rule says nothing about light packages"
+                ]
+              ],
+              "hint": "Only two moves are safe: A gives B, and no B gives no A.",
+              "explain": "Over 50 pounds gives the fee. No fee means not over 50. The other two directions don't follow from the rule alone."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Rule: 'Anyone who works more than 40 hours in a week gets overtime pay.' Sam got no overtime pay this week, and the rule was followed. So Sam did not work more than 40 hours.",
+              "answer": true,
+              "explain": "True. This is the safe flip: no B (no overtime), so no A (not over 40 hours)."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your friend says: 'If I get the warehouse job, I'll need a car to get there. So I should buy a car this weekend.' What do you say?",
+              "options": [
+                {
+                  "text": "'The car only makes sense if you get the job. Wait for the offer, then buy one if you still need it.'",
+                  "feedback": "Right. The if/then starts with the job. Buying the car first acts as if the 'if' already happened.",
+                  "best": true
+                },
+                {
+                  "text": "'Good idea, you'll look more serious in the interview.'",
+                  "feedback": "Employers rarely know or care, and he'd be stuck with car payments if he doesn't get hired."
+                },
+                {
+                  "text": "'You'll never get the job anyway.'",
+                  "feedback": "Unkind, and it doesn't help him think."
+                },
+                {
+                  "text": "'Buy the car, and if you don't get the job, sell it.'",
+                  "feedback": "Selling a car quickly often means losing money. Why take that risk now?"
+                }
+              ],
+              "explain": "In 'if A, then B', B is only needed once A is true. Don't pay for the 'then' before the 'if' happens."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- 'If A, then B' does not mean 'if B, then A.'\n- Safe: A is true, so B. B is false, so not A.\n- Not safe: B is true, so A. A is false, so not B.\n- Don't act on the 'then' before the 'if' happens.",
+              "tip": "Read your work or school handbook's rules once with this lens. Notice which rules only go one way, so you're never caught off guard."
+            }
+          ]
+        },
+        {
+          "id": "u2-l2",
+          "title": "Necessary vs Sufficient",
+          "summary": "Tell 'you must have this' apart from 'this is enough on its own.'",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Must-have vs enough",
+              "body": "- **Necessary** means you must have it, but it may not be enough.\n- **Sufficient** means it is enough on its own to get the result.\n\nExample: a driver's license is **necessary** to drive legally, but not **sufficient**. You also need a car that is registered and insured.\n\nExample: scoring 100% on every test is **sufficient** to pass most classes, but not **necessary**. You can pass with less.",
+              "tip": "When someone says 'you need X', ask yourself: is X a must-have, or just one way to get there? Often it is just one way."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A job post says: 'Required: valid driver's license. Preferred: one year of customer service experience.' Which is true?",
+              "options": [
+                "The license is necessary, but having one is not enough to get the job.",
+                "The license is enough to get you hired.",
+                "Without the experience, there is no point applying.",
+                "The experience is necessary."
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. No license, no job. But a license alone doesn't guarantee an offer.",
+                "Every applicant has one, so it can't be enough on its own.",
+                "'Preferred' means a plus, not a must-have. Apply anyway.",
+                "'Preferred' is not 'required'. It is neither necessary nor sufficient."
+              ],
+              "hint": "Which words in the post mean 'must have', and which mean 'nice to have'?",
+              "explain": "'Required' is necessary. 'Preferred' is a bonus. Many people skip jobs they could get because they read 'preferred' as 'required'."
+            },
+            {
+              "type": "learn",
+              "title": "Two common mix-ups",
+              "body": "**Mix-up 1: treating necessary as enough.**\n'I studied, so I'll pass.' Studying is necessary, but not enough if the method was rereading the night before.\n\n**Mix-up 2: treating one route as the only route.**\n'I need a 4.0 GPA to get into a good college.' A high GPA helps, but plenty of students get into good schools without a perfect one.\n\nMix-up 1 makes you overconfident. Mix-up 2 makes you panic or give up.",
+              "tip": "If you feel panicked about one requirement, ask: 'Is this truly required, or is it just one way?' Then look up the real requirements yourself."
+            },
+            {
+              "type": "multi",
+              "prompt": "You're about to drive two friends 3 hours to a concert. Which of these are necessary? Select all that apply.",
+              "options": [
+                "A valid driver's license",
+                "Enough gas or a plan to fill up",
+                "A car that is safe to drive",
+                "A great playlist",
+                "Snacks"
+              ],
+              "answers": [
+                0,
+                1,
+                2
+              ],
+              "explain": "License, fuel and a safe car are must-haves. Playlist and snacks make it better, but the trip works without them. None of these alone is sufficient: you also need tickets."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your brother says: 'Without a college degree you can't make good money, so there's no point trying anything else.' What is the sharpest reply?",
+              "options": [
+                {
+                  "text": "'A degree is one route, not the only one. Lots of trades and certificates pay well. Let's look at real pay numbers for a few options.'",
+                  "feedback": "Right. You're pointing out that a degree isn't strictly necessary, and suggesting a way to check.",
+                  "best": true
+                },
+                {
+                  "text": "'You're right, a degree guarantees good money.'",
+                  "feedback": "That treats a degree as sufficient. Pay varies a lot by field."
+                },
+                {
+                  "text": "'College is a waste of money for everyone.'",
+                  "feedback": "That swaps one absolute claim for another. For some careers it is required."
+                },
+                {
+                  "text": "'Just don't think about it.'",
+                  "feedback": "That avoids the question instead of helping him think it through."
+                }
+              ],
+              "explain": "Most good outcomes have more than one route. Check which requirements are truly necessary before closing doors."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Getting a full night's sleep before a test is sufficient to do well on it.",
+              "answer": false,
+              "hint": "Sufficient means it would be enough all by itself.",
+              "explain": "False. Sleep helps a lot, but on its own it isn't enough. You also need to know the material."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Necessary: must have, may not be enough.\n- Sufficient: enough on its own.\n- 'Required' in a job post is necessary. 'Preferred' is a bonus.\n- Most goals have several routes. Don't treat one route as the only one.",
+              "tip": "Next time you read a job post, scholarship or program, sort its list into 'required' and 'nice to have'. Apply if you meet the required part."
+            }
+          ]
+        },
+        {
+          "id": "u2-l3",
+          "title": "Spot the Missing Step",
+          "summary": "Find the gap in a plan before it trips you up.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Gaps hide in plans",
+              "body": "Plans often skip a step that has to happen. That missing step is a **hidden assumption**: something you're counting on without saying it.\n\nExample: 'I'll save $3,000 this summer by working 20 hours a week at $15 for 10 weeks.'\n\nMissing steps:\n- Someone has to hire you first.\n- Taxes may come out of each paycheck.\n- You will probably spend some of it.\n\nAsk: **What has to happen between here and there?**",
+              "tip": "For your next plan, list every step between now and done. Any step you can't explain clearly is probably the missing one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Our band is playing the fall festival. We already practice every week.' What's the missing step?",
+              "options": [
+                "The festival organizers have to book the band.",
+                "The band needs matching outfits.",
+                "The band should practice more.",
+                "The band needs more fans first."
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. Practice makes you ready, but no one has said yes yet.",
+                "Nice, but not required to play.",
+                "Practice is already covered. It isn't the gap.",
+                "Fans help, but the real gap is getting booked."
+              ],
+              "explain": "Being ready isn't the same as being booked. Someone has to apply or reach out to the organizers."
+            },
+            {
+              "type": "order",
+              "prompt": "Put the steps of getting your first paycheck in order. Each one is easy to forget.",
+              "items": [
+                "Find openings that fit your schedule",
+                "Apply and follow up",
+                "Interview",
+                "Accept the offer and fill out the hiring paperwork",
+                "Work your shifts and log your hours",
+                "Get paid on the next payday"
+              ],
+              "explain": "Every arrow in a plan is a step. Plans fail when you jump from the first step straight to the last one."
+            },
+            {
+              "type": "learn",
+              "title": "The 'and how?' test",
+              "body": "For each step in a plan, ask: **And how, exactly?** If the answer is vague, you found the gap.\n\nExample: 'We'll split the cabin and everyone will pay me back.'\n- And how? Who collects? By when? Through which app?\n\nIf no one can say, the person who paid up front ends up chasing money for weeks.",
+              "tip": "When making a group plan, give every step a name and a date: who does it, and by when. Send it in the group chat."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your friends' plan: 'We'll leave Friday after school and camp at the lake.' Everyone has gear and a ride. What is the sharpest question to ask?",
+              "options": [
+                {
+                  "text": "'Who's reserving the campsite? Popular spots can fill up weeks ahead.'",
+                  "feedback": "Right. That's the step everyone assumed someone else had done.",
+                  "best": true
+                },
+                {
+                  "text": "'What snacks are we bringing?'",
+                  "feedback": "Useful, but easy to fix on the way. A missing campsite isn't."
+                },
+                {
+                  "text": "'Should we invite more people?'",
+                  "feedback": "That adds to the plan without checking if it works."
+                },
+                {
+                  "text": "'Let's just figure it out when we get there.'",
+                  "feedback": "If the sites are full, you may drive hours and have nowhere to sleep."
+                }
+              ],
+              "hint": "Which step, if missing, would ruin the whole trip?",
+              "explain": "Look for the step that everyone assumes someone else handled. That is the most common missing step in group plans."
+            },
+            {
+              "type": "multi",
+              "prompt": "'Energy drinks give you energy, so drinking one before the test will raise my score.' Which hidden assumptions does this rely on? Select all that apply.",
+              "options": [
+                "Feeling more alert will actually improve the score",
+                "Side effects like jitters or a crash won't hurt your focus",
+                "It won't mess up your sleep the night before or after",
+                "Energy drinks contain caffeine"
+              ],
+              "answers": [
+                0,
+                1,
+                2
+              ],
+              "hint": "Look for steps between 'drink' and 'higher score' that might not happen.",
+              "explain": "Caffeine content is a fact, not a hidden step. The plan quietly assumes alertness turns into a better score, with no jitters, crash or lost sleep getting in the way."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Think of a plan you have right now. Write each step, then ask 'and how, exactly?' for each one. Which step is the weakest?",
+              "placeholder": "Plan: ...  Steps: 1) ... 2) ... 3) ...  Weakest step: ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Estimate and Reality-Check",
+      "description": "Estimate anything in your head, test if claims are even possible, and spot patterns.",
+      "levels": [
+        {
+          "id": "u3-l1",
+          "title": "Fermi Estimates",
+          "summary": "Estimate any number by breaking it into pieces you can guess.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Guess smart, not wild",
+              "body": "Physicist Enrico Fermi was famous for making good estimates with almost no data. A **Fermi estimate** breaks an unknown number into smaller pieces you can guess, then multiplies them.\n\nExample: how much do you spend on drinks in a year?\n- About $3 per drink\n- About 4 drinks a week\n- 52 weeks a year\n- $3 x 4 x 52 = about **$600**\n\nBeing within 2 or 3 times the real answer is good enough to make decisions.",
+              "tip": "Pick one habit you pay for (coffee, snacks, rides) and do a quick Fermi estimate of what it costs you per year. Write the number down."
+            },
+            {
+              "type": "order",
+              "prompt": "Put the steps of a Fermi estimate in order.",
+              "items": [
+                "Say exactly what you are estimating",
+                "Break it into pieces you can guess",
+                "Make a round guess for each piece",
+                "Multiply the pieces together",
+                "Sanity-check: does the result seem reasonable?"
+              ],
+              "explain": "Clear question, pieces, round guesses, multiply, then check. The last step catches the big mistakes."
+            },
+            {
+              "type": "number",
+              "prompt": "About how many barbers and hair stylists does a town of 30,000 people need? Assume each person gets a haircut every 2 months, and one stylist does 15 haircuts a day, 25 days a month.",
+              "answer": 40,
+              "tolerance": 0,
+              "unit": "stylists",
+              "hint": "First find haircuts per month for the town. Then find haircuts per month for one stylist. Divide.",
+              "explain": "30,000 people / 2 months = 15,000 haircuts a month. One stylist: 15 x 25 = 375 a month. 15,000 / 375 = **40 stylists**."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You use your phone about 4 hours a day. About how many hours is that in a year?",
+              "options": [
+                "About 150",
+                "About 500",
+                "About 1,500",
+                "About 15,000"
+              ],
+              "answer": 2,
+              "feedback": [
+                "That is about 4 hours a day for just over a month.",
+                "Too low. 4 x 365 is well over 1,000.",
+                "Right. 4 x 365 is about 1,460 hours, which is roughly 60 full days.",
+                "Too high. A whole year has only about 8,760 hours."
+              ],
+              "hint": "Round 365 days to 400 to get a quick upper bound, or do 4 x 365 directly.",
+              "explain": "4 x 365 = 1,460, about **1,500 hours** a year. That is around 60 full 24-hour days."
+            },
+            {
+              "type": "learn",
+              "title": "Estimates help you decide",
+              "body": "You don't need an exact answer to make a good choice. You just need to know if something is small or big.\n\nExample: is a $40 reusable water bottle worth it if you buy about 3 bottles of water a week at $2 each?\n- $2 x 3 = $6 a week\n- $6 x 52 weeks = about **$300 a year**\n\nThe $40 bottle pays for itself in about 7 weeks. Easy decision.",
+              "tip": "Before you sign up for any subscription, multiply the monthly price by 12. Ask yourself if you'd pay that yearly number up front."
+            },
+            {
+              "type": "scenario",
+              "prompt": "Your friend plans to sell homemade cookies at school for $1 each to raise $500 for prom in one month. What is the sharpest response?",
+              "options": [
+                {
+                  "text": "'That's 500 cookies, about 25 a day for 20 school days. Can you bake that many, and will that many people buy every day?'",
+                  "feedback": "Right. A quick estimate turns a vague goal into numbers you can check.",
+                  "best": true
+                },
+                {
+                  "text": "'Great idea, cookies always sell.'",
+                  "feedback": "Maybe, but 25 sales every single school day is a lot."
+                },
+                {
+                  "text": "'You'll never make that much.'",
+                  "feedback": "Maybe true, but you haven't checked. Do the math together."
+                },
+                {
+                  "text": "'Charge $5 a cookie instead.'",
+                  "feedback": "That changes the price without checking if anyone would pay it."
+                }
+              ],
+              "hint": "How many cookies is $500 at $1 each, and over how many days?",
+              "explain": "Turn the goal into a per-day number. Then ask if that daily number is realistic."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Break the unknown into pieces you can guess, then multiply.\n- Use round numbers. Being within 2 to 3 times is good enough.\n- Turn yearly totals into daily or weekly numbers, and the other way around.\n- Always sanity-check the result.",
+              "tip": "Play 'Fermi' with a friend on a drive: how many cars pass this spot a day? How many pizzas does our town eat a week? Compare your methods."
+            }
+          ]
+        },
+        {
+          "id": "u3-l2",
+          "title": "Is This Claim Even Possible?",
+          "summary": "Use quick math and hard limits to catch claims that can't be true.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Check against hard limits",
+              "body": "Some claims fail a 10-second math check. Compare them with limits that never change:\n- 24 hours in a day\n- 168 hours in a week\n- About 8,760 hours in a year\n- About 340 million people in the US (2025 estimate)\n\nExample: 'I watched 200 hours of shows last week.' A week only has 168 hours. **Impossible.**",
+              "tip": "Memorize three limits: 168 hours in a week, about 8,760 hours in a year, about 340 million people in the US. They catch a lot of nonsense."
+            },
+            {
+              "type": "number",
+              "prompt": "An online seller says she bakes 2,000 cupcakes by hand, alone, every day. If each cupcake takes just 1 minute of hands-on work, about how many hours of work is that per day?",
+              "answer": 33,
+              "tolerance": 1,
+              "unit": "hours",
+              "hint": "Turn 2,000 minutes into hours. There are 60 minutes in an hour.",
+              "explain": "2,000 / 60 = about **33 hours** a day. A day only has 24, so the claim can't be true as stated. Maybe she has help or machines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "An influencer says he personally answered 5,000 messages yesterday, at about 30 seconds each. What does a quick check show?",
+              "options": [
+                "Easy: that's about 4 hours.",
+                "Possible: that's a full 8-hour workday.",
+                "Impossible as stated: that's about 42 hours.",
+                "You can't check without seeing his phone."
+              ],
+              "answer": 2,
+              "feedback": [
+                "Too low. 5,000 x 30 seconds is 150,000 seconds.",
+                "Too low. 8 hours is only about 960 half-minute replies.",
+                "Right. 5,000 half-minutes = 2,500 minutes, about 42 hours. More than a day.",
+                "You can. Rough math is enough to see it doesn't fit in a day."
+              ],
+              "hint": "Two replies take a minute. How many minutes is 5,000 replies?",
+              "explain": "5,000 x 0.5 minutes = 2,500 minutes, and 2,500 / 60 is about **42 hours**. Either he had help, used auto-replies, or the number is inflated."
+            },
+            {
+              "type": "learn",
+              "title": "Break totals into per-unit numbers",
+              "body": "Big totals sound impressive. Turn them into **per hour, per person or per day** and see if they still make sense.\n\nExample: a small coffee shop says it sells 5,000 coffees a day.\n- Open 12 hours, so about 420 an hour\n- That's about 7 coffees every minute, all day\n\nPossible for a giant city shop with many baristas. Very unlikely for a small one with one register.",
+              "tip": "When you hear a huge number in an ad or a video, divide it by the time or the number of people involved. Say the per-unit number out loud."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each claim to the quickest way to check it.",
+              "pairs": [
+                [
+                  "A streamer says they were live 200 hours this week",
+                  "Compare with the 168 hours in a week"
+                ],
+                [
+                  "A brand says 1 in 3 Americans bought its new gadget last month",
+                  "Compare with the US population, about 340 million"
+                ],
+                [
+                  "A friend says they send 1,000 texts a day",
+                  "Turn it into texts per waking hour"
+                ],
+                [
+                  "A job ad promises $5,000 a week for 5 hours of work",
+                  "Turn it into pay per hour"
+                ]
+              ],
+              "explain": "Each check takes seconds. 1,000 texts a day is about 60 an hour: possible but extreme. $1,000 an hour with no experience is a huge red flag."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A classmate says he read 40 novels over a two-week winter break. A typical novel is about 300 pages, and a page takes about a minute. What's the best read of this claim?",
+              "options": [
+                "Definitely true. Some people read fast.",
+                "Impossible. No one can read that much.",
+                "Very unlikely: it's about 14 hours of reading a day, every day. Maybe they were short books.",
+                "You can't judge reading claims with math."
+              ],
+              "answer": 2,
+              "feedback": [
+                "Fast readers exist, but this needs nearly 3 books a day.",
+                "Not quite. About 14 hours a day fits inside 24 hours, so it's possible, just very unlikely.",
+                "Right. 40 / 14 is about 3 books a day, roughly 860 pages, about 14 hours. Short books would change that.",
+                "You can. Pages per day and minutes per page give a quick check."
+              ],
+              "hint": "How many books per day is that? How many pages and minutes per day?",
+              "explain": "Not every claim is possible or impossible. Some are just very unlikely. The math tells you which questions to ask."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "If a claim passes the quick math check, it is true.",
+              "answer": false,
+              "explain": "False. The check only tells you a claim is possible, not that it is true. It is a filter for the obvious nonsense."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Compare claims with hard limits: hours in a day or week, number of people.\n- Turn big totals into per-hour, per-person or per-day numbers.\n- Failing the check means the claim is wrong or missing something.\n- Passing the check only means it's possible.",
+              "tip": "This week, run the quick math check on one big number you hear in a video or ad. Notice how often the per-day number sounds very different."
+            }
+          ]
+        },
+        {
+          "id": "u3-l3",
+          "title": "Spot the Pattern",
+          "summary": "Notice what repeats in your days and test it so you can use it.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "What repeats?",
+              "body": "Spotting **patterns** saves time and money. Look for what repeats: the same day, the same time, the same trigger.\n\n- The cafeteria line is shortest about 10 minutes into lunch.\n- You overspend on Fridays when you go out.\n- You get headaches on days you skip water.\n- The bus is always about 3 minutes late on rainy days.\n\nThe easiest way to see a pattern is to **write things down** for a week, with the day and time.",
+              "tip": "For one week, jot one line each night: what went well, what went badly, and when. On Sunday, look for anything that shows up twice or more."
+            },
+            {
+              "type": "number",
+              "prompt": "You notice the bus to work came at 7:05, 7:17 and 7:29. If the pattern holds, how many minutes after 7:00 will the next one come?",
+              "answer": 41,
+              "tolerance": 0,
+              "unit": "minutes",
+              "hint": "Find the gap between buses. Is it the same each time?",
+              "explain": "The gap is 12 minutes each time. 7:29 + 12 minutes = 7:41, so **41 minutes** after 7:00."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your spending for two weeks: Mon $12, Tue $9, Fri $45, then Mon $8, Tue $10, Fri $52. What pattern stands out?",
+              "options": [
+                "You spend more each week.",
+                "Fridays are where most of your money goes.",
+                "Mondays are your biggest days.",
+                "There is no pattern."
+              ],
+              "answer": 1,
+              "feedback": [
+                "Week totals are $66 and $70: barely different.",
+                "Right. Fridays are about two thirds of your spending. That's where a budget change helps most.",
+                "Mondays are $12 and $8, among the smallest.",
+                "Look again at Fridays compared with the other days."
+              ],
+              "explain": "Fridays make up $97 of $136. Set a Friday limit and you change your whole budget."
+            },
+            {
+              "type": "learn",
+              "title": "Test it before you trust it",
+              "body": "Something that happened twice might be chance. Three or more times under the same conditions is worth **testing**.\n\nTo test a pattern, **change one thing** and watch what happens.\n\nExample: you think you sleep badly after late-night gaming. Try one week with screens off by 10 pm and note how you sleep. If sleep improves, the pattern was real and you know what to do.",
+              "tip": "Pick one pattern you suspect, like 'I'm tired on days I skip breakfast.' Change just that one thing for a week and note what happens."
+            },
+            {
+              "type": "order",
+              "prompt": "Put the steps for testing a pattern in order.",
+              "items": [
+                "Notice something seems to repeat",
+                "Write down when it happens for a week",
+                "Guess what might be causing it",
+                "Change one thing",
+                "Check whether the pattern changed"
+              ],
+              "explain": "Notice, record, guess, change one thing, check. Changing several things at once means you won't know which one worked."
+            },
+            {
+              "type": "scenario",
+              "prompt": "For three weeks in a row, your manager has texted on Thursday asking you to cover a weekend shift. You keep having to cancel plans. What's the sharpest move?",
+              "options": [
+                {
+                  "text": "Ask your manager when the schedule is set, and give your weekend availability before then each week.",
+                  "feedback": "Right. You spotted the pattern, found its cause and moved ahead of it.",
+                  "best": true
+                },
+                {
+                  "text": "Stop reading texts on Thursdays.",
+                  "feedback": "That avoids the problem but might hurt your job."
+                },
+                {
+                  "text": "Keep saying yes and canceling plans.",
+                  "feedback": "The pattern will just keep repeating."
+                },
+                {
+                  "text": "Quit the job.",
+                  "feedback": "A big move for a problem one conversation might fix."
+                }
+              ],
+              "hint": "Which option uses the pattern to get ahead of the problem?",
+              "explain": "Once you see a pattern, look for its cause. Acting before it repeats is the payoff."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Look for what repeats: same day, time or trigger.\n- Write it down. Memory misses most patterns.\n- Twice might be chance. Test it by changing one thing.\n- Once a pattern is real, plan around it before it happens again.",
+              "tip": "Check your bank app for the day of the week you spend the most. Set a small limit for that one day this week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Decide and Plan Under Pressure",
+      "description": "Decide fast when it is safe, think ahead, and solve schedule, route and packing puzzles.",
+      "levels": [
+        {
+          "id": "u4-l1",
+          "title": "Decide Fast When You Can",
+          "summary": "Spend less time on small choices and save your energy for big ones.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Most decisions are small",
+              "body": "Most daily choices are small and easy to undo: what to eat, which club to try, which of two shirts to buy. Thinking hard about them wastes time and energy.\n\nQuick check: **Can I undo this cheaply?**\n- Yes: decide fast. If it's wrong, you'll learn and switch.\n- No (a lease, a loan, a tattoo): slow down.\n\nThink Clearly calls these two-way and one-way doors. Here the skill is **speed**: sorting a choice in a few seconds.",
+              "tip": "For small choices this week, like what to eat or watch, give yourself 60 seconds. When the time is up, pick and move on."
+            },
+            {
+              "type": "match",
+              "prompt": "Match each decision to how much time it deserves.",
+              "pairs": [
+                [
+                  "What to order for lunch",
+                  "Under a minute"
+                ],
+                [
+                  "Which of two $30 shirts to buy (returns allowed)",
+                  "A couple of minutes, then return it if wrong"
+                ],
+                [
+                  "Whether to sign a $20,000 car loan",
+                  "Sleep on it and compare offers"
+                ],
+                [
+                  "Which college or trade program to commit to",
+                  "Days or weeks of research and visits"
+                ]
+              ],
+              "explain": "Match your time to the cost of being wrong and how hard it is to undo."
+            },
+            {
+              "type": "learn",
+              "title": "Good enough beats perfect",
+              "body": "Amazon founder Jeff Bezos wrote that most decisions should be made with about **70%** of the information you wish you had. Waiting for 90% usually means you're too slow.\n\nEconomist Herbert Simon called picking the first option that meets your standards **satisficing** (satisfy + suffice). Psychologist Barry Schwartz found that people who always hunt for the very best option, called **maximizers**, often end up less happy with what they chose.\n\nThe trick: decide your must-haves first, then take the first option that meets them.",
+              "tip": "Before you shop for anything, write 3 must-haves and a price limit. Buy the first option that meets all of them and stop looking."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You've spent 3 hours reading reviews to choose between $40 earbuds. The store accepts returns for 30 days. What is the sharpest move?",
+              "options": [
+                {
+                  "text": "Pick the one that meets your must-haves (fit, battery, price) and buy it. Return it if it disappoints.",
+                  "feedback": "Right. It's cheap and easy to undo. More research costs more than a wrong pick would.",
+                  "best": true
+                },
+                {
+                  "text": "Keep researching until you're 100% sure.",
+                  "feedback": "You'll never be 100% sure, and you've already spent hours on a $40 item."
+                },
+                {
+                  "text": "Buy both and decide later.",
+                  "feedback": "Possible with free returns, but it ties up $80 and delays the choice."
+                },
+                {
+                  "text": "Ask 10 more friends for their opinion.",
+                  "feedback": "More opinions add noise, not clarity, for a choice this small."
+                }
+              ],
+              "hint": "How costly is a wrong choice here, and can you undo it?",
+              "explain": "When a choice is cheap and reversible, the fastest good-enough decision wins. Save deep research for choices you can't take back."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which of these deserves a slow, careful decision?",
+              "options": [
+                "Trying a new lunch spot",
+                "Choosing which movie to see with friends",
+                "Signing a 12-month apartment lease",
+                "Picking a color for your phone case"
+              ],
+              "answer": 2,
+              "feedback": [
+                "If it's bad, you just don't go back.",
+                "Worst case: two hours of a so-so movie.",
+                "Right. Breaking a lease can cost a lot, so it's hard to undo.",
+                "Cheap and easy to change."
+              ],
+              "explain": "Slow down when a choice is expensive or hard to undo. Speed up for everything else."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "Taking more time almost always leads to a better decision.",
+              "answer": false,
+              "explain": "False. For small, reversible choices, extra time rarely improves the result, and it uses up time and energy you could spend on decisions that matter."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Ask: can I undo this cheaply? If yes, decide fast.\n- About 70% of the info you want is usually enough.\n- Set must-haves first, then take the first option that meets them.\n- Save slow, careful thinking for choices that are costly or permanent.",
+              "tip": "Make a list of your recurring small decisions, like breakfast or what to wear. Pick a default for each so you don't have to decide every day."
+            }
+          ]
+        },
+        {
+          "id": "u4-l2",
+          "title": "10/10/10 and the Next Move",
+          "summary": "Check a choice across three time frames and predict how people will react.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "10 minutes, 10 months, 10 years",
+              "body": "Writer Suzy Welch made a quick tool called **10/10/10**. Ask how you'll feel about a choice:\n- **10 minutes** from now\n- **10 months** from now\n- **10 years** from now\n\nIt works best when a strong feeling is loud right now.\n\nExample: skipping your shift to go to a party.\n- 10 minutes: fun!\n- 10 months: maybe no good reference from that job.\n- 10 years: you won't remember the party, but you might remember losing the job.",
+              "tip": "Next time you're tempted by a choice in the moment, pause and run 10/10/10 in your head. It takes about 30 seconds."
+            },
+            {
+              "type": "order",
+              "prompt": "Put the 10/10/10 steps in order.",
+              "items": [
+                "Name the choice in one sentence",
+                "Picture how you'll feel 10 minutes later",
+                "Picture how you'll feel 10 months later",
+                "Picture how you'll feel 10 years later",
+                "Pick the option the longer views support"
+              ],
+              "explain": "Start with the right-now feeling, then zoom out. The longer views usually show what really matters."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A friend posted something that made you really angry. You've typed a harsh reply. What does 10/10/10 suggest?",
+              "options": [
+                {
+                  "text": "Wait, cool down, and talk to them privately later.",
+                  "feedback": "Right. At 10 minutes the reply feels great. At 10 months you may have lost a friend over a post.",
+                  "best": true
+                },
+                {
+                  "text": "Send it now while you mean it.",
+                  "feedback": "That's the 10-minute view only. Messages you send angry are hard to take back."
+                },
+                {
+                  "text": "Post a vague message about them instead.",
+                  "feedback": "Everyone will know who it's about, and it makes things worse."
+                },
+                {
+                  "text": "Block them right away.",
+                  "feedback": "Maybe needed sometimes, but over one post it's a big move made in anger."
+                }
+              ],
+              "explain": "10/10/10 helps when a feeling is loud right now. The 10-month view is often the most useful one."
+            },
+            {
+              "type": "learn",
+              "title": "Who reacts next?",
+              "body": "In Think Clearly you learned to ask 'and then what?' Here's a fast version: when you change a rule or a reward, **ask how people will react**.\n\nPeople respond to **incentives**: the rewards and costs in front of them.\n- A teacher gives points per page, so essays get longer, not better.\n- A store pays staff for each sale, so some staff push customers too hard.\n\nAsk: **How could someone game this?**",
+              "tip": "Before you set a rule for your group, like a chore chart or a roommate deal, ask: 'How could someone game this?' Fix it before it starts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Roommates agree: 'The last person to use the kitchen cleans it.' What is the most likely result after a week?",
+              "options": [
+                "The kitchen stays spotless.",
+                "People wait for someone else to cook after them, or leave dishes in their room.",
+                "Everyone cooks together every night.",
+                "Nothing changes."
+              ],
+              "answer": 1,
+              "feedback": [
+                "That's the goal, but the rule rewards being anything but last.",
+                "Right. The rule creates a reason to avoid being last, so the mess moves or piles up.",
+                "Nice idea, but the rule doesn't encourage it.",
+                "Rules change behavior, just not always the way you hoped."
+              ],
+              "hint": "What does the rule reward people for avoiding?",
+              "explain": "A better rule ties the job to the person who made the mess: 'Clean your own dishes within an hour.'"
+            },
+            {
+              "type": "scenario",
+              "prompt": "You lead a school club and want more people at meetings. Someone suggests free pizza at every meeting. Thinking a move ahead, what's the best plan?",
+              "options": [
+                {
+                  "text": "Use pizza for one kickoff meeting, and make sure the activity is good enough that people come back without it.",
+                  "feedback": "Right. Pizza gets people in the door once. Only the meeting itself keeps them.",
+                  "best": true
+                },
+                {
+                  "text": "Pizza every week. More people is all that matters.",
+                  "feedback": "Many will come for pizza and leave, and the budget will run out in a few weeks."
+                },
+                {
+                  "text": "No food ever. People should come for the right reasons.",
+                  "feedback": "A one-time treat can help new people try it. It just can't be the only reason."
+                },
+                {
+                  "text": "Make meetings required for members.",
+                  "feedback": "People who are forced to come tend to quit the club."
+                }
+              ],
+              "hint": "What happens in week 4 with each option?",
+              "explain": "Ask what people will do in response, and what happens a few weeks later. Rewards bring people; value keeps them."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- 10/10/10: check a choice at 10 minutes, 10 months and 10 years.\n- When you set a rule or reward, ask how people will react.\n- Ask: how could someone game this?\n- One more quick check before a plan: 'If this goes wrong, what's the most likely reason?'",
+              "tip": "Before your next big plan, ask yourself one question: 'If this goes wrong, what's the most likely reason?' Then fix that one thing now."
+            }
+          ]
+        },
+        {
+          "id": "u4-l3",
+          "title": "Real-Life Puzzles: Schedules, Routes and Packing",
+          "summary": "Plan a busy day, a run of errands and a bag like a pro.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Fixed things first",
+              "body": "A busy day is a puzzle. Solve it in this order:\n1. Put in the **fixed** things first: shifts, classes, appointments.\n2. Put the **biggest flexible task** in the biggest gap.\n3. Attach small tasks to trips you're already making.\n\nExample: a dentist appointment near the mall? Do your mall errand right after, not on a separate trip.",
+              "tip": "Tonight, write tomorrow's fixed times first, then place your biggest task in the largest open gap. Small errands go next to trips you're already making."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Saturday: work 10 am to 2 pm, soccer practice 4 to 5:30 pm, family dinner at 6:30 pm. You need 2 hours for homework and a 30-minute grocery trip. The store is next to your work. Which plan fits best?",
+              "options": [
+                "Homework 8 to 10 am, groceries right after work at 2 pm, then rest before practice.",
+                "Homework 2 to 4 pm, then drive back to the store after practice.",
+                "Homework 5:30 to 7:30 pm, groceries Sunday.",
+                "Do homework in small bits on work breaks."
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. Homework gets a full block, and the store trip rides along with work.",
+                "That squeezes homework and adds an extra trip across town when you're tired.",
+                "That runs into family dinner at 6:30.",
+                "Short breaks rarely add up to 2 hours of focused work."
+              ],
+              "hint": "Place the fixed times first. Where is there a 2-hour gap? Which errand is near a place you're already going?",
+              "explain": "Fixed times first, biggest task in the biggest gap, and attach the errand to a trip you already take."
+            },
+            {
+              "type": "learn",
+              "title": "Plan the route",
+              "body": "For errands:\n- Do the stop with a **deadline** first (a post office that closes at 5).\n- Group stops that are **near each other**. Avoid going back and forth.\n- Put **cold or frozen** groceries last so they don't melt in the car.\n\nA good route can turn a 2-hour run into 1 hour.",
+              "tip": "Before your next errand run, list the stops, note any closing times, and sort them by area. Groceries always go last."
+            },
+            {
+              "type": "order",
+              "prompt": "It's 3:30 pm. Your stops: the post office (north side, closes at 5), the library (north side, open late), the pharmacy (south side, open late), and the grocery store (south side, you're buying frozen food). You live in the middle. Put the stops in the best order.",
+              "items": [
+                "Post office",
+                "Library",
+                "Pharmacy",
+                "Grocery store"
+              ],
+              "hint": "Deadline first. Stay on one side of town before crossing. Frozen food last.",
+              "explain": "The post office has the deadline, and the library is nearby. Then cross to the south side once: pharmacy, then groceries last so the frozen food goes straight home."
+            },
+            {
+              "type": "learn",
+              "title": "Pack by 'what if I forget it?'",
+              "body": "Pack in this order:\n1. **Can't replace there:** ID, medications, keys, wallet, phone charger.\n2. **Big items:** shoes, jacket, sleeping bag. They take the most space.\n3. **Fill the gaps:** roll clothes and tuck small things into shoes.\n4. **Easy to buy there:** snacks, toothpaste. Skip if space is tight.\n\nA reusable checklist means you never start from zero.",
+              "tip": "Make a packing checklist in your phone's notes app with a 'can't replace' section at the top. Reuse it for every trip."
+            },
+            {
+              "type": "multi",
+              "prompt": "You're packing a small backpack for a weekend away. Which items belong in the 'can't replace there' group you pack first? Select all that apply.",
+              "options": [
+                "Photo ID",
+                "Prescription medication",
+                "Phone charger",
+                "Snacks",
+                "Travel-size shampoo"
+              ],
+              "answers": [
+                0,
+                1,
+                2
+              ],
+              "explain": "ID and prescriptions can be impossible to replace on a weekend. A charger is hard to replace cheaply. Snacks and shampoo can be bought almost anywhere."
+            },
+            {
+              "type": "number",
+              "prompt": "You're planning a road trip of 240 miles. You'll average about 60 miles per hour and take one 30-minute stop. About how many hours will the trip take?",
+              "answer": 4.5,
+              "tolerance": 0,
+              "unit": "hours",
+              "hint": "Find the driving time first (miles divided by speed), then add the stop.",
+              "explain": "240 / 60 = 4 hours of driving. Plus 0.5 hours for the stop = **4.5 hours**."
+            },
+            {
+              "type": "reflect",
+              "prompt": "Plan your next busy day with these rules: fixed times first, biggest task in the biggest gap, errands grouped by area. Write it out.",
+              "placeholder": "Fixed: ...  Biggest task: ... at ...  Errands in order: ..."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

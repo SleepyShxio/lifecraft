@@ -1,0 +1,1016 @@
+{
+  "id": "mental-math",
+  "track": "life",
+  "title": "Mental Math",
+  "tagline": "Tips, discounts, unit prices and time math, fast and in your head.",
+  "description": "Learn the shortcuts that make everyday math quick: tips and bill splits, percent off and stacked deals, unit prices, sales tax, and how long a shift really was. Practice without the calculator until the answer pops into your head in seconds.",
+  "icon": "lightbulb",
+  "color": "#A3C639",
+  "order": 9,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Percents in Your Head",
+      "description": "Find 10%, 15%, 20% and other percents of any price in seconds.",
+      "levels": [
+        {
+          "id": "u1-l1",
+          "title": "The 10% Move",
+          "summary": "Find 10%, 5%, 15% and 20% of any number with one simple move.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Leave the calculator in your pocket",
+              "body": "This course trains your brain, so **practice without the calculator**. Speed comes from doing it in your head again and again.\n\nThe first trick: **10% of a number = move the decimal point one place left.**\n\n- 10% of $46 = $4.60\n- 10% of $250 = $25\n- 10% of $7.80 = $0.78\n\nOnce you have 10%, double it for **20%**. Example: 20% of $35. 10% is $3.50. Double it: **$7**.",
+              "tip": "Today, pick any three prices you see (a menu, a gas sign, an ad) and say 10% of each out loud in your head."
+            },
+            {
+              "type": "number",
+              "prompt": "A hoodie costs $73. What is 10% of the price?",
+              "answer": 7.3,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Move the decimal point one place to the left.",
+              "explain": "$73.0 becomes **$7.30** when the decimal moves one place left."
+            },
+            {
+              "type": "number",
+              "prompt": "What is 20% of $45?",
+              "answer": 9,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Find 10% first, then double it.",
+              "explain": "10% of $45 is $4.50. Double it: **$9**."
+            },
+            {
+              "type": "learn",
+              "title": "5% and 15%",
+              "body": "**5% is half of 10%.** **15% is 10% plus half of that.**\n\nExample: 15% of $60.\n- 10% = $6\n- 5% = half of $6 = $3\n- 15% = $6 + $3 = **$9**\n\nThe same building blocks make 30% (three 10%s) or 25% (two 10%s plus a 5%).",
+              "tip": "When you see a sale price, find 5% by halving 10%. Do it twice today until it feels automatic."
+            },
+            {
+              "type": "number",
+              "prompt": "What is 15% of $40?",
+              "answer": 6,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Get 10%, then add half of it.",
+              "explain": "10% of $40 = $4. Half of that is $2. $4 + $2 = **$6**."
+            },
+            {
+              "type": "number",
+              "prompt": "Your phone bill is $260 for the year. What is 5% of it?",
+              "answer": 13,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "5% is half of 10%.",
+              "explain": "10% of $260 = $26. Half of $26 = **$13**."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What is the fastest correct way to find 30% of $70 in your head?",
+              "options": [
+                "10% is $7, so 30% is 3 x $7 = $21",
+                "70 minus 30 = $40",
+                "Half of $70 is $35, minus 10% ($7) = $28",
+                "Divide 70 by 30"
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. Find 10%, then multiply by 3.",
+                "Subtracting the percent from the price does not work. 30% of $70 is less than half of $70.",
+                "Close idea, but 50% minus 10% is 40%, not 30%.",
+                "Dividing by the percent is a common slip. It gives about 2.3, which is far off."
+              ],
+              "explain": "Build percents from 10%: 30% is three 10%s. 3 x $7 = **$21**."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- 10%: move the decimal one place left.\n- 20%: double the 10%.\n- 5%: half the 10%.\n- 15%: 10% plus 5%.\n- Most percents are just stacks of these blocks.",
+              "tip": "Make it a game: every time you buy something this week, find 10% and 20% of the price before you pay."
+            }
+          ]
+        },
+        {
+          "id": "u1-l2",
+          "title": "Tips and Splitting the Bill",
+          "summary": "Work out a fair tip and everyone's share before the server comes back.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Tipping fast",
+              "body": "In the US, a **tip** for table service at a sit-down restaurant is usually 15% to 20% of the bill, and many people now tip about 20%. Norms change by country and by type of service.\n\nThe fast way:\n1. Round the bill to a friendly number.\n2. Find 10%.\n3. Double it for 20%, or add half for 15%.\n\nExample: bill $58.40. Call it $58. 10% = $5.80. 20% = **$11.60**.",
+              "tip": "Next time you eat out, work out the tip in your head first, then check it with the tip line on the receipt."
+            },
+            {
+              "type": "number",
+              "prompt": "Your bill is $42. How much is a 20% tip?",
+              "answer": 8.4,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Find 10%, then double it.",
+              "explain": "10% of $42 = $4.20. Double it: **$8.40**."
+            },
+            {
+              "type": "number",
+              "prompt": "Your bill is $64. How much is a 15% tip?",
+              "answer": 9.6,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Find 10%, then add half of that amount.",
+              "explain": "10% = $6.40. Half of that = $3.20. $6.40 + $3.20 = **$9.60**."
+            },
+            {
+              "type": "learn",
+              "title": "Split it fast",
+              "body": "To split a bill evenly:\n1. Add the tip to the bill first.\n2. Then divide by the number of people.\n\nShortcuts for dividing:\n- **By 2:** halve it.\n- **By 4:** halve it, then halve again.\n- **By 3 or 5:** break the total into easy parts. $54 / 3 = $30 / 3 + $24 / 3 = $10 + $8 = $18.\n\nExample: $96 total for 4 people. Half is $48. Half again: **$24 each**.",
+              "tip": "Before anyone opens a split-the-bill app, say the per-person amount out loud. See if you beat the app."
+            },
+            {
+              "type": "number",
+              "prompt": "Four friends eat together. The meal is $72 and you add a 20% tip. How much does each person pay?",
+              "answer": 21.6,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Tip first: 10% doubled. Add it to the bill. Then halve the total twice.",
+              "explain": "10% of $72 = $7.20, so 20% = $14.40. Total: $72 + $14.40 = $86.40. Halve: $43.20. Halve again: **$21.60** each."
+            },
+            {
+              "type": "number",
+              "prompt": "Three of you order pizza for $54, tip already included. What is each person's share?",
+              "answer": 18,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Split 54 into two parts that divide easily by 3, like 30 and 24.",
+              "explain": "$30 / 3 = $10 and $24 / 3 = $8. $10 + $8 = **$18** each."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your friend says a 20% tip on a $47 bill is $4.70. What went wrong?",
+              "options": [
+                "They found 10%, not 20%. The tip should be about $9.40.",
+                "Nothing. $4.70 is 20% of $47.",
+                "They should have divided $47 by 20.",
+                "Tips are always worked out on the total after tax, so it is $5."
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. $4.70 is 10%. Doubling gives $9.40.",
+                "Check it: 10% of $47 is $4.70, so 20% must be twice that.",
+                "47 / 20 is about 2.35. Dividing by the percent is a common mix-up.",
+                "People tip on either the pre-tax or after-tax total. Either way, $4.70 is only about 10%."
+              ],
+              "explain": "Moving the decimal gives **10%**. For 20%, always double it: $4.70 x 2 = $9.40."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Round the bill, find 10%, then double (20%) or add half (15%).\n- Add the tip before you split.\n- Divide by 4 by halving twice. Divide by 3 by breaking the number into easy parts.\n- If the tip looks like 10%, someone forgot to double.",
+              "tip": "Memorize the 20% tip on common bills: $20 is $4, $30 is $6, $50 is $10. Then nudge up or down from the closest one."
+            }
+          ]
+        },
+        {
+          "id": "u1-l3",
+          "title": "Percent Swaps and Friendly Percents",
+          "summary": "Flip a hard percent into an easy one, and use 1%, 25%, 50% and 75%.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "The percent swap",
+              "body": "Here is a secret: **x% of y is the same as y% of x.**\n\nSo a hard one can turn into an easy one:\n- 8% of 50 = 50% of 8 = **4**\n- 4% of 75 = 75% of 4 = **3**\n- 12% of 25 = 25% of 12 = **3**\n\nIt works because both are just the two numbers multiplied, then divided by 100. Always ask: **is the swapped version easier?**",
+              "tip": "When a percent question looks awkward, flip it in your head and see if the other version is easier. Try it on one price today."
+            },
+            {
+              "type": "number",
+              "prompt": "What is 6% of 50?",
+              "answer": 3,
+              "tolerance": 0,
+              "hint": "Swap it: 6% of 50 is the same as 50% of 6.",
+              "explain": "50% of 6 is half of 6 = **3**."
+            },
+            {
+              "type": "number",
+              "prompt": "What is 16% of 25?",
+              "answer": 4,
+              "tolerance": 0,
+              "hint": "Swap the numbers. 25% means a quarter.",
+              "explain": "16% of 25 = 25% of 16 = a quarter of 16 = **4**."
+            },
+            {
+              "type": "learn",
+              "title": "Friendly percents",
+              "body": "Some percents are just fractions:\n- **50%** = half\n- **25%** = a quarter (halve twice)\n- **75%** = three quarters (a quarter, times 3)\n- **1%** = move the decimal **two** places left\n\nBuild odd percents from 1%. Example: 3% of $300. 1% is $3, so 3% is **$9**.\n\nExample: 75% of $40. A quarter is $10, so three quarters is **$30**.",
+              "tip": "Learn these by heart: 25% is a quarter, 75% is three quarters, 1% is two decimal places. Quiz yourself once a day this week."
+            },
+            {
+              "type": "number",
+              "prompt": "Your savings account pays 1% interest a year. You have $4,500 saved. About how much interest will you earn in a year?",
+              "answer": 45,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "1% means move the decimal point two places to the left.",
+              "explain": "$4,500 becomes **$45** when the decimal moves two places left."
+            },
+            {
+              "type": "number",
+              "prompt": "You agree to pay 75% of a $36 phone bill each month. How much do you pay?",
+              "answer": 27,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Find a quarter first (halve twice), then take three of them.",
+              "explain": "A quarter of $36 is $9. Three quarters is 3 x $9 = **$27**."
+            },
+            {
+              "type": "number",
+              "prompt": "You earn $20 an hour and get a 3% raise. How much more per hour is that?",
+              "answer": 0.6,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Find 1% of $20 by moving the decimal two places, then multiply by 3.",
+              "explain": "1% of $20 = $0.20. 3% = 3 x $0.20 = **$0.60** more per hour, so your new pay is $20.60."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "4% of 25 gives the same answer as 25% of 4.",
+              "answer": true,
+              "explain": "True. Both equal 1. Swapping the numbers never changes the answer, so pick the easier side."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- x% of y = y% of x. Swap when one side is easier.\n- 50% is half, 25% is a quarter, 75% is three quarters.\n- 1% is two decimal places. Build 2%, 3%, 4% from it.\n- Raises, interest and fees are often small percents, so 1% is your best friend.",
+              "tip": "Next time you see a fee or interest rate, find 1% of the amount and multiply. You will know the real cost before you agree."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Smart Shopping",
+      "description": "Sale prices, stacked deals, unit prices and sales tax, worked out in the aisle.",
+      "levels": [
+        {
+          "id": "u2-l1",
+          "title": "Percent Off and Stacked Deals",
+          "summary": "Find the sale price fast, and see why 20% off plus 10% off is not 30%.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "What do you actually pay?",
+              "body": "**30% off** means you pay **70%**. You can go two ways:\n\n- Find the discount and subtract: $40 jacket, 30% off. 10% is $4, so 30% is $12. $40 - $12 = **$28**.\n- Or find what you pay directly: 70% of $40 = 7 x $4 = **$28**.\n\nPick whichever is easier for the numbers in front of you.",
+              "tip": "In a store this week, pick one sale tag and work out the final price before you look at the sign that shows it."
+            },
+            {
+              "type": "number",
+              "prompt": "Shoes cost $60 and are 25% off. What is the sale price?",
+              "answer": 45,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "25% is a quarter. Find the quarter, then take it away.",
+              "explain": "A quarter of $60 is $15. $60 - $15 = **$45**."
+            },
+            {
+              "type": "number",
+              "prompt": "A hoodie costs $80 and is 35% off. What do you pay?",
+              "answer": 52,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "35% = 30% + 5%. Find 10%, triple it, then add half of 10%.",
+              "explain": "10% = $8, so 30% = $24 and 5% = $4. Discount: $28. $80 - $28 = **$52**."
+            },
+            {
+              "type": "learn",
+              "title": "Stacked discounts",
+              "body": "Stores love saying **\"extra 10% off sale prices.\"** The second discount comes off the **already lower** price, so the percents do not just add up.\n\nExample: $50 shirt, 20% off, then an extra 10% off.\n1. 20% off $50 = $40.\n2. 10% off $40 = $36.\n\nYou paid $36, which is **28% off**, not 30%. Always do one discount at a time.",
+              "tip": "When you see an extra-percent-off deal, do the two discounts one after the other. Never just add the percents."
+            },
+            {
+              "type": "number",
+              "prompt": "A $100 jacket is 40% off, and the register takes an extra 20% off the sale price. What do you pay?",
+              "answer": 48,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Do the 40% off first. Then take 20% off that new price.",
+              "explain": "40% off $100 = $60. 20% of $60 = $12. $60 - $12 = **$48**."
+            },
+            {
+              "type": "number",
+              "prompt": "An $80 video game is 25% off, with an extra 10% off at checkout. What is the final price?",
+              "answer": 54,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Quarter off first. Then move the decimal to find 10% of the new price.",
+              "explain": "25% off $80 = $80 - $20 = $60. 10% of $60 = $6. $60 - $6 = **$54**."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A clearance rack says \"50% off, then an extra 50% off.\" How much do you really save?",
+              "options": [
+                "100%: it's free",
+                "75% off: you pay a quarter of the price",
+                "50% off: the second one doesn't count",
+                "60% off"
+              ],
+              "answer": 1,
+              "feedback": [
+                "The second 50% comes off the already halved price, so it can't reach 100%.",
+                "Right. Half of half is a quarter, so you pay 25% and save 75%.",
+                "It counts, but only on the lower price.",
+                "Try it on $100: $50, then $25. That is 75% off."
+              ],
+              "hint": "Try it on a $100 item, one discount at a time.",
+              "explain": "$100 becomes $50, then $25. You pay a quarter, so you save **75%**."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- X% off means you pay (100 - X)%.\n- Find the discount and subtract, or find what you pay directly. Pick the easier one.\n- Stacked discounts: one at a time. The second one is always worth a bit less than it sounds.\n- A sale is only a deal if you wanted the item anyway.",
+              "tip": "Before you buy anything on sale, ask: would I buy it at this sale price if it were the normal price? If not, skip it."
+            }
+          ]
+        },
+        {
+          "id": "u2-l2",
+          "title": "Unit Prices: Which Is the Better Deal?",
+          "summary": "Compare packs and sizes by cost per item or per ounce.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Cost per unit",
+              "body": "Bigger packs are not always cheaper. The **unit price** is the cost for one unit: one ounce, one item, one roll.\n\n**Unit price = price / amount.**\n\nExample: a 12-pack of soda for $6 is $6 / 12 = **$0.50 per can**.\n\nMany store shelf tags print the unit price in small print. Check that both tags use the same unit, like per ounce, and not one per ounce and one per item.",
+              "tip": "Next time you shop, find the small unit-price number on two shelf tags and compare them before you grab the bigger pack."
+            },
+            {
+              "type": "number",
+              "prompt": "A 12-ounce box of cereal costs $3.60. What is the price per ounce, in cents?",
+              "answer": 30,
+              "tolerance": 0,
+              "unit": "cents",
+              "hint": "Think of $3.60 as 360 cents, then split it into 12 equal parts.",
+              "explain": "360 cents / 12 = **30 cents** per ounce. (12 x 30 = 360.)"
+            },
+            {
+              "type": "number",
+              "prompt": "A 24-pack of water bottles costs $6. What does each bottle cost?",
+              "answer": 0.25,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Halve both numbers until it gets easy: $6 for 24 is the same rate as $3 for 12.",
+              "explain": "$6 / 24 = $3 / 12 = $1 / 4 = **$0.25** per bottle."
+            },
+            {
+              "type": "learn",
+              "title": "Scale up instead of dividing",
+              "body": "Dividing can be messy. Often it is faster to **make the sizes match**.\n\nExample: 16 oz for $4 or 48 oz for $10?\n- 48 oz is 3 small ones.\n- 3 small ones cost 3 x $4 = $12.\n- The big one is $10, so it saves **$2**.\n\nThe same works with packs: a 2-pack for $3 vs a 6-pack for $8. Three 2-packs would be $9, so the 6-pack is cheaper.",
+              "tip": "In the store, ask: how many of the small ones make one big one? Multiply, then compare. It is quicker than dividing."
+            },
+            {
+              "type": "number",
+              "prompt": "Shampoo comes in an 8 oz bottle for $2 or a 32 oz bottle for $7. How much do you save buying one big bottle instead of enough small ones to match?",
+              "answer": 1,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "How many 8 oz bottles make 32 oz? Multiply that by $2 and compare with $7.",
+              "explain": "32 / 8 = 4 small bottles. 4 x $2 = $8. $8 - $7 = **$1** saved."
+            },
+            {
+              "type": "number",
+              "prompt": "Granola bars are $1.89 each, or 3 for $5. How much do you save with the 3-for-$5 deal?",
+              "answer": 0.67,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Treat $1.89 as $2 minus 11 cents. Multiply both parts by 3.",
+              "explain": "3 x $2 = $6, minus 3 x $0.11 = $0.33, gives $5.67. $5.67 - $5 = **$0.67** saved."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You live alone. Spinach is $3 for a small bag or $5 for a bag twice as big. You usually use about a small bag's worth before it goes bad. What do you buy?",
+              "options": [
+                {
+                  "text": "The small bag. You'll actually eat it before it spoils.",
+                  "feedback": "Right. The big bag is cheaper per ounce only if you eat it. Thrown-out food has a unit price of infinity.",
+                  "best": true
+                },
+                {
+                  "text": "The big bag. It's cheaper per ounce, so it's always the better deal.",
+                  "feedback": "On paper yes, but if half goes in the trash you paid $5 for what $3 would have bought."
+                },
+                {
+                  "text": "Two small bags, to be safe.",
+                  "feedback": "That's $6 for the same amount the $5 bag gives, and you'd still throw some away."
+                },
+                {
+                  "text": "Skip spinach. Vegetables are too expensive.",
+                  "feedback": "A $3 bag of spinach is a cheap way to eat well. No need to skip it."
+                }
+              ],
+              "hint": "A deal only counts for the part you actually use.",
+              "explain": "Unit price matters only for what you use. For food that spoils or things you rarely need, the smaller size can be the real bargain."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Unit price = price / amount. Check the shelf tag.\n- Scaling up (3 small = 1 big?) is often faster than dividing.\n- Treat $1.89 as $2 minus a little.\n- The best deal is the one you use up. Waste wipes out any savings.",
+              "tip": "Pick one item you buy often, like cereal or shampoo, and find which size has the lowest unit price at your store. Buy that size from now on."
+            }
+          ]
+        },
+        {
+          "id": "u2-l3",
+          "title": "Sales Tax and the Checkout Total",
+          "summary": "Keep a running total in your head and add tax before you reach the register.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Estimating sales tax",
+              "body": "In the US, **sales tax** is added at the register, so the shelf price is not what you pay. The rate depends on your state and city. A few states have no statewide sales tax. Where there is one, the combined rate is often somewhere around 5% to 10%. Rates change, so look up yours.\n\nTo estimate, use 1% chunks or the percent swap.\n\nExample: $50 at 8% tax. 1% of $50 is $0.50, so 8% is **$4**. Or swap: 8% of 50 = 50% of 8 = **$4**.",
+              "tip": "Look up the combined sales tax rate for your city once and remember it. Then you can add it in your head every time you shop."
+            },
+            {
+              "type": "number",
+              "prompt": "You buy a $30 shirt. Sales tax is 6%. How much is the tax?",
+              "answer": 1.8,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Find 1% of $30, then multiply by 6.",
+              "explain": "1% of $30 = $0.30. 6 x $0.30 = **$1.80**."
+            },
+            {
+              "type": "number",
+              "prompt": "You buy a $25 phone case. Sales tax is 8%. How much tax do you pay?",
+              "answer": 2,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Swap it: 8% of 25 equals 25% of 8.",
+              "explain": "25% of 8 is a quarter of 8 = **$2**."
+            },
+            {
+              "type": "learn",
+              "title": "A running total in your head",
+              "body": "Want to know if you're over budget before the register tells you? Keep a **running total**:\n\n1. Round each item to the nearest dollar.\n2. Add as you drop it in the cart.\n3. At the end, add tax.\n\nExample: $2.89, $4.15 and $6.99 round to $3 + $4 + $7 = **$14**. The real total is $14.03. Close enough to plan with.\n\nThe ups and downs of rounding mostly cancel out.",
+              "tip": "On your next grocery run, keep a rounded running total as you shop. Compare it with the receipt at the end."
+            },
+            {
+              "type": "number",
+              "prompt": "Your cart has items for $3.95, $7.10, $1.98 and $5.05. Round each to the nearest dollar and add. What is your estimate?",
+              "answer": 18,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Round each price to the closest whole dollar first, then add the four whole numbers.",
+              "explain": "$4 + $7 + $2 + $5 = **$18**. The exact total is $18.08."
+            },
+            {
+              "type": "number",
+              "prompt": "Your cart comes to about $36 before tax, and the tax rate is 10%. What is the total with tax?",
+              "answer": 39.6,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Find 10% by moving the decimal, then add it to $36.",
+              "explain": "10% of $36 = $3.60. $36 + $3.60 = **$39.60**."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You have exactly $20 and want to stay under it. Your items are $8.49, $6.75 and $3.80, and tax is about 8%. What is the smartest move?",
+              "options": [
+                "Add the shelf prices: about $19, so you're fine.",
+                "Round up each item ($9 + $7 + $4 = $20) and remember tax is on top, so put one item back or swap it.",
+                "Just go to the register and see what happens.",
+                "Tax is small, so ignore it."
+              ],
+              "answer": 1,
+              "feedback": [
+                "About $19 before tax becomes about $20.50 with 8% tax. Over budget.",
+                "Right. Rounding up gives a safe estimate, and tax pushes you over $20.",
+                "That can mean an awkward moment at the counter.",
+                "8% of $19 is about $1.50. That is enough to go over."
+              ],
+              "hint": "Shelf prices are not the final price. What gets added at the register?",
+              "explain": "Shelf prices add to $19.04. Tax of about 8% adds roughly $1.50, so the total is around **$20.56**. Round up when you're on a tight budget."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Sales tax gets added at the register. Know your local rate.\n- Use 1% chunks or the percent swap to estimate tax.\n- Keep a rounded running total while you shop.\n- On a tight budget, round up so the register never surprises you.",
+              "tip": "Set a spending cap before you walk into a store. Keep a rounded running total, and add your tax before you get in line."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Multiply Like a Shortcut Master",
+      "description": "Doubling and halving, and quick tricks for multiplying by 5, 9, 11 and 25.",
+      "levels": [
+        {
+          "id": "u3-l1",
+          "title": "Doubling and Halving",
+          "summary": "Multiply by 4 and 8 by doubling, and make hard products easy by halving one side.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Double, double, double",
+              "body": "Doubling is the easiest math your brain does. Use it to multiply:\n- **x4** = double twice\n- **x8** = double three times\n\nExample: 4 concert tickets at $17.\nDouble $17 = $34. Double again = **$68**.\n\nExample: 8 hours at $13.\n$26, $52, **$104**.",
+              "tip": "Practice doubling any number you see on a license plate or price tag until you reach 1,000. It builds speed fast."
+            },
+            {
+              "type": "number",
+              "prompt": "You buy 4 movie tickets at $23 each. What is the total?",
+              "answer": 92,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Times 4 means double it, then double again.",
+              "explain": "Double $23 = $46. Double $46 = **$92**."
+            },
+            {
+              "type": "number",
+              "prompt": "You work an 8-hour shift at $15 an hour. How much do you earn before taxes?",
+              "answer": 120,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Times 8 means double three times.",
+              "explain": "$15, then $30, $60, **$120**."
+            },
+            {
+              "type": "learn",
+              "title": "Halve one, double the other",
+              "body": "If you **halve one number and double the other**, the answer stays the same. Keep doing it until the math gets easy.\n\nExample: 14 x 15\n- Halve 14 to 7, double 15 to 30.\n- 7 x 30 = **210**.\n\nExample: 16 x 25\n- 8 x 50 = 4 x 100 = **400**.\n\nIt works best when one number is even and the other ends in 5.",
+              "tip": "When you hit a multiplication with an even number and a number ending in 5, try halve-and-double before reaching for your phone."
+            },
+            {
+              "type": "number",
+              "prompt": "You buy 16 bags of ice at $2.50 each for a party. What is the total?",
+              "answer": 40,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Halve the 16 and double the $2.50. Repeat if it helps.",
+              "explain": "16 x $2.50 = 8 x $5 = **$40**."
+            },
+            {
+              "type": "number",
+              "prompt": "You have 12 classes this week, each 35 minutes long. How many minutes is that?",
+              "answer": 420,
+              "tolerance": 0,
+              "unit": "minutes",
+              "hint": "Halve the 12 and double the 35.",
+              "explain": "12 x 35 = 6 x 70 = **420 minutes** (7 hours)."
+            },
+            {
+              "type": "truefalse",
+              "prompt": "18 x 5 gives the same answer as 9 x 10.",
+              "answer": true,
+              "explain": "True. Halve 18 to 9, double 5 to 10. Both equal 90. Halving one side and doubling the other never changes the answer."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- x4 is double twice. x8 is double three times.\n- Halve one number and double the other, then repeat, until it is easy.\n- Look for a 5 or 25 to turn into a 10 or 100.",
+              "tip": "Next time you buy several of the same item, multiply in your head with doubling before the cashier tells you the total."
+            }
+          ]
+        },
+        {
+          "id": "u3-l2",
+          "title": "Times 5 and Times 25",
+          "summary": "Use 10 and 100 to multiply by 5 and 25 in a flash.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Times 5: times 10, then halve",
+              "body": "5 is half of 10. So **x5 = x10, then halve**.\n\nExample: 48 x 5\n- 48 x 10 = 480\n- Half of 480 = **240**\n\nExample: 5 x $17\n- $170, then half = **$85**\n\nThis works for any number, even odd ones.",
+              "tip": "Any time something costs $5 or comes in fives, multiply by 10 and halve. Try it on the next $5 item you see."
+            },
+            {
+              "type": "number",
+              "prompt": "Your team's car wash charges $5 per car. You wash 36 cars. How much did you raise?",
+              "answer": 180,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Multiply by 10, then take half.",
+              "explain": "36 x 10 = 360. Half = **$180**."
+            },
+            {
+              "type": "number",
+              "prompt": "86 people pay $5 each to get into a school dance. How much is collected?",
+              "answer": 430,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Add a zero, then halve.",
+              "explain": "86 x 10 = 860. Half of 860 = **$430**."
+            },
+            {
+              "type": "learn",
+              "title": "Times 25: think in quarters",
+              "body": "25 is a quarter of 100. So **x25 = x100, then divide by 4** (halve twice).\n\nExample: 25 x 32\n- 32 x 100 = 3,200\n- Halve: 1,600. Halve again: **800**.\n\nIt is just like counting quarters: 4 quarters make $1, so 32 quarters are 32 / 4 = **$8**.",
+              "tip": "Count the quarters in your change jar or car cup by grouping them in fours. Each group of four is a dollar."
+            },
+            {
+              "type": "number",
+              "prompt": "You count 44 quarters in a jar. How many dollars is that?",
+              "answer": 11,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Four quarters make a dollar. How many groups of 4 fit in 44?",
+              "explain": "44 / 4 = **$11**."
+            },
+            {
+              "type": "number",
+              "prompt": "28 students each pay $25 for a field trip. What is the total?",
+              "answer": 700,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Multiply by 100, then halve twice.",
+              "explain": "28 x 100 = 2,800. Halve: 1,400. Halve again: **$700**."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is the cleanest way to work out 25 x 18 in your head?",
+              "options": [
+                "18 x 100 = 1,800, then divide by 4 = 450",
+                "25 x 10 + 25 x 8 = 250 + 180 = 430",
+                "18 x 100 = 1,800, then halve once = 900",
+                "18 / 4 = 4.5, then add 25"
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. x100, then a quarter of it.",
+                "The split is fine, but 25 x 8 is 200, not 180. The answer is 450.",
+                "Halving once is the x50 trick. For x25 you halve twice.",
+                "That mixes steps. You need 18 / 4 x 100, which is 450."
+              ],
+              "explain": "x25 = x100 then / 4. 1,800 / 4 = **450**."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- x5: add a zero, then halve.\n- x25: add two zeros, then halve twice.\n- x50: add two zeros, then halve once.\n- Quarters: 4 make a dollar, so divide the count by 4.",
+              "tip": "Use these when splitting group costs: $25 each for 12 people is 1,200 / 4 = $300. Try one on your next group plan."
+            }
+          ]
+        },
+        {
+          "id": "u3-l3",
+          "title": "Times 9, Times 11 and $X.99 Prices",
+          "summary": "Use 10 to handle 9s, 11s and prices that end in .99.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Times 9: times 10, minus one",
+              "body": "9 is one less than 10. So **x9 = x10, then subtract the number once**.\n\nExample: 9 x 14\n- 14 x 10 = 140\n- 140 - 14 = **126**\n\nThe same idea works for 19 (x20 minus once) and for prices like $9.99 (round to $10, subtract a penny per item).",
+              "tip": "When you see a price ending in .99, round it up to the next dollar and subtract a few cents. You will add totals much faster."
+            },
+            {
+              "type": "number",
+              "prompt": "9 friends each chip in $23 for a gift. What is the total?",
+              "answer": 207,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Multiply by 10, then take away one 23.",
+              "explain": "23 x 10 = 230. 230 - 23 = **$207**."
+            },
+            {
+              "type": "number",
+              "prompt": "You buy 4 items at $9.99 each. What is the total before tax?",
+              "answer": 39.96,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Pretend each is $10, then take off one cent for each item.",
+              "explain": "4 x $10 = $40. Minus 4 cents = **$39.96**."
+            },
+            {
+              "type": "number",
+              "prompt": "You order 19 T-shirts at $6 each for your club. What is the total?",
+              "answer": 114,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "19 is one less than 20. Multiply by 20, then subtract one $6.",
+              "explain": "20 x $6 = $120. $120 - $6 = **$114**."
+            },
+            {
+              "type": "learn",
+              "title": "Times 11 for two-digit numbers",
+              "body": "To multiply a two-digit number by 11, **split the digits and put their sum in the middle**.\n\nExample: 11 x 43\n- Digits 4 and 3. Sum: 7.\n- Answer: 4**7**3 = **473**.\n\nIf the sum is 10 or more, carry the 1 to the left digit.\n\nExample: 11 x 68\n- 6 + 8 = 14. Put the 4 in the middle and carry 1: 6+1, 4, 8 = **748**.\n\nOr just do x10 plus the number once: 680 + 68 = 748.",
+              "tip": "Try the x11 trick on your age, your house number or today's date. It takes two seconds and keeps the trick fresh."
+            },
+            {
+              "type": "number",
+              "prompt": "11 players each need a $34 jersey. What is the total?",
+              "answer": 374,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Split the digits 3 and 4 and put their sum between them.",
+              "explain": "3 + 4 = 7, so the answer is 3, 7, 4 = **$374**."
+            },
+            {
+              "type": "number",
+              "prompt": "What is 11 x 57?",
+              "answer": 627,
+              "tolerance": 0,
+              "hint": "Add the digits. If the sum is 10 or more, carry the 1 to the first digit.",
+              "explain": "5 + 7 = 12. Middle digit 2, carry 1: 5+1 = 6. Answer: **627**. Check: 570 + 57 = 627."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What is 11 x 85?",
+              "options": [
+                "8135",
+                "935",
+                "885",
+                "945"
+              ],
+              "answer": 1,
+              "feedback": [
+                "That writes the sum 13 in the middle without carrying.",
+                "Right. 8 + 5 = 13: middle digit 3, carry 1 to make 9. 935.",
+                "That puts 8 in the middle. The middle is the sum of the digits.",
+                "Close, but the last digit stays 5. Check: 850 + 85 = 935."
+              ],
+              "hint": "8 + 5 is more than 9, so you need to carry.",
+              "explain": "8 + 5 = 13. Middle 3, carry 1 to the 8: **935**. Check: 850 + 85 = 935."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- x9: x10, minus the number once.\n- x19: x20, minus the number once.\n- $X.99 prices: round up to whole dollars, subtract a cent per item.\n- x11 (two digits): put the digit sum in the middle, and carry if it is 10 or more.",
+              "tip": "At the store, add up items priced at .99 or .95 by rounding up and taking off the cents at the end. Check with the receipt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Estimates, Time and Squares",
+      "description": "Estimate totals, check answers, do time math and square numbers near 50 and 100.",
+      "levels": [
+        {
+          "id": "u4-l1",
+          "title": "Round, Estimate, Sanity-Check",
+          "summary": "Get close answers fast and catch mistakes before they cost you.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Estimate first",
+              "body": "An **estimate** is a quick, close-enough answer. Often that is all you need.\n\nRound each number to something easy, then add or multiply.\n\nExample: monthly costs of $387, $214 and $96.\nRound: $400 + $200 + $100 = **about $700**. (Exact: $697.)\n\nExample: 39 hours at $12. Round 39 to 40. 40 x $12 = **about $480**. (Exact: $468.)",
+              "tip": "Before you open a calculator or a budgeting app, say your estimate first. Then see how close you were."
+            },
+            {
+              "type": "number",
+              "prompt": "Your first apartment costs: rent $1,180, car payment $315, phone $65, food $410. Round each to the nearest $100 and add. What is your estimate?",
+              "answer": 2000,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Round each one to the nearest hundred first, then add four easy numbers.",
+              "explain": "$1,200 + $300 + $100 + $400 = **$2,000**. The exact total is $1,970, so the estimate is close."
+            },
+            {
+              "type": "number",
+              "prompt": "You earn $14.85 an hour and work 20 hours. Estimate your pay before taxes.",
+              "answer": 300,
+              "tolerance": 5,
+              "unit": "$",
+              "hint": "Round the hourly pay to the nearest dollar, then multiply by 20 (x2, then add a zero).",
+              "explain": "$14.85 is about $15. $15 x 20 = **$300**. The exact amount is $297."
+            },
+            {
+              "type": "learn",
+              "title": "Is this answer reasonable?",
+              "body": "Calculators never make mistakes, but fingers do. A missed decimal point or an extra zero is easy to type.\n\nBefore trusting any answer, ask: **about how big should this be?**\n\nExample: a 15% tip on a $48 bill shows as $72. A tip can't be bigger than the bill. Something went wrong. About $7 makes sense.\n\nThis check takes two seconds and catches the big errors.",
+              "tip": "Every time you use a calculator this week, guess the answer's rough size first. If the result is way off, redo it."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You split a $186 dinner four ways, and your phone says $4.65 each. What most likely happened?",
+              "options": [
+                "A typing slip with the decimal. The answer should be about $46.",
+                "That's right. Four people share the bill, so each pays less.",
+                "The tip was already subtracted.",
+                "You divided by 4 twice."
+              ],
+              "answer": 0,
+              "feedback": [
+                "Right. $186 / 4 is close to $200 / 4 = $50. $4.65 is ten times too small, so a decimal got lost.",
+                "Four people paying $4.65 is only $18.60, nowhere near $186.",
+                "A tip would make it bigger, not ten times smaller.",
+                "Dividing by 4 twice would give about $11.60, not $4.65."
+              ],
+              "hint": "Round $186 to $200 and divide by 4. How does that compare?",
+              "explain": "Estimate: $200 / 4 = $50. The real answer is **$46.50**. $4.65 is off by a factor of 10, which is a decimal slip."
+            },
+            {
+              "type": "number",
+              "prompt": "You work 29 shifts this season and earn $11 per shift in tips. Estimate your total by rounding the 29.",
+              "answer": 330,
+              "tolerance": 15,
+              "unit": "$",
+              "hint": "Round 29 to the nearest ten, then multiply by 11.",
+              "explain": "29 is about 30. 30 x $11 = **$330**. Exact: $330 - $11 = $319."
+            },
+            {
+              "type": "scenario",
+              "prompt": "At a snack stand you buy three things that are each around $3. The screen shows $27.40. What do you do?",
+              "options": [
+                {
+                  "text": "Politely say: \"That seems high for three snacks. Could we check the items?\"",
+                  "feedback": "Right. About $9 was expected, so $27 is a clear sign something was rung up wrong. A calm question fixes it.",
+                  "best": true
+                },
+                {
+                  "text": "Pay it. The register is probably right.",
+                  "feedback": "Registers are only as right as the person typing. You'd likely overpay by about $18."
+                },
+                {
+                  "text": "Accuse the cashier of overcharging on purpose.",
+                  "feedback": "Most mistakes are honest slips. A friendly check works better and is fair."
+                },
+                {
+                  "text": "Pay, then complain online later.",
+                  "feedback": "Fixing it now is quicker and you get your money back on the spot."
+                }
+              ],
+              "hint": "What should three items at about $3 each add up to?",
+              "explain": "A quick estimate (3 x $3 = $9) tells you the total is way off. Speaking up kindly and on the spot is the fastest fix."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Round to easy numbers, then calculate. Close is often good enough.\n- Always ask: about how big should this be?\n- An answer 10 times too big or too small usually means a decimal or zero slip.\n- Check receipts and totals against your estimate. Speak up kindly if they don't match.",
+              "tip": "Glance at your next receipt and compare it with your rough estimate. If it is off by more than a few dollars, check the items."
+            }
+          ]
+        },
+        {
+          "id": "u4-l2",
+          "title": "Time Math",
+          "summary": "Count hours worked, figure out when to leave, and turn minutes into hours.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Count up to the hour",
+              "body": "Time math is hard because an hour has 60 minutes, not 100. The fix: **count up in chunks to a whole hour.**\n\nExample: a shift from 9:45 am to 4:15 pm.\n- 9:45 to 10:00 = 15 min\n- 10:00 to 4:00 = 6 hours\n- 4:00 to 4:15 = 15 min\n- Total: **6 hours 30 minutes**\n\nTimesheets often use decimals: 15 min = 0.25 h, 30 min = 0.5 h, 45 min = 0.75 h.",
+              "tip": "After your next shift or practice, work out how long it lasted in your head before checking any app or timesheet."
+            },
+            {
+              "type": "number",
+              "prompt": "You work from 8:30 am to 2:45 pm with no break. How many hours is that? (Use decimals: 15 minutes = 0.25 hours.)",
+              "answer": 6.25,
+              "tolerance": 0,
+              "unit": "hours",
+              "hint": "Jump to 2:30 first (whole hours), then add the leftover minutes.",
+              "explain": "8:30 to 2:30 is 6 hours. 2:30 to 2:45 is 15 minutes = 0.25 hours. Total: **6.25 hours**."
+            },
+            {
+              "type": "number",
+              "prompt": "A shift runs from 7:15 pm to 11:45 pm. How many hours is that?",
+              "answer": 4.5,
+              "tolerance": 0,
+              "unit": "hours",
+              "hint": "Count whole hours from 7:15, then add the leftover minutes.",
+              "explain": "7:15 to 11:15 is 4 hours. 11:15 to 11:45 is 30 minutes = 0.5 hours. Total: **4.5 hours**."
+            },
+            {
+              "type": "learn",
+              "title": "Work backward to find when to leave",
+              "body": "To be on time, start from when you need to **be there** and subtract everything in between.\n\nExample: You need to be at work at 9:00.\n- Drive: 35 min\n- Parking and walking in: 15 min\n- Buffer for traffic: 10 min\n- Total: 60 min, so **leave at 8:00**.\n\nAdding a buffer is what makes you the person who is never late.",
+              "tip": "For your next appointment, write down travel time plus a 10-minute buffer, and set a leave-by alarm instead of a be-there alarm."
+            },
+            {
+              "type": "number",
+              "prompt": "A movie starts at 7:10 pm. The drive is 25 minutes, and you want 15 minutes to get snacks and find seats. How many minutes before 7:10 should you leave?",
+              "answer": 40,
+              "tolerance": 0,
+              "unit": "minutes",
+              "hint": "Add up all the time you need before the movie starts.",
+              "explain": "25 + 15 = **40 minutes**. So leave at 6:30 pm."
+            },
+            {
+              "type": "number",
+              "prompt": "You plan to watch 4 episodes that are 45 minutes each. How many hours is that?",
+              "answer": 3,
+              "tolerance": 0,
+              "unit": "hours",
+              "hint": "45 minutes is three quarters of an hour. Or find total minutes and divide by 60.",
+              "explain": "4 x 45 = 180 minutes. 180 / 60 = **3 hours**."
+            },
+            {
+              "type": "number",
+              "prompt": "You babysit for 3 hours 20 minutes at $18 an hour. How much do you earn?",
+              "answer": 60,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Do the 3 hours first. 20 minutes is one third of an hour, so take a third of $18.",
+              "explain": "3 x $18 = $54. A third of $18 = $6. $54 + $6 = **$60**."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your timesheet says you worked 1.5 hours. How long is that?",
+              "options": [
+                "1 hour 50 minutes",
+                "1 hour 30 minutes",
+                "1 hour 15 minutes",
+                "1 hour 5 minutes"
+              ],
+              "answer": 1,
+              "feedback": [
+                "A common slip: the .5 means half an hour, not 50 minutes.",
+                "Right. 0.5 hours is half of 60 minutes, which is 30.",
+                "1 hour 15 minutes would be 1.25 hours.",
+                "0.5 is half an hour, so it is more than 5 minutes."
+              ],
+              "explain": "Decimal hours are fractions of 60 minutes. 0.5 h = **30 min**, 0.25 h = 15 min, 0.75 h = 45 min."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Count up to the next whole hour, add the hours, then the leftover minutes.\n- 15 min = 0.25 h, 30 min = 0.5 h, 45 min = 0.75 h, 20 min = one third.\n- Work backward from arrival time and add a buffer.\n- Check your timesheet. Small errors add up to real money.",
+              "tip": "Check your next paycheck: multiply your hours by your pay rate in your head and compare it with the gross pay on the stub."
+            }
+          ]
+        },
+        {
+          "id": "u4-l3",
+          "title": "Squares Near 50 and 100",
+          "summary": "Square numbers like 52 or 97 in seconds, and multiply prices near $100.",
+          "steps": [
+            {
+              "type": "learn",
+              "title": "Squaring near 50",
+              "body": "To **square** a number means to multiply it by itself: 52 squared is 52 x 52. You need this for areas (a square room) or \"$52 a week for 52 weeks.\"\n\nFor numbers near 50:\n1. Start at **25** and add (or subtract) how far you are from 50. That gives the first two digits.\n2. Square the distance and write it as **two digits** at the end.\n\nExample: 53 squared. 25 + 3 = 28. 3 x 3 = 09. Answer: **2,809**.\n\nExample: 47 squared. 25 - 3 = 22. 3 x 3 = 09. Answer: **2,209**.",
+              "tip": "Work out the squares from 45 to 55 once with this trick. They show up whenever you deal with square rooms or week-by-week savings."
+            },
+            {
+              "type": "number",
+              "prompt": "You save $52 every week for 52 weeks. How much do you have at the end?",
+              "answer": 2704,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "52 is 2 more than 50. Start at 25, add 2, then put 2 x 2 as two digits at the end.",
+              "explain": "25 + 2 = 27. 2 x 2 = 04. Answer: **$2,704**."
+            },
+            {
+              "type": "number",
+              "prompt": "A square backyard is 48 feet on each side. What is its area in square feet?",
+              "answer": 2304,
+              "tolerance": 0,
+              "unit": "sq ft",
+              "hint": "48 is 2 less than 50. Start at 25, subtract 2, then add the square of 2 as two digits.",
+              "explain": "25 - 2 = 23. 2 x 2 = 04. Answer: **2,304 sq ft**."
+            },
+            {
+              "type": "learn",
+              "title": "Near 100",
+              "body": "For numbers just under 100:\n1. Subtract the distance from the number itself. That gives the first two digits.\n2. Square the distance as two digits at the end.\n\nExample: 97 squared. Distance is 3. 97 - 3 = 94. 3 x 3 = 09. Answer: **9,409**.\n\nAnd to multiply anything by a price near $100, use x100 minus a little:\n6 tickets at $98 = $600 - 6 x $2 = $600 - $12 = **$588**.",
+              "tip": "When a price is just under a round number, like $98 or $199, multiply by the round number and subtract the difference. Try it on your next online cart."
+            },
+            {
+              "type": "number",
+              "prompt": "A square lot is 96 feet on each side. What is its area in square feet?",
+              "answer": 9216,
+              "tolerance": 0,
+              "unit": "sq ft",
+              "hint": "96 is 4 below 100. Take 4 off 96 for the first part, then square 4 for the last two digits.",
+              "explain": "96 - 4 = 92. 4 x 4 = 16. Answer: **9,216 sq ft**."
+            },
+            {
+              "type": "number",
+              "prompt": "You buy 6 concert tickets at $98 each. What is the total?",
+              "answer": 588,
+              "tolerance": 0,
+              "unit": "$",
+              "hint": "Pretend each ticket is $100, then take off the extra $2 for each ticket.",
+              "explain": "6 x $100 = $600. 6 x $2 = $12. $600 - $12 = **$588**."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What is 51 squared (51 x 51)?",
+              "options": [
+                "2,501",
+                "2,601",
+                "2,551",
+                "2,610"
+              ],
+              "answer": 1,
+              "feedback": [
+                "That forgets to add 1 to the 25 at the front.",
+                "Right. 25 + 1 = 26, and 1 x 1 = 01. So 2,601.",
+                "That is only 50 x 51. You still need one more 51.",
+                "The last two digits are the distance squared: 01, not 10."
+              ],
+              "hint": "51 is 1 more than 50. Start at 25 and add 1, then put 1 x 1 as two digits.",
+              "explain": "26 and 01 give **2,601**. Check: 50 x 51 = 2,550, plus 51 = 2,601."
+            },
+            {
+              "type": "learn",
+              "title": "Key takeaways",
+              "body": "- Near 50: 25 plus or minus the distance, then the distance squared as two digits.\n- Near 100: the number minus the distance, then the distance squared as two digits.\n- Prices near a round number: multiply the round number, then subtract the difference.\n- A few minutes of practice a day keeps every trick in this course fast.",
+              "tip": "Pick one trick from this course each day this week and use it on a real price, bill or time. Five days of real use makes it stick."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

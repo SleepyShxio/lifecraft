@@ -168,6 +168,48 @@
   ]
  },
  {
+  "id": "mental-math",
+  "track": "life",
+  "title": "Mental Math",
+  "tagline": "Tips, discounts, unit prices and time math, fast and in your head.",
+  "description": "Learn the shortcuts that make everyday math quick: tips and bill splits, percent off and stacked deals, unit prices, sales tax, and how long a shift really was. Practice without the calculator until the answer pops into your head in seconds.",
+  "icon": "lightbulb",
+  "color": "#A3C639",
+  "order": 9,
+  "file": "content/courses/mental-math.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 99,
+  "minutes": 72,
+  "unitTitles": [
+   "Percents in Your Head",
+   "Smart Shopping",
+   "Multiply Like a Shortcut Master",
+   "Estimates, Time and Squares"
+  ]
+ },
+ {
+  "id": "sharp-thinking",
+  "track": "life",
+  "title": "Sharp Thinking",
+  "tagline": "Break problems down, reason fast and plan your way through real life.",
+  "description": "Train quick, clear reasoning for everyday situations: break big problems into small ones, find the real bottleneck, read if/then rules correctly, and estimate anything in your head. Then learn to decide fast when it is safe, think a few moves ahead, and solve real puzzles like schedules, errands and packing.",
+  "icon": "target",
+  "color": "#E86A8A",
+  "order": 10,
+  "file": "content/courses/sharp-thinking.json",
+  "units": 4,
+  "levels": 12,
+  "steps": 86,
+  "minutes": 62,
+  "unitTitles": [
+   "Break It Down",
+   "Everyday Logic",
+   "Estimate and Reality-Check",
+   "Decide and Plan Under Pressure"
+  ]
+ },
+ {
   "id": "mission-gospel-foundations",
   "track": "mission",
   "title": "Gospel Foundations",
