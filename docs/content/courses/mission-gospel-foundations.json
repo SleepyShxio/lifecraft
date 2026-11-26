@@ -42,7 +42,7 @@
             },
             {
               "type": "truefalse",
-              "prompt": "Elder Bednar taught that the real goal is receiving a mission call; becoming a missionary can wait until the MTC.",
+              "prompt": "Elder Bednar taught that the real goal is receiving a mission call; becoming a missionary can wait until the MTC (missionary training center).",
               "answer": false,
               "explain": "He taught the opposite: becoming a missionary (in desires, habits and testimony) matters more than the act of going, and it starts long before the call."
             },
@@ -74,7 +74,7 @@
             {
               "type": "learn",
               "title": "You represent Jesus Christ",
-              "body": "Missionaries are called by the President of the Church through revelation and are set apart by their stake president. The name tag carries the Savior’s name above your own.\n\nThat means you are not a salesperson. You are an authorized representative sharing what you know is true. A favourite missionary verse puts it this way:\n\n> “O ye that embark in the service of God, see that ye serve him with all your heart, might, mind and strength” (D&C 4:2).",
+              "body": "Missionaries must be called by proper authority. The call is generally extended by the President of the Church, and your stake president sets you apart. Your name tag carries the Savior’s name alongside your own.\n\nThat means you are not a salesperson. You are an authorized representative sharing what you know is true. A favourite missionary verse puts it this way:\n\n> “O ye that embark in the service of God, see that ye serve him with all your heart, might, mind and strength” (D&C 4:2).",
               "tip": "Memorize Doctrine and Covenants 4 one verse a day. In a week you will know the whole section by heart.",
               "source": { "label": "Doctrine and Covenants 4", "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/4?lang=eng" }
             },
@@ -182,7 +182,7 @@
             {
               "type": "learn",
               "title": "Chapter 3 at a glance",
-              "body": "*Preach My Gospel* (2023) chapter 3 contains the doctrine missionaries teach:\n- **The Invitation to Be Baptized and Confirmed**\n- **Lesson 1:** The Message of the Restoration of the Gospel of Jesus Christ\n- **Lesson 2:** Heavenly Father’s Plan of Salvation\n- **Lesson 3:** The Gospel of Jesus Christ\n- **Lesson 4:** Becoming Lifelong Disciples of Jesus Christ\n\nOlder editions had a fifth lesson, “Laws and Ordinances.” In the 2023 edition, commandments, ordinances and the temple are taught inside Lesson 4.",
+              "body": "*Preach My Gospel* (2023) chapter 3 contains the doctrine missionaries teach:\n- **The Invitation to Be Baptized and Confirmed**\n- **Lesson 1:** The Message of the Restoration of the Gospel of Jesus Christ\n- **Lesson 2:** Heavenly Father’s Plan of Salvation\n- **Lesson 3:** The Gospel of Jesus Christ\n- **Lesson 4:** Becoming Lifelong Disciples of Jesus Christ\n\nIn the 2023 edition, commandments, ordinances and the temple are taught inside Lesson 4.",
               "tip": "Open Preach My Gospel in the Gospel Library app and read the doctrinal section of one lesson each week. Mark the key scriptures in your own copy.",
               "source": { "label": "Preach My Gospel, ch. 3", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/08-chapter-3-lesson-1?lang=eng" }
             },
@@ -213,7 +213,7 @@
             {
               "type": "learn",
               "title": "Invitations are part of every lesson",
-              "body": "Teaching without inviting is like describing food without offering any. Lessons 1–3 share common invitations:\n- pray to know the message is true\n- attend church this Sunday\n- read the Book of Mormon and pray about it\n- follow Jesus’s example and be baptized\n- set a time for the next visit\n\nThe invitation to be baptized and confirmed can come in any lesson, as you feel guided by the Spirit.",
+              "body": "Teaching without inviting is like describing food without offering any. Lessons 1–3 share common invitations:\n- pray to know the message is true\n- attend church this Sunday\n- read the Book of Mormon and pray about it\n- follow Jesus’s example and be baptized\n\nMissionaries also usually agree on a time for the next visit. The invitation to be baptized and confirmed can come in any lesson, as you feel guided by the Spirit.",
               "tip": "Practice inviting with a family member: ask a clear question that can be answered yes or no, like 'Will you read this chapter before we meet again?'",
               "source": { "label": "PMG ch. 3: The Invitation to Be Baptized", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/07-chapter-3-invite?lang=eng" }
             },
@@ -367,14 +367,14 @@
             {
               "type": "learn",
               "title": "Authority and the Church restored",
-              "body": "The Restoration continued step by step:\n- **1823:** the angel Moroni tells Joseph about an ancient record.\n- **1829:** John the Baptist restores the Aaronic Priesthood (D&C 13); Peter, James and John then restore the Melchizedek Priesthood.\n- **March 1830:** the Book of Mormon is published.\n- **6 April 1830:** the Church is organized.\n\nThe Lord called it “the only true and living church” (D&C 1:30). Revelation continues through living prophets today.",
-              "source": { "label": "Doctrine and Covenants 13", "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/13?lang=eng" }
+              "body": "The Restoration continued step by step:\n- **1823:** the angel Moroni tells Joseph about an ancient record.\n- **May 1829:** John the Baptist restores the Aaronic Priesthood (D&C 13); Peter, James and John then restore the Melchizedek Priesthood.\n- **August 1829:** printing of the Book of Mormon begins in Palmyra, New York.\n- **6 April 1830:** the Church is organized.\n\nThe Lord called it “the only true and living church” (D&C 1:30). Revelation continues through living prophets today.",
+              "source": { "label": "Printing and Publishing the Book of Mormon", "url": "https://www.churchofjesuschrist.org/study/history/topics/printing-and-publishing-the-book-of-mormon?lang=eng" }
             },
             {
               "type": "order",
               "prompt": "Put these events of the Restoration in order.",
               "hint": "Use the years. When two events share a year, check the month.",
-              "items": ["First Vision (1820)", "Moroni’s first visit to Joseph Smith (1823)", "Aaronic Priesthood restored by John the Baptist (1829)", "Book of Mormon published (March 1830)", "Church organized (6 April 1830)"],
+              "items": ["First Vision (1820)", "Moroni’s first visit to Joseph Smith (1823)", "Aaronic Priesthood restored by John the Baptist (May 1829)", "Printing of the Book of Mormon begins (August 1829)", "Church organized (6 April 1830)"],
               "explain": "The Restoration was a process. Knowing the sequence helps you tell the story clearly."
             },
             {
@@ -457,7 +457,7 @@
               "type": "truefalse",
               "prompt": "An answer from the Holy Ghost always comes as a powerful emotional experience, often with tears.",
               "answer": false,
-              "explain": "Preach My Gospel chapter 4 cautions against equating strong emotion with the Spirit. The Spirit usually speaks quietly to the mind and heart (D&C 8:2–3), like the “still small voice” (1 Kings 19:12)."
+              "explain": "Preach My Gospel chapter 4 quotes President Howard W. Hunter cautioning against equating strong emotion or tears with the Spirit. The Spirit usually speaks quietly to the mind and heart (D&C 8:2–3), like the “still small voice” (1 Kings 19:12)."
             },
             {
               "type": "scenario",
@@ -731,7 +731,7 @@
             {
               "type": "learn",
               "title": "Repentance: turning toward God",
-              "body": "Repentance is not self-punishment. It is a change of mind, heart and behaviour that brings us closer to God, made possible by Jesus Christ. It includes:\n- recognizing the sin and feeling godly sorrow\n- confessing to God (and to the bishop for serious sins)\n- forsaking the sin and making things right where possible\n- keeping the commandments\n\n“He who has repented of his sins, the same is forgiven, and I, the Lord, remember them no more” (D&C 58:42).",
+              "body": "Repentance is not self-punishment. It is a change of mind, heart and behaviour that brings us closer to God, made possible by Jesus Christ. It includes:\n- recognizing the sin and feeling godly sorrow\n- confessing to God (and very serious sins to an authorized Church leader, such as your bishop)\n- forsaking the sin and making things right where possible\n- keeping the commandments\n\n“He who has repented of his sins, the same is forgiven, and I, the Lord, remember them no more” (D&C 58:42).",
               "tip": "End each day with a prayer reviewing what went well and what to do better. If something serious weighs on you, ask your bishop for a time to talk.",
               "source": { "label": "D&C 58:42–43", "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/58?lang=eng&id=p42-p43#p42" }
             },
@@ -758,7 +758,7 @@
                 ["Mosiah 3:19", "Put off the natural man through the Atonement of Christ"],
                 ["D&C 58:42–43", "The Lord forgives and remembers repented sins no more"]
               ],
-              "explain": "These Doctrinal Mastery passages give hope: no one is beyond the Savior’s help."
+              "explain": "Most of these are Doctrinal Mastery passages. They give hope: no one is beyond the Savior’s help."
             },
             {
               "type": "scenario",
@@ -876,7 +876,7 @@
             {
               "type": "learn",
               "title": "Explaining key commandments simply",
-              "body": "- **Law of chastity:** sexual relations only between a man and a woman who are legally married.\n- **Word of Wisdom:** no alcohol, tobacco, coffee, tea, vaping or harmful drugs; care for your body (D&C 89).\n- **Tithing:** give one-tenth of your income to the Lord (D&C 119:4). It funds the Lord’s work, such as temples and meetinghouses; local leaders are not paid.\n- **Sabbath:** worship, take the sacrament, rest and do good on the Lord’s day.\n\nAlways connect a commandment to the promised blessing.",
+              "body": "- **Law of chastity:** sexual relations only between a man and a woman who are legally married.\n- **Word of Wisdom:** no alcohol, tobacco, coffee, tea, or other harmful, illegal or addictive substances; care for your body (D&C 89).\n- **Tithing:** give one-tenth of your income to the Lord (D&C 119:4). It funds the Lord’s work, such as temples and meetinghouses; local leaders are not paid.\n- **Sabbath:** worship, take the sacrament, rest and do good on the Lord’s day.\n\nAlways connect a commandment to the promised blessing.",
               "source": { "label": "PMG Lesson 4: Keep the Commandments", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-3/11-chapter-3-lesson-4?lang=eng" }
             },
             {
@@ -889,9 +889,9 @@
             {
               "type": "learn",
               "title": "Ordinances of salvation and exaltation",
-              "body": "An **ordinance** is a sacred act performed by priesthood authority, usually with a covenant. “In the ordinances thereof, the power of godliness is manifest” (D&C 84:20).\n\nThe ordinances of salvation and exaltation are:\n- baptism\n- confirmation and the gift of the Holy Ghost\n- Melchizedek Priesthood ordination (for men)\n- the temple endowment\n- the temple sealing (eternal marriage)\n\nThe sacrament renews these covenants each week.",
-              "tip": "If you do not have a current temple recommend, ask your bishop for an interview. Then plan regular temple trips with your family or ward.",
-              "source": { "label": "D&C 84:19–22", "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng&id=p19-p22#p19" }
+              "body": "An **ordinance** is a sacred act performed by priesthood authority, usually with a covenant. “In the ordinances thereof, the power of godliness is manifest” (D&C 84:20).\n\nThe ordinances of salvation and exaltation are:\n- baptism\n- confirmation and the gift of the Holy Ghost\n- conferral of the Melchizedek Priesthood (for men)\n- the temple endowment\n- the temple sealing (eternal marriage)\n\nThe sacrament renews these covenants each week.",
+              "tip": "If you do not have a temple recommend, talk with your bishop about what you need to do. Then plan regular temple trips with your family or ward.",
+              "source": { "label": "General Handbook, 18.1", "url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/18-priesthood-ordinances-and-blessings?lang=eng" }
             },
             {
               "type": "multi",

@@ -98,7 +98,7 @@
             {
               "type": "learn",
               "title": "Why keep a study journal",
-              "body": "Missionaries keep a **study journal** (paper or in Gospel Library notes). *Preach My Gospel* chapter 2 suggests using it to record:\n- questions you are seeking answers to\n- what you learn and the scriptures that taught it\n- impressions from the Spirit\n- ideas for helping the people you teach\n\nWriting does two things: it helps you notice the Spirit, and it shows you that you **are** receiving guidance over time.",
+              "body": "Missionaries keep a **study journal** (paper or in Gospel Library notes). *Preach My Gospel* chapter 2 suggests using it to record:\n- questions you are seeking answers to\n- what you learn and feel as you search the scriptures\n- spiritual impressions and ideas\n\nWriting does two things: it helps you notice the Spirit, and it shows you that you **are** receiving guidance over time.",
               "tip": "Make a notebook in the Gospel Library app called 'Study journal'. Each time a verse stands out, add it there with one line about why.",
               "source": { "label": "Preach My Gospel, ch. 2", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-2?lang=eng" }
             },
@@ -129,22 +129,22 @@
             {
               "type": "learn",
               "title": "Come, Follow Me",
-              "body": "*Come, Follow Me* is the Church’s home-centred, Church-supported study resource. Each year focuses on one book of scripture in a four-year cycle; 2026 is the Old Testament year.\n\nEach week has a reading block, ideas for personal and family study, and links to Sunday School and Primary. Studying the week’s block before Sunday means you can contribute in class and talk about the gospel at home, both great missionary practice.",
+              "body": "*Come, Follow Me* is the Church’s scripture study resource for home and church. The Church teaches that gospel learning is best when it is home-centred and Church-supported. Each year studies one book: 2023 New Testament, 2024 Book of Mormon, 2025 Doctrine and Covenants, 2026 Old Testament.\n\nEach week has a reading block, ideas for personal and family study, and links to Sunday School and Primary. Studying the week’s block before Sunday means you can contribute in class and talk about the gospel at home, both great missionary practice.",
               "tip": "Read the Come, Follow Me reading for the week before Sunday, so you can share one thing you noticed in class or at home.",
-              "source": { "label": "Come, Follow Me", "url": "https://www.churchofjesuschrist.org/study/come-follow-me?lang=eng" }
+              "source": { "label": "Using Come, Follow Me (2026)", "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/002-using?lang=eng" }
             },
             {
               "type": "truefalse",
               "prompt": "Come, Follow Me is designed so that gospel learning centres in the home and is supported by Church classes.",
               "answer": true,
-              "explain": "The Church describes Come, Follow Me as home-centred and Church-supported. Sunday classes build on what families and individuals study during the week."
+              "explain": "The 2026 manual says gospel learning, at its best, is home-centred and Church-supported. Sunday classes build on what families and individuals study during the week."
             },
             {
               "type": "order",
-              "prompt": "Come, Follow Me rotates through the scriptures in a four-year cycle. Starting with 2026, put the books in order.",
-              "hint": "The year 2026 is given. Ask which book of scripture tells of the Savior's life on earth, since it would naturally follow the Old Testament.",
-              "items": ["Old Testament (2026)", "New Testament", "Book of Mormon", "Doctrine and Covenants and Church history"],
-              "explain": "The recent pattern was 2023 New Testament, 2024 Book of Mormon, 2025 Doctrine and Covenants, 2026 Old Testament, and then the cycle repeats. Always check the current year’s manual in Gospel Library."
+              "prompt": "From 2023 to 2026, Come, Follow Me studied a different book of scripture each year. Put the books in order, starting with 2023.",
+              "hint": "The last year, 2026, is given. Start with the Bible book about the Savior’s life, then think which book of scripture came first in the latter days.",
+              "items": ["New Testament", "Book of Mormon", "Doctrine and Covenants", "Old Testament (2026)"],
+              "explain": "The manuals were 2023 New Testament, 2024 Book of Mormon, 2025 Doctrine and Covenants and 2026 Old Testament. Always check the current year’s manual in Gospel Library."
             },
             {
               "type": "mcq",
@@ -487,7 +487,7 @@
             {
               "type": "learn",
               "title": "Missionary verses to know by heart",
-              "body": "Some D&C verses are worth memorizing before your mission:\n- **D&C 4:2:** serve with all your heart, might, mind and strength.\n- **D&C 18:15–16:** great joy in bringing souls to Christ.\n- **D&C 84:88:** “I will go before your face… and my angels round about you, to bear you up.”\n- **D&C 100:5–6:** speak what the Lord puts in your heart and it will be given you.\n\nHard days will come. Verses you know by heart are there when you need them most.",
+              "body": "Some D&C verses are worth memorizing before your mission:\n- **D&C 4:2:** serve with all your heart, might, mind and strength.\n- **D&C 18:15–16:** great joy in bringing souls to Christ.\n- **D&C 84:88:** “I will go before your face… and mine angels round about you, to bear you up.”\n- **D&C 100:5–6:** speak what the Lord puts in your heart and it will be given you.\n\nHard days will come. Verses you know by heart are there when you need them most.",
               "tip": "Memorize one missionary verse a week. Say it while you brush your teeth or walk to school, and recite it to a parent on Sunday."
             },
             {
@@ -640,8 +640,9 @@
             {
               "type": "learn",
               "title": "Safeguards for real life",
-              "body": "Missionaries use smartphones for their work, with clear safeguards. You can practise now:\n- decide in advance what you will and won’t view\n- keep devices out of your bedroom at night\n- use filters and tell a trusted person your goals\n- when you slip, repent quickly and talk to your bishop if needed\n\n> Protecting your testimony is mostly small, daily decisions, not one big one.",
-              "tip": "Write down your own phone rules now, like no phone in the bedroom at night and only approved apps. Ask a parent to help you keep them."
+              "body": "*Preach My Gospel* chapter 2 gives missionaries four safeguards for technology: be in tune with the Spirit, be focused on your purpose, be disciplined, and be one with your companion. You can practise now:\n- turn a device on for a clear purpose, then turn it off\n- use devices where others can see the screen\n- don’t check your phone while talking face to face\n- when you slip, repent quickly and ask a parent or your bishop for help\n\n> Protecting your testimony is mostly small, daily decisions, not one big one.",
+              "tip": "Write down your own phone rules now, like no phone in the bedroom at night and only approved apps. Ask a parent to help you keep them.",
+              "source": { "label": "Preach My Gospel, ch. 2", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/04-chapter-2?lang=eng" }
             },
             {
               "type": "multi",
@@ -676,7 +677,7 @@
             {
               "type": "learn",
               "title": "What a testimony is",
-              "body": "A testimony is a witness from the Holy Ghost of gospel truths. *Preach My Gospel* chapter 10 describes bearing testimony as a simple, direct declaration of what you know and feel, often just a sentence or two.\n\nA testimony is not a travelogue or a thank-you list. It sounds like: “I know Jesus Christ is my Savior. I have felt His forgiveness when I repented.”",
+              "body": "A testimony is a witness from the Holy Ghost of gospel truths. *Preach My Gospel* chapter 10 describes bearing testimony as a simple, direct declaration of what you know or believe. It can be as short as one sentence.\n\nA testimony is not a travelogue or a thank-you list. It sounds like: “I know Jesus Christ is my Savior. I have felt His forgiveness when I repented.”",
               "tip": "Bear a short testimony at home this week, at family night or dinner. Keep it to three or four honest sentences.",
               "source": { "label": "Preach My Gospel, ch. 10", "url": "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023/18-chapter-10?lang=eng" }
             },
