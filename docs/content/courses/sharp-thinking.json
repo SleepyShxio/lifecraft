@@ -606,7 +606,11 @@
             {
               "type": "learn",
               "title": "Guess smart, not wild",
-              "body": "Physicist Enrico Fermi was famous for making good estimates with almost no data. A **Fermi estimate** breaks an unknown number into smaller pieces you can guess, then multiplies them.\n\nExample: how much do you spend on drinks in a year?\n- About $3 per drink\n- About 4 drinks a week\n- 52 weeks a year\n- $3 x 4 x 52 = about **$600**\n\nBeing within 2 or 3 times the real answer is good enough to make decisions.",
+              "body": "Physicist Enrico Fermi was famous for making good estimates with almost no data. At the 1945 Trinity atomic bomb test, he dropped scraps of paper as the blast wave passed and estimated about 10 kilotons of TNT. Later calculations put it near 20, within a factor of 2. A **Fermi estimate** breaks an unknown number into smaller pieces you can guess, then multiplies them.\n\nExample: how much do you spend on drinks in a year?\n- About $3 per drink\n- About 4 drinks a week\n- 52 weeks a year\n- $3 x 4 x 52 = about **$600**\n\nBeing within 2 or 3 times the real answer is good enough to make decisions.",
+              "source": {
+                "label": "Meade (2020), Trinity, Los Alamos National Laboratory report LA-UR-20-25977",
+                "url": "https://www.osti.gov/biblio/1647180"
+              },
               "tip": "Pick one habit you pay for (coffee, snacks, rides) and do a quick Fermi estimate of what it costs you per year. Write the number down."
             },
             {
@@ -696,7 +700,11 @@
             {
               "type": "learn",
               "title": "Check against hard limits",
-              "body": "Some claims fail a 10-second math check. Compare them with limits that never change:\n- 24 hours in a day\n- 168 hours in a week\n- About 8,760 hours in a year\n- About 340 million people in the US (2025 estimate)\n\nExample: 'I watched 200 hours of shows last week.' A week only has 168 hours. **Impossible.**",
+              "body": "Some claims fail a 10-second math check. Compare them with limits that never change:\n- 24 hours in a day\n- 168 hours in a week\n- About 8,760 hours in a year\n- About 342 million people in the US (2025 Census estimate; round to 340 million for quick math)\n\nExample: 'I watched 200 hours of shows last week.' A week only has 168 hours. **Impossible.**",
+              "source": {
+                "label": "US Census Bureau (2025 estimates), Population growth slows",
+                "url": "https://census.gov/newsroom/press-releases/2026/population-growth-slows.html"
+              },
               "tip": "Memorize three limits: 168 hours in a week, about 8,760 hours in a year, about 340 million people in the US. They catch a lot of nonsense."
             },
             {
@@ -923,7 +931,21 @@
               "type": "learn",
               "title": "Good enough beats perfect",
               "body": "Amazon founder Jeff Bezos wrote that most decisions should be made with about **70%** of the information you wish you had. Waiting for 90% usually means you're too slow.\n\nEconomist Herbert Simon called picking the first option that meets your standards **satisficing** (satisfy + suffice). Psychologist Barry Schwartz found that people who always hunt for the very best option, called **maximizers**, often end up less happy with what they chose.\n\nThe trick: decide your must-haves first, then take the first option that meets them.",
+              "source": {
+                "label": "Jeff Bezos, 2016 letter to Amazon shareholders",
+                "url": "https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders"
+              },
               "tip": "Before you shop for anything, write 3 must-haves and a price limit. Buy the first option that meets all of them and stop looking."
+            },
+            {
+              "type": "learn",
+              "title": "Maximizers earn more, enjoy it less",
+              "body": "A 2006 study followed college seniors while they hunted for jobs after graduation. The **maximizers**, who tried to find the very best option, landed jobs with about **20% higher** starting pay.\n\nBut they were **less satisfied** with the jobs they took. During the search they also felt more stressed, anxious and worried.\n\n> More searching can get you a better result on paper and still leave you feeling worse about it.",
+              "source": {
+                "label": "Iyengar, Wells and Schwartz (2006), Doing better but feeling worse, Psychological Science",
+                "url": "https://works.swarthmore.edu/fac-psychology/104/"
+              },
+              "tip": "Notice when you keep comparing after you already found something good. Ask: \"Does this still meet my must-haves?\" If yes, stop."
             },
             {
               "type": "scenario",
@@ -991,6 +1013,10 @@
               "type": "learn",
               "title": "10 minutes, 10 months, 10 years",
               "body": "Writer Suzy Welch made a quick tool called **10/10/10**. Ask how you'll feel about a choice:\n- **10 minutes** from now\n- **10 months** from now\n- **10 years** from now\n\nIt works best when a strong feeling is loud right now.\n\nExample: skipping your shift to go to a party.\n- 10 minutes: fun!\n- 10 months: maybe no good reference from that job.\n- 10 years: you won't remember the party, but you might remember losing the job.",
+              "source": {
+                "label": "Suzy Welch (2009), 10-10-10, Scribner (Publishers Weekly listing)",
+                "url": "https://publishersweekly.com/9781416591825"
+              },
               "tip": "Next time you're tempted by a choice in the moment, pause and run 10/10/10 in your head. It takes about 30 seconds."
             },
             {
@@ -1082,7 +1108,11 @@
             {
               "type": "learn",
               "title": "Key takeaways",
-              "body": "- 10/10/10: check a choice at 10 minutes, 10 months and 10 years.\n- When you set a rule or reward, ask how people will react.\n- Ask: how could someone game this?\n- One more quick check before a plan: 'If this goes wrong, what's the most likely reason?'",
+              "body": "- 10/10/10: check a choice at 10 minutes, 10 months and 10 years.\n- When you set a rule or reward, ask how people will react.\n- Ask: how could someone game this?\n- Before a plan, run a mini **pre-mortem** (an idea from psychologist Gary Klein): imagine it already failed and ask, 'What's the most likely reason?'",
+              "source": {
+                "label": "Klein (2007), Performing a project premortem, Harvard Business Review",
+                "url": "https://hbr.org/2007/09/performing-a-project-premortem"
+              },
               "tip": "Before your next big plan, ask yourself one question: 'If this goes wrong, what's the most likely reason?' Then fix that one thing now."
             }
           ]

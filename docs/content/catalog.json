@@ -200,8 +200,8 @@
   "file": "content/courses/sharp-thinking.json",
   "units": 4,
   "levels": 12,
-  "steps": 86,
-  "minutes": 62,
+  "steps": 87,
+  "minutes": 63,
   "unitTitles": [
    "Break It Down",
    "Everyday Logic",
@@ -283,7 +283,7 @@
   "file": "content/courses/mission-life-skills.json",
   "units": 4,
   "levels": 12,
-  "steps": 97,
+  "steps": 98,
   "minutes": 72,
   "unitTitles": [
    "Getting Ready to Serve",
